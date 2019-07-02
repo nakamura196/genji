@@ -1,0 +1,77 @@
+{
+   "@context": "http://iiif.io/api/presentation/2/context.json",
+   "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/d230f1f8-5929-4138-bb28-1108d77fd32a/manifest",
+   "@type": "sc:Manifest",
+   "label": "捃拾帖 一",
+   "sequences": [
+      {
+         "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/d230f1f8-5929-4138-bb28-1108d77fd32a/sequence/normal",
+         "@type": "sc:Sequence",
+         "label": "Current Page Order",
+         "viewingHint": "non-paged",
+         "canvases": [
+            {
+               "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4",
+               "@type": "sc:Canvas",
+               "label": "[4]",
+               "thumbnail": {
+                  "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0004.tif/full/200,200/0/default.jpg",
+                  "service": {
+                     "@context": "http://iiif.io/api/image/2/context.json",
+                     "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0004.tif",
+                     "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+               },
+               "width": 6642,
+               "height": 4990,
+               "images": [
+                  {
+                     "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/annotation/p0004-image",
+                     "@type": "oa:Annotation",
+                     "motivation": "sc:painting",
+                     "resource": {
+                        "@type": "oa:Choice",
+                        "default": {
+                           "@type": "dctypes:Image",
+                           "width": 6642,
+                           "height": 4990,
+                           "label": "オリジナル写真",
+                           "service": {
+                              "@context": "http://iiif.io/api/image/2/context.json",
+                              "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0004.tif",
+                              "profile": "http://iiif.io/api/image/2/level2.json",
+                              "width": 6642,
+                              "height": 4990
+                           },
+                           "format": "image/jpeg",
+                           "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0004.tif/full/full/0/default.jpg"
+                        },
+                        "width": 6642,
+                        "height": 4990,
+                        "item": [
+                           {
+                              "label": "自動カラー化写真",
+                              "@type": "dctypes:Image",
+                              "@id": "https://diyhistory.org/tmp/rSChmOWZ-1.jpg",
+                              "format": "image/jpeg",
+                              "width": 6642,
+                              "height": 4990
+                           }
+                        ],
+                        "@id": "http://codh.rois.ac.jp/north-china-railway/iiif/original/3603-008368-0.tif/full/full/0/default.jpg",
+                        "format": "image/jpeg",
+                        "service": {
+                           "@id": "http://codh.rois.ac.jp/north-china-railway/iiif/original/3603-008368-0.tif",
+                           "profile": "http://iiif.io/api/image/2/level2.json",
+                           "@context": "http://iiif.io/api/image/2/context.json"
+                        }
+                     },
+                     "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/d230f1f8-5929-4138-bb28-1108d77fd32a/canvas/p1"
+                  }
+               ]
+            }
+         ]
+      }
+   ],
+   "viewingDirection": "right-to-left"
+}
