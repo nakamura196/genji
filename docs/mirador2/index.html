@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <link rel="stylesheet" type="text/css" href="https://utda.github.io/mirador/css/mirador-combined.css">
+  <link rel="stylesheet" type="text/css" href="https://raw.githubusercontent.com/UCLALibrary/mirador-sync-windows/master/dist/MiradorSyncWindows.min.css">
+  <title>Mirador Viewer</title>
+  <style type="text/css">
+    #viewer {
+      width: 100%;
+      height: 100%;
+      position: fixed;
+    }
+  </style>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108072134-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-108072134-1');
+  </script>
+
+
+</head>
+
+<body>
+  <div id="viewer"></div>
+
+  <script src="https://utda.github.io/mirador/mirador.min.js"></script>
+  <script src="https://raw.githubusercontent.com/UCLALibrary/mirador-sync-windows/master/dist/MiradorSyncWindows.min.js"></script>
+  <script type="text/javascript">
+
+    $(function () {
+
+      var vars = {};
+      var param = location.search.substring(1).split('&');
+      for (var i = 0; i < param.length; i++) {
+        var keySearch = param[i].search(/=/);
+        var key = '';
+        if (keySearch != -1) key = param[i].slice(0, keySearch);
+        var val = param[i].slice(param[i].indexOf('=', 0) + 1);
+        if (key != '') vars[key] = decodeURI(val);
+      }
+
+      var bottomPanel = vars["bottomPanel"] && vars["bottomPanel"] == "false" ? false : true
+
+      var windowObjects = new Array();
+      var layout;
+
+      var data = new Array();
+
+      if (vars["manifest"]) {
+        var manifests = vars["manifest"];
+        var array = manifests.split(";");
+
+        for (var i = 0; i < array.length; i++) {
+          var manifest = array[i];
+          var obj = new Object();
+          obj["loadedManifest"] = manifest;
+          obj["viewType"] = "ImageView";
+          if (vars["canvas"]) {
+            obj["canvasID"] = vars["canvas"];
+          }
+          obj["bottomPanel"] = bottomPanel;
+          windowObjects.push(obj);
+
+          var obj = new Object();
+          obj["manifestUri"] = manifest;
+          data.push(obj);
+
+        }
+
+        layout = "1x" + array.length;
+
+      } else {
+
+        layout = "1x1";
+
+
+      }
+      var windowSettings = new Object()
+      if (vars["annotationState"] == "on") {
+        windowSettings["canvasControls"] = {
+          "annotations": {
+            "annotationState": "on",
+            "annotationCreation": true
+          }
+        }
+      }
+
+      var sidePanelOptions = {}
+      if (vars["sidePanelOptions"] == "on") {
+        sidePanelOptions = {
+          "tocTabAvailable": true,
+          "layersTabAvailable": true,
+          "searchTabAvailable": true
+        }
+      }
+
+      Mirador({
+        "id": "viewer",
+        "layout": layout,
+        "data": data,
+        buildPath: "mirador/",
+        "windowObjects": windowObjects,
+        "windowSettings": windowSettings,
+        "annotationEndpoint": { "name": "Local Storage", "module": "LocalStorageEndpoint" },
+        "sidePanelOptions": sidePanelOptions
+      });
+    });
+
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-113082469-1');
+
+  </script>
+</body>
+
+</html>
