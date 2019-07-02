@@ -52,6 +52,12 @@
          "value": "01"
       }
    ],
+   "service": {
+      "@context": "http://iiif.io/api/search/0/context.json",
+      "@id": "hhttps://iiif.dl.itc.u-tokyo.ac.jp/api/iiif-search/78dacb28292928b6d2d7cf4bcc4ecc2d2d4a34b434d34bcf2cc9284dd2cbccd74f4fcdcbcad44f492c498430f52a727300ccf41233",
+      "profile": "http://iiif.io/api/search/0/search",
+      "label": "Search within this manifest"
+   },
    "sequences": [
       {
          "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/d230f1f8-5929-4138-bb28-1108d77fd32a/sequence/normal",
