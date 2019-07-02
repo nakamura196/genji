@@ -45,6 +45,8 @@
 
       if (vars["manifest"]) {
         var manifests = vars["manifest"];
+        manifests = decodeURIComponent(manifests)
+
         var array = manifests.split(";");
 
         for (var i = 0; i < array.length; i++) {
@@ -98,12 +100,6 @@
         "sidePanelOptions": sidePanelOptions
       });
     });
-
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-
-    gtag('config', 'UA-113082469-1');
 
   </script>
 </body>
