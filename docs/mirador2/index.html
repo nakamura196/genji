@@ -73,22 +73,18 @@
 
       }
       var windowSettings = new Object()
-      if (vars["annotationState"] == "on") {
-        windowSettings["canvasControls"] = {
-          "annotations": {
-            "annotationState": "on",
-            "annotationCreation": true
-          }
+      windowSettings["canvasControls"] = {
+        "annotations": {
+          "annotationState": "on",
+          "annotationCreation": true
         }
       }
 
       var sidePanelOptions = {}
-      if (vars["sidePanelOptions"] == "on") {
-        sidePanelOptions = {
-          "tocTabAvailable": true,
-          "layersTabAvailable": true,
-          "searchTabAvailable": true
-        }
+      sidePanelOptions = {
+        "tocTabAvailable": true,
+        "layersTabAvailable": true,
+        "searchTabAvailable": true
       }
 
       Mirador({
