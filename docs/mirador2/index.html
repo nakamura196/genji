@@ -75,10 +75,12 @@
 
       }
       var windowSettings = new Object()
-      windowSettings["canvasControls"] = {
-        "annotations": {
-          "annotationState": "on",
-          "annotationCreation": true
+      if (vars["annotationState"] == "on") {
+        windowSettings["canvasControls"] = {
+          "annotations": {
+            "annotationState": "on",
+            "annotationCreation": true
+          }
         }
       }
 

@@ -101,17 +101,6 @@
                 "chars": "なるをいよ＋＋ あかずあはれなるものにおほゝして。",
                 "format": "text/plain"
             }
-        },
-        {
-            "@id": "https://nakamura196.github.io/genji/data/5008825ba0abc69f9cda5399eda3aa46/list/p0004.json#9",
-            "@type": "oa:Annotation",
-            "motivation": "sc:painting",
-            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1122,1100,2378,2988",
-            "resource": {
-                "@type": "cnt:ContentAsText",
-                "chars": null,
-                "format": "text/plain"
-            }
         }
     ]
 }
