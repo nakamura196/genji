@@ -17,12 +17,12 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <p></p>
+            <p/>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
-      <surfaceGrp facs="https://api.myjson.com/bins/167ier">
+      <surfaceGrp facs="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest">
          <surface>
             <graphic
                url="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0004.tif/full/full/0/default.jpg"
@@ -36,6 +36,7 @@
             <zone xml:id="zone_tn4_hjv_g3b" lry="4006" lrx="2093" uly="1190" ulx="1833"/>
             <zone xml:id="zone_kj3_3jv_g3b" lry="4000" lrx="1833" uly="1190" ulx="1610"/>
             <zone xml:id="zone_hmw_3jv_g3b" lry="3993" lrx="1606" uly="1204" ulx="1397"/>
+            <zone xml:id="zone_sml_qyk_h3b" lry="4088" lrx="3500" uly="1100" ulx="1122"/>
          </surface>
       </surfaceGrp>
    </facsimile>

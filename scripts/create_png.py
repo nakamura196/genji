@@ -1,3 +1,4 @@
+import json
 from PIL import Image, ImageDraw, ImageFont
 import xml.etree.ElementTree as ET
 from bs4 import BeautifulSoup
@@ -6,19 +7,205 @@ import os
 import glob
 from lxml import etree
 import sys
-from io import StringIO
+import requests
+import hashlib
+
+prefix = ".//{http://www.tei-c.org/ns/1.0}"
+odir = "../docs/data"
+prefix_uri = "https://nakamura196.github.io/genji/data/"
 
 
-def make_image(screen, bgcolor, filename):
-    """
-    画像の作成
-    """
-    
-    #
-    #ここに、いろいろな処理を追加する
-    #
-    
-    return
+def get_manifest_data(manifest_uri):
+    r = requests.get(manifest_uri)
+    manifest_data = json.loads(r.content)
+    return manifest_data
+
+
+def create_anno(surface, manifest_data, md5, index, anno_arr):
+
+    canvases = manifest_data["sequences"][0]["canvases"]
+    canvas = canvases[index]
+
+    anno_filename = "p"+str(index+1).zfill(4)+".json"
+
+    dir = odir+"/"+md5 + "/list"
+    os.makedirs(dir, exist_ok="true")
+
+    output_path = dir + "/" + anno_filename
+
+    annolist_id = prefix_uri + output_path.split("/data/")[1]
+
+    annolist = {
+        "@context": "http://iiif.io/api/presentation/2/context.json",
+        "@id": annolist_id,
+        "@type": "sc:AnnotationList",
+        "resources": []
+    }
+
+    for i in range(len(anno_arr)):
+        obj = anno_arr[i]
+
+        x = obj["ulx"]
+        y = obj["uly"]
+        w = obj["lrx"] - x
+        h = obj["lry"] - y
+
+        text = obj["text"]
+
+        if text != None:
+
+            anno = {
+                "@id": annolist["@id"]+"#"+str(i),
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "resource": {
+                    "@type": "cnt:ContentAsText",
+                    "chars": text,
+                    "format": "text/plain"
+                },
+                "on": canvas["@id"] + "#xywh=" + str(x) + ","+str(y)+","+str(w)+","+str(h)
+            }
+            annolist["resources"].append(anno)
+
+    fw = open(output_path, 'w')
+    json.dump(annolist, fw, ensure_ascii=False, indent=4,
+              sort_keys=True, separators=(',', ': '))
+
+    return annolist["@id"]
+
+
+def create_img(surface, manifest_data, md5, index, anno_arr, width, height):
+
+    # 画像のサイズ
+    screen = (width, height)
+
+    dir = odir+"/"+md5 + "/layer"
+    os.makedirs(dir, exist_ok="true")
+
+    # 保存するファイル名（ファイル形式は、拡張子から自動的に判別する）
+    filename = "p"+str(index+1).zfill(4)+".png"
+
+    img = Image.new('RGB', screen, bgcolor)
+
+    # drawインスタンスを生成
+    draw = ImageDraw.Draw(img)
+
+    for obj in anno_arr:
+
+        ulx = obj["ulx"]
+        uly = obj["uly"]
+        lrx = obj["lrx"]
+        lry = obj["lry"]
+        text = obj["text"]
+
+        if text != None:
+
+            x = lrx - ulx
+            y = lry - uly
+
+            l = len(text)
+
+            dy = y / l
+
+            d = dy
+            if d > x:
+                d = x
+
+            draw.font = ImageFont.truetype(font_ttf, int(d))
+
+            for i in range(l):
+                y = uly + i * d
+
+                # 文字を書く
+                draw.text((ulx, y), text[i], fill=(255, 0, 0))
+
+    output_path = dir + "/" + filename
+
+    img.save(output_path)
+
+    return prefix_uri + output_path.split("/data/")[1]
+
+
+def handle_surface(surface, manifest_data, md5):
+
+    index = -1
+
+    canvas_id = surface.find(prefix + "graphic").get("n")
+
+    width = -1
+    height = -1
+
+    canvases = manifest_data["sequences"][0]["canvases"]
+    for i in range(len(canvases)):
+        canvas = canvases[i]
+        if canvas_id == canvas["@id"]:
+            index = i
+
+            width = canvas["width"]
+            height = canvas["height"]
+
+            break
+
+    canvas = canvases[index]
+
+    zones = surface.findall(prefix + "zone")
+
+    anno_arr = []
+
+    for j in range(len(zones)):
+        zone = zones[j]
+        id = zone.get("{http://www.w3.org/XML/1998/namespace}id")
+        ulx = int(zone.get("ulx"))
+        uly = int(zone.get("uly"))
+        lrx = int(zone.get("lrx"))
+        lry = int(zone.get("lry"))
+
+        text = None
+
+        text_arr = tree.findall('.//*[@facs="#'+id+'"]')
+
+        if len(text_arr) > 0:
+
+            text = text_arr[0].text
+
+        obj = {
+            "ulx": ulx,
+            "uly": uly,
+            "lrx": lrx,
+            "lry": lry,
+            "text": text
+        }
+
+        anno_arr.append(obj)
+
+    anno_uri = create_anno(surface, manifest_data, md5, index, anno_arr)
+    canvas["otherContent"] = [
+        {
+            "@id": anno_uri,
+            "@type": "sc:AnnotationList"
+        }
+    ]
+
+    img_url = create_img(surface, manifest_data, md5,
+                         index, anno_arr, width, height)
+
+    resource = canvas["images"][0]["resource"]
+    resource["label"] = "Original"
+
+    canvas["images"][0]["resource"] = {
+        "@type": "oa:Choice",
+        "default": resource,
+        "item": [
+            {
+                "label": "Other",
+                "@type": "dctypes:Image",
+                "@id": img_url,
+                "format": "image/jpeg",
+                "width": width,
+                "height": height
+            }
+        ]
+    }
 
 
 if __name__ == '__main__':
@@ -31,50 +218,32 @@ if __name__ == '__main__':
     ET.register_namespace('', "http://www.tei-c.org/ns/1.0")
     root = tree.getroot()
 
-    prefix = ".//{http://www.tei-c.org/ns/1.0}"
+    manifest_uri = root.find(prefix + "surfaceGrp").get("facs")
+    md5 = hashlib.md5(manifest_uri.encode()).hexdigest()
 
-    # 画像のサイズ
-    width = 6642
-    height = 4990
-    screen = (width, height)
+    os.makedirs(odir+"/"+md5, exist_ok="true")
 
-    zones = root.findall(prefix + "zone")
+    manifest_data = get_manifest_data(manifest_uri)
 
-    # 保存するファイル名（ファイル形式は、拡張子から自動的に判別する）
-    filename = "genji.png"
+    surface_arr = root.findall(prefix+"surface")
 
-    img = Image.new('RGB', screen, bgcolor)
+    for surface in surface_arr:
+        handle_surface(surface, manifest_data, md5)
 
-    #drawインスタンスを生成
-    draw = ImageDraw.Draw(img)
+    dir = odir+"/"+md5
 
-    for j in range(len(zones)):
-        zone = zones[j]
-        id = zone.get("{http://www.w3.org/XML/1998/namespace}id")
-        ulx = int(zone.get("ulx"))
-        uly = int(zone.get("uly"))
-        lrx = int(zone.get("lrx"))
-        lry = int(zone.get("lry"))
+    tei_url = prefix_uri + "genji.xml"
 
-        text = tree.find('.//*[@facs="#'+id+'"]').text
+    url = "https://iiif.dl.itc.u-tokyo.ac.jp/api/iiif-search/generator.php?tei=" + tei_url
+    search_uri = get_manifest_data(url)[0]
 
-        x = lrx - ulx
-        y = lry - uly
+    manifest_data["service"] = {
+        "@context": "http://iiif.io/api/search/0/context.json",
+        "@id": search_uri,
+        "profile": "http://iiif.io/api/search/0/search",
+        "label": "Search within this manifest"
+    }
 
-        l = len(text)
-
-        dy = y / l
-
-        d = dy
-        if d > x:
-            d = x
-        
-        draw.font = ImageFont.truetype(font_ttf, int(d))
-
-        for i in range(l):
-            y = uly + i * d
-
-            #文字を書く
-            draw.text((ulx, y), text[i], fill=(255, 0, 0))
-
-    img.save(filename)
+    fw = open(dir+"/manifest.json", 'w')
+    json.dump(manifest_data, fw, ensure_ascii=False, indent=4,
+              sort_keys=True, separators=(',', ': '))
