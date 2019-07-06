@@ -1,0 +1,117 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/genji/data/5405eee2cf7845129773c7dd94866073/list/p0001.json",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://nakamura196.github.io/genji/data/5405eee2cf7845129773c7dd94866073/list/p0001.json#0",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=3189,1178,3439,4016",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "いづれの御時にか女御更衣あまたさふらひ給ける",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/data/5405eee2cf7845129773c7dd94866073/list/p0001.json#1",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2953,1206,3173,4000",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "なかに。いとやむごとなききはにはあらぬが。すぐれてと",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/data/5405eee2cf7845129773c7dd94866073/list/p0001.json#2",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2753,1210,2953,4000",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "きめき給ふありけりはじめよりわれはと思ひ",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/data/5405eee2cf7845129773c7dd94866073/list/p0001.json#3",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2537,1210,2753,4000",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "あがり給へる御かた＋＋＄。めざましきものにおとし",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/data/5405eee2cf7845129773c7dd94866073/list/p0001.json#4",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2310,1217,2533,4000",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "めそねみ給。おなしほど。それより下らうの更衣たち",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/data/5405eee2cf7845129773c7dd94866073/list/p0001.json#5",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2097,1190,2286,3966",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "はましてやすからずあさゆふのみやづかへにつけても。",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/data/5405eee2cf7845129773c7dd94866073/list/p0001.json#6",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1833,1190,2093,4006",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "人のこゝろをうごかし。うらみをおふつもりにやあり",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/data/5405eee2cf7845129773c7dd94866073/list/p0001.json#7",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1610,1190,1833,4000",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "けむいとあづしくなりゆきもの心ぼそげにさとがち",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/data/5405eee2cf7845129773c7dd94866073/list/p0001.json#8",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1397,1204,1606,3993",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "なるをいよ＋＋ あかずあはれなるものにおほゝして。",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/data/5405eee2cf7845129773c7dd94866073/list/p0001.json#9",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1122,1100,3500,4088",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": null,
+                "format": "text/plain"
+            }
+        }
+    ]
+}
