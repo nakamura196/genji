@@ -1,13 +1,13 @@
 {
     "@context": "http://iiif.io/api/presentation/2/context.json",
-    "@id": "https://nakamura196.github.io/genji/data/5405eee2cf7845129773c7dd94866073/list/p0001.json",
+    "@id": "https://nakamura196.github.io/genji/data/5008825ba0abc69f9cda5399eda3aa46/list/p0004.json",
     "@type": "sc:AnnotationList",
     "resources": [
         {
-            "@id": "https://nakamura196.github.io/genji/data/5405eee2cf7845129773c7dd94866073/list/p0001.json#0",
+            "@id": "https://nakamura196.github.io/genji/data/5008825ba0abc69f9cda5399eda3aa46/list/p0004.json#0",
             "@type": "oa:Annotation",
             "motivation": "sc:painting",
-            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=3189,1178,3439,4016",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=3189,1178,250,2838",
             "resource": {
                 "@type": "cnt:ContentAsText",
                 "chars": "いづれの御時にか女御更衣あまたさふらひ給ける",
@@ -15,10 +15,10 @@
             }
         },
         {
-            "@id": "https://nakamura196.github.io/genji/data/5405eee2cf7845129773c7dd94866073/list/p0001.json#1",
+            "@id": "https://nakamura196.github.io/genji/data/5008825ba0abc69f9cda5399eda3aa46/list/p0004.json#1",
             "@type": "oa:Annotation",
             "motivation": "sc:painting",
-            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2953,1206,3173,4000",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2953,1206,220,2794",
             "resource": {
                 "@type": "cnt:ContentAsText",
                 "chars": "なかに。いとやむごとなききはにはあらぬが。すぐれてと",
@@ -26,10 +26,10 @@
             }
         },
         {
-            "@id": "https://nakamura196.github.io/genji/data/5405eee2cf7845129773c7dd94866073/list/p0001.json#2",
+            "@id": "https://nakamura196.github.io/genji/data/5008825ba0abc69f9cda5399eda3aa46/list/p0004.json#2",
             "@type": "oa:Annotation",
             "motivation": "sc:painting",
-            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2753,1210,2953,4000",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2753,1210,200,2790",
             "resource": {
                 "@type": "cnt:ContentAsText",
                 "chars": "きめき給ふありけりはじめよりわれはと思ひ",
@@ -37,10 +37,10 @@
             }
         },
         {
-            "@id": "https://nakamura196.github.io/genji/data/5405eee2cf7845129773c7dd94866073/list/p0001.json#3",
+            "@id": "https://nakamura196.github.io/genji/data/5008825ba0abc69f9cda5399eda3aa46/list/p0004.json#3",
             "@type": "oa:Annotation",
             "motivation": "sc:painting",
-            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2537,1210,2753,4000",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2537,1210,216,2790",
             "resource": {
                 "@type": "cnt:ContentAsText",
                 "chars": "あがり給へる御かた＋＋＄。めざましきものにおとし",
@@ -48,10 +48,10 @@
             }
         },
         {
-            "@id": "https://nakamura196.github.io/genji/data/5405eee2cf7845129773c7dd94866073/list/p0001.json#4",
+            "@id": "https://nakamura196.github.io/genji/data/5008825ba0abc69f9cda5399eda3aa46/list/p0004.json#4",
             "@type": "oa:Annotation",
             "motivation": "sc:painting",
-            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2310,1217,2533,4000",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2310,1217,223,2783",
             "resource": {
                 "@type": "cnt:ContentAsText",
                 "chars": "めそねみ給。おなしほど。それより下らうの更衣たち",
@@ -59,10 +59,10 @@
             }
         },
         {
-            "@id": "https://nakamura196.github.io/genji/data/5405eee2cf7845129773c7dd94866073/list/p0001.json#5",
+            "@id": "https://nakamura196.github.io/genji/data/5008825ba0abc69f9cda5399eda3aa46/list/p0004.json#5",
             "@type": "oa:Annotation",
             "motivation": "sc:painting",
-            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2097,1190,2286,3966",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2097,1190,189,2776",
             "resource": {
                 "@type": "cnt:ContentAsText",
                 "chars": "はましてやすからずあさゆふのみやづかへにつけても。",
@@ -70,10 +70,10 @@
             }
         },
         {
-            "@id": "https://nakamura196.github.io/genji/data/5405eee2cf7845129773c7dd94866073/list/p0001.json#6",
+            "@id": "https://nakamura196.github.io/genji/data/5008825ba0abc69f9cda5399eda3aa46/list/p0004.json#6",
             "@type": "oa:Annotation",
             "motivation": "sc:painting",
-            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1833,1190,2093,4006",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1833,1190,260,2816",
             "resource": {
                 "@type": "cnt:ContentAsText",
                 "chars": "人のこゝろをうごかし。うらみをおふつもりにやあり",
@@ -81,10 +81,10 @@
             }
         },
         {
-            "@id": "https://nakamura196.github.io/genji/data/5405eee2cf7845129773c7dd94866073/list/p0001.json#7",
+            "@id": "https://nakamura196.github.io/genji/data/5008825ba0abc69f9cda5399eda3aa46/list/p0004.json#7",
             "@type": "oa:Annotation",
             "motivation": "sc:painting",
-            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1610,1190,1833,4000",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1610,1190,223,2810",
             "resource": {
                 "@type": "cnt:ContentAsText",
                 "chars": "けむいとあづしくなりゆきもの心ぼそげにさとがち",
@@ -92,10 +92,10 @@
             }
         },
         {
-            "@id": "https://nakamura196.github.io/genji/data/5405eee2cf7845129773c7dd94866073/list/p0001.json#8",
+            "@id": "https://nakamura196.github.io/genji/data/5008825ba0abc69f9cda5399eda3aa46/list/p0004.json#8",
             "@type": "oa:Annotation",
             "motivation": "sc:painting",
-            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1397,1204,1606,3993",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1397,1204,209,2789",
             "resource": {
                 "@type": "cnt:ContentAsText",
                 "chars": "なるをいよ＋＋ あかずあはれなるものにおほゝして。",
@@ -103,10 +103,10 @@
             }
         },
         {
-            "@id": "https://nakamura196.github.io/genji/data/5405eee2cf7845129773c7dd94866073/list/p0001.json#9",
+            "@id": "https://nakamura196.github.io/genji/data/5008825ba0abc69f9cda5399eda3aa46/list/p0004.json#9",
             "@type": "oa:Annotation",
             "motivation": "sc:painting",
-            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1122,1100,3500,4088",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1122,1100,2378,2988",
             "resource": {
                 "@type": "cnt:ContentAsText",
                 "chars": null,

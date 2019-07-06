@@ -22,7 +22,7 @@
       </fileDesc>
    </teiHeader>
    <facsimile>
-      <surfaceGrp facs="https://nakamura196.github.io/genji/data/genji.json">
+      <surfaceGrp facs="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest">
          <surface>
             <graphic
                url="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0004.tif/full/full/0/default.jpg"
