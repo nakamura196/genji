@@ -84,43 +84,7 @@
                      "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/annotation/p0004-image",
                      "@type": "oa:Annotation",
                      "motivation": "sc:painting",
-                     "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4",
                      "resource": {
-                        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0004.tif/full/full/0/default.jpg",
-                        "@type": "dctypes:Image",
-                        "format": "image/jpeg",
-                        "height": 4990,
-                        "service": {
-                           "@context": "http://iiif.io/api/image/2/context.json",
-                           "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0004.tif",
-                           "height": 4990,
-                           "profile": "http://iiif.io/api/image/2/level2.json",
-                           "width": 6642
-                        },
-                        "width": 6642
-                     }
-                  }
-               ],
-               "images": [
-                  {
-                     "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/annotation/p0004-image",
-                     "@type": "oa:Annotation",
-                     "motivation": "sc:painting",
-                     "resource": {
-
-                        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0004.tif/full/full/0/default.jpg",
-                        "@type": "dctypes:Image",
-                        "format": "image/jpeg",
-                        "height": 4990,
-                        "service": {
-                           "@context": "http://iiif.io/api/image/2/context.json",
-                           "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0004.tif",
-                           "height": 4990,
-                           "profile": "http://iiif.io/api/image/2/level2.json",
-                           "width": 6642
-                        },
-                        "width": 6642,
-
                         "@type": "oa:Choice",
                         "default": {
                            "@type": "dctypes:Image",
