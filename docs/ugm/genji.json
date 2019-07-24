@@ -3,8 +3,16 @@
     "@id": "https://nakamura196.github.io/genji/ugm/genji.json",
     "@type": "sc:Collection",
     "collections": [
-        "https://nakamura196.github.io/genji/ugm/kyushu/collection.json",
-        "https://nakamura196.github.io/genji/ugm/utokyo/collection.json"
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/kyushu/collection.json",
+            "@type": "sc:Collection"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/utokyo/collection.json",
+            "@type": "sc:Collection"
+        }
     ],
     "label": "裏源氏コレクション"
 }
