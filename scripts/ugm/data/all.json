@@ -1,0 +1,10 @@
+[
+    {
+        "id" : "kyushu",
+        "label" : "九大本"
+    },
+    {
+        "id" : "utokyo",
+        "label" : "東大本"
+    }
+]

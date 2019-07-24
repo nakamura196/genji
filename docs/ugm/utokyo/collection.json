@@ -1,0 +1,386 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/genji/ugm/utokyo/collection.json",
+    "@type": "sc:Collection",
+    "label": "東大本",
+    "manifests": [
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/utokyo/manifest/01.json",
+            "@type": "sc:Manifest",
+            "index": 1,
+            "label": "桐壺"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/utokyo/manifest/02.json",
+            "@type": "sc:Manifest",
+            "index": 2,
+            "label": "帚木"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/utokyo/manifest/03.json",
+            "@type": "sc:Manifest",
+            "index": 3,
+            "label": "空蝉"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/utokyo/manifest/04.json",
+            "@type": "sc:Manifest",
+            "index": 4,
+            "label": "夕顔"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/utokyo/manifest/05.json",
+            "@type": "sc:Manifest",
+            "index": 5,
+            "label": "若紫"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/utokyo/manifest/06.json",
+            "@type": "sc:Manifest",
+            "index": 6,
+            "label": "末摘花"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/utokyo/manifest/07.json",
+            "@type": "sc:Manifest",
+            "index": 7,
+            "label": "紅葉加（紅葉賀）"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/utokyo/manifest/08.json",
+            "@type": "sc:Manifest",
+            "index": 8,
+            "label": "花宴"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/utokyo/manifest/09.json",
+            "@type": "sc:Manifest",
+            "index": 9,
+            "label": "葵"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/utokyo/manifest/10.json",
+            "@type": "sc:Manifest",
+            "index": 10,
+            "label": "龍眼木（賢木 , 榊）"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/utokyo/manifest/11.json",
+            "@type": "sc:Manifest",
+            "index": 11,
+            "label": "花散里"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/utokyo/manifest/12.json",
+            "@type": "sc:Manifest",
+            "index": 12,
+            "label": "須磨"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/utokyo/manifest/13.json",
+            "@type": "sc:Manifest",
+            "index": 13,
+            "label": "赤石（明石）"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/utokyo/manifest/14.json",
+            "@type": "sc:Manifest",
+            "index": 14,
+            "label": "水衝石（澪標）"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/utokyo/manifest/15.json",
+            "@type": "sc:Manifest",
+            "index": 15,
+            "label": "蓬生"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/utokyo/manifest/16.json",
+            "@type": "sc:Manifest",
+            "index": 16,
+            "label": "関屋"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/utokyo/manifest/17.json",
+            "@type": "sc:Manifest",
+            "index": 17,
+            "label": "絵合"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/utokyo/manifest/18.json",
+            "@type": "sc:Manifest",
+            "index": 18,
+            "label": "松風"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/utokyo/manifest/19.json",
+            "@type": "sc:Manifest",
+            "index": 19,
+            "label": "薄雲"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/utokyo/manifest/20.json",
+            "@type": "sc:Manifest",
+            "index": 20,
+            "label": "槿"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/utokyo/manifest/21.json",
+            "@type": "sc:Manifest",
+            "index": 21,
+            "label": "乙女"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/utokyo/manifest/22.json",
+            "@type": "sc:Manifest",
+            "index": 22,
+            "label": "玉鬘"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/utokyo/manifest/23.json",
+            "@type": "sc:Manifest",
+            "index": 23,
+            "label": "初音"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/utokyo/manifest/24.json",
+            "@type": "sc:Manifest",
+            "index": 24,
+            "label": "胡蝶"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/utokyo/manifest/25.json",
+            "@type": "sc:Manifest",
+            "index": 25,
+            "label": "蛍"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/utokyo/manifest/26.json",
+            "@type": "sc:Manifest",
+            "index": 26,
+            "label": "床夏（常夏）"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/utokyo/manifest/27.json",
+            "@type": "sc:Manifest",
+            "index": 27,
+            "label": "篝火"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/utokyo/manifest/28.json",
+            "@type": "sc:Manifest",
+            "index": 28,
+            "label": "野分"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/utokyo/manifest/29.json",
+            "@type": "sc:Manifest",
+            "index": 29,
+            "label": "行幸"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/utokyo/manifest/30.json",
+            "@type": "sc:Manifest",
+            "index": 30,
+            "label": "蘭（藤袴）"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/utokyo/manifest/31.json",
+            "@type": "sc:Manifest",
+            "index": 31,
+            "label": "真木柱"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/utokyo/manifest/32.json",
+            "@type": "sc:Manifest",
+            "index": 32,
+            "label": "梅枝"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/utokyo/manifest/33.json",
+            "@type": "sc:Manifest",
+            "index": 33,
+            "label": "藤裏葉"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/utokyo/manifest/34.json",
+            "@type": "sc:Manifest",
+            "index": 34,
+            "label": "若菜　上"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/utokyo/manifest/35.json",
+            "@type": "sc:Manifest",
+            "index": 35,
+            "label": "若菜　下"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/utokyo/manifest/36.json",
+            "@type": "sc:Manifest",
+            "index": 36,
+            "label": "柏木"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/utokyo/manifest/37.json",
+            "@type": "sc:Manifest",
+            "index": 37,
+            "label": "横笛"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/utokyo/manifest/38.json",
+            "@type": "sc:Manifest",
+            "index": 38,
+            "label": "鈴虫"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/utokyo/manifest/39.json",
+            "@type": "sc:Manifest",
+            "index": 39,
+            "label": "夕霧"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/utokyo/manifest/40.json",
+            "@type": "sc:Manifest",
+            "index": 40,
+            "label": "御法"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/utokyo/manifest/41.json",
+            "@type": "sc:Manifest",
+            "index": 41,
+            "label": "幻"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/utokyo/manifest/42.json",
+            "@type": "sc:Manifest",
+            "index": 42,
+            "label": "匂宮"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/utokyo/manifest/43.json",
+            "@type": "sc:Manifest",
+            "index": 43,
+            "label": "紅梅"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/utokyo/manifest/44.json",
+            "@type": "sc:Manifest",
+            "index": 44,
+            "label": "竹川"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/utokyo/manifest/45.json",
+            "@type": "sc:Manifest",
+            "index": 45,
+            "label": "橋姫"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/utokyo/manifest/46.json",
+            "@type": "sc:Manifest",
+            "index": 46,
+            "label": "椎本"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/utokyo/manifest/47.json",
+            "@type": "sc:Manifest",
+            "index": 47,
+            "label": "総角"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/utokyo/manifest/48.json",
+            "@type": "sc:Manifest",
+            "index": 48,
+            "label": "早蕨"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/utokyo/manifest/49.json",
+            "@type": "sc:Manifest",
+            "index": 49,
+            "label": "寄生"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/utokyo/manifest/50.json",
+            "@type": "sc:Manifest",
+            "index": 50,
+            "label": "東屋"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/utokyo/manifest/51.json",
+            "@type": "sc:Manifest",
+            "index": 51,
+            "label": "浮舟"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/utokyo/manifest/52.json",
+            "@type": "sc:Manifest",
+            "index": 52,
+            "label": "蜻蛉"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/utokyo/manifest/53.json",
+            "@type": "sc:Manifest",
+            "index": 53,
+            "label": "手習"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/utokyo/manifest/54.json",
+            "@type": "sc:Manifest",
+            "index": 54,
+            "label": "夢浮橋"
+        }
+    ]
+}
