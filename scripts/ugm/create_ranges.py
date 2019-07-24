@@ -110,7 +110,7 @@ for obj in data:
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": ofile_1.replace("../../docs", "https://nakamura196.github.io/genji"),
             "@type": "sc:Manifest",
-            "label": manifest_data["label"],
+            "label": str(book),
             "index": book
             # "thumbnail": "https://clioimg.hi.u-tokyo.ac.jp/viewer/api/image/idata%2F850%2F8500%2F02%2F0101%2F0001_r25.jpg"
         })
@@ -133,6 +133,7 @@ for obj in data:
         "@context": "http://iiif.io/api/presentation/2/context.json",
         "@id": collection_data["@id"],
         "@type": "sc:Collection",
+        "label": label2,
     })
 
 ofile_2 = "../../docs/ugm/genji.json"

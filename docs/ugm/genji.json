@@ -6,12 +6,14 @@
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/genji/ugm/kyushu/collection.json",
-            "@type": "sc:Collection"
+            "@type": "sc:Collection",
+            "label": "九大本"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/genji/ugm/utokyo/collection.json",
-            "@type": "sc:Collection"
+            "@type": "sc:Collection",
+            "label": "東大本"
         }
     ],
     "label": "裏源氏コレクション"
