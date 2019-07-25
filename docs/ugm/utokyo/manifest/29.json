@@ -1355,7 +1355,16 @@
             "viewingHint": "non-paged"
         }
     ],
-    "structures": [],
+    "structures": [
+        {
+            "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest#5",
+            "@type": "sc:Range",
+            "canvases": [
+                "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4"
+            ],
+            "label": "5"
+        }
+    ],
     "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/ef874413df4e9476d1c63164e9b245c8b4aa2b34.jpg",
     "viewingDirection": "right-to-left",
     "within": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/"
