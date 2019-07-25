@@ -9,42 +9,49 @@
             "@id": "https://nakamura196.github.io/genji/ugm/kyushu/manifest/01.json",
             "@type": "sc:Manifest",
             "index": 1,
-            "label": "桐壺"
+            "label": "桐壺",
+            "thumbnail": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411193/368828.tiff/full/200,/0/default.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/genji/ugm/kyushu/manifest/02.json",
             "@type": "sc:Manifest",
             "index": 2,
-            "label": "帚木_(源氏物語)"
+            "label": "帚木_(源氏物語)",
+            "thumbnail": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411194/368878.tiff/full/200,/0/default.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/genji/ugm/kyushu/manifest/03.json",
             "@type": "sc:Manifest",
             "index": 3,
-            "label": "空蝉_(源氏物語)"
+            "label": "空蝉_(源氏物語)",
+            "thumbnail": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411196/368976.tiff/full/200,/0/default.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/genji/ugm/kyushu/manifest/04.json",
             "@type": "sc:Manifest",
             "index": 4,
-            "label": "夕顔_(源氏物語)"
+            "label": "夕顔_(源氏物語)",
+            "thumbnail": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411197/368998.tiff/full/200,/0/default.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/genji/ugm/kyushu/manifest/05.json",
             "@type": "sc:Manifest",
             "index": 5,
-            "label": "若紫"
+            "label": "若紫",
+            "thumbnail": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411199/369094.tiff/full/200,/0/default.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/genji/ugm/kyushu/manifest/10.json",
             "@type": "sc:Manifest",
             "index": 10,
-            "label": "賢木"
+            "label": "賢木",
+            "thumbnail": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411205/369418.tiff/full/200,/0/default.jpg"
         }
-    ]
+    ],
+    "vhint": "use-thumb"
 }

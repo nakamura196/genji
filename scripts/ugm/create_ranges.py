@@ -108,7 +108,7 @@ for obj in data:
 
         manifest_data["structures"] = sts
 
-        odir = "../../docs/ugm/"+dir+"/manifest"
+        odir = "../../public/ugm/"+dir+"/manifest"
         os.makedirs(odir, exist_ok=True)
 
         ofile_1 = odir+"/"+str(book).zfill(2)+".json"
@@ -117,22 +117,25 @@ for obj in data:
         json.dump(manifest_data, fw2, ensure_ascii=False, indent=4,
                   sort_keys=True, separators=(',', ': '))
 
+        thumbnail = manifest_data["sequences"][0]["canvases"][0]["images"][0]["resource"]["service"]["@id"]+"/full/200,/0/default.jpg"
+
         manifests4collection.append({
             "@context": "http://iiif.io/api/presentation/2/context.json",
-            "@id": ofile_1.replace("../../docs", "https://nakamura196.github.io/genji"),
+            "@id": ofile_1.replace("../../public", "https://nakamura196.github.io/genji"),
             "@type": "sc:Manifest",
             "label": label_map[book],
-            "index": book
-            # "thumbnail": "https://clioimg.hi.u-tokyo.ac.jp/viewer/api/image/idata%2F850%2F8500%2F02%2F0101%2F0001_r25.jpg"
+            "index": book,
+            "thumbnail": thumbnail
         })
 
-    ofile = "../../docs/ugm/"+dir+"/collection.json"
+    ofile = "../../public/ugm/"+dir+"/collection.json"
 
     collection_data = {
         "@context": "http://iiif.io/api/presentation/2/context.json",
-        "@id": ofile.replace("../../docs", "https://nakamura196.github.io/genji"),
+        "@id": ofile.replace("../../public", "https://nakamura196.github.io/genji"),
         "@type": "sc:Collection",
         "label": label2,
+        "vhint": "use-thumb",
         "manifests": manifests4collection
     }
 
@@ -147,11 +150,11 @@ for obj in data:
         "label": label2,
     })
 
-ofile_2 = "../../docs/ugm/genji.json"
+ofile_2 = "../../public/ugm/genji.json"
 
 universe = {
     "@context": "http://iiif.io/api/presentation/2/context.json",
-    "@id": ofile_2.replace("../../docs", "https://nakamura196.github.io/genji"),
+    "@id": ofile_2.replace("../../public", "https://nakamura196.github.io/genji"),
     "@type": "sc:Collection",
     "label": "裏源氏コレクション",
     "collections": collections
