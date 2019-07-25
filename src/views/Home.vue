@@ -15,7 +15,7 @@
                 </tr>
                  <tr>
                     <td>作品名から探す。</td>
-                    <td><router-link to="/searchByWork">View</router-link></td>
+                    <td>Under development</td>
                 </tr>
                 <tr>
                     <td>本文テキストから探す。</td>

@@ -12,7 +12,7 @@
                 <tr v-for="obj in result">
                     <td>{{obj.label.value}}</td>
                     <td>
-                        <router-link to="/searchByPage">View</router-link>
+                        <router-link v-bind:to="{ path: 'listByPage', query: { page: obj.label.value}}">View</router-link>
                     </td>
                 </tr>
             </tbody>
@@ -34,12 +34,12 @@ export default {
 
         let query = " PREFIX dcterms: <http://purl.org/dc/terms/> \n";
         query += " PREFIX dcndl: <http://ndl.go.jp/dcndl/terms/> \n";
-        query += " SELECT DISTINCT ?label ?page ?count(?manifest) as ?c WHERE { \n";
+        query += " SELECT DISTINCT ?label ?page WHERE { \n";
         query += "  ?page rdfs:label ?label .  \n";
         query += "  ?canvas dcterms:subject ?page .  \n";
         query += "  ?canvas dcterms:isPartOf ?manifest  .  \n";
         query += "  ?manifest dcterms:isPartOf ?collection  .  \n";
-        query += " } group by ?manifest order by ?label \n";
+        query += " } order by ?label \n";
 
         console.log(query)
 

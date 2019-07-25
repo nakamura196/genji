@@ -2,6 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Home from './views/Home.vue'
 import SearchByPage from './views/SearchByPage.vue'
+import ListByPage from './views/ListByPage.vue'
 import SearchByWork from './views/SearchByWork.vue'
 import About from './views/About.vue'
 
@@ -20,6 +21,11 @@ export default new Router({
       path: '/searchByPage',
       name: 'searchByPage',
       component: SearchByPage
+    },
+    {
+      path: '/listByPage',
+      name: 'listByPage',
+      component: ListByPage
     },
     {
       path: '/searchByWork',
