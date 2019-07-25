@@ -12,7 +12,6 @@ import os
 
 g = Graph()
 
-
 def forMani(manifest, label):
 
     print(manifest)
@@ -32,7 +31,7 @@ def forMani(manifest, label):
     for canvas in canvases:
         g.add((URIRef(canvas["@id"]), URIRef(
             "http://purl.org/dc/terms/isPartOf"), URIRef(manifest)))
-
+            
     if "structures" in mani_data:
         for st in mani_data["structures"]:
 
@@ -44,17 +43,27 @@ def forMani(manifest, label):
                 "http://purl.org/dc/terms/subject"), URIRef(taisei_p_uri)))
             g.add((URIRef(taisei_p_uri), URIRef(
                 "http://www.w3.org/2000/01/rdf-schema#label"), Literal(int(st_label))))
-
+        
 
 def forCol(col_uri):
+
     res = urllib.request.urlopen(col_uri)
+
 
     # json_loads() でPythonオブジェクトに変換
     col_data = json.loads(res.read().decode('utf-8'))
 
-    for manifest in col_data["manifests"]:
-        forMani(manifest["@id"], manifest["label"])
+    g.add((URIRef(col_uri), URIRef(
+        "http://www.w3.org/2000/01/rdf-schema#label"), Literal(col_data["label"])))
 
+    for manifest in col_data["manifests"]:
+
+        manifest_uri = manifest["@id"]
+
+        forMani(manifest_uri, manifest["label"])
+
+        g.add((URIRef(manifest_uri), URIRef(
+            "http://purl.org/dc/terms/isPartOf"), URIRef(col_uri)))
 
 universe = "https://nakamura196.github.io/genji/ugm/genji.json"
 
