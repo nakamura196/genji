@@ -9,8 +9,19 @@ import argparse
 import json
 import urllib.request
 import os
+import csv
 
 path = "data/all.json"
+
+label_map = {}
+
+with open('data/map.csv', 'r') as f:
+    reader = csv.reader(f)
+    header = next(reader)  # ヘッダーを読み飛ばしたい時
+
+    for row in reader:
+        label_map[int(row[0])] = row[1]
+
 
 with open(path, 'r') as f:
     data = json.load(f)
@@ -110,7 +121,7 @@ for obj in data:
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": ofile_1.replace("../../docs", "https://nakamura196.github.io/genji"),
             "@type": "sc:Manifest",
-            "label": str(book),
+            "label": label_map[book],
             "index": book
             # "thumbnail": "https://clioimg.hi.u-tokyo.ac.jp/viewer/api/image/idata%2F850%2F8500%2F02%2F0101%2F0001_r25.jpg"
         })
