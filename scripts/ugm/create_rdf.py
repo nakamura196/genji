@@ -55,6 +55,8 @@ def forCol(col_uri):
 
     g.add((URIRef(col_uri), URIRef(
         "http://www.w3.org/2000/01/rdf-schema#label"), Literal(col_data["label"])))
+    g.add((URIRef(col_uri), URIRef(
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"), URIRef("http://iiif.io/api/presentation/2#Collection")))
 
     for manifest in col_data["manifests"]:
 
@@ -64,6 +66,8 @@ def forCol(col_uri):
 
         g.add((URIRef(manifest_uri), URIRef(
             "http://purl.org/dc/terms/isPartOf"), URIRef(col_uri)))
+        g.add((URIRef(manifest_uri), URIRef(
+            "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"), URIRef("http://iiif.io/api/presentation/2#Manifest")))
 
 universe = "https://nakamura196.github.io/genji/ugm/genji.json"
 

@@ -116,7 +116,7 @@ for obj in data:
 
         manifest_data["structures"] = sts
 
-        odir = "../../public/ugm/"+dir+"/manifest"
+        odir = "../../docs/ugm/"+dir+"/manifest"
         os.makedirs(odir, exist_ok=True)
 
         ofile_1 = odir+"/"+str(book).zfill(2)+".json"
@@ -129,18 +129,18 @@ for obj in data:
 
         manifests4collection.append({
             "@context": "http://iiif.io/api/presentation/2/context.json",
-            "@id": ofile_1.replace("../../public", "https://nakamura196.github.io/genji"),
+            "@id": ofile_1.replace("../../docs", "https://nakamura196.github.io/genji"),
             "@type": "sc:Manifest",
             "label": label_map[book],
             "index": book,
             "thumbnail": thumbnail
         })
 
-    ofile = "../../public/ugm/"+dir+"/collection.json"
+    ofile = "../../docs/ugm/"+dir+"/collection.json"
 
     collection_data = {
         "@context": "http://iiif.io/api/presentation/2/context.json",
-        "@id": ofile.replace("../../public", "https://nakamura196.github.io/genji"),
+        "@id": ofile.replace("../../docs", "https://nakamura196.github.io/genji"),
         "@type": "sc:Collection",
         "label": label2,
         "vhint": "use-thumb",
@@ -158,11 +158,11 @@ for obj in data:
         "label": label2,
     })
 
-ofile_2 = "../../public/ugm/genji.json"
+ofile_2 = "../../docs/ugm/genji.json"
 
 universe = {
     "@context": "http://iiif.io/api/presentation/2/context.json",
-    "@id": ofile_2.replace("../../public", "https://nakamura196.github.io/genji"),
+    "@id": ofile_2.replace("../../docs", "https://nakamura196.github.io/genji"),
     "@type": "sc:Collection",
     "label": "裏源氏コレクション",
     "collections": collections
