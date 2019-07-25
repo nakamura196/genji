@@ -34,12 +34,14 @@ export default {
 
         let query = " PREFIX dcterms: <http://purl.org/dc/terms/> \n";
         query += " PREFIX dcndl: <http://ndl.go.jp/dcndl/terms/> \n";
-        query += " SELECT DISTINCT ?label ?page WHERE { \n";
+        query += " SELECT DISTINCT ?label ?page ?count(?manifest) as ?c WHERE { \n";
         query += "  ?page rdfs:label ?label .  \n";
         query += "  ?canvas dcterms:subject ?page .  \n";
         query += "  ?canvas dcterms:isPartOf ?manifest  .  \n";
         query += "  ?manifest dcterms:isPartOf ?collection  .  \n";
-        query += " } order by ?label \n";
+        query += " } group by ?manifest order by ?label \n";
+
+        console.log(query)
 
         axios.get("https://dydra.com/ut-digital-archives/genji/sparql?query=" + encodeURIComponent(query) + "&output=json")
             .then(response => {

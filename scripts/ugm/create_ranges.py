@@ -45,7 +45,13 @@ for obj in data:
     map = {}
 
     for j in range(1, r_count):
-        book = int(df.iloc[j, 0])
+
+        cell = df.iloc[j, 0]
+
+        if pd.isnull(cell) or cell == "":
+            continue
+
+        book = int(cell)
 
         if book not in map:
             map[book] = {}
@@ -58,6 +64,8 @@ for obj in data:
             id = int(df.iloc[j, 2])
 
             books[page] = id
+
+    print(map)
 
     df = pd.read_excel(list_path, sheet_name=1, header=None, index_col=None)
 
