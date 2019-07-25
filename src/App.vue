@@ -2,9 +2,9 @@
     <v-app>
         <myheader></myheader>
         <v-content class="my-5">
-            <v-container class="my-5">
+            <div class="container">
                 <router-view />
-            </v-container>
+            </div>
         </v-content>
         <myfooter></myfooter>
     </v-app>
