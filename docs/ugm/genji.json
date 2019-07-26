@@ -7,7 +7,13 @@
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/genji/ugm/kyushu/collection.json",
             "@type": "sc:Collection",
-            "label": "九大本"
+            "label": "九大本（古活字版）"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/kyushu2/collection.json",
+            "@type": "sc:Collection",
+            "label": "九大本（無跋無刊記整版本）"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",

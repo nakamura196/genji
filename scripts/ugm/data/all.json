@@ -1,7 +1,11 @@
 [
     {
         "id" : "kyushu",
-        "label" : "九大本"
+        "label" : "九大本（古活字版）"
+    },
+    {
+        "id": "kyushu2",
+        "label": "九大本（無跋無刊記整版本）"
     },
     {
         "id" : "utokyo",

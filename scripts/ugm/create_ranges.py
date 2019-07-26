@@ -31,9 +31,8 @@ collections = []
 for obj in data:
 
     label2 = obj["label"]
+    # print(label2)
     dir = obj["id"]
-
-    print("1\t"+dir)
 
     list_path = "data/"+dir+"/list_"+dir+".xlsx"
 
@@ -42,7 +41,7 @@ for obj in data:
     r_count = len(df.index)
     c_count = len(df.columns)
 
-    map = {}
+    book_page_id_map = {}
 
     for j in range(1, r_count):
 
@@ -53,10 +52,10 @@ for obj in data:
 
         book = int(cell)
 
-        if book not in map:
-            map[book] = {}
+        if book not in book_page_id_map:
+            book_page_id_map[book] = {}
 
-        books = map[book]
+        books = book_page_id_map[book]
 
         page = df.iloc[j, 1]
         if not pd.isnull(page) and page != "":
@@ -65,7 +64,7 @@ for obj in data:
 
             books[page] = id
 
-    print(map)
+    # print(book_page_id_map)
 
     df = pd.read_excel(list_path, sheet_name=1, header=None, index_col=None)
 
@@ -77,21 +76,20 @@ for obj in data:
     for j in range(1, r_count):
         book = int(df.iloc[j, 0])
         manifest = df.iloc[j, 1]
-        manifests[book] = manifest
-
-    sts = []
+        manifests[book] = manifest    
 
     manifests4collection = []
 
+    # print(manifests)
+
     for book in manifests:
 
-        print("book\t"+str(book))
-
-        if book not in map:
-            continue
-
-        books = map[book]
+        print(label2+" book\t"+str(book))
+        
         manifest = manifests[book]
+
+        if pd.isnull(manifest):
+            continue
 
         res = urllib.request.urlopen(manifest)
         # json_loads() でPythonオブジェクトに変換
@@ -99,22 +97,31 @@ for obj in data:
 
         canvases = manifest_data["sequences"][0]["canvases"]
 
-        for page in books:
+        # -------------- <st> ---------------------
 
-            print("page\t"+str(page))
+        if book in book_page_id_map:
+            books = book_page_id_map[book]
 
-            canvas = canvases[page-1]
-            canvas_id = canvas["@id"]
+            sts = []
 
-            st = {
-                "@id": manifest_data["@id"]+"#"+str(books[page]),
-                "label": str(books[page]),
-                "@type": "sc:Range",
-                "canvases": [canvas_id]
-            }
-            sts.append(st)
+            for page in books:
 
-        manifest_data["structures"] = sts
+                # print("page\t"+str(page))
+
+                canvas = canvases[page-1]
+                canvas_id = canvas["@id"]
+
+                st = {
+                    "@id": manifest_data["@id"]+"#"+str(books[page]),
+                    "label": str(books[page]),
+                    "@type": "sc:Range",
+                    "canvases": [canvas_id]
+                }
+                sts.append(st)
+
+            manifest_data["structures"] = sts
+
+        # -------------- </st> ---------------------
 
         odir = "../../docs/ugm/"+dir+"/manifest"
         os.makedirs(odir, exist_ok=True)
