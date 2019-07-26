@@ -111,6 +111,8 @@ for obj in data:
 
             members = curation_data["selections"][0]["members"]
 
+            canvas_anno_map = {}
+
             for member in members:
                 cu_id = member["@id"].split("#")
                 page = member["metadata"][0]["value"]
@@ -133,12 +135,16 @@ for obj in data:
 
                 '''
 
-                hash = hashlib.md5(canvas_id.encode('utf-8')).hexdigest()
+                # hash = hashlib.md5(canvas_id.encode('utf-8')).hexdigest()
+                hash = "anno_"+str(canvas_index+1).zfill(3)+"_" + \
+                    hashlib.md5(canvas_id.encode('utf-8')).hexdigest()
 
                 anno_file = annodir+"/" + hash + ".json"
 
                 anno_uri = anno_file.replace(
                     "../../docs", "https://nakamura196.github.io/genji")
+
+                '''
 
                 anno_data = {
                     "@context": "http://iiif.io/api/presentation/2/context.json",
@@ -163,11 +169,71 @@ for obj in data:
                     }
                 }
 
+                '''
+
+                if canvas_index not in canvas_anno_map:
+                    canvas_anno_map[canvas_index] = []
+
+                anno = {
+                    "@id": anno_uri+"#"+str(len(canvas_anno_map[canvas_index])),
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@type": "cnt:ContentAsText",
+                        "chars": "新編日本古典文学全集 p."+page+" 該当箇所",
+                        "format": "text/plain"
+                    },
+                    "on": member["@id"]
+                }
+
+                
+                canvas_anno_map[canvas_index].append(anno)
+
+
+                '''
+
                 fw2 = open(anno_file, 'w')
                 json.dump(anno_data, fw2, ensure_ascii=False, indent=4,
                         sort_keys=True, separators=(',', ': '))
 
                 canvases[canvas_index]["otherContent"] =  [
+                    {
+                        "@id": anno_uri,
+                        "@type": "sc:AnnotationList"
+                    }
+                ]
+
+                '''
+
+            for canvas_index in canvas_anno_map:
+
+                canvas_id = canvases[canvas_index]["@id"]
+
+                # hash = hashlib.md5(canvas_id.encode('utf-8')).hexdigest()
+                hash = "anno_"+str(canvas_index+1).zfill(3)+"_" + \
+                    hashlib.md5(canvas_id.encode('utf-8')).hexdigest()
+
+                anno_file = annodir+"/" + hash + ".json"
+
+                anno_uri = anno_file.replace(
+                    "../../docs", "https://nakamura196.github.io/genji")
+
+                anno_data = {
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": anno_uri,
+                    "@type": "sc:AnnotationList",
+                    "resources": canvas_anno_map[canvas_index],
+                    "within": {
+                        "@id": new_manifest_uri,
+                        "@type": "sc:Manifest"
+                    }
+                }
+
+                fw2 = open(anno_file, 'w')
+                json.dump(anno_data, fw2, ensure_ascii=False, indent=4,
+                          sort_keys=True, separators=(',', ': '))
+
+                canvases[canvas_index]["otherContent"] = [
                     {
                         "@id": anno_uri,
                         "@type": "sc:AnnotationList"

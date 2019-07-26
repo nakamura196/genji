@@ -195,7 +195,7 @@
                     "label": "[4]",
                     "otherContent": [
                         {
-                            "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/anno/3423f58415e722cdcbe59823c9eb1467.json",
+                            "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/anno/anno_004_3423f58415e722cdcbe59823c9eb1467.json",
                             "@type": "sc:AnnotationList"
                         }
                     ],
@@ -238,7 +238,7 @@
                     "label": "[5]",
                     "otherContent": [
                         {
-                            "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/anno/a36a2abe3a136931e271722dbb6af223.json",
+                            "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/anno/anno_005_a36a2abe3a136931e271722dbb6af223.json",
                             "@type": "sc:AnnotationList"
                         }
                     ],
@@ -281,7 +281,7 @@
                     "label": "[6]",
                     "otherContent": [
                         {
-                            "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/anno/4503972f101a8a66094d9aa93d92b0b0.json",
+                            "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/anno/anno_006_4503972f101a8a66094d9aa93d92b0b0.json",
                             "@type": "sc:AnnotationList"
                         }
                     ],
@@ -324,7 +324,7 @@
                     "label": "[7]",
                     "otherContent": [
                         {
-                            "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/anno/b1ad718f1af6f2af9ddabd6b67e440f4.json",
+                            "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/anno/anno_007_b1ad718f1af6f2af9ddabd6b67e440f4.json",
                             "@type": "sc:AnnotationList"
                         }
                     ],
@@ -367,7 +367,7 @@
                     "label": "[8]",
                     "otherContent": [
                         {
-                            "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/anno/2c9d114ec7fa960ec25d2fb1afb39106.json",
+                            "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/anno/anno_008_2c9d114ec7fa960ec25d2fb1afb39106.json",
                             "@type": "sc:AnnotationList"
                         }
                     ],
@@ -410,7 +410,7 @@
                     "label": "[9]",
                     "otherContent": [
                         {
-                            "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/anno/d422e1b17333920a14a16c720bc7365b.json",
+                            "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/anno/anno_009_d422e1b17333920a14a16c720bc7365b.json",
                             "@type": "sc:AnnotationList"
                         }
                     ],
@@ -453,7 +453,7 @@
                     "label": "[10]",
                     "otherContent": [
                         {
-                            "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/anno/44b7aa38b34174d40238752c542dc7e4.json",
+                            "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/anno/anno_010_44b7aa38b34174d40238752c542dc7e4.json",
                             "@type": "sc:AnnotationList"
                         }
                     ],
@@ -496,7 +496,7 @@
                     "label": "[11]",
                     "otherContent": [
                         {
-                            "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/anno/c52a69aa9d11f6dff4d7de11a4ab9f86.json",
+                            "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/anno/anno_011_c52a69aa9d11f6dff4d7de11a4ab9f86.json",
                             "@type": "sc:AnnotationList"
                         }
                     ],
@@ -539,7 +539,7 @@
                     "label": "[12]",
                     "otherContent": [
                         {
-                            "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/anno/99746e273126e111fa3ff0a46ebf0d95.json",
+                            "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/anno/anno_012_99746e273126e111fa3ff0a46ebf0d95.json",
                             "@type": "sc:AnnotationList"
                         }
                     ],
@@ -582,7 +582,7 @@
                     "label": "[13]",
                     "otherContent": [
                         {
-                            "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/anno/5522539a2058ee786af26645e24255ce.json",
+                            "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/anno/anno_013_5522539a2058ee786af26645e24255ce.json",
                             "@type": "sc:AnnotationList"
                         }
                     ],
@@ -625,7 +625,7 @@
                     "label": "[14]",
                     "otherContent": [
                         {
-                            "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/anno/f3339bec303ec2e150abe1538d9d18ca.json",
+                            "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/anno/anno_014_f3339bec303ec2e150abe1538d9d18ca.json",
                             "@type": "sc:AnnotationList"
                         }
                     ],
@@ -668,7 +668,7 @@
                     "label": "[15]",
                     "otherContent": [
                         {
-                            "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/anno/0d228cacb67891bca27e658fed631e70.json",
+                            "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/anno/anno_015_0d228cacb67891bca27e658fed631e70.json",
                             "@type": "sc:AnnotationList"
                         }
                     ],
@@ -711,7 +711,7 @@
                     "label": "[16]",
                     "otherContent": [
                         {
-                            "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/anno/fe66645cf621d171b7331e0c613d8a52.json",
+                            "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/anno/anno_016_fe66645cf621d171b7331e0c613d8a52.json",
                             "@type": "sc:AnnotationList"
                         }
                     ],
@@ -754,7 +754,7 @@
                     "label": "[17]",
                     "otherContent": [
                         {
-                            "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/anno/b68f4216ca6014e6b21ed13e58e04b4d.json",
+                            "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/anno/anno_017_b68f4216ca6014e6b21ed13e58e04b4d.json",
                             "@type": "sc:AnnotationList"
                         }
                     ],
@@ -797,7 +797,7 @@
                     "label": "[18]",
                     "otherContent": [
                         {
-                            "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/anno/64b2bd04c899873a318f0bcd7567e777.json",
+                            "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/anno/anno_018_64b2bd04c899873a318f0bcd7567e777.json",
                             "@type": "sc:AnnotationList"
                         }
                     ],
@@ -840,7 +840,7 @@
                     "label": "[19]",
                     "otherContent": [
                         {
-                            "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/anno/4bb74eba784d6b9030a796055130c79a.json",
+                            "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/anno/anno_019_4bb74eba784d6b9030a796055130c79a.json",
                             "@type": "sc:AnnotationList"
                         }
                     ],
@@ -883,7 +883,7 @@
                     "label": "[20]",
                     "otherContent": [
                         {
-                            "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/anno/74ad655613df8885059c36e0d4954931.json",
+                            "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/anno/anno_020_74ad655613df8885059c36e0d4954931.json",
                             "@type": "sc:AnnotationList"
                         }
                     ],
@@ -926,7 +926,7 @@
                     "label": "[21]",
                     "otherContent": [
                         {
-                            "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/anno/28b85aeba252459ff58d6842660bfcec.json",
+                            "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/anno/anno_021_28b85aeba252459ff58d6842660bfcec.json",
                             "@type": "sc:AnnotationList"
                         }
                     ],
@@ -969,7 +969,7 @@
                     "label": "[22]",
                     "otherContent": [
                         {
-                            "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/anno/97b29a0f594e323c95e8ec763d41e75f.json",
+                            "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/anno/anno_022_97b29a0f594e323c95e8ec763d41e75f.json",
                             "@type": "sc:AnnotationList"
                         }
                     ],
@@ -1012,7 +1012,7 @@
                     "label": "[23]",
                     "otherContent": [
                         {
-                            "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/anno/1cb103659824b9860cc98112c87a50c7.json",
+                            "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/anno/anno_023_1cb103659824b9860cc98112c87a50c7.json",
                             "@type": "sc:AnnotationList"
                         }
                     ],
@@ -1055,7 +1055,7 @@
                     "label": "[24]",
                     "otherContent": [
                         {
-                            "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/anno/dee1714f9e8ddc8246a4753a181d5dea.json",
+                            "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/anno/anno_024_dee1714f9e8ddc8246a4753a181d5dea.json",
                             "@type": "sc:AnnotationList"
                         }
                     ],
@@ -1098,7 +1098,7 @@
                     "label": "[25]",
                     "otherContent": [
                         {
-                            "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/anno/6edaa05bc1145bbb98b60a458ea24afd.json",
+                            "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/anno/anno_025_6edaa05bc1145bbb98b60a458ea24afd.json",
                             "@type": "sc:AnnotationList"
                         }
                     ],
@@ -1141,7 +1141,7 @@
                     "label": "[26]",
                     "otherContent": [
                         {
-                            "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/anno/0a5e4f7494d7a2e881b0a09267c76420.json",
+                            "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/anno/anno_026_0a5e4f7494d7a2e881b0a09267c76420.json",
                             "@type": "sc:AnnotationList"
                         }
                     ],
@@ -1184,7 +1184,7 @@
                     "label": "[27]",
                     "otherContent": [
                         {
-                            "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/anno/81ea19f975105f79a092a954e96e89ed.json",
+                            "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/anno/anno_027_81ea19f975105f79a092a954e96e89ed.json",
                             "@type": "sc:AnnotationList"
                         }
                     ],
@@ -1227,7 +1227,7 @@
                     "label": "[28]",
                     "otherContent": [
                         {
-                            "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/anno/2a84f9a31a3ba4ba9561b33d38beeb92.json",
+                            "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/anno/anno_028_2a84f9a31a3ba4ba9561b33d38beeb92.json",
                             "@type": "sc:AnnotationList"
                         }
                     ],
@@ -1270,7 +1270,7 @@
                     "label": "[29]",
                     "otherContent": [
                         {
-                            "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/anno/f78a12e4b56ddb141b42010d94f2969a.json",
+                            "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/anno/anno_029_f78a12e4b56ddb141b42010d94f2969a.json",
                             "@type": "sc:AnnotationList"
                         }
                     ],
@@ -1313,7 +1313,7 @@
                     "label": "[30]",
                     "otherContent": [
                         {
-                            "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/anno/4f9f8c186d3ee82b95976cbe0bc81889.json",
+                            "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/anno/anno_030_4f9f8c186d3ee82b95976cbe0bc81889.json",
                             "@type": "sc:AnnotationList"
                         }
                     ],

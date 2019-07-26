@@ -1,16 +1,16 @@
 {
     "@context": "http://iiif.io/api/presentation/2/context.json",
-    "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/anno/0a5e4f7494d7a2e881b0a09267c76420.json",
+    "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/anno/anno_010_44b7aa38b34174d40238752c542dc7e4.json",
     "@type": "sc:AnnotationList",
     "resources": [
         {
-            "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/anno/0a5e4f7494d7a2e881b0a09267c76420.json#0",
+            "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/anno/anno_010_44b7aa38b34174d40238752c542dc7e4.json#0",
             "@type": "oa:Annotation",
             "motivation": "sc:painting",
-            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p26#xywh=1976,1172,232,2864",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p10#xywh=2712,1164,256,2864",
             "resource": {
                 "@type": "cnt:ContentAsText",
-                "chars": "新編日本古典文学全集 p.45 該当箇所",
+                "chars": "新編日本古典文学全集 p.25 該当箇所",
                 "format": "text/plain"
             }
         }

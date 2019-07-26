@@ -13,7 +13,7 @@ import requests
 
 g = Graph()
 
-target = "utokyo"
+target = ""
 
 def forMani(manifest, label):
 
@@ -49,7 +49,8 @@ def forMani(manifest, label):
             g.add((URIRef(anno_uri), URIRef(
                 "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"), URIRef("http://iiif.io/api/presentation/2#AnnotationList")))
 
-            st_label = anno_data["resources"][0]["resource"]["chars"]
+            st_label = anno_data["resources"][0]["resource"]["chars"].split(" ")[
+                1].split(".")[1]
 
             taisei_p_uri = "https://japanknowledge.com/lib/display/?lid=80110V00200" + \
                 str(st_label).zfill(3)
@@ -109,9 +110,9 @@ uni_data = json.loads(res.read().decode('utf-8'))
 for col in uni_data["collections"]:
     col_uri = col["@id"]
 
-    if target not in col_uri:
+    if target != "" and target not in col_uri:
         continue
 
     forCol(col_uri)
 
-g.serialize(format='pretty-xml', destination="data/test3.rdf")
+g.serialize(format='pretty-xml', destination="data/saga.rdf")
