@@ -11,7 +11,7 @@ import urllib.request
 import os
 import csv
 
-target = ""
+target = "loc"
 
 path = "data/all.json"
 
@@ -161,42 +161,3 @@ for obj in data:
     json.dump(collection_data, fw2, ensure_ascii=False, indent=4,
               sort_keys=True, separators=(',', ': '))
 
-# --------------- universe ------------------
-
-ofile_2 = "../../docs/ugm/genji.json"
-
-collections = []
-
-for obj in data:
-
-    label2 = obj["label"]
-    # print(label2)
-    dir = obj["id"]
-
-    ofile = "../../docs/ugm/"+dir+"/collection.json"
-
-    print(ofile)
-
-    with open(ofile, 'r') as f:
-        collection_data = json.load(f)
-
-        print(collection_data)
-
-        collections.append({
-            "@context": "http://iiif.io/api/presentation/2/context.json",
-            "@id": collection_data["@id"],
-            "@type": "sc:Collection",
-            "label": label2,
-        })
-
-universe = {
-    "@context": "http://iiif.io/api/presentation/2/context.json",
-    "@id": ofile_2.replace("../../docs", "https://nakamura196.github.io/genji"),
-    "@type": "sc:Collection",
-    "label": "源氏物語IIIFコレクション",
-    "collections": collections
-}
-
-fw2 = open(ofile_2, 'w')
-json.dump(universe, fw2, ensure_ascii=False, indent=4,
-          sort_keys=True, separators=(',', ': '))

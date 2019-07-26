@@ -1,0 +1,17 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/genji/ugm/loc/collection.json",
+    "@type": "sc:Collection",
+    "label": "アメリカ議会図書館",
+    "manifests": [
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/loc/manifest/01.json",
+            "@type": "sc:Manifest",
+            "index": 1,
+            "label": "桐壺",
+            "thumbnail": "https://content.wdl.org/iiif/785,1,1/full/200,/0/default.jpg"
+        }
+    ],
+    "vhint": "use-thumb"
+}

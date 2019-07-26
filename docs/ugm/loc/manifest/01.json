@@ -1,0 +1,2974 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://www.wdl.org/en/item/785/manifest",
+    "@type": "sc:Manifest",
+    "attribution": "World Digital Library",
+    "description": "<em>Genji monogatari</em> (Tale of Genji) is often considered the first great novel in world literature. The author of the work, Murasaki Shibuku, was born around 978 and spent most of her life at or near the imperial court in Kyoto. After a brief marriage to an older man, she entered the service of Empress Akiko (or Shōshi) around 1005 as a lady-in-waiting. The novel consists of 54 books or chapters that recount the life and romances of Prince Genji, the young, handsome, and talented son of an emperor. The novel is remarkable for its elegant style, complex portrayals of characters, and descriptions of human emotions. The author’s real name is unknown (she was known as Tō no Shikibu during her lifetime and came to be called Murasaki Shibuku after her death), as are her method of composition and the exact date when the work was written. This illustrated, woodblock print edition is from the collections of the Library of Congress. Produced in Kyoto in the mid-17th century, it is a complete and well-preserved set that includes the main text and six additional volumes: three volumes of commentary on key words and phrases in the text (<em>Meyasu</em>), a genealogy (<em>Keizu</em>), a sequel to the work by a later author (<em>Yamaji no tsuyu</em> ), and an index (<em>Hikiuta</em>).",
+    "label": "The Tale of Genji: Volumes 1-54",
+    "logo": "https://www.wdl.org/static/img/logos/wdl-152x152.3c48b49bd60d.png",
+    "metadata": [
+        {
+            "label": "Type of Item",
+            "value": "Books"
+        },
+        {
+            "label": "Institution",
+            "value": "Library of Congress"
+        },
+        {
+            "label": "Author",
+            "value": "Murasaki Shikibu, born 978?"
+        },
+        {
+            "label": "Illustrator",
+            "value": "Yamamoto, Shunshō, 1610-1682"
+        },
+        {
+            "label": "Date Created",
+            "value": "1654"
+        },
+        {
+            "label": "Subject Date",
+            "value": "1000/1050"
+        },
+        {
+            "label": "Publisher",
+            "value": "Yao Kanbē kaihan"
+        },
+        {
+            "label": "Place of Publication",
+            "value": "Kyoto, Japan"
+        },
+        {
+            "label": "Language",
+            "value": "Japanese"
+        },
+        {
+            "label": "Title in Original Language",
+            "value": {
+                "@language": "jpn",
+                "@value": "源氏物語"
+            }
+        },
+        {
+            "label": "Place",
+            "value": "East Asia > Japan"
+        },
+        {
+            "label": "Dewey Decimal Code",
+            "value": "895"
+        },
+        {
+            "label": "Additional Subjects",
+            "value": "Aristocracy (Social class)"
+        },
+        {
+            "label": "Additional Subjects",
+            "value": "Heian period"
+        },
+        {
+            "label": "Additional Subjects",
+            "value": "Japanese literature"
+        },
+        {
+            "label": "Additional Subjects",
+            "value": "Manners and customs"
+        },
+        {
+            "label": "Additional Subjects",
+            "value": "Princes"
+        },
+        {
+            "label": "Additional Subjects",
+            "value": "Romances"
+        },
+        {
+            "label": "Additional Subjects",
+            "value": "The Tale of Genji"
+        },
+        {
+            "label": "Institution",
+            "value": "Library of Congress"
+        },
+        {
+            "label": "Physical Description",
+            "value": "54 volumes : illustrated ; 27 centimeters"
+        },
+        {
+            "label": "Note",
+            "value": "Volume numbers assigned according to traditional sequence"
+        }
+    ],
+    "related": [
+        {
+            "@id": "http://hdl.loc.gov/loc.asian/asian0001.20050415000",
+            "format": "text/html"
+        },
+        {
+            "@id": "https://www.wdl.org/en/item/785/",
+            "format": "text/html"
+        }
+    ],
+    "rendering": [
+        {
+            "@id": "https://dl.wdl.org/785/service/785_1.pdf",
+            "format": "application/pdf"
+        },
+        {
+            "@id": "https://dl.wdl.org/785/service/785_2.pdf",
+            "format": "application/pdf"
+        },
+        {
+            "@id": "https://dl.wdl.org/785/service/785_3.pdf",
+            "format": "application/pdf"
+        },
+        {
+            "@id": "https://dl.wdl.org/785/service/785_4.pdf",
+            "format": "application/pdf"
+        },
+        {
+            "@id": "https://dl.wdl.org/785/service/785_5.pdf",
+            "format": "application/pdf"
+        },
+        {
+            "@id": "https://dl.wdl.org/785/service/785_6.pdf",
+            "format": "application/pdf"
+        },
+        {
+            "@id": "https://dl.wdl.org/785/service/785_7.pdf",
+            "format": "application/pdf"
+        },
+        {
+            "@id": "https://dl.wdl.org/785/service/785_8.pdf",
+            "format": "application/pdf"
+        },
+        {
+            "@id": "https://dl.wdl.org/785/service/785_9.pdf",
+            "format": "application/pdf"
+        },
+        {
+            "@id": "https://dl.wdl.org/785/service/785_10.pdf",
+            "format": "application/pdf"
+        },
+        {
+            "@id": "https://dl.wdl.org/785/service/785_11.pdf",
+            "format": "application/pdf"
+        },
+        {
+            "@id": "https://dl.wdl.org/785/service/785_12.pdf",
+            "format": "application/pdf"
+        },
+        {
+            "@id": "https://dl.wdl.org/785/service/785_13.pdf",
+            "format": "application/pdf"
+        },
+        {
+            "@id": "https://dl.wdl.org/785/service/785_14.pdf",
+            "format": "application/pdf"
+        },
+        {
+            "@id": "https://dl.wdl.org/785/service/785_15.pdf",
+            "format": "application/pdf"
+        },
+        {
+            "@id": "https://dl.wdl.org/785/service/785_16.pdf",
+            "format": "application/pdf"
+        },
+        {
+            "@id": "https://dl.wdl.org/785/service/785_17.pdf",
+            "format": "application/pdf"
+        },
+        {
+            "@id": "https://dl.wdl.org/785/service/785_18.pdf",
+            "format": "application/pdf"
+        },
+        {
+            "@id": "https://dl.wdl.org/785/service/785_19.pdf",
+            "format": "application/pdf"
+        },
+        {
+            "@id": "https://dl.wdl.org/785/service/785_20.pdf",
+            "format": "application/pdf"
+        },
+        {
+            "@id": "https://dl.wdl.org/785/service/785_21.pdf",
+            "format": "application/pdf"
+        },
+        {
+            "@id": "https://dl.wdl.org/785/service/785_22.pdf",
+            "format": "application/pdf"
+        },
+        {
+            "@id": "https://dl.wdl.org/785/service/785_23.pdf",
+            "format": "application/pdf"
+        },
+        {
+            "@id": "https://dl.wdl.org/785/service/785_24.pdf",
+            "format": "application/pdf"
+        },
+        {
+            "@id": "https://dl.wdl.org/785/service/785_25.pdf",
+            "format": "application/pdf"
+        },
+        {
+            "@id": "https://dl.wdl.org/785/service/785_26.pdf",
+            "format": "application/pdf"
+        },
+        {
+            "@id": "https://dl.wdl.org/785/service/785_27.pdf",
+            "format": "application/pdf"
+        },
+        {
+            "@id": "https://dl.wdl.org/785/service/785_28.pdf",
+            "format": "application/pdf"
+        },
+        {
+            "@id": "https://dl.wdl.org/785/service/785_29.pdf",
+            "format": "application/pdf"
+        },
+        {
+            "@id": "https://dl.wdl.org/785/service/785_30.pdf",
+            "format": "application/pdf"
+        },
+        {
+            "@id": "https://dl.wdl.org/785/service/785_31.pdf",
+            "format": "application/pdf"
+        },
+        {
+            "@id": "https://dl.wdl.org/785/service/785_32.pdf",
+            "format": "application/pdf"
+        },
+        {
+            "@id": "https://dl.wdl.org/785/service/785_33.pdf",
+            "format": "application/pdf"
+        },
+        {
+            "@id": "https://dl.wdl.org/785/service/785_34.pdf",
+            "format": "application/pdf"
+        },
+        {
+            "@id": "https://dl.wdl.org/785/service/785_35.pdf",
+            "format": "application/pdf"
+        },
+        {
+            "@id": "https://dl.wdl.org/785/service/785_36.pdf",
+            "format": "application/pdf"
+        },
+        {
+            "@id": "https://dl.wdl.org/785/service/785_37.pdf",
+            "format": "application/pdf"
+        },
+        {
+            "@id": "https://dl.wdl.org/785/service/785_38.pdf",
+            "format": "application/pdf"
+        },
+        {
+            "@id": "https://dl.wdl.org/785/service/785_39.pdf",
+            "format": "application/pdf"
+        },
+        {
+            "@id": "https://dl.wdl.org/785/service/785_40.pdf",
+            "format": "application/pdf"
+        },
+        {
+            "@id": "https://dl.wdl.org/785/service/785_41.pdf",
+            "format": "application/pdf"
+        },
+        {
+            "@id": "https://dl.wdl.org/785/service/785_42.pdf",
+            "format": "application/pdf"
+        },
+        {
+            "@id": "https://dl.wdl.org/785/service/785_43.pdf",
+            "format": "application/pdf"
+        },
+        {
+            "@id": "https://dl.wdl.org/785/service/785_44.pdf",
+            "format": "application/pdf"
+        },
+        {
+            "@id": "https://dl.wdl.org/785/service/785_45.pdf",
+            "format": "application/pdf"
+        },
+        {
+            "@id": "https://dl.wdl.org/785/service/785_46.pdf",
+            "format": "application/pdf"
+        },
+        {
+            "@id": "https://dl.wdl.org/785/service/785_47.pdf",
+            "format": "application/pdf"
+        },
+        {
+            "@id": "https://dl.wdl.org/785/service/785_48.pdf",
+            "format": "application/pdf"
+        },
+        {
+            "@id": "https://dl.wdl.org/785/service/785_49.pdf",
+            "format": "application/pdf"
+        },
+        {
+            "@id": "https://dl.wdl.org/785/service/785_50.pdf",
+            "format": "application/pdf"
+        },
+        {
+            "@id": "https://dl.wdl.org/785/service/785_51.pdf",
+            "format": "application/pdf"
+        },
+        {
+            "@id": "https://dl.wdl.org/785/service/785_52.pdf",
+            "format": "application/pdf"
+        },
+        {
+            "@id": "https://dl.wdl.org/785/service/785_53.pdf",
+            "format": "application/pdf"
+        },
+        {
+            "@id": "https://dl.wdl.org/785/service/785_54.pdf",
+            "format": "application/pdf"
+        }
+    ],
+    "sequences": [
+        {
+            "@id": "https://www.wdl.org/en/item/785/iiif/sequence/1/",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/1/",
+                    "@type": "sc:Canvas",
+                    "height": 1024,
+                    "images": [
+                        {
+                            "@id": "https://www.wdl.org/en/item/785/view/1/1/",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/1/",
+                            "resource": {
+                                "@id": "https://content.wdl.org/iiif/785,1,1/full/!1024,1024/0/default.jpg",
+                                "@type": "dcterms:Image",
+                                "format": "image/jpeg",
+                                "height": 1024,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://content.wdl.org/iiif/785,1,1",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                },
+                                "width": 1024
+                            }
+                        }
+                    ],
+                    "label": "Page 1",
+                    "thumbnail": {
+                        "@id": "https://content.wdl.org/785/service/thumbnail/256x256/1/1.jpg",
+                        "@type": "dcTypes:Image",
+                        "format": "image/jpeg",
+                        "height": 256,
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://content.wdl.org/iiif/785,1,1",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        },
+                        "width": 256
+                    },
+                    "width": 1024
+                },
+                {
+                    "@id": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/2/",
+                    "@type": "sc:Canvas",
+                    "height": 1024,
+                    "images": [
+                        {
+                            "@id": "https://www.wdl.org/en/item/785/view/1/2/",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/2/",
+                            "resource": {
+                                "@id": "https://content.wdl.org/iiif/785,1,2/full/!1024,1024/0/default.jpg",
+                                "@type": "dcterms:Image",
+                                "format": "image/jpeg",
+                                "height": 1024,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://content.wdl.org/iiif/785,1,2",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                },
+                                "width": 1024
+                            }
+                        }
+                    ],
+                    "label": "Page 2",
+                    "thumbnail": {
+                        "@id": "https://content.wdl.org/785/service/thumbnail/256x256/1/2.jpg",
+                        "@type": "dcTypes:Image",
+                        "format": "image/jpeg",
+                        "height": 256,
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://content.wdl.org/iiif/785,1,2",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        },
+                        "width": 256
+                    },
+                    "width": 1024
+                },
+                {
+                    "@id": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/3/",
+                    "@type": "sc:Canvas",
+                    "height": 1024,
+                    "images": [
+                        {
+                            "@id": "https://www.wdl.org/en/item/785/view/1/3/",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/3/",
+                            "resource": {
+                                "@id": "https://content.wdl.org/iiif/785,1,3/full/!1024,1024/0/default.jpg",
+                                "@type": "dcterms:Image",
+                                "format": "image/jpeg",
+                                "height": 1024,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://content.wdl.org/iiif/785,1,3",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                },
+                                "width": 1024
+                            }
+                        }
+                    ],
+                    "label": "Page 3",
+                    "thumbnail": {
+                        "@id": "https://content.wdl.org/785/service/thumbnail/256x256/1/3.jpg",
+                        "@type": "dcTypes:Image",
+                        "format": "image/jpeg",
+                        "height": 256,
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://content.wdl.org/iiif/785,1,3",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        },
+                        "width": 256
+                    },
+                    "width": 1024
+                },
+                {
+                    "@id": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/4/",
+                    "@type": "sc:Canvas",
+                    "height": 1024,
+                    "images": [
+                        {
+                            "@id": "https://www.wdl.org/en/item/785/view/1/4/",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/4/",
+                            "resource": {
+                                "@id": "https://content.wdl.org/iiif/785,1,4/full/!1024,1024/0/default.jpg",
+                                "@type": "dcterms:Image",
+                                "format": "image/jpeg",
+                                "height": 1024,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://content.wdl.org/iiif/785,1,4",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                },
+                                "width": 1024
+                            }
+                        }
+                    ],
+                    "label": "Page 4",
+                    "thumbnail": {
+                        "@id": "https://content.wdl.org/785/service/thumbnail/256x256/1/4.jpg",
+                        "@type": "dcTypes:Image",
+                        "format": "image/jpeg",
+                        "height": 256,
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://content.wdl.org/iiif/785,1,4",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        },
+                        "width": 256
+                    },
+                    "width": 1024
+                },
+                {
+                    "@id": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/5/",
+                    "@type": "sc:Canvas",
+                    "height": 1024,
+                    "images": [
+                        {
+                            "@id": "https://www.wdl.org/en/item/785/view/1/5/",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/5/",
+                            "resource": {
+                                "@id": "https://content.wdl.org/iiif/785,1,5/full/!1024,1024/0/default.jpg",
+                                "@type": "dcterms:Image",
+                                "format": "image/jpeg",
+                                "height": 1024,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://content.wdl.org/iiif/785,1,5",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                },
+                                "width": 1024
+                            }
+                        }
+                    ],
+                    "label": "Page 5",
+                    "thumbnail": {
+                        "@id": "https://content.wdl.org/785/service/thumbnail/256x256/1/5.jpg",
+                        "@type": "dcTypes:Image",
+                        "format": "image/jpeg",
+                        "height": 256,
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://content.wdl.org/iiif/785,1,5",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        },
+                        "width": 256
+                    },
+                    "width": 1024
+                },
+                {
+                    "@id": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/6/",
+                    "@type": "sc:Canvas",
+                    "height": 1024,
+                    "images": [
+                        {
+                            "@id": "https://www.wdl.org/en/item/785/view/1/6/",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/6/",
+                            "resource": {
+                                "@id": "https://content.wdl.org/iiif/785,1,6/full/!1024,1024/0/default.jpg",
+                                "@type": "dcterms:Image",
+                                "format": "image/jpeg",
+                                "height": 1024,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://content.wdl.org/iiif/785,1,6",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                },
+                                "width": 1024
+                            }
+                        }
+                    ],
+                    "label": "Page 6",
+                    "thumbnail": {
+                        "@id": "https://content.wdl.org/785/service/thumbnail/256x256/1/6.jpg",
+                        "@type": "dcTypes:Image",
+                        "format": "image/jpeg",
+                        "height": 256,
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://content.wdl.org/iiif/785,1,6",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        },
+                        "width": 256
+                    },
+                    "width": 1024
+                },
+                {
+                    "@id": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/7/",
+                    "@type": "sc:Canvas",
+                    "height": 1024,
+                    "images": [
+                        {
+                            "@id": "https://www.wdl.org/en/item/785/view/1/7/",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/7/",
+                            "resource": {
+                                "@id": "https://content.wdl.org/iiif/785,1,7/full/!1024,1024/0/default.jpg",
+                                "@type": "dcterms:Image",
+                                "format": "image/jpeg",
+                                "height": 1024,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://content.wdl.org/iiif/785,1,7",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                },
+                                "width": 1024
+                            }
+                        }
+                    ],
+                    "label": "Page 7",
+                    "thumbnail": {
+                        "@id": "https://content.wdl.org/785/service/thumbnail/256x256/1/7.jpg",
+                        "@type": "dcTypes:Image",
+                        "format": "image/jpeg",
+                        "height": 256,
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://content.wdl.org/iiif/785,1,7",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        },
+                        "width": 256
+                    },
+                    "width": 1024
+                },
+                {
+                    "@id": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/8/",
+                    "@type": "sc:Canvas",
+                    "height": 1024,
+                    "images": [
+                        {
+                            "@id": "https://www.wdl.org/en/item/785/view/1/8/",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/8/",
+                            "resource": {
+                                "@id": "https://content.wdl.org/iiif/785,1,8/full/!1024,1024/0/default.jpg",
+                                "@type": "dcterms:Image",
+                                "format": "image/jpeg",
+                                "height": 1024,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://content.wdl.org/iiif/785,1,8",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                },
+                                "width": 1024
+                            }
+                        }
+                    ],
+                    "label": "Page 8",
+                    "thumbnail": {
+                        "@id": "https://content.wdl.org/785/service/thumbnail/256x256/1/8.jpg",
+                        "@type": "dcTypes:Image",
+                        "format": "image/jpeg",
+                        "height": 256,
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://content.wdl.org/iiif/785,1,8",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        },
+                        "width": 256
+                    },
+                    "width": 1024
+                },
+                {
+                    "@id": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/9/",
+                    "@type": "sc:Canvas",
+                    "height": 1024,
+                    "images": [
+                        {
+                            "@id": "https://www.wdl.org/en/item/785/view/1/9/",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/9/",
+                            "resource": {
+                                "@id": "https://content.wdl.org/iiif/785,1,9/full/!1024,1024/0/default.jpg",
+                                "@type": "dcterms:Image",
+                                "format": "image/jpeg",
+                                "height": 1024,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://content.wdl.org/iiif/785,1,9",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                },
+                                "width": 1024
+                            }
+                        }
+                    ],
+                    "label": "Page 9",
+                    "thumbnail": {
+                        "@id": "https://content.wdl.org/785/service/thumbnail/256x256/1/9.jpg",
+                        "@type": "dcTypes:Image",
+                        "format": "image/jpeg",
+                        "height": 256,
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://content.wdl.org/iiif/785,1,9",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        },
+                        "width": 256
+                    },
+                    "width": 1024
+                },
+                {
+                    "@id": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/10/",
+                    "@type": "sc:Canvas",
+                    "height": 1024,
+                    "images": [
+                        {
+                            "@id": "https://www.wdl.org/en/item/785/view/1/10/",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/10/",
+                            "resource": {
+                                "@id": "https://content.wdl.org/iiif/785,1,10/full/!1024,1024/0/default.jpg",
+                                "@type": "dcterms:Image",
+                                "format": "image/jpeg",
+                                "height": 1024,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://content.wdl.org/iiif/785,1,10",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                },
+                                "width": 1024
+                            }
+                        }
+                    ],
+                    "label": "Page 10",
+                    "thumbnail": {
+                        "@id": "https://content.wdl.org/785/service/thumbnail/256x256/1/10.jpg",
+                        "@type": "dcTypes:Image",
+                        "format": "image/jpeg",
+                        "height": 256,
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://content.wdl.org/iiif/785,1,10",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        },
+                        "width": 256
+                    },
+                    "width": 1024
+                },
+                {
+                    "@id": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/11/",
+                    "@type": "sc:Canvas",
+                    "height": 1024,
+                    "images": [
+                        {
+                            "@id": "https://www.wdl.org/en/item/785/view/1/11/",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/11/",
+                            "resource": {
+                                "@id": "https://content.wdl.org/iiif/785,1,11/full/!1024,1024/0/default.jpg",
+                                "@type": "dcterms:Image",
+                                "format": "image/jpeg",
+                                "height": 1024,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://content.wdl.org/iiif/785,1,11",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                },
+                                "width": 1024
+                            }
+                        }
+                    ],
+                    "label": "Page 11",
+                    "thumbnail": {
+                        "@id": "https://content.wdl.org/785/service/thumbnail/256x256/1/11.jpg",
+                        "@type": "dcTypes:Image",
+                        "format": "image/jpeg",
+                        "height": 256,
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://content.wdl.org/iiif/785,1,11",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        },
+                        "width": 256
+                    },
+                    "width": 1024
+                },
+                {
+                    "@id": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/12/",
+                    "@type": "sc:Canvas",
+                    "height": 1024,
+                    "images": [
+                        {
+                            "@id": "https://www.wdl.org/en/item/785/view/1/12/",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/12/",
+                            "resource": {
+                                "@id": "https://content.wdl.org/iiif/785,1,12/full/!1024,1024/0/default.jpg",
+                                "@type": "dcterms:Image",
+                                "format": "image/jpeg",
+                                "height": 1024,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://content.wdl.org/iiif/785,1,12",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                },
+                                "width": 1024
+                            }
+                        }
+                    ],
+                    "label": "Page 12",
+                    "thumbnail": {
+                        "@id": "https://content.wdl.org/785/service/thumbnail/256x256/1/12.jpg",
+                        "@type": "dcTypes:Image",
+                        "format": "image/jpeg",
+                        "height": 256,
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://content.wdl.org/iiif/785,1,12",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        },
+                        "width": 256
+                    },
+                    "width": 1024
+                },
+                {
+                    "@id": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/13/",
+                    "@type": "sc:Canvas",
+                    "height": 1024,
+                    "images": [
+                        {
+                            "@id": "https://www.wdl.org/en/item/785/view/1/13/",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/13/",
+                            "resource": {
+                                "@id": "https://content.wdl.org/iiif/785,1,13/full/!1024,1024/0/default.jpg",
+                                "@type": "dcterms:Image",
+                                "format": "image/jpeg",
+                                "height": 1024,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://content.wdl.org/iiif/785,1,13",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                },
+                                "width": 1024
+                            }
+                        }
+                    ],
+                    "label": "Page 13",
+                    "thumbnail": {
+                        "@id": "https://content.wdl.org/785/service/thumbnail/256x256/1/13.jpg",
+                        "@type": "dcTypes:Image",
+                        "format": "image/jpeg",
+                        "height": 256,
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://content.wdl.org/iiif/785,1,13",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        },
+                        "width": 256
+                    },
+                    "width": 1024
+                },
+                {
+                    "@id": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/14/",
+                    "@type": "sc:Canvas",
+                    "height": 1024,
+                    "images": [
+                        {
+                            "@id": "https://www.wdl.org/en/item/785/view/1/14/",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/14/",
+                            "resource": {
+                                "@id": "https://content.wdl.org/iiif/785,1,14/full/!1024,1024/0/default.jpg",
+                                "@type": "dcterms:Image",
+                                "format": "image/jpeg",
+                                "height": 1024,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://content.wdl.org/iiif/785,1,14",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                },
+                                "width": 1024
+                            }
+                        }
+                    ],
+                    "label": "Page 14",
+                    "thumbnail": {
+                        "@id": "https://content.wdl.org/785/service/thumbnail/256x256/1/14.jpg",
+                        "@type": "dcTypes:Image",
+                        "format": "image/jpeg",
+                        "height": 256,
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://content.wdl.org/iiif/785,1,14",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        },
+                        "width": 256
+                    },
+                    "width": 1024
+                },
+                {
+                    "@id": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/15/",
+                    "@type": "sc:Canvas",
+                    "height": 1024,
+                    "images": [
+                        {
+                            "@id": "https://www.wdl.org/en/item/785/view/1/15/",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/15/",
+                            "resource": {
+                                "@id": "https://content.wdl.org/iiif/785,1,15/full/!1024,1024/0/default.jpg",
+                                "@type": "dcterms:Image",
+                                "format": "image/jpeg",
+                                "height": 1024,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://content.wdl.org/iiif/785,1,15",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                },
+                                "width": 1024
+                            }
+                        }
+                    ],
+                    "label": "Page 15",
+                    "thumbnail": {
+                        "@id": "https://content.wdl.org/785/service/thumbnail/256x256/1/15.jpg",
+                        "@type": "dcTypes:Image",
+                        "format": "image/jpeg",
+                        "height": 256,
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://content.wdl.org/iiif/785,1,15",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        },
+                        "width": 256
+                    },
+                    "width": 1024
+                },
+                {
+                    "@id": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/16/",
+                    "@type": "sc:Canvas",
+                    "height": 1024,
+                    "images": [
+                        {
+                            "@id": "https://www.wdl.org/en/item/785/view/1/16/",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/16/",
+                            "resource": {
+                                "@id": "https://content.wdl.org/iiif/785,1,16/full/!1024,1024/0/default.jpg",
+                                "@type": "dcterms:Image",
+                                "format": "image/jpeg",
+                                "height": 1024,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://content.wdl.org/iiif/785,1,16",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                },
+                                "width": 1024
+                            }
+                        }
+                    ],
+                    "label": "Page 16",
+                    "thumbnail": {
+                        "@id": "https://content.wdl.org/785/service/thumbnail/256x256/1/16.jpg",
+                        "@type": "dcTypes:Image",
+                        "format": "image/jpeg",
+                        "height": 256,
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://content.wdl.org/iiif/785,1,16",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        },
+                        "width": 256
+                    },
+                    "width": 1024
+                },
+                {
+                    "@id": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/17/",
+                    "@type": "sc:Canvas",
+                    "height": 1024,
+                    "images": [
+                        {
+                            "@id": "https://www.wdl.org/en/item/785/view/1/17/",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/17/",
+                            "resource": {
+                                "@id": "https://content.wdl.org/iiif/785,1,17/full/!1024,1024/0/default.jpg",
+                                "@type": "dcterms:Image",
+                                "format": "image/jpeg",
+                                "height": 1024,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://content.wdl.org/iiif/785,1,17",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                },
+                                "width": 1024
+                            }
+                        }
+                    ],
+                    "label": "Page 17",
+                    "thumbnail": {
+                        "@id": "https://content.wdl.org/785/service/thumbnail/256x256/1/17.jpg",
+                        "@type": "dcTypes:Image",
+                        "format": "image/jpeg",
+                        "height": 256,
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://content.wdl.org/iiif/785,1,17",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        },
+                        "width": 256
+                    },
+                    "width": 1024
+                },
+                {
+                    "@id": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/18/",
+                    "@type": "sc:Canvas",
+                    "height": 1024,
+                    "images": [
+                        {
+                            "@id": "https://www.wdl.org/en/item/785/view/1/18/",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/18/",
+                            "resource": {
+                                "@id": "https://content.wdl.org/iiif/785,1,18/full/!1024,1024/0/default.jpg",
+                                "@type": "dcterms:Image",
+                                "format": "image/jpeg",
+                                "height": 1024,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://content.wdl.org/iiif/785,1,18",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                },
+                                "width": 1024
+                            }
+                        }
+                    ],
+                    "label": "Page 18",
+                    "thumbnail": {
+                        "@id": "https://content.wdl.org/785/service/thumbnail/256x256/1/18.jpg",
+                        "@type": "dcTypes:Image",
+                        "format": "image/jpeg",
+                        "height": 256,
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://content.wdl.org/iiif/785,1,18",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        },
+                        "width": 256
+                    },
+                    "width": 1024
+                },
+                {
+                    "@id": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/19/",
+                    "@type": "sc:Canvas",
+                    "height": 1024,
+                    "images": [
+                        {
+                            "@id": "https://www.wdl.org/en/item/785/view/1/19/",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/19/",
+                            "resource": {
+                                "@id": "https://content.wdl.org/iiif/785,1,19/full/!1024,1024/0/default.jpg",
+                                "@type": "dcterms:Image",
+                                "format": "image/jpeg",
+                                "height": 1024,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://content.wdl.org/iiif/785,1,19",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                },
+                                "width": 1024
+                            }
+                        }
+                    ],
+                    "label": "Page 19",
+                    "thumbnail": {
+                        "@id": "https://content.wdl.org/785/service/thumbnail/256x256/1/19.jpg",
+                        "@type": "dcTypes:Image",
+                        "format": "image/jpeg",
+                        "height": 256,
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://content.wdl.org/iiif/785,1,19",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        },
+                        "width": 256
+                    },
+                    "width": 1024
+                },
+                {
+                    "@id": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/20/",
+                    "@type": "sc:Canvas",
+                    "height": 1024,
+                    "images": [
+                        {
+                            "@id": "https://www.wdl.org/en/item/785/view/1/20/",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/20/",
+                            "resource": {
+                                "@id": "https://content.wdl.org/iiif/785,1,20/full/!1024,1024/0/default.jpg",
+                                "@type": "dcterms:Image",
+                                "format": "image/jpeg",
+                                "height": 1024,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://content.wdl.org/iiif/785,1,20",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                },
+                                "width": 1024
+                            }
+                        }
+                    ],
+                    "label": "Page 20",
+                    "thumbnail": {
+                        "@id": "https://content.wdl.org/785/service/thumbnail/256x256/1/20.jpg",
+                        "@type": "dcTypes:Image",
+                        "format": "image/jpeg",
+                        "height": 256,
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://content.wdl.org/iiif/785,1,20",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        },
+                        "width": 256
+                    },
+                    "width": 1024
+                },
+                {
+                    "@id": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/21/",
+                    "@type": "sc:Canvas",
+                    "height": 1024,
+                    "images": [
+                        {
+                            "@id": "https://www.wdl.org/en/item/785/view/1/21/",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/21/",
+                            "resource": {
+                                "@id": "https://content.wdl.org/iiif/785,1,21/full/!1024,1024/0/default.jpg",
+                                "@type": "dcterms:Image",
+                                "format": "image/jpeg",
+                                "height": 1024,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://content.wdl.org/iiif/785,1,21",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                },
+                                "width": 1024
+                            }
+                        }
+                    ],
+                    "label": "Page 21",
+                    "thumbnail": {
+                        "@id": "https://content.wdl.org/785/service/thumbnail/256x256/1/21.jpg",
+                        "@type": "dcTypes:Image",
+                        "format": "image/jpeg",
+                        "height": 256,
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://content.wdl.org/iiif/785,1,21",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        },
+                        "width": 256
+                    },
+                    "width": 1024
+                },
+                {
+                    "@id": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/22/",
+                    "@type": "sc:Canvas",
+                    "height": 1024,
+                    "images": [
+                        {
+                            "@id": "https://www.wdl.org/en/item/785/view/1/22/",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/22/",
+                            "resource": {
+                                "@id": "https://content.wdl.org/iiif/785,1,22/full/!1024,1024/0/default.jpg",
+                                "@type": "dcterms:Image",
+                                "format": "image/jpeg",
+                                "height": 1024,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://content.wdl.org/iiif/785,1,22",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                },
+                                "width": 1024
+                            }
+                        }
+                    ],
+                    "label": "Page 22",
+                    "thumbnail": {
+                        "@id": "https://content.wdl.org/785/service/thumbnail/256x256/1/22.jpg",
+                        "@type": "dcTypes:Image",
+                        "format": "image/jpeg",
+                        "height": 256,
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://content.wdl.org/iiif/785,1,22",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        },
+                        "width": 256
+                    },
+                    "width": 1024
+                },
+                {
+                    "@id": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/23/",
+                    "@type": "sc:Canvas",
+                    "height": 1024,
+                    "images": [
+                        {
+                            "@id": "https://www.wdl.org/en/item/785/view/1/23/",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/23/",
+                            "resource": {
+                                "@id": "https://content.wdl.org/iiif/785,1,23/full/!1024,1024/0/default.jpg",
+                                "@type": "dcterms:Image",
+                                "format": "image/jpeg",
+                                "height": 1024,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://content.wdl.org/iiif/785,1,23",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                },
+                                "width": 1024
+                            }
+                        }
+                    ],
+                    "label": "Page 23",
+                    "thumbnail": {
+                        "@id": "https://content.wdl.org/785/service/thumbnail/256x256/1/23.jpg",
+                        "@type": "dcTypes:Image",
+                        "format": "image/jpeg",
+                        "height": 256,
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://content.wdl.org/iiif/785,1,23",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        },
+                        "width": 256
+                    },
+                    "width": 1024
+                },
+                {
+                    "@id": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/24/",
+                    "@type": "sc:Canvas",
+                    "height": 1024,
+                    "images": [
+                        {
+                            "@id": "https://www.wdl.org/en/item/785/view/1/24/",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/24/",
+                            "resource": {
+                                "@id": "https://content.wdl.org/iiif/785,1,24/full/!1024,1024/0/default.jpg",
+                                "@type": "dcterms:Image",
+                                "format": "image/jpeg",
+                                "height": 1024,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://content.wdl.org/iiif/785,1,24",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                },
+                                "width": 1024
+                            }
+                        }
+                    ],
+                    "label": "Page 24",
+                    "thumbnail": {
+                        "@id": "https://content.wdl.org/785/service/thumbnail/256x256/1/24.jpg",
+                        "@type": "dcTypes:Image",
+                        "format": "image/jpeg",
+                        "height": 256,
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://content.wdl.org/iiif/785,1,24",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        },
+                        "width": 256
+                    },
+                    "width": 1024
+                },
+                {
+                    "@id": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/25/",
+                    "@type": "sc:Canvas",
+                    "height": 1024,
+                    "images": [
+                        {
+                            "@id": "https://www.wdl.org/en/item/785/view/1/25/",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/25/",
+                            "resource": {
+                                "@id": "https://content.wdl.org/iiif/785,1,25/full/!1024,1024/0/default.jpg",
+                                "@type": "dcterms:Image",
+                                "format": "image/jpeg",
+                                "height": 1024,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://content.wdl.org/iiif/785,1,25",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                },
+                                "width": 1024
+                            }
+                        }
+                    ],
+                    "label": "Page 25",
+                    "thumbnail": {
+                        "@id": "https://content.wdl.org/785/service/thumbnail/256x256/1/25.jpg",
+                        "@type": "dcTypes:Image",
+                        "format": "image/jpeg",
+                        "height": 256,
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://content.wdl.org/iiif/785,1,25",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        },
+                        "width": 256
+                    },
+                    "width": 1024
+                },
+                {
+                    "@id": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/26/",
+                    "@type": "sc:Canvas",
+                    "height": 1024,
+                    "images": [
+                        {
+                            "@id": "https://www.wdl.org/en/item/785/view/1/26/",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/26/",
+                            "resource": {
+                                "@id": "https://content.wdl.org/iiif/785,1,26/full/!1024,1024/0/default.jpg",
+                                "@type": "dcterms:Image",
+                                "format": "image/jpeg",
+                                "height": 1024,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://content.wdl.org/iiif/785,1,26",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                },
+                                "width": 1024
+                            }
+                        }
+                    ],
+                    "label": "Page 26",
+                    "thumbnail": {
+                        "@id": "https://content.wdl.org/785/service/thumbnail/256x256/1/26.jpg",
+                        "@type": "dcTypes:Image",
+                        "format": "image/jpeg",
+                        "height": 256,
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://content.wdl.org/iiif/785,1,26",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        },
+                        "width": 256
+                    },
+                    "width": 1024
+                },
+                {
+                    "@id": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/27/",
+                    "@type": "sc:Canvas",
+                    "height": 1024,
+                    "images": [
+                        {
+                            "@id": "https://www.wdl.org/en/item/785/view/1/27/",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/27/",
+                            "resource": {
+                                "@id": "https://content.wdl.org/iiif/785,1,27/full/!1024,1024/0/default.jpg",
+                                "@type": "dcterms:Image",
+                                "format": "image/jpeg",
+                                "height": 1024,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://content.wdl.org/iiif/785,1,27",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                },
+                                "width": 1024
+                            }
+                        }
+                    ],
+                    "label": "Page 27",
+                    "thumbnail": {
+                        "@id": "https://content.wdl.org/785/service/thumbnail/256x256/1/27.jpg",
+                        "@type": "dcTypes:Image",
+                        "format": "image/jpeg",
+                        "height": 256,
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://content.wdl.org/iiif/785,1,27",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        },
+                        "width": 256
+                    },
+                    "width": 1024
+                },
+                {
+                    "@id": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/28/",
+                    "@type": "sc:Canvas",
+                    "height": 1024,
+                    "images": [
+                        {
+                            "@id": "https://www.wdl.org/en/item/785/view/1/28/",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/28/",
+                            "resource": {
+                                "@id": "https://content.wdl.org/iiif/785,1,28/full/!1024,1024/0/default.jpg",
+                                "@type": "dcterms:Image",
+                                "format": "image/jpeg",
+                                "height": 1024,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://content.wdl.org/iiif/785,1,28",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                },
+                                "width": 1024
+                            }
+                        }
+                    ],
+                    "label": "Page 28",
+                    "thumbnail": {
+                        "@id": "https://content.wdl.org/785/service/thumbnail/256x256/1/28.jpg",
+                        "@type": "dcTypes:Image",
+                        "format": "image/jpeg",
+                        "height": 256,
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://content.wdl.org/iiif/785,1,28",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        },
+                        "width": 256
+                    },
+                    "width": 1024
+                },
+                {
+                    "@id": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/29/",
+                    "@type": "sc:Canvas",
+                    "height": 1024,
+                    "images": [
+                        {
+                            "@id": "https://www.wdl.org/en/item/785/view/1/29/",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/29/",
+                            "resource": {
+                                "@id": "https://content.wdl.org/iiif/785,1,29/full/!1024,1024/0/default.jpg",
+                                "@type": "dcterms:Image",
+                                "format": "image/jpeg",
+                                "height": 1024,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://content.wdl.org/iiif/785,1,29",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                },
+                                "width": 1024
+                            }
+                        }
+                    ],
+                    "label": "Page 29",
+                    "thumbnail": {
+                        "@id": "https://content.wdl.org/785/service/thumbnail/256x256/1/29.jpg",
+                        "@type": "dcTypes:Image",
+                        "format": "image/jpeg",
+                        "height": 256,
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://content.wdl.org/iiif/785,1,29",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        },
+                        "width": 256
+                    },
+                    "width": 1024
+                },
+                {
+                    "@id": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/30/",
+                    "@type": "sc:Canvas",
+                    "height": 1024,
+                    "images": [
+                        {
+                            "@id": "https://www.wdl.org/en/item/785/view/1/30/",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/30/",
+                            "resource": {
+                                "@id": "https://content.wdl.org/iiif/785,1,30/full/!1024,1024/0/default.jpg",
+                                "@type": "dcterms:Image",
+                                "format": "image/jpeg",
+                                "height": 1024,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://content.wdl.org/iiif/785,1,30",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                },
+                                "width": 1024
+                            }
+                        }
+                    ],
+                    "label": "Page 30",
+                    "thumbnail": {
+                        "@id": "https://content.wdl.org/785/service/thumbnail/256x256/1/30.jpg",
+                        "@type": "dcTypes:Image",
+                        "format": "image/jpeg",
+                        "height": 256,
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://content.wdl.org/iiif/785,1,30",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        },
+                        "width": 256
+                    },
+                    "width": 1024
+                },
+                {
+                    "@id": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/31/",
+                    "@type": "sc:Canvas",
+                    "height": 1024,
+                    "images": [
+                        {
+                            "@id": "https://www.wdl.org/en/item/785/view/1/31/",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/31/",
+                            "resource": {
+                                "@id": "https://content.wdl.org/iiif/785,1,31/full/!1024,1024/0/default.jpg",
+                                "@type": "dcterms:Image",
+                                "format": "image/jpeg",
+                                "height": 1024,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://content.wdl.org/iiif/785,1,31",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                },
+                                "width": 1024
+                            }
+                        }
+                    ],
+                    "label": "Page 31",
+                    "thumbnail": {
+                        "@id": "https://content.wdl.org/785/service/thumbnail/256x256/1/31.jpg",
+                        "@type": "dcTypes:Image",
+                        "format": "image/jpeg",
+                        "height": 256,
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://content.wdl.org/iiif/785,1,31",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        },
+                        "width": 256
+                    },
+                    "width": 1024
+                },
+                {
+                    "@id": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/32/",
+                    "@type": "sc:Canvas",
+                    "height": 1024,
+                    "images": [
+                        {
+                            "@id": "https://www.wdl.org/en/item/785/view/1/32/",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/32/",
+                            "resource": {
+                                "@id": "https://content.wdl.org/iiif/785,1,32/full/!1024,1024/0/default.jpg",
+                                "@type": "dcterms:Image",
+                                "format": "image/jpeg",
+                                "height": 1024,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://content.wdl.org/iiif/785,1,32",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                },
+                                "width": 1024
+                            }
+                        }
+                    ],
+                    "label": "Page 32",
+                    "thumbnail": {
+                        "@id": "https://content.wdl.org/785/service/thumbnail/256x256/1/32.jpg",
+                        "@type": "dcTypes:Image",
+                        "format": "image/jpeg",
+                        "height": 256,
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://content.wdl.org/iiif/785,1,32",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        },
+                        "width": 256
+                    },
+                    "width": 1024
+                },
+                {
+                    "@id": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/33/",
+                    "@type": "sc:Canvas",
+                    "height": 1024,
+                    "images": [
+                        {
+                            "@id": "https://www.wdl.org/en/item/785/view/1/33/",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/33/",
+                            "resource": {
+                                "@id": "https://content.wdl.org/iiif/785,1,33/full/!1024,1024/0/default.jpg",
+                                "@type": "dcterms:Image",
+                                "format": "image/jpeg",
+                                "height": 1024,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://content.wdl.org/iiif/785,1,33",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                },
+                                "width": 1024
+                            }
+                        }
+                    ],
+                    "label": "Page 33",
+                    "thumbnail": {
+                        "@id": "https://content.wdl.org/785/service/thumbnail/256x256/1/33.jpg",
+                        "@type": "dcTypes:Image",
+                        "format": "image/jpeg",
+                        "height": 256,
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://content.wdl.org/iiif/785,1,33",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        },
+                        "width": 256
+                    },
+                    "width": 1024
+                },
+                {
+                    "@id": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/34/",
+                    "@type": "sc:Canvas",
+                    "height": 1024,
+                    "images": [
+                        {
+                            "@id": "https://www.wdl.org/en/item/785/view/1/34/",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/34/",
+                            "resource": {
+                                "@id": "https://content.wdl.org/iiif/785,1,34/full/!1024,1024/0/default.jpg",
+                                "@type": "dcterms:Image",
+                                "format": "image/jpeg",
+                                "height": 1024,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://content.wdl.org/iiif/785,1,34",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                },
+                                "width": 1024
+                            }
+                        }
+                    ],
+                    "label": "Page 34",
+                    "thumbnail": {
+                        "@id": "https://content.wdl.org/785/service/thumbnail/256x256/1/34.jpg",
+                        "@type": "dcTypes:Image",
+                        "format": "image/jpeg",
+                        "height": 256,
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://content.wdl.org/iiif/785,1,34",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        },
+                        "width": 256
+                    },
+                    "width": 1024
+                },
+                {
+                    "@id": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/35/",
+                    "@type": "sc:Canvas",
+                    "height": 1024,
+                    "images": [
+                        {
+                            "@id": "https://www.wdl.org/en/item/785/view/1/35/",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/35/",
+                            "resource": {
+                                "@id": "https://content.wdl.org/iiif/785,1,35/full/!1024,1024/0/default.jpg",
+                                "@type": "dcterms:Image",
+                                "format": "image/jpeg",
+                                "height": 1024,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://content.wdl.org/iiif/785,1,35",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                },
+                                "width": 1024
+                            }
+                        }
+                    ],
+                    "label": "Page 35",
+                    "thumbnail": {
+                        "@id": "https://content.wdl.org/785/service/thumbnail/256x256/1/35.jpg",
+                        "@type": "dcTypes:Image",
+                        "format": "image/jpeg",
+                        "height": 256,
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://content.wdl.org/iiif/785,1,35",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        },
+                        "width": 256
+                    },
+                    "width": 1024
+                },
+                {
+                    "@id": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/36/",
+                    "@type": "sc:Canvas",
+                    "height": 1024,
+                    "images": [
+                        {
+                            "@id": "https://www.wdl.org/en/item/785/view/1/36/",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/36/",
+                            "resource": {
+                                "@id": "https://content.wdl.org/iiif/785,1,36/full/!1024,1024/0/default.jpg",
+                                "@type": "dcterms:Image",
+                                "format": "image/jpeg",
+                                "height": 1024,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://content.wdl.org/iiif/785,1,36",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                },
+                                "width": 1024
+                            }
+                        }
+                    ],
+                    "label": "Page 36",
+                    "thumbnail": {
+                        "@id": "https://content.wdl.org/785/service/thumbnail/256x256/1/36.jpg",
+                        "@type": "dcTypes:Image",
+                        "format": "image/jpeg",
+                        "height": 256,
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://content.wdl.org/iiif/785,1,36",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        },
+                        "width": 256
+                    },
+                    "width": 1024
+                },
+                {
+                    "@id": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/37/",
+                    "@type": "sc:Canvas",
+                    "height": 1024,
+                    "images": [
+                        {
+                            "@id": "https://www.wdl.org/en/item/785/view/1/37/",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/37/",
+                            "resource": {
+                                "@id": "https://content.wdl.org/iiif/785,1,37/full/!1024,1024/0/default.jpg",
+                                "@type": "dcterms:Image",
+                                "format": "image/jpeg",
+                                "height": 1024,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://content.wdl.org/iiif/785,1,37",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                },
+                                "width": 1024
+                            }
+                        }
+                    ],
+                    "label": "Page 37",
+                    "thumbnail": {
+                        "@id": "https://content.wdl.org/785/service/thumbnail/256x256/1/37.jpg",
+                        "@type": "dcTypes:Image",
+                        "format": "image/jpeg",
+                        "height": 256,
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://content.wdl.org/iiif/785,1,37",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        },
+                        "width": 256
+                    },
+                    "width": 1024
+                },
+                {
+                    "@id": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/38/",
+                    "@type": "sc:Canvas",
+                    "height": 1024,
+                    "images": [
+                        {
+                            "@id": "https://www.wdl.org/en/item/785/view/1/38/",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/38/",
+                            "resource": {
+                                "@id": "https://content.wdl.org/iiif/785,1,38/full/!1024,1024/0/default.jpg",
+                                "@type": "dcterms:Image",
+                                "format": "image/jpeg",
+                                "height": 1024,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://content.wdl.org/iiif/785,1,38",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                },
+                                "width": 1024
+                            }
+                        }
+                    ],
+                    "label": "Page 38",
+                    "thumbnail": {
+                        "@id": "https://content.wdl.org/785/service/thumbnail/256x256/1/38.jpg",
+                        "@type": "dcTypes:Image",
+                        "format": "image/jpeg",
+                        "height": 256,
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://content.wdl.org/iiif/785,1,38",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        },
+                        "width": 256
+                    },
+                    "width": 1024
+                },
+                {
+                    "@id": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/39/",
+                    "@type": "sc:Canvas",
+                    "height": 1024,
+                    "images": [
+                        {
+                            "@id": "https://www.wdl.org/en/item/785/view/1/39/",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/39/",
+                            "resource": {
+                                "@id": "https://content.wdl.org/iiif/785,1,39/full/!1024,1024/0/default.jpg",
+                                "@type": "dcterms:Image",
+                                "format": "image/jpeg",
+                                "height": 1024,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://content.wdl.org/iiif/785,1,39",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                },
+                                "width": 1024
+                            }
+                        }
+                    ],
+                    "label": "Page 39",
+                    "thumbnail": {
+                        "@id": "https://content.wdl.org/785/service/thumbnail/256x256/1/39.jpg",
+                        "@type": "dcTypes:Image",
+                        "format": "image/jpeg",
+                        "height": 256,
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://content.wdl.org/iiif/785,1,39",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        },
+                        "width": 256
+                    },
+                    "width": 1024
+                },
+                {
+                    "@id": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/40/",
+                    "@type": "sc:Canvas",
+                    "height": 1024,
+                    "images": [
+                        {
+                            "@id": "https://www.wdl.org/en/item/785/view/1/40/",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/40/",
+                            "resource": {
+                                "@id": "https://content.wdl.org/iiif/785,1,40/full/!1024,1024/0/default.jpg",
+                                "@type": "dcterms:Image",
+                                "format": "image/jpeg",
+                                "height": 1024,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://content.wdl.org/iiif/785,1,40",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                },
+                                "width": 1024
+                            }
+                        }
+                    ],
+                    "label": "Page 40",
+                    "thumbnail": {
+                        "@id": "https://content.wdl.org/785/service/thumbnail/256x256/1/40.jpg",
+                        "@type": "dcTypes:Image",
+                        "format": "image/jpeg",
+                        "height": 256,
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://content.wdl.org/iiif/785,1,40",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        },
+                        "width": 256
+                    },
+                    "width": 1024
+                },
+                {
+                    "@id": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/41/",
+                    "@type": "sc:Canvas",
+                    "height": 1024,
+                    "images": [
+                        {
+                            "@id": "https://www.wdl.org/en/item/785/view/1/41/",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/41/",
+                            "resource": {
+                                "@id": "https://content.wdl.org/iiif/785,1,41/full/!1024,1024/0/default.jpg",
+                                "@type": "dcterms:Image",
+                                "format": "image/jpeg",
+                                "height": 1024,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://content.wdl.org/iiif/785,1,41",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                },
+                                "width": 1024
+                            }
+                        }
+                    ],
+                    "label": "Page 41",
+                    "thumbnail": {
+                        "@id": "https://content.wdl.org/785/service/thumbnail/256x256/1/41.jpg",
+                        "@type": "dcTypes:Image",
+                        "format": "image/jpeg",
+                        "height": 256,
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://content.wdl.org/iiif/785,1,41",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        },
+                        "width": 256
+                    },
+                    "width": 1024
+                },
+                {
+                    "@id": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/42/",
+                    "@type": "sc:Canvas",
+                    "height": 1024,
+                    "images": [
+                        {
+                            "@id": "https://www.wdl.org/en/item/785/view/1/42/",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/42/",
+                            "resource": {
+                                "@id": "https://content.wdl.org/iiif/785,1,42/full/!1024,1024/0/default.jpg",
+                                "@type": "dcterms:Image",
+                                "format": "image/jpeg",
+                                "height": 1024,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://content.wdl.org/iiif/785,1,42",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                },
+                                "width": 1024
+                            }
+                        }
+                    ],
+                    "label": "Page 42",
+                    "thumbnail": {
+                        "@id": "https://content.wdl.org/785/service/thumbnail/256x256/1/42.jpg",
+                        "@type": "dcTypes:Image",
+                        "format": "image/jpeg",
+                        "height": 256,
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://content.wdl.org/iiif/785,1,42",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        },
+                        "width": 256
+                    },
+                    "width": 1024
+                },
+                {
+                    "@id": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/43/",
+                    "@type": "sc:Canvas",
+                    "height": 1024,
+                    "images": [
+                        {
+                            "@id": "https://www.wdl.org/en/item/785/view/1/43/",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/43/",
+                            "resource": {
+                                "@id": "https://content.wdl.org/iiif/785,1,43/full/!1024,1024/0/default.jpg",
+                                "@type": "dcterms:Image",
+                                "format": "image/jpeg",
+                                "height": 1024,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://content.wdl.org/iiif/785,1,43",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                },
+                                "width": 1024
+                            }
+                        }
+                    ],
+                    "label": "Page 43",
+                    "thumbnail": {
+                        "@id": "https://content.wdl.org/785/service/thumbnail/256x256/1/43.jpg",
+                        "@type": "dcTypes:Image",
+                        "format": "image/jpeg",
+                        "height": 256,
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://content.wdl.org/iiif/785,1,43",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        },
+                        "width": 256
+                    },
+                    "width": 1024
+                },
+                {
+                    "@id": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/44/",
+                    "@type": "sc:Canvas",
+                    "height": 1024,
+                    "images": [
+                        {
+                            "@id": "https://www.wdl.org/en/item/785/view/1/44/",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/44/",
+                            "resource": {
+                                "@id": "https://content.wdl.org/iiif/785,1,44/full/!1024,1024/0/default.jpg",
+                                "@type": "dcterms:Image",
+                                "format": "image/jpeg",
+                                "height": 1024,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://content.wdl.org/iiif/785,1,44",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                },
+                                "width": 1024
+                            }
+                        }
+                    ],
+                    "label": "Page 44",
+                    "thumbnail": {
+                        "@id": "https://content.wdl.org/785/service/thumbnail/256x256/1/44.jpg",
+                        "@type": "dcTypes:Image",
+                        "format": "image/jpeg",
+                        "height": 256,
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://content.wdl.org/iiif/785,1,44",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        },
+                        "width": 256
+                    },
+                    "width": 1024
+                },
+                {
+                    "@id": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/45/",
+                    "@type": "sc:Canvas",
+                    "height": 1024,
+                    "images": [
+                        {
+                            "@id": "https://www.wdl.org/en/item/785/view/1/45/",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/45/",
+                            "resource": {
+                                "@id": "https://content.wdl.org/iiif/785,1,45/full/!1024,1024/0/default.jpg",
+                                "@type": "dcterms:Image",
+                                "format": "image/jpeg",
+                                "height": 1024,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://content.wdl.org/iiif/785,1,45",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                },
+                                "width": 1024
+                            }
+                        }
+                    ],
+                    "label": "Page 45",
+                    "thumbnail": {
+                        "@id": "https://content.wdl.org/785/service/thumbnail/256x256/1/45.jpg",
+                        "@type": "dcTypes:Image",
+                        "format": "image/jpeg",
+                        "height": 256,
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://content.wdl.org/iiif/785,1,45",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        },
+                        "width": 256
+                    },
+                    "width": 1024
+                },
+                {
+                    "@id": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/46/",
+                    "@type": "sc:Canvas",
+                    "height": 1024,
+                    "images": [
+                        {
+                            "@id": "https://www.wdl.org/en/item/785/view/1/46/",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/46/",
+                            "resource": {
+                                "@id": "https://content.wdl.org/iiif/785,1,46/full/!1024,1024/0/default.jpg",
+                                "@type": "dcterms:Image",
+                                "format": "image/jpeg",
+                                "height": 1024,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://content.wdl.org/iiif/785,1,46",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                },
+                                "width": 1024
+                            }
+                        }
+                    ],
+                    "label": "Page 46",
+                    "thumbnail": {
+                        "@id": "https://content.wdl.org/785/service/thumbnail/256x256/1/46.jpg",
+                        "@type": "dcTypes:Image",
+                        "format": "image/jpeg",
+                        "height": 256,
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://content.wdl.org/iiif/785,1,46",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        },
+                        "width": 256
+                    },
+                    "width": 1024
+                },
+                {
+                    "@id": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/47/",
+                    "@type": "sc:Canvas",
+                    "height": 1024,
+                    "images": [
+                        {
+                            "@id": "https://www.wdl.org/en/item/785/view/1/47/",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/47/",
+                            "resource": {
+                                "@id": "https://content.wdl.org/iiif/785,1,47/full/!1024,1024/0/default.jpg",
+                                "@type": "dcterms:Image",
+                                "format": "image/jpeg",
+                                "height": 1024,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://content.wdl.org/iiif/785,1,47",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                },
+                                "width": 1024
+                            }
+                        }
+                    ],
+                    "label": "Page 47",
+                    "thumbnail": {
+                        "@id": "https://content.wdl.org/785/service/thumbnail/256x256/1/47.jpg",
+                        "@type": "dcTypes:Image",
+                        "format": "image/jpeg",
+                        "height": 256,
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://content.wdl.org/iiif/785,1,47",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        },
+                        "width": 256
+                    },
+                    "width": 1024
+                },
+                {
+                    "@id": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/48/",
+                    "@type": "sc:Canvas",
+                    "height": 1024,
+                    "images": [
+                        {
+                            "@id": "https://www.wdl.org/en/item/785/view/1/48/",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/48/",
+                            "resource": {
+                                "@id": "https://content.wdl.org/iiif/785,1,48/full/!1024,1024/0/default.jpg",
+                                "@type": "dcterms:Image",
+                                "format": "image/jpeg",
+                                "height": 1024,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://content.wdl.org/iiif/785,1,48",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                },
+                                "width": 1024
+                            }
+                        }
+                    ],
+                    "label": "Page 48",
+                    "thumbnail": {
+                        "@id": "https://content.wdl.org/785/service/thumbnail/256x256/1/48.jpg",
+                        "@type": "dcTypes:Image",
+                        "format": "image/jpeg",
+                        "height": 256,
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://content.wdl.org/iiif/785,1,48",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        },
+                        "width": 256
+                    },
+                    "width": 1024
+                },
+                {
+                    "@id": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/49/",
+                    "@type": "sc:Canvas",
+                    "height": 1024,
+                    "images": [
+                        {
+                            "@id": "https://www.wdl.org/en/item/785/view/1/49/",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/49/",
+                            "resource": {
+                                "@id": "https://content.wdl.org/iiif/785,1,49/full/!1024,1024/0/default.jpg",
+                                "@type": "dcterms:Image",
+                                "format": "image/jpeg",
+                                "height": 1024,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://content.wdl.org/iiif/785,1,49",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                },
+                                "width": 1024
+                            }
+                        }
+                    ],
+                    "label": "Page 49",
+                    "thumbnail": {
+                        "@id": "https://content.wdl.org/785/service/thumbnail/256x256/1/49.jpg",
+                        "@type": "dcTypes:Image",
+                        "format": "image/jpeg",
+                        "height": 256,
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://content.wdl.org/iiif/785,1,49",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        },
+                        "width": 256
+                    },
+                    "width": 1024
+                },
+                {
+                    "@id": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/50/",
+                    "@type": "sc:Canvas",
+                    "height": 1024,
+                    "images": [
+                        {
+                            "@id": "https://www.wdl.org/en/item/785/view/1/50/",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/50/",
+                            "resource": {
+                                "@id": "https://content.wdl.org/iiif/785,1,50/full/!1024,1024/0/default.jpg",
+                                "@type": "dcterms:Image",
+                                "format": "image/jpeg",
+                                "height": 1024,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://content.wdl.org/iiif/785,1,50",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                },
+                                "width": 1024
+                            }
+                        }
+                    ],
+                    "label": "Page 50",
+                    "thumbnail": {
+                        "@id": "https://content.wdl.org/785/service/thumbnail/256x256/1/50.jpg",
+                        "@type": "dcTypes:Image",
+                        "format": "image/jpeg",
+                        "height": 256,
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://content.wdl.org/iiif/785,1,50",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        },
+                        "width": 256
+                    },
+                    "width": 1024
+                },
+                {
+                    "@id": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/51/",
+                    "@type": "sc:Canvas",
+                    "height": 1024,
+                    "images": [
+                        {
+                            "@id": "https://www.wdl.org/en/item/785/view/1/51/",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/51/",
+                            "resource": {
+                                "@id": "https://content.wdl.org/iiif/785,1,51/full/!1024,1024/0/default.jpg",
+                                "@type": "dcterms:Image",
+                                "format": "image/jpeg",
+                                "height": 1024,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://content.wdl.org/iiif/785,1,51",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                },
+                                "width": 1024
+                            }
+                        }
+                    ],
+                    "label": "Page 51",
+                    "thumbnail": {
+                        "@id": "https://content.wdl.org/785/service/thumbnail/256x256/1/51.jpg",
+                        "@type": "dcTypes:Image",
+                        "format": "image/jpeg",
+                        "height": 256,
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://content.wdl.org/iiif/785,1,51",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        },
+                        "width": 256
+                    },
+                    "width": 1024
+                },
+                {
+                    "@id": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/52/",
+                    "@type": "sc:Canvas",
+                    "height": 1024,
+                    "images": [
+                        {
+                            "@id": "https://www.wdl.org/en/item/785/view/1/52/",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/52/",
+                            "resource": {
+                                "@id": "https://content.wdl.org/iiif/785,1,52/full/!1024,1024/0/default.jpg",
+                                "@type": "dcterms:Image",
+                                "format": "image/jpeg",
+                                "height": 1024,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://content.wdl.org/iiif/785,1,52",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                },
+                                "width": 1024
+                            }
+                        }
+                    ],
+                    "label": "Page 52",
+                    "thumbnail": {
+                        "@id": "https://content.wdl.org/785/service/thumbnail/256x256/1/52.jpg",
+                        "@type": "dcTypes:Image",
+                        "format": "image/jpeg",
+                        "height": 256,
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://content.wdl.org/iiif/785,1,52",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        },
+                        "width": 256
+                    },
+                    "width": 1024
+                },
+                {
+                    "@id": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/53/",
+                    "@type": "sc:Canvas",
+                    "height": 1024,
+                    "images": [
+                        {
+                            "@id": "https://www.wdl.org/en/item/785/view/1/53/",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/53/",
+                            "resource": {
+                                "@id": "https://content.wdl.org/iiif/785,1,53/full/!1024,1024/0/default.jpg",
+                                "@type": "dcterms:Image",
+                                "format": "image/jpeg",
+                                "height": 1024,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://content.wdl.org/iiif/785,1,53",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                },
+                                "width": 1024
+                            }
+                        }
+                    ],
+                    "label": "Page 53",
+                    "thumbnail": {
+                        "@id": "https://content.wdl.org/785/service/thumbnail/256x256/1/53.jpg",
+                        "@type": "dcTypes:Image",
+                        "format": "image/jpeg",
+                        "height": 256,
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://content.wdl.org/iiif/785,1,53",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        },
+                        "width": 256
+                    },
+                    "width": 1024
+                },
+                {
+                    "@id": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/54/",
+                    "@type": "sc:Canvas",
+                    "height": 1024,
+                    "images": [
+                        {
+                            "@id": "https://www.wdl.org/en/item/785/view/1/54/",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/54/",
+                            "resource": {
+                                "@id": "https://content.wdl.org/iiif/785,1,54/full/!1024,1024/0/default.jpg",
+                                "@type": "dcterms:Image",
+                                "format": "image/jpeg",
+                                "height": 1024,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://content.wdl.org/iiif/785,1,54",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                },
+                                "width": 1024
+                            }
+                        }
+                    ],
+                    "label": "Page 54",
+                    "thumbnail": {
+                        "@id": "https://content.wdl.org/785/service/thumbnail/256x256/1/54.jpg",
+                        "@type": "dcTypes:Image",
+                        "format": "image/jpeg",
+                        "height": 256,
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://content.wdl.org/iiif/785,1,54",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        },
+                        "width": 256
+                    },
+                    "width": 1024
+                },
+                {
+                    "@id": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/55/",
+                    "@type": "sc:Canvas",
+                    "height": 1024,
+                    "images": [
+                        {
+                            "@id": "https://www.wdl.org/en/item/785/view/1/55/",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/55/",
+                            "resource": {
+                                "@id": "https://content.wdl.org/iiif/785,1,55/full/!1024,1024/0/default.jpg",
+                                "@type": "dcterms:Image",
+                                "format": "image/jpeg",
+                                "height": 1024,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://content.wdl.org/iiif/785,1,55",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                },
+                                "width": 1024
+                            }
+                        }
+                    ],
+                    "label": "Page 55",
+                    "thumbnail": {
+                        "@id": "https://content.wdl.org/785/service/thumbnail/256x256/1/55.jpg",
+                        "@type": "dcTypes:Image",
+                        "format": "image/jpeg",
+                        "height": 256,
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://content.wdl.org/iiif/785,1,55",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        },
+                        "width": 256
+                    },
+                    "width": 1024
+                },
+                {
+                    "@id": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/56/",
+                    "@type": "sc:Canvas",
+                    "height": 1024,
+                    "images": [
+                        {
+                            "@id": "https://www.wdl.org/en/item/785/view/1/56/",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/56/",
+                            "resource": {
+                                "@id": "https://content.wdl.org/iiif/785,1,56/full/!1024,1024/0/default.jpg",
+                                "@type": "dcterms:Image",
+                                "format": "image/jpeg",
+                                "height": 1024,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://content.wdl.org/iiif/785,1,56",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                },
+                                "width": 1024
+                            }
+                        }
+                    ],
+                    "label": "Page 56",
+                    "thumbnail": {
+                        "@id": "https://content.wdl.org/785/service/thumbnail/256x256/1/56.jpg",
+                        "@type": "dcTypes:Image",
+                        "format": "image/jpeg",
+                        "height": 256,
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://content.wdl.org/iiif/785,1,56",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        },
+                        "width": 256
+                    },
+                    "width": 1024
+                },
+                {
+                    "@id": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/57/",
+                    "@type": "sc:Canvas",
+                    "height": 1024,
+                    "images": [
+                        {
+                            "@id": "https://www.wdl.org/en/item/785/view/1/57/",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/57/",
+                            "resource": {
+                                "@id": "https://content.wdl.org/iiif/785,1,57/full/!1024,1024/0/default.jpg",
+                                "@type": "dcterms:Image",
+                                "format": "image/jpeg",
+                                "height": 1024,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://content.wdl.org/iiif/785,1,57",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                },
+                                "width": 1024
+                            }
+                        }
+                    ],
+                    "label": "Page 57",
+                    "thumbnail": {
+                        "@id": "https://content.wdl.org/785/service/thumbnail/256x256/1/57.jpg",
+                        "@type": "dcTypes:Image",
+                        "format": "image/jpeg",
+                        "height": 256,
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://content.wdl.org/iiif/785,1,57",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        },
+                        "width": 256
+                    },
+                    "width": 1024
+                },
+                {
+                    "@id": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/58/",
+                    "@type": "sc:Canvas",
+                    "height": 1024,
+                    "images": [
+                        {
+                            "@id": "https://www.wdl.org/en/item/785/view/1/58/",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/58/",
+                            "resource": {
+                                "@id": "https://content.wdl.org/iiif/785,1,58/full/!1024,1024/0/default.jpg",
+                                "@type": "dcterms:Image",
+                                "format": "image/jpeg",
+                                "height": 1024,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://content.wdl.org/iiif/785,1,58",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                },
+                                "width": 1024
+                            }
+                        }
+                    ],
+                    "label": "Page 58",
+                    "thumbnail": {
+                        "@id": "https://content.wdl.org/785/service/thumbnail/256x256/1/58.jpg",
+                        "@type": "dcTypes:Image",
+                        "format": "image/jpeg",
+                        "height": 256,
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://content.wdl.org/iiif/785,1,58",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        },
+                        "width": 256
+                    },
+                    "width": 1024
+                },
+                {
+                    "@id": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/59/",
+                    "@type": "sc:Canvas",
+                    "height": 1024,
+                    "images": [
+                        {
+                            "@id": "https://www.wdl.org/en/item/785/view/1/59/",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/59/",
+                            "resource": {
+                                "@id": "https://content.wdl.org/iiif/785,1,59/full/!1024,1024/0/default.jpg",
+                                "@type": "dcterms:Image",
+                                "format": "image/jpeg",
+                                "height": 1024,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://content.wdl.org/iiif/785,1,59",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                },
+                                "width": 1024
+                            }
+                        }
+                    ],
+                    "label": "Page 59",
+                    "thumbnail": {
+                        "@id": "https://content.wdl.org/785/service/thumbnail/256x256/1/59.jpg",
+                        "@type": "dcTypes:Image",
+                        "format": "image/jpeg",
+                        "height": 256,
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://content.wdl.org/iiif/785,1,59",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        },
+                        "width": 256
+                    },
+                    "width": 1024
+                },
+                {
+                    "@id": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/60/",
+                    "@type": "sc:Canvas",
+                    "height": 1024,
+                    "images": [
+                        {
+                            "@id": "https://www.wdl.org/en/item/785/view/1/60/",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/60/",
+                            "resource": {
+                                "@id": "https://content.wdl.org/iiif/785,1,60/full/!1024,1024/0/default.jpg",
+                                "@type": "dcterms:Image",
+                                "format": "image/jpeg",
+                                "height": 1024,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://content.wdl.org/iiif/785,1,60",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                },
+                                "width": 1024
+                            }
+                        }
+                    ],
+                    "label": "Page 60",
+                    "thumbnail": {
+                        "@id": "https://content.wdl.org/785/service/thumbnail/256x256/1/60.jpg",
+                        "@type": "dcTypes:Image",
+                        "format": "image/jpeg",
+                        "height": 256,
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://content.wdl.org/iiif/785,1,60",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        },
+                        "width": 256
+                    },
+                    "width": 1024
+                }
+            ],
+            "label": "Volume 1"
+        },
+        {
+            "@id": "https://www.wdl.org/en/item/785/iiif/sequence/2/",
+            "@type": "sc:Sequence",
+            "label": "Volume 2"
+        },
+        {
+            "@id": "https://www.wdl.org/en/item/785/iiif/sequence/3/",
+            "@type": "sc:Sequence",
+            "label": "Volume 3"
+        },
+        {
+            "@id": "https://www.wdl.org/en/item/785/iiif/sequence/4/",
+            "@type": "sc:Sequence",
+            "label": "Volume 4"
+        },
+        {
+            "@id": "https://www.wdl.org/en/item/785/iiif/sequence/5/",
+            "@type": "sc:Sequence",
+            "label": "Volume 5"
+        },
+        {
+            "@id": "https://www.wdl.org/en/item/785/iiif/sequence/6/",
+            "@type": "sc:Sequence",
+            "label": "Volume 6"
+        },
+        {
+            "@id": "https://www.wdl.org/en/item/785/iiif/sequence/7/",
+            "@type": "sc:Sequence",
+            "label": "Volume 7"
+        },
+        {
+            "@id": "https://www.wdl.org/en/item/785/iiif/sequence/8/",
+            "@type": "sc:Sequence",
+            "label": "Volume 8"
+        },
+        {
+            "@id": "https://www.wdl.org/en/item/785/iiif/sequence/9/",
+            "@type": "sc:Sequence",
+            "label": "Volume 9"
+        },
+        {
+            "@id": "https://www.wdl.org/en/item/785/iiif/sequence/10/",
+            "@type": "sc:Sequence",
+            "label": "Volume 10"
+        },
+        {
+            "@id": "https://www.wdl.org/en/item/785/iiif/sequence/11/",
+            "@type": "sc:Sequence",
+            "label": "Volume 11"
+        },
+        {
+            "@id": "https://www.wdl.org/en/item/785/iiif/sequence/12/",
+            "@type": "sc:Sequence",
+            "label": "Volume 12"
+        },
+        {
+            "@id": "https://www.wdl.org/en/item/785/iiif/sequence/13/",
+            "@type": "sc:Sequence",
+            "label": "Volume 13"
+        },
+        {
+            "@id": "https://www.wdl.org/en/item/785/iiif/sequence/14/",
+            "@type": "sc:Sequence",
+            "label": "Volume 14"
+        },
+        {
+            "@id": "https://www.wdl.org/en/item/785/iiif/sequence/15/",
+            "@type": "sc:Sequence",
+            "label": "Volume 15"
+        },
+        {
+            "@id": "https://www.wdl.org/en/item/785/iiif/sequence/16/",
+            "@type": "sc:Sequence",
+            "label": "Volume 16"
+        },
+        {
+            "@id": "https://www.wdl.org/en/item/785/iiif/sequence/17/",
+            "@type": "sc:Sequence",
+            "label": "Volume 17"
+        },
+        {
+            "@id": "https://www.wdl.org/en/item/785/iiif/sequence/18/",
+            "@type": "sc:Sequence",
+            "label": "Volume 18"
+        },
+        {
+            "@id": "https://www.wdl.org/en/item/785/iiif/sequence/19/",
+            "@type": "sc:Sequence",
+            "label": "Volume 19"
+        },
+        {
+            "@id": "https://www.wdl.org/en/item/785/iiif/sequence/20/",
+            "@type": "sc:Sequence",
+            "label": "Volume 20"
+        },
+        {
+            "@id": "https://www.wdl.org/en/item/785/iiif/sequence/21/",
+            "@type": "sc:Sequence",
+            "label": "Volume 21"
+        },
+        {
+            "@id": "https://www.wdl.org/en/item/785/iiif/sequence/22/",
+            "@type": "sc:Sequence",
+            "label": "Volume 22"
+        },
+        {
+            "@id": "https://www.wdl.org/en/item/785/iiif/sequence/23/",
+            "@type": "sc:Sequence",
+            "label": "Volume 23"
+        },
+        {
+            "@id": "https://www.wdl.org/en/item/785/iiif/sequence/24/",
+            "@type": "sc:Sequence",
+            "label": "Volume 24"
+        },
+        {
+            "@id": "https://www.wdl.org/en/item/785/iiif/sequence/25/",
+            "@type": "sc:Sequence",
+            "label": "Volume 25"
+        },
+        {
+            "@id": "https://www.wdl.org/en/item/785/iiif/sequence/26/",
+            "@type": "sc:Sequence",
+            "label": "Volume 26"
+        },
+        {
+            "@id": "https://www.wdl.org/en/item/785/iiif/sequence/27/",
+            "@type": "sc:Sequence",
+            "label": "Volume 27"
+        },
+        {
+            "@id": "https://www.wdl.org/en/item/785/iiif/sequence/28/",
+            "@type": "sc:Sequence",
+            "label": "Volume 28"
+        },
+        {
+            "@id": "https://www.wdl.org/en/item/785/iiif/sequence/29/",
+            "@type": "sc:Sequence",
+            "label": "Volume 29"
+        },
+        {
+            "@id": "https://www.wdl.org/en/item/785/iiif/sequence/30/",
+            "@type": "sc:Sequence",
+            "label": "Volume 30"
+        },
+        {
+            "@id": "https://www.wdl.org/en/item/785/iiif/sequence/31/",
+            "@type": "sc:Sequence",
+            "label": "Volume 31"
+        },
+        {
+            "@id": "https://www.wdl.org/en/item/785/iiif/sequence/32/",
+            "@type": "sc:Sequence",
+            "label": "Volume 32"
+        },
+        {
+            "@id": "https://www.wdl.org/en/item/785/iiif/sequence/33/",
+            "@type": "sc:Sequence",
+            "label": "Volume 33"
+        },
+        {
+            "@id": "https://www.wdl.org/en/item/785/iiif/sequence/34/",
+            "@type": "sc:Sequence",
+            "label": "Volume 34"
+        },
+        {
+            "@id": "https://www.wdl.org/en/item/785/iiif/sequence/35/",
+            "@type": "sc:Sequence",
+            "label": "Volume 35"
+        },
+        {
+            "@id": "https://www.wdl.org/en/item/785/iiif/sequence/36/",
+            "@type": "sc:Sequence",
+            "label": "Volume 36"
+        },
+        {
+            "@id": "https://www.wdl.org/en/item/785/iiif/sequence/37/",
+            "@type": "sc:Sequence",
+            "label": "Volume 37"
+        },
+        {
+            "@id": "https://www.wdl.org/en/item/785/iiif/sequence/38/",
+            "@type": "sc:Sequence",
+            "label": "Volume 38"
+        },
+        {
+            "@id": "https://www.wdl.org/en/item/785/iiif/sequence/39/",
+            "@type": "sc:Sequence",
+            "label": "Volume 39"
+        },
+        {
+            "@id": "https://www.wdl.org/en/item/785/iiif/sequence/40/",
+            "@type": "sc:Sequence",
+            "label": "Volume 40"
+        },
+        {
+            "@id": "https://www.wdl.org/en/item/785/iiif/sequence/41/",
+            "@type": "sc:Sequence",
+            "label": "Volume 41"
+        },
+        {
+            "@id": "https://www.wdl.org/en/item/785/iiif/sequence/42/",
+            "@type": "sc:Sequence",
+            "label": "Volume 42"
+        },
+        {
+            "@id": "https://www.wdl.org/en/item/785/iiif/sequence/43/",
+            "@type": "sc:Sequence",
+            "label": "Volume 43"
+        },
+        {
+            "@id": "https://www.wdl.org/en/item/785/iiif/sequence/44/",
+            "@type": "sc:Sequence",
+            "label": "Volume 44"
+        },
+        {
+            "@id": "https://www.wdl.org/en/item/785/iiif/sequence/45/",
+            "@type": "sc:Sequence",
+            "label": "Volume 45"
+        },
+        {
+            "@id": "https://www.wdl.org/en/item/785/iiif/sequence/46/",
+            "@type": "sc:Sequence",
+            "label": "Volume 46"
+        },
+        {
+            "@id": "https://www.wdl.org/en/item/785/iiif/sequence/47/",
+            "@type": "sc:Sequence",
+            "label": "Volume 47"
+        },
+        {
+            "@id": "https://www.wdl.org/en/item/785/iiif/sequence/48/",
+            "@type": "sc:Sequence",
+            "label": "Volume 48"
+        },
+        {
+            "@id": "https://www.wdl.org/en/item/785/iiif/sequence/49/",
+            "@type": "sc:Sequence",
+            "label": "Volume 49"
+        },
+        {
+            "@id": "https://www.wdl.org/en/item/785/iiif/sequence/50/",
+            "@type": "sc:Sequence",
+            "label": "Volume 50"
+        },
+        {
+            "@id": "https://www.wdl.org/en/item/785/iiif/sequence/51/",
+            "@type": "sc:Sequence",
+            "label": "Volume 51"
+        },
+        {
+            "@id": "https://www.wdl.org/en/item/785/iiif/sequence/52/",
+            "@type": "sc:Sequence",
+            "label": "Volume 52"
+        },
+        {
+            "@id": "https://www.wdl.org/en/item/785/iiif/sequence/53/",
+            "@type": "sc:Sequence",
+            "label": "Volume 53"
+        },
+        {
+            "@id": "https://www.wdl.org/en/item/785/iiif/sequence/54/",
+            "@type": "sc:Sequence",
+            "label": "Volume 54"
+        }
+    ],
+    "structures": [
+        {
+            "@id": "https://www.wdl.org/en/item/785/manifest#5",
+            "@type": "sc:Range",
+            "canvases": [
+                "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/3/"
+            ],
+            "label": "5"
+        }
+    ],
+    "thumbnail": {
+        "@id": "https://content.wdl.org/785/thumbnail/616x510.jpg",
+        "@type": "dcterms:Image",
+        "format": "image/jpeg",
+        "height": 510,
+        "service": {
+            "@context": "http://iiif.io/api/image/2/context.json",
+            "@id": "https://www.wdl.org/en/item/785/",
+            "profile": "http://iiif.io/api/image/2/level1.json"
+        },
+        "width": 616
+    },
+    "viewingDirection": "left-to-right",
+    "viewingHint": "paged",
+    "within": [
+        {
+            "@id": "https://www.wdl.org/en/search/?collection=japanese-rare-book-collection",
+            "label": "Japanese Rare Book Collection"
+        }
+    ]
+}
