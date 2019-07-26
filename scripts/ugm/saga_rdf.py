@@ -49,16 +49,20 @@ def forMani(manifest, label):
             g.add((URIRef(anno_uri), URIRef(
                 "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"), URIRef("http://iiif.io/api/presentation/2#AnnotationList")))
 
-            st_label = anno_data["resources"][0]["resource"]["chars"].split(" ")[
-                1].split(".")[1]
+            resources = anno_data["resources"]
 
-            taisei_p_uri = "https://japanknowledge.com/lib/display/?lid=80110V00200" + \
-                str(st_label).zfill(3)
+            for resource in resources:
 
-            g.add((URIRef(anno_uri), URIRef(
-                "http://purl.org/dc/terms/subject"), URIRef(taisei_p_uri)))
-            g.add((URIRef(taisei_p_uri), URIRef(
-                "http://www.w3.org/2000/01/rdf-schema#label"), Literal(int(st_label))))
+                st_label = resource["resource"]["chars"].split(" ")[
+                    1].split(".")[1]
+
+                taisei_p_uri = "https://japanknowledge.com/lib/display/?lid=80110V00200" + \
+                    str(st_label).zfill(3)
+
+                g.add((URIRef(anno_uri), URIRef(
+                    "http://purl.org/dc/terms/subject"), URIRef(taisei_p_uri)))
+                g.add((URIRef(taisei_p_uri), URIRef(
+                    "http://www.w3.org/2000/01/rdf-schema#label"), Literal(int(st_label))))
 
     '''
             
