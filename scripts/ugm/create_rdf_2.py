@@ -13,7 +13,7 @@ import requests
 
 g = Graph()
 
-target = "kyushu"
+target = "utokyo"
 
 def forMani(manifest, label):
 
