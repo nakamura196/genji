@@ -12,8 +12,6 @@ result = {}
 def scrape_for_page(url):
     flg = True
 
-    print("page\t" + url)
-
     sleep(1)
 
     response = requests.get(url)
@@ -29,6 +27,8 @@ def scrape_for_page(url):
         line = sp[0].strip()
 
         prefix = line.split(" ")[0].strip()
+
+        print("page\t" + url.split("&")[1] +"\t"+prefix)
 
         text = line[len(prefix)+1:].strip()
         
@@ -59,7 +59,7 @@ if __name__ == '__main__':
     base_url = "http://www.genji.co.jp/zenshu-genji-sub.php?file=sgsa.txt&code="
 
     loop_flg = True
-    page = 1
+    page = 10000
 
     while loop_flg:
         url = base_url + str(page)
