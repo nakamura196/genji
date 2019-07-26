@@ -116,6 +116,16 @@ for obj in data:
         for i in range(len(canvases)):
             c_index_map[canvases[i]["@id"]] = i
 
+        # -------------- <mmm> ---------------
+
+        odir = "../../docs/ugm2/"+dir+"/manifest"
+        os.makedirs(odir, exist_ok=True)
+
+        ofile_1 = odir+"/"+str(book).zfill(2)+".json"
+
+        new_manifest_uri = ofile_1.replace(
+            "../../docs", "https://nakamura196.github.io/genji")
+
         # -------------- <curation> ---------------
 
         annodir = "../../docs/ugm2/"+dir+"/anno"
@@ -174,7 +184,11 @@ for obj in data:
                             },
                             "on": member["@id"]
                         }
-                    ]
+                    ],
+                    "within" : {
+                        "@id" : new_manifest_uri,
+                        "@type": "sc:Manifest"
+                    }
                 }
 
                 fw2 = open(anno_file, 'w')
@@ -190,10 +204,7 @@ for obj in data:
 
         # manifest_data["structures"] = sts
 
-        odir = "../../docs/ugm2/"+dir+"/manifest"
-        os.makedirs(odir, exist_ok=True)
-
-        ofile_1 = odir+"/"+str(book).zfill(2)+".json"
+        
 
         fw2 = open(ofile_1, 'w')
         json.dump(manifest_data, fw2, ensure_ascii=False, indent=4,
@@ -203,7 +214,7 @@ for obj in data:
 
         manifests4collection.append({
             "@context": "http://iiif.io/api/presentation/2/context.json",
-            "@id": ofile_1.replace("../../docs", "https://nakamura196.github.io/genji"),
+            "@id": new_manifest_uri,
             "@type": "sc:Manifest",
             "label": label_map[book],
             "index": book,

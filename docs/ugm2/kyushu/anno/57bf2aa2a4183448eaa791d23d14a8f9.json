@@ -14,5 +14,9 @@
                 "format": "text/plain"
             }
         }
-    ]
+    ],
+    "within": {
+        "@id": "https://nakamura196.github.io/genji/ugm2/kyushu/manifest/01.json",
+        "@type": "sc:Manifest"
+    }
 }

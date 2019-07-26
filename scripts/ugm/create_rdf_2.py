@@ -9,10 +9,11 @@ import argparse
 import json
 import urllib.request
 import os
+import requests
 
 g = Graph()
 
-target = "loc"
+target = "kyushu"
 
 def forMani(manifest, label):
 
@@ -31,8 +32,33 @@ def forMani(manifest, label):
     canvases = mani_data["sequences"][0]["canvases"]
 
     for canvas in canvases:
+
         g.add((URIRef(canvas["@id"]), URIRef(
             "http://purl.org/dc/terms/isPartOf"), URIRef(manifest)))
+
+        if "otherContent" in canvas:
+
+
+            anno_uri = canvas["otherContent"][0]["@id"]
+            print(anno_uri)
+
+            anno_data = requests.get(anno_uri).json()
+
+            g.add((URIRef(anno_uri), URIRef(
+                "http://purl.org/dc/terms/isPartOf"), URIRef(canvas["@id"])))
+            g.add((URIRef(anno_uri), URIRef(
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"), URIRef("http://iiif.io/api/presentation/2#AnnotationList")))
+
+            st_label = anno_data["resources"][0]["resource"]["chars"]
+
+            taisei_p_uri = "http://example.org/taisei/page/"+st_label
+
+            g.add((URIRef(anno_uri), URIRef(
+                "http://purl.org/dc/terms/subject"), URIRef(taisei_p_uri)))
+            g.add((URIRef(taisei_p_uri), URIRef(
+                "http://www.w3.org/2000/01/rdf-schema#label"), Literal(int(st_label))))
+
+    '''
             
     if "structures" in mani_data:
         for st in mani_data["structures"]:
@@ -45,6 +71,8 @@ def forMani(manifest, label):
                 "http://purl.org/dc/terms/subject"), URIRef(taisei_p_uri)))
             g.add((URIRef(taisei_p_uri), URIRef(
                 "http://www.w3.org/2000/01/rdf-schema#label"), Literal(int(st_label))))
+
+    '''
         
 
 def forCol(col_uri):
@@ -71,7 +99,7 @@ def forCol(col_uri):
         g.add((URIRef(manifest_uri), URIRef(
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"), URIRef("http://iiif.io/api/presentation/2#Manifest")))
 
-universe = "https://nakamura196.github.io/genji/ugm/genji.json"
+universe = "https://nakamura196.github.io/genji/ugm2/genji.json"
 
 res = urllib.request.urlopen(universe)
 # json_loads() でPythonオブジェクトに変換
@@ -85,4 +113,4 @@ for col in uni_data["collections"]:
 
     forCol(col_uri)
 
-g.serialize(format='pretty-xml', destination="data/test.rdf")
+g.serialize(format='pretty-xml', destination="data/test2.rdf")
