@@ -171,7 +171,7 @@ universe = {
     "@context": "http://iiif.io/api/presentation/2/context.json",
     "@id": ofile_2.replace("../../docs", "https://nakamura196.github.io/genji"),
     "@type": "sc:Collection",
-    "label": "裏源氏コレクション",
+    "label": "源氏物語IIIFコレクション",
     "collections": collections
 }
 
