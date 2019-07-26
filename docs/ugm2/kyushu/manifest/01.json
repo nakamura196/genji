@@ -1195,32 +1195,6 @@
             ]
         }
     ],
-    "structures": [
-        {
-            "@id": "https://catalog.lib.kyushu-u.ac.jp/image/manifest/820/411193.json#1",
-            "@type": "sc:Range",
-            "canvases": [
-                "https://catalog.lib.kyushu-u.ac.jp/image/411193/canvas/p1"
-            ],
-            "label": "1"
-        },
-        {
-            "@id": "https://catalog.lib.kyushu-u.ac.jp/image/manifest/820/411193.json#3",
-            "@type": "sc:Range",
-            "canvases": [
-                "https://catalog.lib.kyushu-u.ac.jp/image/411193/canvas/p3"
-            ],
-            "label": "3"
-        },
-        {
-            "@id": "https://catalog.lib.kyushu-u.ac.jp/image/manifest/820/411193.json#5",
-            "@type": "sc:Range",
-            "canvases": [
-                "https://catalog.lib.kyushu-u.ac.jp/image/411193/canvas/p5"
-            ],
-            "label": "5"
-        }
-    ],
     "thumbnail": {
         "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411193/368828.tiff/full/90,/0/default.jpg",
         "service": {

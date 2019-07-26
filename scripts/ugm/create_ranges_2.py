@@ -120,22 +120,12 @@ for obj in data:
 
         annodir = "../../docs/ugm2/"+dir+"/anno"
 
-        sts = []  # 初期化します
+        # sts = []  # 初期化します
 
         if "curation" in manifests[book]:
             curation_uri = manifests[book]["curation"]
-            print(curation_uri)
 
             curation_data = requests.get(curation_uri).json()
-
-            '''
-            res = urllib.request.urlopen(curation_uri)
-            print(res.read())
-            # json_loads() でPythonオブジェクトに変換
-            curation_data = json.loads(res.read().decode('utf-8').split('\n'))
-
-            print(curation_data)
-            '''
 
             members = curation_data["selections"][0]["members"]
 
@@ -149,13 +139,17 @@ for obj in data:
 
                 print(canvas_index)
 
+                '''
+
                 st = {
                     "@id": manifest_data["@id"]+"#"+str(canvas_index+1),
-                    "label": str(canvas_index+1),
+                    "label": str(page),
                     "@type": "sc:Range",
                     "canvases": [canvas_id]
                 }
                 sts.append(st)
+
+                '''
 
                 hash = hashlib.md5(canvas_id.encode('utf-8')).hexdigest()
 
@@ -175,7 +169,7 @@ for obj in data:
                             "motivation": "sc:painting",
                             "resource": {
                                 "@type": "cnt:ContentAsText",
-                                "chars": "\""+page+"\"",
+                                "chars": page,
                                 "format": "text/plain"
                             },
                             "on": member["@id"]
@@ -194,38 +188,7 @@ for obj in data:
                     }
                 ]
 
-        manifest_data["structures"] = sts
-
-        # -------------- <st> ---------------------
-
-        # sts = [] # 初期化します
-
-        '''
-
-        if book in book_page_id_map:
-            books = book_page_id_map[book]
-
-            for page in books:
-
-                # print("page\t"+str(page))
-
-                canvas = canvases[page-1]
-                canvas_id = canvas["@id"]
-
-                st = {
-                    "@id": manifest_data["@id"]+"#"+str(books[page]),
-                    "label": str(books[page]),
-                    "@type": "sc:Range",
-                    "canvases": [canvas_id]
-                }
-                sts.append(st)
-
-        '''
-
         # manifest_data["structures"] = sts
-        
-
-        # -------------- </st> ---------------------
 
         odir = "../../docs/ugm2/"+dir+"/manifest"
         os.makedirs(odir, exist_ok=True)

@@ -1,0 +1,14 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/genji/ugm2/genji.json",
+    "@type": "sc:Collection",
+    "collections": [
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm2/kyushu/collection.json",
+            "@type": "sc:Collection",
+            "label": "九大本（古活字版）"
+        }
+    ],
+    "label": "源氏物語IIIFコレクション"
+}
