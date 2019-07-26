@@ -12,6 +12,8 @@ import os
 
 g = Graph()
 
+target = "nijl"
+
 def forMani(manifest, label):
 
     print(manifest)
@@ -77,6 +79,9 @@ uni_data = json.loads(res.read().decode('utf-8'))
 
 for col in uni_data["collections"]:
     col_uri = col["@id"]
+
+    if target not in col_uri:
+        continue
 
     forCol(col_uri)
 

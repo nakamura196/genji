@@ -102,10 +102,10 @@ for obj in data:
 
         # -------------- <st> ---------------------
 
+        sts = [] # 初期化します
+
         if book in book_page_id_map:
             books = book_page_id_map[book]
-
-            sts = []
 
             for page in books:
 
@@ -122,7 +122,7 @@ for obj in data:
                 }
                 sts.append(st)
 
-            manifest_data["structures"] = sts
+        manifest_data["structures"] = sts
 
         # -------------- </st> ---------------------
 
@@ -179,6 +179,8 @@ for obj in data:
 
     with open(ofile, 'r') as f:
         collection_data = json.load(f)
+
+        print(collection_data)
 
         collections.append({
             "@context": "http://iiif.io/api/presentation/2/context.json",
