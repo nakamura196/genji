@@ -10,7 +10,7 @@
             "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p15#xywh=4824,1124,208,2896",
             "resource": {
                 "@type": "cnt:ContentAsText",
-                "chars": "31",
+                "chars": "新編日本古典文学全集 p.31 該当箇所",
                 "format": "text/plain"
             }
         }

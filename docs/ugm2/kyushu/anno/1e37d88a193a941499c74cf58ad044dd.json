@@ -1,0 +1,22 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/genji/ugm2/kyushu/anno/1e37d88a193a941499c74cf58ad044dd.json",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://nakamura196.github.io/genji/ugm2/kyushu/anno/1e37d88a193a941499c74cf58ad044dd.json#0",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://catalog.lib.kyushu-u.ac.jp/image/411193/canvas/p17#xywh=238,46,40,675",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "源氏物語大成 p.13 該当箇所",
+                "format": "text/plain"
+            }
+        }
+    ],
+    "within": {
+        "@id": "https://nakamura196.github.io/genji/ugm2/kyushu/manifest/01.json",
+        "@type": "sc:Manifest"
+    }
+}

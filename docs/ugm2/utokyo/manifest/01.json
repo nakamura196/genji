@@ -322,6 +322,12 @@
                         }
                     ],
                     "label": "[7]",
+                    "otherContent": [
+                        {
+                            "@id": "https://nakamura196.github.io/genji/ugm2/utokyo/anno/b1ad718f1af6f2af9ddabd6b67e440f4.json",
+                            "@type": "sc:AnnotationList"
+                        }
+                    ],
                     "thumbnail": {
                         "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0007.tif/full/200,200/0/default.jpg",
                         "service": {
@@ -396,6 +402,12 @@
                         }
                     ],
                     "label": "[9]",
+                    "otherContent": [
+                        {
+                            "@id": "https://nakamura196.github.io/genji/ugm2/utokyo/anno/d422e1b17333920a14a16c720bc7365b.json",
+                            "@type": "sc:AnnotationList"
+                        }
+                    ],
                     "thumbnail": {
                         "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0009.tif/full/200,200/0/default.jpg",
                         "service": {
@@ -433,6 +445,12 @@
                         }
                     ],
                     "label": "[10]",
+                    "otherContent": [
+                        {
+                            "@id": "https://nakamura196.github.io/genji/ugm2/utokyo/anno/44b7aa38b34174d40238752c542dc7e4.json",
+                            "@type": "sc:AnnotationList"
+                        }
+                    ],
                     "thumbnail": {
                         "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0010.tif/full/200,200/0/default.jpg",
                         "service": {
@@ -470,6 +488,12 @@
                         }
                     ],
                     "label": "[11]",
+                    "otherContent": [
+                        {
+                            "@id": "https://nakamura196.github.io/genji/ugm2/utokyo/anno/c52a69aa9d11f6dff4d7de11a4ab9f86.json",
+                            "@type": "sc:AnnotationList"
+                        }
+                    ],
                     "thumbnail": {
                         "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0011.tif/full/200,200/0/default.jpg",
                         "service": {
@@ -507,6 +531,12 @@
                         }
                     ],
                     "label": "[12]",
+                    "otherContent": [
+                        {
+                            "@id": "https://nakamura196.github.io/genji/ugm2/utokyo/anno/99746e273126e111fa3ff0a46ebf0d95.json",
+                            "@type": "sc:AnnotationList"
+                        }
+                    ],
                     "thumbnail": {
                         "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0012.tif/full/200,200/0/default.jpg",
                         "service": {
@@ -544,6 +574,12 @@
                         }
                     ],
                     "label": "[13]",
+                    "otherContent": [
+                        {
+                            "@id": "https://nakamura196.github.io/genji/ugm2/utokyo/anno/5522539a2058ee786af26645e24255ce.json",
+                            "@type": "sc:AnnotationList"
+                        }
+                    ],
                     "thumbnail": {
                         "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0013.tif/full/200,200/0/default.jpg",
                         "service": {
@@ -581,6 +617,12 @@
                         }
                     ],
                     "label": "[14]",
+                    "otherContent": [
+                        {
+                            "@id": "https://nakamura196.github.io/genji/ugm2/utokyo/anno/f3339bec303ec2e150abe1538d9d18ca.json",
+                            "@type": "sc:AnnotationList"
+                        }
+                    ],
                     "thumbnail": {
                         "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0014.tif/full/200,200/0/default.jpg",
                         "service": {
@@ -618,6 +660,12 @@
                         }
                     ],
                     "label": "[15]",
+                    "otherContent": [
+                        {
+                            "@id": "https://nakamura196.github.io/genji/ugm2/utokyo/anno/0d228cacb67891bca27e658fed631e70.json",
+                            "@type": "sc:AnnotationList"
+                        }
+                    ],
                     "thumbnail": {
                         "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0015.tif/full/200,200/0/default.jpg",
                         "service": {
@@ -655,6 +703,12 @@
                         }
                     ],
                     "label": "[16]",
+                    "otherContent": [
+                        {
+                            "@id": "https://nakamura196.github.io/genji/ugm2/utokyo/anno/fe66645cf621d171b7331e0c613d8a52.json",
+                            "@type": "sc:AnnotationList"
+                        }
+                    ],
                     "thumbnail": {
                         "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0016.tif/full/200,200/0/default.jpg",
                         "service": {
@@ -729,6 +783,12 @@
                         }
                     ],
                     "label": "[18]",
+                    "otherContent": [
+                        {
+                            "@id": "https://nakamura196.github.io/genji/ugm2/utokyo/anno/64b2bd04c899873a318f0bcd7567e777.json",
+                            "@type": "sc:AnnotationList"
+                        }
+                    ],
                     "thumbnail": {
                         "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0018.tif/full/200,200/0/default.jpg",
                         "service": {
@@ -766,6 +826,12 @@
                         }
                     ],
                     "label": "[19]",
+                    "otherContent": [
+                        {
+                            "@id": "https://nakamura196.github.io/genji/ugm2/utokyo/anno/4bb74eba784d6b9030a796055130c79a.json",
+                            "@type": "sc:AnnotationList"
+                        }
+                    ],
                     "thumbnail": {
                         "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0019.tif/full/200,200/0/default.jpg",
                         "service": {
@@ -803,6 +869,12 @@
                         }
                     ],
                     "label": "[20]",
+                    "otherContent": [
+                        {
+                            "@id": "https://nakamura196.github.io/genji/ugm2/utokyo/anno/74ad655613df8885059c36e0d4954931.json",
+                            "@type": "sc:AnnotationList"
+                        }
+                    ],
                     "thumbnail": {
                         "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0020.tif/full/200,200/0/default.jpg",
                         "service": {
@@ -840,6 +912,12 @@
                         }
                     ],
                     "label": "[21]",
+                    "otherContent": [
+                        {
+                            "@id": "https://nakamura196.github.io/genji/ugm2/utokyo/anno/28b85aeba252459ff58d6842660bfcec.json",
+                            "@type": "sc:AnnotationList"
+                        }
+                    ],
                     "thumbnail": {
                         "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0021.tif/full/200,200/0/default.jpg",
                         "service": {
@@ -877,6 +955,12 @@
                         }
                     ],
                     "label": "[22]",
+                    "otherContent": [
+                        {
+                            "@id": "https://nakamura196.github.io/genji/ugm2/utokyo/anno/97b29a0f594e323c95e8ec763d41e75f.json",
+                            "@type": "sc:AnnotationList"
+                        }
+                    ],
                     "thumbnail": {
                         "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0022.tif/full/200,200/0/default.jpg",
                         "service": {
@@ -914,6 +998,12 @@
                         }
                     ],
                     "label": "[23]",
+                    "otherContent": [
+                        {
+                            "@id": "https://nakamura196.github.io/genji/ugm2/utokyo/anno/1cb103659824b9860cc98112c87a50c7.json",
+                            "@type": "sc:AnnotationList"
+                        }
+                    ],
                     "thumbnail": {
                         "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0023.tif/full/200,200/0/default.jpg",
                         "service": {
@@ -988,6 +1078,12 @@
                         }
                     ],
                     "label": "[25]",
+                    "otherContent": [
+                        {
+                            "@id": "https://nakamura196.github.io/genji/ugm2/utokyo/anno/6edaa05bc1145bbb98b60a458ea24afd.json",
+                            "@type": "sc:AnnotationList"
+                        }
+                    ],
                     "thumbnail": {
                         "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0025.tif/full/200,200/0/default.jpg",
                         "service": {
@@ -1025,6 +1121,12 @@
                         }
                     ],
                     "label": "[26]",
+                    "otherContent": [
+                        {
+                            "@id": "https://nakamura196.github.io/genji/ugm2/utokyo/anno/0a5e4f7494d7a2e881b0a09267c76420.json",
+                            "@type": "sc:AnnotationList"
+                        }
+                    ],
                     "thumbnail": {
                         "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0026.tif/full/200,200/0/default.jpg",
                         "service": {
@@ -1062,6 +1164,12 @@
                         }
                     ],
                     "label": "[27]",
+                    "otherContent": [
+                        {
+                            "@id": "https://nakamura196.github.io/genji/ugm2/utokyo/anno/81ea19f975105f79a092a954e96e89ed.json",
+                            "@type": "sc:AnnotationList"
+                        }
+                    ],
                     "thumbnail": {
                         "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0027.tif/full/200,200/0/default.jpg",
                         "service": {
@@ -1099,6 +1207,12 @@
                         }
                     ],
                     "label": "[28]",
+                    "otherContent": [
+                        {
+                            "@id": "https://nakamura196.github.io/genji/ugm2/utokyo/anno/2a84f9a31a3ba4ba9561b33d38beeb92.json",
+                            "@type": "sc:AnnotationList"
+                        }
+                    ],
                     "thumbnail": {
                         "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0028.tif/full/200,200/0/default.jpg",
                         "service": {
@@ -1136,6 +1250,12 @@
                         }
                     ],
                     "label": "[29]",
+                    "otherContent": [
+                        {
+                            "@id": "https://nakamura196.github.io/genji/ugm2/utokyo/anno/f78a12e4b56ddb141b42010d94f2969a.json",
+                            "@type": "sc:AnnotationList"
+                        }
+                    ],
                     "thumbnail": {
                         "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0029.tif/full/200,200/0/default.jpg",
                         "service": {
@@ -1173,6 +1293,12 @@
                         }
                     ],
                     "label": "[30]",
+                    "otherContent": [
+                        {
+                            "@id": "https://nakamura196.github.io/genji/ugm2/utokyo/anno/4f9f8c186d3ee82b95976cbe0bc81889.json",
+                            "@type": "sc:AnnotationList"
+                        }
+                    ],
                     "thumbnail": {
                         "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0030.tif/full/200,200/0/default.jpg",
                         "service": {

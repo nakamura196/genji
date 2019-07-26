@@ -13,7 +13,8 @@ import csv
 import requests
 import hashlib
 
-target = "utokyo"
+# 空の場合はすべて
+target = ""
 
 path = "data/all.json"
 
@@ -36,56 +37,28 @@ for obj in data:
     # print(label2)
     dir = obj["id"]
 
-    if dir != target:
+    if target != "" and dir != target:
         continue
 
     list_path = "data/"+dir+"/list_"+dir+".xlsx"
 
-    '''
 
-    df = pd.read_excel(list_path, sheet_name=0, header=None, index_col=None)
-
-    r_count = len(df.index)
-    c_count = len(df.columns)
-
-    book_page_id_map = {}
-
-    for j in range(1, r_count):
-
-        cell = df.iloc[j, 0]
-
-        if pd.isnull(cell) or cell == "":
-            continue
-
-        book = int(cell)
-
-        if book not in book_page_id_map:
-            book_page_id_map[book] = {}
-
-        books = book_page_id_map[book]
-
-        page = df.iloc[j, 1]
-        if not pd.isnull(page) and page != "":
-            page = int(page)
-            id = int(df.iloc[j, 2])
-
-            books[page] = id
-
-    # print(book_page_id_map)
-
-    '''
 
     df = pd.read_excel(list_path, sheet_name=1, header=None, index_col=None)
 
     r_count = len(df.index)
     c_count = len(df.columns)
 
+    # curationリストの列がない場合
+    if c_count < 3:
+        continue
+
     manifests = {}
 
     for j in range(1, r_count):
         book = int(df.iloc[j, 0])
         manifest = df.iloc[j, 1]
-        curation = df.iloc[j, 3]
+        curation = df.iloc[j, 2]
 
         manifests[book] = {
             "manifest" : manifest
@@ -118,7 +91,7 @@ for obj in data:
 
         # -------------- <mmm> ---------------
 
-        odir = "../../docs/ugm3/"+dir+"/manifest"
+        odir = "../../docs/ugm2/"+dir+"/manifest"
         os.makedirs(odir, exist_ok=True)
 
         ofile_1 = odir+"/"+str(book).zfill(2)+".json"
@@ -128,8 +101,7 @@ for obj in data:
 
         # -------------- <curation> ---------------
 
-        annodir = "../../docs/ugm3/"+dir+"/anno"
-        os.makedirs(annodir, exist_ok=True)
+        annodir = "../../docs/ugm2/"+dir+"/anno"
 
         # sts = []  # 初期化します
 
@@ -180,7 +152,7 @@ for obj in data:
                             "motivation": "sc:painting",
                             "resource": {
                                 "@type": "cnt:ContentAsText",
-                                "chars": page,
+                                "chars": "源氏物語大成 p."+page+" 該当箇所",
                                 "format": "text/plain"
                             },
                             "on": member["@id"]
@@ -222,7 +194,7 @@ for obj in data:
             "thumbnail": thumbnail
         })
 
-    ofile = "../../docs/ugm3/"+dir+"/collection.json"
+    ofile = "../../docs/ugm2/"+dir+"/collection.json"
 
     collection_data = {
         "@context": "http://iiif.io/api/presentation/2/context.json",

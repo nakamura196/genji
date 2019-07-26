@@ -10,7 +10,7 @@
             "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p6#xywh=1832,1168,224,2840",
             "resource": {
                 "@type": "cnt:ContentAsText",
-                "chars": "7",
+                "chars": "源氏物語大成 p.7 該当箇所",
                 "format": "text/plain"
             }
         }

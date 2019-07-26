@@ -1,0 +1,22 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/genji/ugm2/utokyo/anno/64b2bd04c899873a318f0bcd7567e777.json",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://nakamura196.github.io/genji/ugm2/utokyo/anno/64b2bd04c899873a318f0bcd7567e777.json#0",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p18#xywh=5696,1224,292,2808",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "源氏物語大成 p.17 該当箇所",
+                "format": "text/plain"
+            }
+        }
+    ],
+    "within": {
+        "@id": "https://nakamura196.github.io/genji/ugm2/utokyo/manifest/01.json",
+        "@type": "sc:Manifest"
+    }
+}

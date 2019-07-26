@@ -8,10 +8,8 @@ ssl._create_default_https_context = ssl._create_unverified_context
 
 result = {}
 
-def scrape_for_page(url):
+def scrape_for_page(url, page):
     flg = True
-
-    print("page\t" + url)
 
     sleep(1)
 
@@ -28,6 +26,8 @@ def scrape_for_page(url):
 
         prefix = line.split(" ")[0].strip()
 
+        print("page\t" + str(page) + "\t"+prefix)
+
         text = line[len(prefix)+1:].strip()
         
         if prefix not in result:
@@ -37,7 +37,7 @@ def scrape_for_page(url):
                 prefix : text
             }
 
-            fw2 = open("data/"+prefix+".json", 'w')
+            fw2 = open("data/"+str(page).zfill(6)+"_"+prefix+".json", 'w')
             json.dump(obj, fw2, ensure_ascii=False, indent=4,
                 sort_keys=True, separators=(',', ': '))
 
@@ -62,7 +62,7 @@ if __name__ == '__main__':
     while loop_flg:
         url = base_url + str(page)
 
-        loop_flg = scrape_for_page(url)
+        loop_flg = scrape_for_page(url, page)
 
         page += 1
 

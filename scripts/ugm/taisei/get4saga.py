@@ -9,7 +9,7 @@ ssl._create_default_https_context = ssl._create_unverified_context
 
 result = {}
 
-def scrape_for_page(url):
+def scrape_for_page(url, page):
     flg = True
 
     sleep(1)
@@ -28,7 +28,7 @@ def scrape_for_page(url):
 
         prefix = line.split(" ")[0].strip()
 
-        print("page\t" + url.split("&")[1] +"\t"+prefix)
+        print("page\t" + str(page) +"\t"+prefix)
 
         text = line[len(prefix)+1:].strip()
         
@@ -39,7 +39,7 @@ def scrape_for_page(url):
                 prefix : text
             }
 
-            fw2 = open("data2/"+prefix+".json", 'w')
+            fw2 = open("data2/"+str(page).zfill(6)+"_"+prefix+".json", 'w')
             json.dump(obj, fw2, ensure_ascii=False, indent=4,
                 sort_keys=True, separators=(',', ': '))
 
@@ -59,12 +59,12 @@ if __name__ == '__main__':
     base_url = "http://www.genji.co.jp/zenshu-genji-sub.php?file=sgsa.txt&code="
 
     loop_flg = True
-    page = 10000
+    page = 1
 
     while loop_flg:
         url = base_url + str(page)
 
-        loop_flg = scrape_for_page(url)
+        loop_flg = scrape_for_page(url, page)
 
         page += 1
 
