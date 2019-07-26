@@ -12,7 +12,7 @@ import os
 
 g = Graph()
 
-target = "nijl"
+target = "loc"
 
 def forMani(manifest, label):
 

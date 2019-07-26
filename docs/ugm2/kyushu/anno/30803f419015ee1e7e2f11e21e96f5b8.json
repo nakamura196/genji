@@ -1,0 +1,18 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/genji/ugm2/kyushu/anno/30803f419015ee1e7e2f11e21e96f5b8.json",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://nakamura196.github.io/genji/ugm2/kyushu/anno/30803f419015ee1e7e2f11e21e96f5b8.json#0",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://catalog.lib.kyushu-u.ac.jp/image/411193/canvas/p5#xywh=409,56,46,668",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "\"7\"",
+                "format": "text/plain"
+            }
+        }
+    ]
+}
