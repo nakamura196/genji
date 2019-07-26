@@ -20,6 +20,12 @@
             "@id": "https://nakamura196.github.io/genji/ugm/utokyo/collection.json",
             "@type": "sc:Collection",
             "label": "東大本"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/nijl/collection.json",
+            "@type": "sc:Collection",
+            "label": "絵入源氏物語・承応三年版"
         }
     ],
     "label": "源氏物語IIIFコレクション"

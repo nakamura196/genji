@@ -1,0 +1,441 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/genji/ugm/nijl/collection.json",
+    "@type": "sc:Collection",
+    "label": "絵入源氏物語・承応三年版",
+    "manifests": [
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/nijl/manifest/01.json",
+            "@type": "sc:Manifest",
+            "index": 1,
+            "label": "桐壺",
+            "thumbnail": "https://kotenseki.nijl.ac.jp/api/iiif/200003803/v4/NIIP/SA4-0026/SA4-0026-00001.tif/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/nijl/manifest/02.json",
+            "@type": "sc:Manifest",
+            "index": 2,
+            "label": "帚木_(源氏物語)",
+            "thumbnail": "https://kotenseki.nijl.ac.jp/api/iiif/200003803/v4/NIIP/SA4-0026/SA4-0026-00032.tif/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/nijl/manifest/03.json",
+            "@type": "sc:Manifest",
+            "index": 3,
+            "label": "空蝉_(源氏物語)",
+            "thumbnail": "https://kotenseki.nijl.ac.jp/api/iiif/200003803/v4/NIIP/SA4-0026/SA4-0026-00086.tif/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/nijl/manifest/04.json",
+            "@type": "sc:Manifest",
+            "index": 4,
+            "label": "夕顔_(源氏物語)",
+            "thumbnail": "https://kotenseki.nijl.ac.jp/api/iiif/200003803/v4/NIIP/SA4-0026/SA4-0026-00101.tif/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/nijl/manifest/05.json",
+            "@type": "sc:Manifest",
+            "index": 5,
+            "label": "若紫",
+            "thumbnail": "https://kotenseki.nijl.ac.jp/api/iiif/200003803/v4/NIIP/SA4-0026/SA4-0026-00156.tif/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/nijl/manifest/06.json",
+            "@type": "sc:Manifest",
+            "index": 6,
+            "label": "末摘花_(源氏物語)",
+            "thumbnail": "https://kotenseki.nijl.ac.jp/api/iiif/200003803/v4/NIIP/SA4-0026/SA4-0026-00211.tif/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/nijl/manifest/07.json",
+            "@type": "sc:Manifest",
+            "index": 7,
+            "label": "紅葉賀",
+            "thumbnail": "https://kotenseki.nijl.ac.jp/api/iiif/200003803/v4/NIIP/SA4-0026/SA4-0026-00248.tif/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/nijl/manifest/08.json",
+            "@type": "sc:Manifest",
+            "index": 8,
+            "label": "花宴",
+            "thumbnail": "https://kotenseki.nijl.ac.jp/api/iiif/200003803/v4/NIIP/SA4-0026/SA4-0026-00281.tif/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/nijl/manifest/09.json",
+            "@type": "sc:Manifest",
+            "index": 9,
+            "label": "葵_(源氏物語)",
+            "thumbnail": "https://kotenseki.nijl.ac.jp/api/iiif/200003803/v4/NIIP/SA4-0026/SA4-0026-00295.tif/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/nijl/manifest/10.json",
+            "@type": "sc:Manifest",
+            "index": 10,
+            "label": "賢木",
+            "thumbnail": "https://kotenseki.nijl.ac.jp/api/iiif/200003803/v4/NIIP/SA4-0026/SA4-0026-00347.tif/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/nijl/manifest/11.json",
+            "@type": "sc:Manifest",
+            "index": 11,
+            "label": "花散里",
+            "thumbnail": "https://kotenseki.nijl.ac.jp/api/iiif/200003803/v4/NIIP/SA4-0026/SA4-0026-00404.tif/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/nijl/manifest/12.json",
+            "@type": "sc:Manifest",
+            "index": 12,
+            "label": "須磨_(源氏物語)",
+            "thumbnail": "https://kotenseki.nijl.ac.jp/api/iiif/200003803/v4/NIIP/SA4-0026/SA4-0026-00412.tif/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/nijl/manifest/13.json",
+            "@type": "sc:Manifest",
+            "index": 13,
+            "label": "明石_(源氏物語)",
+            "thumbnail": "https://kotenseki.nijl.ac.jp/api/iiif/200003803/v4/NIIP/SA4-0026/SA4-0026-00462.tif/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/nijl/manifest/14.json",
+            "@type": "sc:Manifest",
+            "index": 14,
+            "label": "澪標_(源氏物語)",
+            "thumbnail": "https://kotenseki.nijl.ac.jp/api/iiif/200003803/v4/NIIP/SA4-0026/SA4-0026-00508.tif/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/nijl/manifest/15.json",
+            "@type": "sc:Manifest",
+            "index": 15,
+            "label": "蓬生",
+            "thumbnail": "https://kotenseki.nijl.ac.jp/api/iiif/200003803/v4/NIIP/SA4-0026/SA4-0026-00546.tif/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/nijl/manifest/16.json",
+            "@type": "sc:Manifest",
+            "index": 16,
+            "label": "関屋_(源氏物語)",
+            "thumbnail": "https://kotenseki.nijl.ac.jp/api/iiif/200003803/v4/NIIP/SA4-0026/SA4-0026-00573.tif/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/nijl/manifest/17.json",
+            "@type": "sc:Manifest",
+            "index": 17,
+            "label": "絵合",
+            "thumbnail": "https://kotenseki.nijl.ac.jp/api/iiif/200003803/v4/NIIP/SA4-0026/SA4-0026-00582.tif/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/nijl/manifest/18.json",
+            "@type": "sc:Manifest",
+            "index": 18,
+            "label": "松風_(源氏物語)",
+            "thumbnail": "https://kotenseki.nijl.ac.jp/api/iiif/200003803/v4/NIIP/SA4-0026/SA4-0026-00604.tif/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/nijl/manifest/19.json",
+            "@type": "sc:Manifest",
+            "index": 19,
+            "label": "薄雲_(源氏物語)",
+            "thumbnail": "https://kotenseki.nijl.ac.jp/api/iiif/200003803/v4/NIIP/SA4-0026/SA4-0026-00629.tif/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/nijl/manifest/20.json",
+            "@type": "sc:Manifest",
+            "index": 20,
+            "label": "朝顔_(源氏物語)",
+            "thumbnail": "https://kotenseki.nijl.ac.jp/api/iiif/200003803/v4/NIIP/SA4-0026/SA4-0026-00664.tif/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/nijl/manifest/21.json",
+            "@type": "sc:Manifest",
+            "index": 21,
+            "label": "少女_(源氏物語)",
+            "thumbnail": "https://kotenseki.nijl.ac.jp/api/iiif/200003803/v4/NIIP/SA4-0026/SA4-0026-00689.tif/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/nijl/manifest/22.json",
+            "@type": "sc:Manifest",
+            "index": 22,
+            "label": "玉鬘_(源氏物語)",
+            "thumbnail": "https://kotenseki.nijl.ac.jp/api/iiif/200003803/v4/NIIP/SA4-0026/SA4-0026-00743.tif/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/nijl/manifest/23.json",
+            "@type": "sc:Manifest",
+            "index": 23,
+            "label": "初音_(源氏物語)",
+            "thumbnail": "https://kotenseki.nijl.ac.jp/api/iiif/200003803/v4/NIIP/SA4-0026/SA4-0026-00788.tif/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/nijl/manifest/24.json",
+            "@type": "sc:Manifest",
+            "index": 24,
+            "label": "胡蝶_(源氏物語)",
+            "thumbnail": "https://kotenseki.nijl.ac.jp/api/iiif/200003803/v4/NIIP/SA4-0026/SA4-0026-00806.tif/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/nijl/manifest/25.json",
+            "@type": "sc:Manifest",
+            "index": 25,
+            "label": "蛍_(源氏物語)",
+            "thumbnail": "https://kotenseki.nijl.ac.jp/api/iiif/200003803/v4/NIIP/SA4-0026/SA4-0026-00831.tif/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/nijl/manifest/26.json",
+            "@type": "sc:Manifest",
+            "index": 26,
+            "label": "常夏",
+            "thumbnail": "https://kotenseki.nijl.ac.jp/api/iiif/200003803/v4/NIIP/SA4-0026/SA4-0026-00854.tif/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/nijl/manifest/27.json",
+            "@type": "sc:Manifest",
+            "index": 27,
+            "label": "篝火",
+            "thumbnail": "https://kotenseki.nijl.ac.jp/api/iiif/200003803/v4/NIIP/SA4-0026/SA4-0026-00880.tif/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/nijl/manifest/28.json",
+            "@type": "sc:Manifest",
+            "index": 28,
+            "label": "野分_(源氏物語)",
+            "thumbnail": "https://kotenseki.nijl.ac.jp/api/iiif/200003803/v4/NIIP/SA4-0026/SA4-0026-00887.tif/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/nijl/manifest/29.json",
+            "@type": "sc:Manifest",
+            "index": 29,
+            "label": "行幸_(源氏物語)",
+            "thumbnail": "https://kotenseki.nijl.ac.jp/api/iiif/200003803/v4/NIIP/SA4-0026/SA4-0026-00908.tif/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/nijl/manifest/30.json",
+            "@type": "sc:Manifest",
+            "index": 30,
+            "label": "藤袴",
+            "thumbnail": "https://kotenseki.nijl.ac.jp/api/iiif/200003803/v4/NIIP/SA4-0026/SA4-0026-00939.tif/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/nijl/manifest/31.json",
+            "@type": "sc:Manifest",
+            "index": 31,
+            "label": "真木柱",
+            "thumbnail": "https://kotenseki.nijl.ac.jp/api/iiif/200003803/v4/NIIP/SA4-0026/SA4-0026-00957.tif/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/nijl/manifest/32.json",
+            "@type": "sc:Manifest",
+            "index": 32,
+            "label": "梅枝",
+            "thumbnail": "https://kotenseki.nijl.ac.jp/api/iiif/200003803/v4/NIIP/SA4-0026/SA4-0026-00999.tif/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/nijl/manifest/33.json",
+            "@type": "sc:Manifest",
+            "index": 33,
+            "label": "藤裏葉",
+            "thumbnail": "https://kotenseki.nijl.ac.jp/api/iiif/200003803/v4/NIIP/SA4-0026/SA4-0026-01021.tif/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/nijl/manifest/34.json",
+            "@type": "sc:Manifest",
+            "index": 34,
+            "label": "若菜_(源氏物語)",
+            "thumbnail": "https://kotenseki.nijl.ac.jp/api/iiif/200003803/v4/NIIP/SA4-0026/SA4-0026-01049.tif/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/nijl/manifest/35.json",
+            "@type": "sc:Manifest",
+            "index": 35,
+            "label": "柏木_(源氏物語)",
+            "thumbnail": "https://kotenseki.nijl.ac.jp/api/iiif/200003803/v4/NIIP/SA4-0026/SA4-0026-01154.tif/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/nijl/manifest/36.json",
+            "@type": "sc:Manifest",
+            "index": 36,
+            "label": "横笛_(源氏物語)",
+            "thumbnail": "https://kotenseki.nijl.ac.jp/api/iiif/200003803/v4/NIIP/SA4-0026/SA4-0026-01260.tif/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/nijl/manifest/37.json",
+            "@type": "sc:Manifest",
+            "index": 37,
+            "label": "鈴虫_(源氏物語)",
+            "thumbnail": "https://kotenseki.nijl.ac.jp/api/iiif/200003803/v4/NIIP/SA4-0026/SA4-0026-01303.tif/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/nijl/manifest/38.json",
+            "@type": "sc:Manifest",
+            "index": 38,
+            "label": "夕霧_(源氏物語)",
+            "thumbnail": "https://kotenseki.nijl.ac.jp/api/iiif/200003803/v4/NIIP/SA4-0026/SA4-0026-01325.tif/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/nijl/manifest/39.json",
+            "@type": "sc:Manifest",
+            "index": 39,
+            "label": "御法",
+            "thumbnail": "https://kotenseki.nijl.ac.jp/api/iiif/200003803/v4/NIIP/SA4-0026/SA4-0026-01343.tif/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/nijl/manifest/40.json",
+            "@type": "sc:Manifest",
+            "index": 40,
+            "label": "幻_(源氏物語)",
+            "thumbnail": "https://kotenseki.nijl.ac.jp/api/iiif/200003803/v4/NIIP/SA4-0026/SA4-0026-01418.tif/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/nijl/manifest/41.json",
+            "@type": "sc:Manifest",
+            "index": 41,
+            "label": "雲隠",
+            "thumbnail": "https://kotenseki.nijl.ac.jp/api/iiif/200003803/v4/NIIP/SA4-0026/SA4-0026-01441.tif/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/nijl/manifest/42.json",
+            "@type": "sc:Manifest",
+            "index": 42,
+            "label": "匂宮",
+            "thumbnail": "https://kotenseki.nijl.ac.jp/api/iiif/200003803/v4/NIIP/SA4-0026/SA4-0026-01466.tif/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/nijl/manifest/43.json",
+            "@type": "sc:Manifest",
+            "index": 43,
+            "label": "紅梅_(源氏物語)",
+            "thumbnail": "https://kotenseki.nijl.ac.jp/api/iiif/200003803/v4/NIIP/SA4-0026/SA4-0026-01483.tif/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/nijl/manifest/44.json",
+            "@type": "sc:Manifest",
+            "index": 44,
+            "label": "竹河",
+            "thumbnail": "https://kotenseki.nijl.ac.jp/api/iiif/200003803/v4/NIIP/SA4-0026/SA4-0026-01499.tif/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/nijl/manifest/45.json",
+            "@type": "sc:Manifest",
+            "index": 45,
+            "label": "橋姫_(源氏物語)",
+            "thumbnail": "https://kotenseki.nijl.ac.jp/api/iiif/200003803/v4/NIIP/SA4-0026/SA4-0026-01544.tif/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/nijl/manifest/46.json",
+            "@type": "sc:Manifest",
+            "index": 46,
+            "label": "椎本",
+            "thumbnail": "https://kotenseki.nijl.ac.jp/api/iiif/200003803/v4/NIIP/SA4-0026/SA4-0026-01587.tif/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/nijl/manifest/47.json",
+            "@type": "sc:Manifest",
+            "index": 47,
+            "label": "総角_(源氏物語)",
+            "thumbnail": "https://kotenseki.nijl.ac.jp/api/iiif/200003803/v4/NIIP/SA4-0026/SA4-0026-01628.tif/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/nijl/manifest/48.json",
+            "@type": "sc:Manifest",
+            "index": 48,
+            "label": "早蕨",
+            "thumbnail": "https://kotenseki.nijl.ac.jp/api/iiif/200003803/v4/NIIP/SA4-0026/SA4-0026-01721.tif/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/nijl/manifest/49.json",
+            "@type": "sc:Manifest",
+            "index": 49,
+            "label": "宿木",
+            "thumbnail": "https://kotenseki.nijl.ac.jp/api/iiif/200003803/v4/NIIP/SA4-0026/SA4-0026-01744.tif/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/nijl/manifest/50.json",
+            "@type": "sc:Manifest",
+            "index": 50,
+            "label": "東屋_(源氏物語)",
+            "thumbnail": "https://kotenseki.nijl.ac.jp/api/iiif/200003803/v4/NIIP/SA4-0026/SA4-0026-01844.tif/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/nijl/manifest/51.json",
+            "@type": "sc:Manifest",
+            "index": 51,
+            "label": "浮舟_(源氏物語)",
+            "thumbnail": "https://kotenseki.nijl.ac.jp/api/iiif/200003803/v4/NIIP/SA4-0026/SA4-0026-01914.tif/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/nijl/manifest/52.json",
+            "@type": "sc:Manifest",
+            "index": 52,
+            "label": "蜻蛉_(源氏物語)",
+            "thumbnail": "https://kotenseki.nijl.ac.jp/api/iiif/200003803/v4/NIIP/SA4-0026/SA4-0026-01989.tif/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/nijl/manifest/53.json",
+            "@type": "sc:Manifest",
+            "index": 53,
+            "label": "手習_(源氏物語)",
+            "thumbnail": "https://kotenseki.nijl.ac.jp/api/iiif/200003803/v4/NIIP/SA4-0026/SA4-0026-02049.tif/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/nijl/manifest/54.json",
+            "@type": "sc:Manifest",
+            "index": 54,
+            "label": "夢浮橋",
+            "thumbnail": "https://kotenseki.nijl.ac.jp/api/iiif/200003803/v4/NIIP/SA4-0026/SA4-0026-02119.tif/full/200,/0/default.jpg"
+        }
+    ],
+    "vhint": "use-thumb"
+}

@@ -11,6 +11,8 @@ import urllib.request
 import os
 import csv
 
+target = ""
+
 path = "data/all.json"
 
 label_map = {}
@@ -26,13 +28,14 @@ with open('data/map.csv', 'r') as f:
 with open(path, 'r') as f:
     data = json.load(f)
 
-collections = []
-
 for obj in data:
 
     label2 = obj["label"]
     # print(label2)
     dir = obj["id"]
+
+    if dir != target:
+        continue
 
     list_path = "data/"+dir+"/list_"+dir+".xlsx"
 
@@ -158,14 +161,31 @@ for obj in data:
     json.dump(collection_data, fw2, ensure_ascii=False, indent=4,
               sort_keys=True, separators=(',', ': '))
 
-    collections.append({
-        "@context": "http://iiif.io/api/presentation/2/context.json",
-        "@id": collection_data["@id"],
-        "@type": "sc:Collection",
-        "label": label2,
-    })
+# --------------- universe ------------------
 
 ofile_2 = "../../docs/ugm/genji.json"
+
+collections = []
+
+for obj in data:
+
+    label2 = obj["label"]
+    # print(label2)
+    dir = obj["id"]
+
+    ofile = "../../docs/ugm/"+dir+"/collection.json"
+
+    print(ofile)
+
+    with open(ofile, 'r') as f:
+        collection_data = json.load(f)
+
+        collections.append({
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": collection_data["@id"],
+            "@type": "sc:Collection",
+            "label": label2,
+        })
 
 universe = {
     "@context": "http://iiif.io/api/presentation/2/context.json",
