@@ -13,7 +13,7 @@ import csv
 import requests
 import hashlib
 
-target = "kyushu"
+target = "utokyo"
 
 path = "data/all.json"
 
