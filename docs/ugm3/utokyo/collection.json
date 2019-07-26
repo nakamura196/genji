@@ -1,0 +1,441 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/collection.json",
+    "@type": "sc:Collection",
+    "label": "東大本",
+    "manifests": [
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/manifest/01.json",
+            "@type": "sc:Manifest",
+            "index": 1,
+            "label": "桐壺",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0001.tif/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/manifest/02.json",
+            "@type": "sc:Manifest",
+            "index": 2,
+            "label": "帚木_(源氏物語)",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/02/02_0001.tif/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/manifest/03.json",
+            "@type": "sc:Manifest",
+            "index": 3,
+            "label": "空蝉_(源氏物語)",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/03/03_0001.tif/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/manifest/04.json",
+            "@type": "sc:Manifest",
+            "index": 4,
+            "label": "夕顔_(源氏物語)",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/04/04_0001.tif/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/manifest/05.json",
+            "@type": "sc:Manifest",
+            "index": 5,
+            "label": "若紫",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/05/05_0001.tif/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/manifest/06.json",
+            "@type": "sc:Manifest",
+            "index": 6,
+            "label": "末摘花_(源氏物語)",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/06/06_0001.tif/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/manifest/07.json",
+            "@type": "sc:Manifest",
+            "index": 7,
+            "label": "紅葉賀",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/07/07_0001.tif/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/manifest/08.json",
+            "@type": "sc:Manifest",
+            "index": 8,
+            "label": "花宴",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/08/08_0001.tif/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/manifest/09.json",
+            "@type": "sc:Manifest",
+            "index": 9,
+            "label": "葵_(源氏物語)",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/09/09_0001.tif/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/manifest/10.json",
+            "@type": "sc:Manifest",
+            "index": 10,
+            "label": "賢木",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/10/10_0001.tif/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/manifest/11.json",
+            "@type": "sc:Manifest",
+            "index": 11,
+            "label": "花散里",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/11/11_0001.tif/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/manifest/12.json",
+            "@type": "sc:Manifest",
+            "index": 12,
+            "label": "須磨_(源氏物語)",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/12/12_0001.tif/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/manifest/13.json",
+            "@type": "sc:Manifest",
+            "index": 13,
+            "label": "明石_(源氏物語)",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/13/13_0001.tif/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/manifest/14.json",
+            "@type": "sc:Manifest",
+            "index": 14,
+            "label": "澪標_(源氏物語)",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/14/14_0001.tif/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/manifest/15.json",
+            "@type": "sc:Manifest",
+            "index": 15,
+            "label": "蓬生",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/15/15_0001.tif/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/manifest/16.json",
+            "@type": "sc:Manifest",
+            "index": 16,
+            "label": "関屋_(源氏物語)",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/16/16_0001.tif/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/manifest/17.json",
+            "@type": "sc:Manifest",
+            "index": 17,
+            "label": "絵合",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/17/17_0001.tif/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/manifest/18.json",
+            "@type": "sc:Manifest",
+            "index": 18,
+            "label": "松風_(源氏物語)",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/18/18_0001.tif/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/manifest/19.json",
+            "@type": "sc:Manifest",
+            "index": 19,
+            "label": "薄雲_(源氏物語)",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/19/19_0001.tif/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/manifest/20.json",
+            "@type": "sc:Manifest",
+            "index": 20,
+            "label": "朝顔_(源氏物語)",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/20/20_0001.tif/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/manifest/21.json",
+            "@type": "sc:Manifest",
+            "index": 21,
+            "label": "少女_(源氏物語)",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/21/21_0001.tif/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/manifest/22.json",
+            "@type": "sc:Manifest",
+            "index": 22,
+            "label": "玉鬘_(源氏物語)",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/22/22_0001.tif/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/manifest/23.json",
+            "@type": "sc:Manifest",
+            "index": 23,
+            "label": "初音_(源氏物語)",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/23/23_0001.tif/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/manifest/24.json",
+            "@type": "sc:Manifest",
+            "index": 24,
+            "label": "胡蝶_(源氏物語)",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/24/24_0001.tif/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/manifest/25.json",
+            "@type": "sc:Manifest",
+            "index": 25,
+            "label": "蛍_(源氏物語)",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/25/25_0001.tif/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/manifest/26.json",
+            "@type": "sc:Manifest",
+            "index": 26,
+            "label": "常夏",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/26/26_0001.tif/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/manifest/27.json",
+            "@type": "sc:Manifest",
+            "index": 27,
+            "label": "篝火",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/27/27_0001.tif/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/manifest/28.json",
+            "@type": "sc:Manifest",
+            "index": 28,
+            "label": "野分_(源氏物語)",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/28/28_0001.tif/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/manifest/29.json",
+            "@type": "sc:Manifest",
+            "index": 29,
+            "label": "行幸_(源氏物語)",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/29/29_0001.tif/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/manifest/30.json",
+            "@type": "sc:Manifest",
+            "index": 30,
+            "label": "藤袴",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/30/30_0001.tif/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/manifest/31.json",
+            "@type": "sc:Manifest",
+            "index": 31,
+            "label": "真木柱",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/31/31_0001.tif/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/manifest/32.json",
+            "@type": "sc:Manifest",
+            "index": 32,
+            "label": "梅枝",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/32/32_0001.tif/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/manifest/33.json",
+            "@type": "sc:Manifest",
+            "index": 33,
+            "label": "藤裏葉",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/33/33_0001.tif/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/manifest/34.json",
+            "@type": "sc:Manifest",
+            "index": 34,
+            "label": "若菜_(源氏物語)",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/34/34_0001.tif/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/manifest/35.json",
+            "@type": "sc:Manifest",
+            "index": 35,
+            "label": "柏木_(源氏物語)",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/35/35_0001.tif/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/manifest/36.json",
+            "@type": "sc:Manifest",
+            "index": 36,
+            "label": "横笛_(源氏物語)",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/36/36_0001.tif/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/manifest/37.json",
+            "@type": "sc:Manifest",
+            "index": 37,
+            "label": "鈴虫_(源氏物語)",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/37/37_0001.tif/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/manifest/38.json",
+            "@type": "sc:Manifest",
+            "index": 38,
+            "label": "夕霧_(源氏物語)",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/38/38_0001.tif/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/manifest/39.json",
+            "@type": "sc:Manifest",
+            "index": 39,
+            "label": "御法",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/39/39_0001.tif/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/manifest/40.json",
+            "@type": "sc:Manifest",
+            "index": 40,
+            "label": "幻_(源氏物語)",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/40/40_0001.tif/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/manifest/41.json",
+            "@type": "sc:Manifest",
+            "index": 41,
+            "label": "雲隠",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/41/41_0001.tif/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/manifest/42.json",
+            "@type": "sc:Manifest",
+            "index": 42,
+            "label": "匂宮",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/42/42_0001.tif/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/manifest/43.json",
+            "@type": "sc:Manifest",
+            "index": 43,
+            "label": "紅梅_(源氏物語)",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/43/43_0001.tif/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/manifest/44.json",
+            "@type": "sc:Manifest",
+            "index": 44,
+            "label": "竹河",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/44/44_0001.tif/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/manifest/45.json",
+            "@type": "sc:Manifest",
+            "index": 45,
+            "label": "橋姫_(源氏物語)",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/45/45_0001.tif/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/manifest/46.json",
+            "@type": "sc:Manifest",
+            "index": 46,
+            "label": "椎本",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/46/46_0001.tif/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/manifest/47.json",
+            "@type": "sc:Manifest",
+            "index": 47,
+            "label": "総角_(源氏物語)",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/47/47_0001.tif/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/manifest/48.json",
+            "@type": "sc:Manifest",
+            "index": 48,
+            "label": "早蕨",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/48/48_0001.tif/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/manifest/49.json",
+            "@type": "sc:Manifest",
+            "index": 49,
+            "label": "宿木",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/49/49_0001.tif/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/manifest/50.json",
+            "@type": "sc:Manifest",
+            "index": 50,
+            "label": "東屋_(源氏物語)",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/50/50_0001.tif/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/manifest/51.json",
+            "@type": "sc:Manifest",
+            "index": 51,
+            "label": "浮舟_(源氏物語)",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/51/51_0001.tif/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/manifest/52.json",
+            "@type": "sc:Manifest",
+            "index": 52,
+            "label": "蜻蛉_(源氏物語)",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/52/52_0001.tif/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/manifest/53.json",
+            "@type": "sc:Manifest",
+            "index": 53,
+            "label": "手習_(源氏物語)",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/53/53_0001.tif/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/manifest/54.json",
+            "@type": "sc:Manifest",
+            "index": 54,
+            "label": "夢浮橋",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/54/54_0001.tif/full/200,/0/default.jpg"
+        }
+    ],
+    "vhint": "use-thumb"
+}

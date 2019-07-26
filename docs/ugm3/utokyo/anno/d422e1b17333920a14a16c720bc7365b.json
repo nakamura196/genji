@@ -1,0 +1,22 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/anno/d422e1b17333920a14a16c720bc7365b.json",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/anno/d422e1b17333920a14a16c720bc7365b.json#0",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p9#xywh=1568,1140,248,2880",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "24",
+                "format": "text/plain"
+            }
+        }
+    ],
+    "within": {
+        "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/manifest/01.json",
+        "@type": "sc:Manifest"
+    }
+}
