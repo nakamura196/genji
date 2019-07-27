@@ -1,0 +1,25 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/genji/ugm4/utokyo/collection.json",
+    "@type": "sc:Collection",
+    "label": "東大本",
+    "manifests": [
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm4/utokyo/manifest/01.json",
+            "@type": "sc:Manifest",
+            "index": 1,
+            "label": "桐壺",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0001.tif/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm4/utokyo/manifest/02.json",
+            "@type": "sc:Manifest",
+            "index": 2,
+            "label": "帚木_(源氏物語)",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/02/02_0001.tif/full/200,/0/default.jpg"
+        }
+    ],
+    "vhint": "use-thumb"
+}
