@@ -183,8 +183,25 @@ for obj in data:
                         "chars": "新編日本古典文学全集 p."+page+" 該当箇所",
                         "format": "text/plain"
                     },
-                    "on": member["@id"]
+                    "on": [
+                        {
+                            "@type": "oa:SpecificResource",
+                            "full": canvas_id,
+                            "selector": {
+                                "@type": "oa:Choice",
+                                "default": {
+                                    "@type": "oa:FragmentSelector",
+                                    "value": area
+                                }
+                            },
+                            "within": {
+                                "@id": new_manifest_uri,
+                                "@type": "sc:Manifest"
+                            }
+                        }
+                    ],
                 }
+
 
                 
                 canvas_anno_map[canvas_index].append(anno)
@@ -222,11 +239,7 @@ for obj in data:
                     "@context": "http://iiif.io/api/presentation/2/context.json",
                     "@id": anno_uri,
                     "@type": "sc:AnnotationList",
-                    "resources": canvas_anno_map[canvas_index],
-                    "within": {
-                        "@id": new_manifest_uri,
-                        "@type": "sc:Manifest"
-                    }
+                    "resources": canvas_anno_map[canvas_index]
                 }
 
                 fw2 = open(anno_file, 'w')

@@ -7,16 +7,28 @@
             "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/anno/anno_015_0d228cacb67891bca27e658fed631e70.json#0",
             "@type": "oa:Annotation",
             "motivation": "sc:painting",
-            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p15#xywh=4824,1124,208,2896",
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p15",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=4824,1124,208,2896"
+                        }
+                    },
+                    "within": {
+                        "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/manifest/01.json",
+                        "@type": "sc:Manifest"
+                    }
+                }
+            ],
             "resource": {
                 "@type": "cnt:ContentAsText",
                 "chars": "新編日本古典文学全集 p.31 該当箇所",
                 "format": "text/plain"
             }
         }
-    ],
-    "within": {
-        "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/manifest/01.json",
-        "@type": "sc:Manifest"
-    }
+    ]
 }

@@ -15,7 +15,11 @@
                         "@type": "oa:Choice",
                         "default": {
                             "@type": "oa:FragmentSelector",
-                            "value": "xywh=5512,1196,248,2840"
+                            "value": "xywh=5636,1196,90,135"
+                        },
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M5636,1196c0,-30 15,-60 45,-90c0,-25 -20,-45 -45,-45c-25,0 -45,20 -45,45c30,30 45,60 45,90z\" id=\"pin_41fde7ce40f1fa5c04aed8f1ef64c3c7\" fill=\"#ff0000\" stroke=\"#ff0000\"/></svg>"
                         }
                     },
                     "within": {
@@ -25,9 +29,9 @@
                 }
             ],
             "resource": {
-                "@type": "cnt:ContentAsText",
-                "chars": "新編日本古典文学全集 p.19 該当箇所",
-                "format": "text/plain"
+                "@type": "dctypes:Text",
+                "chars": "ここから 新編日本古典文学全集 p.19<p><a href=\"https://japanknowledge.com/lib/display/?lid=80110V00200019\" target=\"_blank\" rel=\"noopener noreferrer\">ジャパンナレッジ</a>でみる</p>",
+                "format": "text/html"
             }
         },
         {
@@ -42,7 +46,11 @@
                         "@type": "oa:Choice",
                         "default": {
                             "@type": "oa:FragmentSelector",
-                            "value": "xywh=1392,1148,208,2872"
+                            "value": "xywh=1496,1148,90,135"
+                        },
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1496,1148c0,-30 15,-60 45,-90c0,-25 -20,-45 -45,-45c-25,0 -45,20 -45,45c30,30 45,60 45,90z\" id=\"pin_f35da62ce602cb126336453424dbcbb8\" fill=\"#ff0000\" stroke=\"#ff0000\"/></svg>"
                         }
                     },
                     "within": {
@@ -52,9 +60,9 @@
                 }
             ],
             "resource": {
-                "@type": "cnt:ContentAsText",
-                "chars": "新編日本古典文学全集 p.20 該当箇所",
-                "format": "text/plain"
+                "@type": "dctypes:Text",
+                "chars": "ここから 新編日本古典文学全集 p.20<p><a href=\"https://japanknowledge.com/lib/display/?lid=80110V00200020\" target=\"_blank\" rel=\"noopener noreferrer\">ジャパンナレッジ</a>でみる</p>",
+                "format": "text/html"
             }
         }
     ]

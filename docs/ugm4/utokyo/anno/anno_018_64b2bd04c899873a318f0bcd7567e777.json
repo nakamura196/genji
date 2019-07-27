@@ -15,7 +15,11 @@
                         "@type": "oa:Choice",
                         "default": {
                             "@type": "oa:FragmentSelector",
-                            "value": "xywh=4336,1148,216,2888"
+                            "value": "xywh=4444,1148,90,135"
+                        },
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M4444,1148c0,-30 15,-60 45,-90c0,-25 -20,-45 -45,-45c-25,0 -45,20 -45,45c30,30 45,60 45,90z\" id=\"pin_590765ff7af84774c9f5d2f9d3b7d901\" fill=\"#ff0000\" stroke=\"#ff0000\"/></svg>"
                         }
                     },
                     "within": {
@@ -25,9 +29,9 @@
                 }
             ],
             "resource": {
-                "@type": "cnt:ContentAsText",
-                "chars": "新編日本古典文学全集 p.35 該当箇所",
-                "format": "text/plain"
+                "@type": "dctypes:Text",
+                "chars": "ここから 新編日本古典文学全集 p.35<p><a href=\"https://japanknowledge.com/lib/display/?lid=80110V00200035\" target=\"_blank\" rel=\"noopener noreferrer\">ジャパンナレッジ</a>でみる</p>",
+                "format": "text/html"
             }
         }
     ]

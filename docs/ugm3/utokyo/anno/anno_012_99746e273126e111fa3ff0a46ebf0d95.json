@@ -7,7 +7,23 @@
             "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/anno/anno_012_99746e273126e111fa3ff0a46ebf0d95.json#0",
             "@type": "oa:Annotation",
             "motivation": "sc:painting",
-            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p12#xywh=5248,1164,232,2888",
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p12",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=5248,1164,232,2888"
+                        }
+                    },
+                    "within": {
+                        "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/manifest/01.json",
+                        "@type": "sc:Manifest"
+                    }
+                }
+            ],
             "resource": {
                 "@type": "cnt:ContentAsText",
                 "chars": "新編日本古典文学全集 p.27 該当箇所",
@@ -18,16 +34,28 @@
             "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/anno/anno_012_99746e273126e111fa3ff0a46ebf0d95.json#1",
             "@type": "oa:Annotation",
             "motivation": "sc:painting",
-            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p12#xywh=1336,1156,232,2872",
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p12",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=1336,1156,232,2872"
+                        }
+                    },
+                    "within": {
+                        "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/manifest/01.json",
+                        "@type": "sc:Manifest"
+                    }
+                }
+            ],
             "resource": {
                 "@type": "cnt:ContentAsText",
                 "chars": "新編日本古典文学全集 p.28 該当箇所",
                 "format": "text/plain"
             }
         }
-    ],
-    "within": {
-        "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/manifest/01.json",
-        "@type": "sc:Manifest"
-    }
+    ]
 }
