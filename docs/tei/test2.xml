@@ -18,6 +18,10 @@
                </p>
             </availability>
          </publicationStmt>
+         <notesStmt>
+            <note xml:id="note_1">物語は、ある帝の治世のこととして開始する。「御時」はご治世。</note>
+            <note xml:id="note_2">中宮に次ぐ天皇の夫人。摂関大臣以下公卿の娘がなる。</note>
+         </notesStmt>
          <sourceDesc>
             <bibl>
                <title>小学館『新編日本古典文学全集』</title>
@@ -29,7 +33,7 @@
       <body>
          <div>
             <lb/>
-            <span xml:id="017-01">いづれの御時にか、女御、更衣あまたさぶ</span>
+            <span xml:id="017-01">いづれの<span corresp="#note_1">御時</span>にか、<span corresp="#note_2">女御</span>、更衣あまたさぶ</span>
             <lb/>
             <span xml:id="017-02">らひたまひける中に、いとやむごとなき際</span>
             <lb/>
