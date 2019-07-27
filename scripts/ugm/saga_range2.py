@@ -72,9 +72,6 @@ for obj in data:
     for book in manifests:
 
         print(label2+" book\t"+str(book))
-
-        if book > 2:
-            break
         
         manifest = manifests[book]["manifest"]
 
@@ -190,7 +187,7 @@ for obj in data:
                     "motivation": "sc:painting",
                     "resource": {
                         "@type": "dctypes:Text",
-                        "chars": "ここから 新編日本古典文学全集 p."+page+"<p><a href=\"https://japanknowledge.com/lib/display/?lid=80110V00200"+page.zfill(3)+"\" target=\"_blank\" rel=\"noopener noreferrer\">ジャパンナレッジ</a>でみる</p>",
+                        "chars": "新編日本古典文学全集 p."+page+" 開始位置<p><a href=\"https://japanknowledge.com/lib/display/?lid=80110V00200"+page.zfill(3)+"\" target=\"_blank\" rel=\"noopener noreferrer\">ジャパンナレッジ</a>でみる</p>",
                         "format": "text/html"
                     },
                     "on": [

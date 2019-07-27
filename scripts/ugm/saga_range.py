@@ -179,29 +179,12 @@ for obj in data:
                     "@type": "oa:Annotation",
                     "motivation": "sc:painting",
                     "resource": {
-                        "@type": "cnt:ContentAsText",
-                        "chars": "新編日本古典文学全集 p."+page+" 該当箇所",
-                        "format": "text/plain"
+                        "@type": "dctypes:Text",
+                        "chars": "新編日本古典文学全集 p."+page+" 開始位置<p><a href=\"https://japanknowledge.com/lib/display/?lid=80110V00200"+page.zfill(3)+"\" target=\"_blank\" rel=\"noopener noreferrer\">ジャパンナレッジ</a>でみる</p>",
+                        "format": "text/html"
                     },
-                    "on": [
-                        {
-                            "@type": "oa:SpecificResource",
-                            "full": canvas_id,
-                            "selector": {
-                                "@type": "oa:Choice",
-                                "default": {
-                                    "@type": "oa:FragmentSelector",
-                                    "value": area
-                                }
-                            },
-                            "within": {
-                                "@id": new_manifest_uri,
-                                "@type": "sc:Manifest"
-                            }
-                        }
-                    ],
+                    "on": member["@id"]
                 }
-
 
                 
                 canvas_anno_map[canvas_index].append(anno)
@@ -239,7 +222,11 @@ for obj in data:
                     "@context": "http://iiif.io/api/presentation/2/context.json",
                     "@id": anno_uri,
                     "@type": "sc:AnnotationList",
-                    "resources": canvas_anno_map[canvas_index]
+                    "resources": canvas_anno_map[canvas_index],
+                    "within": {
+                        "@id": new_manifest_uri,
+                        "@type": "sc:Manifest"
+                    }
                 }
 
                 fw2 = open(anno_file, 'w')

@@ -30,7 +30,7 @@
             ],
             "resource": {
                 "@type": "dctypes:Text",
-                "chars": "ここから 新編日本古典文学全集 p.43<p><a href=\"https://japanknowledge.com/lib/display/?lid=80110V00200043\" target=\"_blank\" rel=\"noopener noreferrer\">ジャパンナレッジ</a>でみる</p>",
+                "chars": "新編日本古典文学全集 p.43 開始位置<p><a href=\"https://japanknowledge.com/lib/display/?lid=80110V00200043\" target=\"_blank\" rel=\"noopener noreferrer\">ジャパンナレッジ</a>でみる</p>",
                 "format": "text/html"
             }
         },
@@ -61,7 +61,7 @@
             ],
             "resource": {
                 "@type": "dctypes:Text",
-                "chars": "ここから 新編日本古典文学全集 p.44<p><a href=\"https://japanknowledge.com/lib/display/?lid=80110V00200044\" target=\"_blank\" rel=\"noopener noreferrer\">ジャパンナレッジ</a>でみる</p>",
+                "chars": "新編日本古典文学全集 p.44 開始位置<p><a href=\"https://japanknowledge.com/lib/display/?lid=80110V00200044\" target=\"_blank\" rel=\"noopener noreferrer\">ジャパンナレッジ</a>でみる</p>",
                 "format": "text/html"
             }
         }

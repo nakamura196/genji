@@ -155,25 +155,13 @@ for obj in data:
                                 "chars": "源氏物語大成 p."+page+" 該当箇所",
                                 "format": "text/plain"
                             },
-                            "on": [
-                                {
-                                    "@type": "oa:SpecificResource",
-                                    "full": canvas_id,
-                                    "selector": {
-                                        "@type": "oa:Choice",
-                                        "default": {
-                                            "@type": "oa:FragmentSelector",
-                                            "value": area
-                                        }
-                                    },
-                                    "within": {
-                                        "@id": new_manifest_uri,
-                                        "@type": "sc:Manifest"
-                                    }
-                                }
-                            ]
+                            "on": member["@id"]
                         }
-                    ]
+                    ],
+                    "within" : {
+                        "@id" : new_manifest_uri,
+                        "@type": "sc:Manifest"
+                    }
                 }
 
                 fw2 = open(anno_file, 'w')

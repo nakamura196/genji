@@ -7,55 +7,27 @@
             "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/anno/anno_020_74ad655613df8885059c36e0d4954931.json#0",
             "@type": "oa:Annotation",
             "motivation": "sc:painting",
-            "on": [
-                {
-                    "@type": "oa:SpecificResource",
-                    "full": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p20",
-                    "selector": {
-                        "@type": "oa:Choice",
-                        "default": {
-                            "@type": "oa:FragmentSelector",
-                            "value": "xywh=5688,1172,272,2904"
-                        }
-                    },
-                    "within": {
-                        "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/manifest/01.json",
-                        "@type": "sc:Manifest"
-                    }
-                }
-            ],
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p20#xywh=5688,1172,272,2904",
             "resource": {
-                "@type": "cnt:ContentAsText",
-                "chars": "新編日本古典文学全集 p.37 該当箇所",
-                "format": "text/plain"
+                "@type": "dctypes:Text",
+                "chars": "新編日本古典文学全集 p.37 開始位置<p><a href=\"https://japanknowledge.com/lib/display/?lid=80110V00200037\" target=\"_blank\" rel=\"noopener noreferrer\">ジャパンナレッジ</a>でみる</p>",
+                "format": "text/html"
             }
         },
         {
             "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/anno/anno_020_74ad655613df8885059c36e0d4954931.json#1",
             "@type": "oa:Annotation",
             "motivation": "sc:painting",
-            "on": [
-                {
-                    "@type": "oa:SpecificResource",
-                    "full": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p20",
-                    "selector": {
-                        "@type": "oa:Choice",
-                        "default": {
-                            "@type": "oa:FragmentSelector",
-                            "value": "xywh=1784,1164,208,2856"
-                        }
-                    },
-                    "within": {
-                        "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/manifest/01.json",
-                        "@type": "sc:Manifest"
-                    }
-                }
-            ],
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p20#xywh=1784,1164,208,2856",
             "resource": {
-                "@type": "cnt:ContentAsText",
-                "chars": "新編日本古典文学全集 p.38 該当箇所",
-                "format": "text/plain"
+                "@type": "dctypes:Text",
+                "chars": "新編日本古典文学全集 p.38 開始位置<p><a href=\"https://japanknowledge.com/lib/display/?lid=80110V00200038\" target=\"_blank\" rel=\"noopener noreferrer\">ジャパンナレッジ</a>でみる</p>",
+                "format": "text/html"
             }
         }
-    ]
+    ],
+    "within": {
+        "@id": "https://nakamura196.github.io/genji/ugm3/utokyo/manifest/01.json",
+        "@type": "sc:Manifest"
+    }
 }

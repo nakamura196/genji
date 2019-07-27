@@ -1,0 +1,22 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/genji/ugm5/utokyo/anno/anno_007_b1ad718f1af6f2af9ddabd6b67e440f4.json",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://nakamura196.github.io/genji/ugm5/utokyo/anno/anno_007_b1ad718f1af6f2af9ddabd6b67e440f4.json#0",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p7#xywh=2512,1164,1,2832",
+            "resource": {
+                "@type": "dctypes:Text",
+                "chars": "新編日本古典文学全集 p.21 開始位置<p><a href=\"https://japanknowledge.com/lib/display/?lid=80110V00200021\" target=\"_blank\" rel=\"noopener noreferrer\">ジャパンナレッジ</a>でみる</p>",
+                "format": "text/html"
+            }
+        }
+    ],
+    "within": {
+        "@id": "https://nakamura196.github.io/genji/ugm5/utokyo/manifest/01.json",
+        "@type": "sc:Manifest"
+    }
+}
