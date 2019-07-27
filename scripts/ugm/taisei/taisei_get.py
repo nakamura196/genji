@@ -57,7 +57,7 @@ if __name__ == '__main__':
     base_url = "http://www.genji.co.jp/taisei-genji-sub.php?file=all.txt&code="
 
     loop_flg = True
-    page = 1
+    page = 28560
 
     while loop_flg:
         url = base_url + str(page)
