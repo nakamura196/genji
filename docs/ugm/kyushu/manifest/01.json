@@ -45,6 +45,12 @@
                         }
                     ],
                     "label": "1",
+                    "otherContent": [
+                        {
+                            "@id": "https://nakamura196.github.io/genji/ugm/kyushu/anno/anno_001_8e84f8aa1978545e9da7a3c9058d0528.json",
+                            "@type": "sc:AnnotationList"
+                        }
+                    ],
                     "width": 563
                 },
                 {
@@ -91,6 +97,12 @@
                         }
                     ],
                     "label": "3",
+                    "otherContent": [
+                        {
+                            "@id": "https://nakamura196.github.io/genji/ugm/kyushu/anno/anno_003_57bf2aa2a4183448eaa791d23d14a8f9.json",
+                            "@type": "sc:AnnotationList"
+                        }
+                    ],
                     "width": 563
                 },
                 {
@@ -137,6 +149,12 @@
                         }
                     ],
                     "label": "5",
+                    "otherContent": [
+                        {
+                            "@id": "https://nakamura196.github.io/genji/ugm/kyushu/anno/anno_005_30803f419015ee1e7e2f11e21e96f5b8.json",
+                            "@type": "sc:AnnotationList"
+                        }
+                    ],
                     "width": 563
                 },
                 {
@@ -183,6 +201,12 @@
                         }
                     ],
                     "label": "7",
+                    "otherContent": [
+                        {
+                            "@id": "https://nakamura196.github.io/genji/ugm/kyushu/anno/anno_007_8f53de53d3e010e5e5f2937f5874f690.json",
+                            "@type": "sc:AnnotationList"
+                        }
+                    ],
                     "width": 563
                 },
                 {
@@ -229,6 +253,12 @@
                         }
                     ],
                     "label": "9",
+                    "otherContent": [
+                        {
+                            "@id": "https://nakamura196.github.io/genji/ugm/kyushu/anno/anno_009_5c61d08b3bab73eba478298efcd0ff06.json",
+                            "@type": "sc:AnnotationList"
+                        }
+                    ],
                     "width": 563
                 },
                 {
@@ -275,6 +305,12 @@
                         }
                     ],
                     "label": "11",
+                    "otherContent": [
+                        {
+                            "@id": "https://nakamura196.github.io/genji/ugm/kyushu/anno/anno_011_f89c387971bf6d3f99a10642d5048a3f.json",
+                            "@type": "sc:AnnotationList"
+                        }
+                    ],
                     "width": 563
                 },
                 {
@@ -321,6 +357,12 @@
                         }
                     ],
                     "label": "13",
+                    "otherContent": [
+                        {
+                            "@id": "https://nakamura196.github.io/genji/ugm/kyushu/anno/anno_013_14c983911cba60e4d7b35fddd1fb37f3.json",
+                            "@type": "sc:AnnotationList"
+                        }
+                    ],
                     "width": 565
                 },
                 {
@@ -367,6 +409,12 @@
                         }
                     ],
                     "label": "15",
+                    "otherContent": [
+                        {
+                            "@id": "https://nakamura196.github.io/genji/ugm/kyushu/anno/anno_015_8661fc23d8dd0b78686b4a21470b0ccd.json",
+                            "@type": "sc:AnnotationList"
+                        }
+                    ],
                     "width": 563
                 },
                 {
@@ -413,6 +461,12 @@
                         }
                     ],
                     "label": "17",
+                    "otherContent": [
+                        {
+                            "@id": "https://nakamura196.github.io/genji/ugm/kyushu/anno/anno_017_1e37d88a193a941499c74cf58ad044dd.json",
+                            "@type": "sc:AnnotationList"
+                        }
+                    ],
                     "width": 563
                 },
                 {
@@ -459,6 +513,12 @@
                         }
                     ],
                     "label": "19",
+                    "otherContent": [
+                        {
+                            "@id": "https://nakamura196.github.io/genji/ugm/kyushu/anno/anno_019_839f1f7262468b17ffd37d55f2a6b83b.json",
+                            "@type": "sc:AnnotationList"
+                        }
+                    ],
                     "width": 563
                 },
                 {
@@ -505,6 +565,12 @@
                         }
                     ],
                     "label": "21",
+                    "otherContent": [
+                        {
+                            "@id": "https://nakamura196.github.io/genji/ugm/kyushu/anno/anno_021_69a5018c29daa1ec763370a0a0806ca4.json",
+                            "@type": "sc:AnnotationList"
+                        }
+                    ],
                     "width": 563
                 },
                 {
@@ -551,6 +617,12 @@
                         }
                     ],
                     "label": "23",
+                    "otherContent": [
+                        {
+                            "@id": "https://nakamura196.github.io/genji/ugm/kyushu/anno/anno_023_e703b8bfb360af5fa321c9b611589bac.json",
+                            "@type": "sc:AnnotationList"
+                        }
+                    ],
                     "width": 563
                 },
                 {
@@ -597,6 +669,12 @@
                         }
                     ],
                     "label": "25",
+                    "otherContent": [
+                        {
+                            "@id": "https://nakamura196.github.io/genji/ugm/kyushu/anno/anno_025_35d5632bd81cebdd36a44746207aaea5.json",
+                            "@type": "sc:AnnotationList"
+                        }
+                    ],
                     "width": 563
                 },
                 {
@@ -643,6 +721,12 @@
                         }
                     ],
                     "label": "27",
+                    "otherContent": [
+                        {
+                            "@id": "https://nakamura196.github.io/genji/ugm/kyushu/anno/anno_027_a29c6979d4624d2155d05154e036aaec.json",
+                            "@type": "sc:AnnotationList"
+                        }
+                    ],
                     "width": 563
                 },
                 {
@@ -689,6 +773,12 @@
                         }
                     ],
                     "label": "29",
+                    "otherContent": [
+                        {
+                            "@id": "https://nakamura196.github.io/genji/ugm/kyushu/anno/anno_029_56315814e6b03ed1f4ede85c41635f2f.json",
+                            "@type": "sc:AnnotationList"
+                        }
+                    ],
                     "width": 563
                 },
                 {
@@ -735,6 +825,12 @@
                         }
                     ],
                     "label": "31",
+                    "otherContent": [
+                        {
+                            "@id": "https://nakamura196.github.io/genji/ugm/kyushu/anno/anno_031_d581191dcc3c00958d353a3560ace086.json",
+                            "@type": "sc:AnnotationList"
+                        }
+                    ],
                     "width": 563
                 },
                 {
@@ -804,6 +900,12 @@
                         }
                     ],
                     "label": "34",
+                    "otherContent": [
+                        {
+                            "@id": "https://nakamura196.github.io/genji/ugm/kyushu/anno/anno_034_7a8e6c6a5b8629c315085baf4ec02e72.json",
+                            "@type": "sc:AnnotationList"
+                        }
+                    ],
                     "width": 563
                 },
                 {
@@ -850,6 +952,12 @@
                         }
                     ],
                     "label": "36",
+                    "otherContent": [
+                        {
+                            "@id": "https://nakamura196.github.io/genji/ugm/kyushu/anno/anno_036_bea64bd18896f762eab882af7c7efb3c.json",
+                            "@type": "sc:AnnotationList"
+                        }
+                    ],
                     "width": 563
                 },
                 {
@@ -896,6 +1004,12 @@
                         }
                     ],
                     "label": "38",
+                    "otherContent": [
+                        {
+                            "@id": "https://nakamura196.github.io/genji/ugm/kyushu/anno/anno_038_16d539947868567afbc34717ed0bb973.json",
+                            "@type": "sc:AnnotationList"
+                        }
+                    ],
                     "width": 560
                 },
                 {
@@ -942,6 +1056,12 @@
                         }
                     ],
                     "label": "40",
+                    "otherContent": [
+                        {
+                            "@id": "https://nakamura196.github.io/genji/ugm/kyushu/anno/anno_040_78f9291b2c2739224d280b4055aa1b3f.json",
+                            "@type": "sc:AnnotationList"
+                        }
+                    ],
                     "width": 563
                 },
                 {
@@ -988,6 +1108,12 @@
                         }
                     ],
                     "label": "42",
+                    "otherContent": [
+                        {
+                            "@id": "https://nakamura196.github.io/genji/ugm/kyushu/anno/anno_042_aebf0c9fd8e2faf7c039d4319a2187f3.json",
+                            "@type": "sc:AnnotationList"
+                        }
+                    ],
                     "width": 565
                 },
                 {
@@ -1034,6 +1160,12 @@
                         }
                     ],
                     "label": "44",
+                    "otherContent": [
+                        {
+                            "@id": "https://nakamura196.github.io/genji/ugm/kyushu/anno/anno_044_e667936bd3e134ff97b1667c2bac4ae0.json",
+                            "@type": "sc:AnnotationList"
+                        }
+                    ],
                     "width": 565
                 },
                 {
@@ -1080,6 +1212,12 @@
                         }
                     ],
                     "label": "46",
+                    "otherContent": [
+                        {
+                            "@id": "https://nakamura196.github.io/genji/ugm/kyushu/anno/anno_046_e416f9c5c13e07e8c71a46c823aab342.json",
+                            "@type": "sc:AnnotationList"
+                        }
+                    ],
                     "width": 563
                 },
                 {
@@ -1126,6 +1264,12 @@
                         }
                     ],
                     "label": "48",
+                    "otherContent": [
+                        {
+                            "@id": "https://nakamura196.github.io/genji/ugm/kyushu/anno/anno_048_5faec70030fa36fe5987692f3debade0.json",
+                            "@type": "sc:AnnotationList"
+                        }
+                    ],
                     "width": 563
                 },
                 {
@@ -1175,200 +1319,6 @@
                     "width": 565
                 }
             ]
-        }
-    ],
-    "structures": [
-        {
-            "@id": "https://catalog.lib.kyushu-u.ac.jp/image/manifest/820/411193.json#5",
-            "@type": "sc:Range",
-            "canvases": [
-                "https://catalog.lib.kyushu-u.ac.jp/image/411193/canvas/p1"
-            ],
-            "label": "5"
-        },
-        {
-            "@id": "https://catalog.lib.kyushu-u.ac.jp/image/manifest/820/411193.json#6",
-            "@type": "sc:Range",
-            "canvases": [
-                "https://catalog.lib.kyushu-u.ac.jp/image/411193/canvas/p3"
-            ],
-            "label": "6"
-        },
-        {
-            "@id": "https://catalog.lib.kyushu-u.ac.jp/image/manifest/820/411193.json#7",
-            "@type": "sc:Range",
-            "canvases": [
-                "https://catalog.lib.kyushu-u.ac.jp/image/411193/canvas/p5"
-            ],
-            "label": "7"
-        },
-        {
-            "@id": "https://catalog.lib.kyushu-u.ac.jp/image/manifest/820/411193.json#8",
-            "@type": "sc:Range",
-            "canvases": [
-                "https://catalog.lib.kyushu-u.ac.jp/image/411193/canvas/p7"
-            ],
-            "label": "8"
-        },
-        {
-            "@id": "https://catalog.lib.kyushu-u.ac.jp/image/manifest/820/411193.json#9",
-            "@type": "sc:Range",
-            "canvases": [
-                "https://catalog.lib.kyushu-u.ac.jp/image/411193/canvas/p9"
-            ],
-            "label": "9"
-        },
-        {
-            "@id": "https://catalog.lib.kyushu-u.ac.jp/image/manifest/820/411193.json#10",
-            "@type": "sc:Range",
-            "canvases": [
-                "https://catalog.lib.kyushu-u.ac.jp/image/411193/canvas/p11"
-            ],
-            "label": "10"
-        },
-        {
-            "@id": "https://catalog.lib.kyushu-u.ac.jp/image/manifest/820/411193.json#11",
-            "@type": "sc:Range",
-            "canvases": [
-                "https://catalog.lib.kyushu-u.ac.jp/image/411193/canvas/p13"
-            ],
-            "label": "11"
-        },
-        {
-            "@id": "https://catalog.lib.kyushu-u.ac.jp/image/manifest/820/411193.json#12",
-            "@type": "sc:Range",
-            "canvases": [
-                "https://catalog.lib.kyushu-u.ac.jp/image/411193/canvas/p15"
-            ],
-            "label": "12"
-        },
-        {
-            "@id": "https://catalog.lib.kyushu-u.ac.jp/image/manifest/820/411193.json#13",
-            "@type": "sc:Range",
-            "canvases": [
-                "https://catalog.lib.kyushu-u.ac.jp/image/411193/canvas/p17"
-            ],
-            "label": "13"
-        },
-        {
-            "@id": "https://catalog.lib.kyushu-u.ac.jp/image/manifest/820/411193.json#14",
-            "@type": "sc:Range",
-            "canvases": [
-                "https://catalog.lib.kyushu-u.ac.jp/image/411193/canvas/p19"
-            ],
-            "label": "14"
-        },
-        {
-            "@id": "https://catalog.lib.kyushu-u.ac.jp/image/manifest/820/411193.json#15",
-            "@type": "sc:Range",
-            "canvases": [
-                "https://catalog.lib.kyushu-u.ac.jp/image/411193/canvas/p21"
-            ],
-            "label": "15"
-        },
-        {
-            "@id": "https://catalog.lib.kyushu-u.ac.jp/image/manifest/820/411193.json#16",
-            "@type": "sc:Range",
-            "canvases": [
-                "https://catalog.lib.kyushu-u.ac.jp/image/411193/canvas/p23"
-            ],
-            "label": "16"
-        },
-        {
-            "@id": "https://catalog.lib.kyushu-u.ac.jp/image/manifest/820/411193.json#17",
-            "@type": "sc:Range",
-            "canvases": [
-                "https://catalog.lib.kyushu-u.ac.jp/image/411193/canvas/p25"
-            ],
-            "label": "17"
-        },
-        {
-            "@id": "https://catalog.lib.kyushu-u.ac.jp/image/manifest/820/411193.json#18",
-            "@type": "sc:Range",
-            "canvases": [
-                "https://catalog.lib.kyushu-u.ac.jp/image/411193/canvas/p27"
-            ],
-            "label": "18"
-        },
-        {
-            "@id": "https://catalog.lib.kyushu-u.ac.jp/image/manifest/820/411193.json#19",
-            "@type": "sc:Range",
-            "canvases": [
-                "https://catalog.lib.kyushu-u.ac.jp/image/411193/canvas/p29"
-            ],
-            "label": "19"
-        },
-        {
-            "@id": "https://catalog.lib.kyushu-u.ac.jp/image/manifest/820/411193.json#20",
-            "@type": "sc:Range",
-            "canvases": [
-                "https://catalog.lib.kyushu-u.ac.jp/image/411193/canvas/p31"
-            ],
-            "label": "20"
-        },
-        {
-            "@id": "https://catalog.lib.kyushu-u.ac.jp/image/manifest/820/411193.json#21",
-            "@type": "sc:Range",
-            "canvases": [
-                "https://catalog.lib.kyushu-u.ac.jp/image/411193/canvas/p34"
-            ],
-            "label": "21"
-        },
-        {
-            "@id": "https://catalog.lib.kyushu-u.ac.jp/image/manifest/820/411193.json#22",
-            "@type": "sc:Range",
-            "canvases": [
-                "https://catalog.lib.kyushu-u.ac.jp/image/411193/canvas/p36"
-            ],
-            "label": "22"
-        },
-        {
-            "@id": "https://catalog.lib.kyushu-u.ac.jp/image/manifest/820/411193.json#23",
-            "@type": "sc:Range",
-            "canvases": [
-                "https://catalog.lib.kyushu-u.ac.jp/image/411193/canvas/p38"
-            ],
-            "label": "23"
-        },
-        {
-            "@id": "https://catalog.lib.kyushu-u.ac.jp/image/manifest/820/411193.json#24",
-            "@type": "sc:Range",
-            "canvases": [
-                "https://catalog.lib.kyushu-u.ac.jp/image/411193/canvas/p40"
-            ],
-            "label": "24"
-        },
-        {
-            "@id": "https://catalog.lib.kyushu-u.ac.jp/image/manifest/820/411193.json#25",
-            "@type": "sc:Range",
-            "canvases": [
-                "https://catalog.lib.kyushu-u.ac.jp/image/411193/canvas/p42"
-            ],
-            "label": "25"
-        },
-        {
-            "@id": "https://catalog.lib.kyushu-u.ac.jp/image/manifest/820/411193.json#26",
-            "@type": "sc:Range",
-            "canvases": [
-                "https://catalog.lib.kyushu-u.ac.jp/image/411193/canvas/p44"
-            ],
-            "label": "26"
-        },
-        {
-            "@id": "https://catalog.lib.kyushu-u.ac.jp/image/manifest/820/411193.json#27",
-            "@type": "sc:Range",
-            "canvases": [
-                "https://catalog.lib.kyushu-u.ac.jp/image/411193/canvas/p46"
-            ],
-            "label": "27"
-        },
-        {
-            "@id": "https://catalog.lib.kyushu-u.ac.jp/image/manifest/820/411193.json#28",
-            "@type": "sc:Range",
-            "canvases": [
-                "https://catalog.lib.kyushu-u.ac.jp/image/411193/canvas/p48"
-            ],
-            "label": "28"
         }
     ],
     "thumbnail": {
