@@ -89,7 +89,7 @@ for obj in data:
 
         # -------------- <mmm> ---------------
 
-        odir = "../../docs/ugm4/"+dir+"/manifest"
+        odir = "../../docs/ugm/"+dir+"/manifest"
         os.makedirs(odir, exist_ok=True)
 
         ofile_1 = odir+"/"+str(book).zfill(2)+".json"
@@ -99,7 +99,7 @@ for obj in data:
 
         # -------------- <curation> ---------------
 
-        annodir = "../../docs/ugm4/"+dir+"/anno"
+        annodir = "../../docs/ugm/"+dir+"/anno"
         os.makedirs(annodir, exist_ok=True)
 
         # sts = []  # 初期化します
@@ -245,7 +245,7 @@ for obj in data:
             "thumbnail": thumbnail
         })
 
-    ofile = "../../docs/ugm4/"+dir+"/collection.json"
+    ofile = "../../docs/ugm/"+dir+"/collection.json"
 
     collection_data = {
         "@context": "http://iiif.io/api/presentation/2/context.json",

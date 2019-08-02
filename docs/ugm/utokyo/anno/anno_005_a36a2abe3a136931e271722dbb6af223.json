@@ -4,7 +4,7 @@
     "@type": "sc:AnnotationList",
     "resources": [
         {
-            "@id": "https://nakamura196.github.io/genji/ugm/utokyo/anno/a36a2abe3a136931e271722dbb6af223.json#0",
+            "@id": "https://nakamura196.github.io/genji/ugm/utokyo/anno/anno_005_a36a2abe3a136931e271722dbb6af223.json#0",
             "@type": "oa:Annotation",
             "motivation": "sc:painting",
             "on": [
@@ -15,11 +15,11 @@
                         "@type": "oa:Choice",
                         "default": {
                             "@type": "oa:FragmentSelector",
-                            "value": "xywh=2640,1176,180,270"
+                            "value": "xywh=5172,1156,90,135"
                         },
                         "item": {
                             "@type": "oa:SvgSelector",
-                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M2640,1176c0,-60 30,-120 90,-180c0,-60 -30,-90 -90,-90c-60,0 -90,30 -90,90c60,60 90,120 90,180z\" id=\"pin_4dd67b8a71b030f67cd9b144f6f2f583\" fill=\"#F6E920\" stroke=\"#F6E920\"/></svg>"
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M5172,1156c0,-30 15,-60 45,-90c0,-25 -20,-45 -45,-45c-25,0 -45,20 -45,45c30,30 45,60 45,90z\" id=\"pin_02b6aa5db352961e4c0de3f70c942cf1\" fill=\"#F6E920\" stroke=\"#F6E920\"/></svg>"
                         }
                     },
                     "within": {
@@ -30,7 +30,7 @@
             ],
             "resource": {
                 "@type": "dctypes:Text",
-                "chars": "源氏物語大成 p.6 開始位置",
+                "chars": "新編日本古典文学全集 p.18 開始位置<p><a href=\"https://japanknowledge.com/lib/display/?lid=80110V00200018\" target=\"_blank\" rel=\"noopener noreferrer\">ジャパンナレッジ</a>でみる</p>",
                 "format": "text/html"
             }
         }
