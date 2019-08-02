@@ -1,0 +1,38 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/genji/ugm4/utokyo/anno/anno_016_79f63895043e99dbf7194cb61384f74d.json",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://nakamura196.github.io/genji/ugm4/utokyo/anno/fe66645cf621d171b7331e0c613d8a52.json#0",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p16",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=1908,1188,90,135"
+                        },
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1908,1188c0,-30 15,-60 45,-90c0,-25 -20,-45 -45,-45c-25,0 -45,20 -45,45c30,30 45,60 45,90z\" id=\"pin_885c2fbf55c79dc1e353f12fa36a97e5\" fill=\"#F6E920\" stroke=\"#F6E920\"/></svg>"
+                        }
+                    },
+                    "within": {
+                        "@id": "https://nakamura196.github.io/genji/ugm4/utokyo/manifest/01.json",
+                        "@type": "sc:Manifest"
+                    }
+                }
+            ],
+            "resource": {
+                "@type": "dctypes:Text",
+                "chars": "源氏物語大成 p.16 開始位置<p><a href=\"https://japanknowledge.com/lib/display/?lid=80110V00200016\" target=\"_blank\" rel=\"noopener noreferrer\">ジャパンナレッジ</a>でみる</p>",
+                "format": "text/html"
+            }
+        }
+    ]
+}

@@ -4,7 +4,7 @@
     "@type": "sc:AnnotationList",
     "resources": [
         {
-            "@id": "https://nakamura196.github.io/genji/ugm4/utokyo/anno/anno_012_99746e273126e111fa3ff0a46ebf0d95.json#0",
+            "@id": "https://nakamura196.github.io/genji/ugm4/utokyo/anno/99746e273126e111fa3ff0a46ebf0d95.json#0",
             "@type": "oa:Annotation",
             "motivation": "sc:painting",
             "on": [
@@ -15,11 +15,11 @@
                         "@type": "oa:Choice",
                         "default": {
                             "@type": "oa:FragmentSelector",
-                            "value": "xywh=5364,1164,90,135"
+                            "value": "xywh=3770,1168,90,135"
                         },
                         "item": {
                             "@type": "oa:SvgSelector",
-                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M5364,1164c0,-30 15,-60 45,-90c0,-25 -20,-45 -45,-45c-25,0 -45,20 -45,45c30,30 45,60 45,90z\" id=\"pin_c9b60abb925406bd312e879556c2ffd4\" fill=\"#F6E920\" stroke=\"#F6E920\"/></svg>"
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M3770,1168c0,-30 15,-60 45,-90c0,-25 -20,-45 -45,-45c-25,0 -45,20 -45,45c30,30 45,60 45,90z\" id=\"pin_a1fc2c26d0dc3f30a670d1db42b6684e\" fill=\"#F6E920\" stroke=\"#F6E920\"/></svg>"
                         }
                     },
                     "within": {
@@ -30,38 +30,7 @@
             ],
             "resource": {
                 "@type": "dctypes:Text",
-                "chars": "新編日本古典文学全集 p.27 開始位置<p><a href=\"https://japanknowledge.com/lib/display/?lid=80110V00200027\" target=\"_blank\" rel=\"noopener noreferrer\">ジャパンナレッジ</a>でみる</p>",
-                "format": "text/html"
-            }
-        },
-        {
-            "@id": "https://nakamura196.github.io/genji/ugm4/utokyo/anno/anno_012_99746e273126e111fa3ff0a46ebf0d95.json#1",
-            "@type": "oa:Annotation",
-            "motivation": "sc:painting",
-            "on": [
-                {
-                    "@type": "oa:SpecificResource",
-                    "full": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p12",
-                    "selector": {
-                        "@type": "oa:Choice",
-                        "default": {
-                            "@type": "oa:FragmentSelector",
-                            "value": "xywh=1452,1156,90,135"
-                        },
-                        "item": {
-                            "@type": "oa:SvgSelector",
-                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1452,1156c0,-30 15,-60 45,-90c0,-25 -20,-45 -45,-45c-25,0 -45,20 -45,45c30,30 45,60 45,90z\" id=\"pin_e504f9b9efe2ba7b9e1fa4826622ff75\" fill=\"#F6E920\" stroke=\"#F6E920\"/></svg>"
-                        }
-                    },
-                    "within": {
-                        "@id": "https://nakamura196.github.io/genji/ugm4/utokyo/manifest/01.json",
-                        "@type": "sc:Manifest"
-                    }
-                }
-            ],
-            "resource": {
-                "@type": "dctypes:Text",
-                "chars": "新編日本古典文学全集 p.28 開始位置<p><a href=\"https://japanknowledge.com/lib/display/?lid=80110V00200028\" target=\"_blank\" rel=\"noopener noreferrer\">ジャパンナレッジ</a>でみる</p>",
+                "chars": "源氏物語大成 p.12 開始位置<p><a href=\"https://japanknowledge.com/lib/display/?lid=80110V00200012\" target=\"_blank\" rel=\"noopener noreferrer\">ジャパンナレッジ</a>でみる</p>",
                 "format": "text/html"
             }
         }

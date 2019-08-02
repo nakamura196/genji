@@ -1,0 +1,38 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/genji/ugm4/kyushu/anno/anno_007_8f53de53d3e010e5e5f2937f5874f690.json",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://nakamura196.github.io/genji/ugm4/kyushu/anno/8f53de53d3e010e5e5f2937f5874f690.json#0",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "https://catalog.lib.kyushu-u.ac.jp/image/411193/canvas/p7",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=344,58,90,135"
+                        },
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M344,58c0,-30 15,-60 45,-90c0,-25 -20,-45 -45,-45c-25,0 -45,20 -45,45c30,30 45,60 45,90z\" id=\"pin_89d59100751f0b1cdaa0992f5841593d\" fill=\"#F6E920\" stroke=\"#F6E920\"/></svg>"
+                        }
+                    },
+                    "within": {
+                        "@id": "https://nakamura196.github.io/genji/ugm4/kyushu/manifest/01.json",
+                        "@type": "sc:Manifest"
+                    }
+                }
+            ],
+            "resource": {
+                "@type": "dctypes:Text",
+                "chars": "源氏物語大成 p.8 開始位置<p><a href=\"https://japanknowledge.com/lib/display/?lid=80110V00200008\" target=\"_blank\" rel=\"noopener noreferrer\">ジャパンナレッジ</a>でみる</p>",
+                "format": "text/html"
+            }
+        }
+    ]
+}

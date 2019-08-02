@@ -59,7 +59,7 @@ if __name__ == '__main__':
     base_url = "http://www.genji.co.jp/zenshu-genji-sub.php?file=sgsa.txt&code="
 
     loop_flg = True
-    page = 28560
+    page = 37294
 
     while loop_flg:
         url = base_url + str(page)

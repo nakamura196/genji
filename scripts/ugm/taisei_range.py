@@ -42,8 +42,6 @@ for obj in data:
 
     list_path = "data/"+dir+"/list_"+dir+".xlsx"
 
-
-
     df = pd.read_excel(list_path, sheet_name=1, header=None, index_col=None)
 
     r_count = len(df.index)
@@ -61,7 +59,7 @@ for obj in data:
         curation = df.iloc[j, 2]
 
         manifests[book] = {
-            "manifest" : manifest
+            "manifest": manifest
         }
 
         if not pd.isnull(curation):
@@ -74,7 +72,7 @@ for obj in data:
     for book in manifests:
 
         print(label2+" book\t"+str(book))
-        
+
         manifest = manifests[book]["manifest"]
 
         if pd.isnull(manifest):
@@ -91,7 +89,7 @@ for obj in data:
 
         # -------------- <mmm> ---------------
 
-        odir = "../../docs/ugm2/"+dir+"/manifest"
+        odir = "../../docs/ugm4/"+dir+"/manifest"
         os.makedirs(odir, exist_ok=True)
 
         ofile_1 = odir+"/"+str(book).zfill(2)+".json"
@@ -101,9 +99,8 @@ for obj in data:
 
         # -------------- <curation> ---------------
 
-        annodir = "../../docs/ugm2/"+dir+"/anno"
-
-        # sts = []  # 初期化します
+        annodir = "../../docs/ugm4/"+dir+"/anno"
+        os.makedirs(annodir, exist_ok=True)
 
         if "curation" in manifests[book]:
             curation_uri = manifests[book]["curation"]
@@ -111,6 +108,8 @@ for obj in data:
             curation_data = requests.get(curation_uri).json()
 
             members = curation_data["selections"][0]["members"]
+
+            canvas_anno_map = {}
 
             for member in members:
                 cu_id = member["@id"].split("#")
@@ -120,21 +119,64 @@ for obj in data:
                 area = cu_id[1]
                 canvas_index = c_index_map[canvas_id]
 
-                print(canvas_index)
-
-                '''
-
-                st = {
-                    "@id": manifest_data["@id"]+"#"+str(canvas_index+1),
-                    "label": str(page),
-                    "@type": "sc:Range",
-                    "canvases": [canvas_id]
-                }
-                sts.append(st)
-
-                '''
-
                 hash = hashlib.md5(canvas_id.encode('utf-8')).hexdigest()
+
+                anno_file = annodir+"/" + hash + ".json"
+
+                anno_uri = anno_file.replace(
+                    "../../docs", "https://nakamura196.github.io/genji")
+
+                if canvas_index not in canvas_anno_map:
+                    canvas_anno_map[canvas_index] = []
+
+                areas = area.split("=")[1].split(",")
+
+                x = str(int(areas[0])+int(int(areas[2]) / 2))
+                y = areas[1]
+
+                anno_id = anno_uri+"#"+str(len(canvas_anno_map[canvas_index]))
+
+                anno = {
+                    "@id": anno_id,
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@type": "dctypes:Text",
+                        "chars": "源氏物語大成 p."+page+" 開始位置<p><a href=\"https://japanknowledge.com/lib/display/?lid=80110V00200"+page.zfill(3)+"\" target=\"_blank\" rel=\"noopener noreferrer\">ジャパンナレッジ</a>でみる</p>",
+                        "format": "text/html"
+                    },
+                    "on": [
+                        {
+                            "@type": "oa:SpecificResource",
+                            "full": canvas_id,
+                            "selector": {
+                                "@type": "oa:Choice",
+                                "default": {
+                                    "@type": "oa:FragmentSelector",
+                                    "value": "xywh="+x+","+y+",90,135"
+                                },
+                                "item": {
+                                    "@type": "oa:SvgSelector",
+                                    "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M"+x+","+y+"c0,-30 15,-60 45,-90c0,-25 -20,-45 -45,-45c-25,0 -45,20 -45,45c30,30 45,60 45,90z\" id=\"pin_"+hashlib.md5(member["@id"].encode('utf-8')).hexdigest()+"\" fill=\"#F6E920\" stroke=\"#F6E920\"/></svg>"
+                                }
+                            },
+                            "within": {
+                                "@id": new_manifest_uri,
+                                "@type": "sc:Manifest"
+                            }
+                        }
+                    ],
+                }
+
+                canvas_anno_map[canvas_index].append(anno)
+
+            for canvas_index in canvas_anno_map:
+                
+                canvas_id = canvases[canvas_index]["@id"]
+
+                # hash = hashlib.md5(canvas_id.encode('utf-8')).hexdigest()
+                hash = "anno_"+str(canvas_index+1).zfill(3)+"_" + \
+                    hashlib.md5(canvas_id.encode('utf-8')).hexdigest()
 
                 anno_file = annodir+"/" + hash + ".json"
 
@@ -145,45 +187,26 @@ for obj in data:
                     "@context": "http://iiif.io/api/presentation/2/context.json",
                     "@id": anno_uri,
                     "@type": "sc:AnnotationList",
-                    "resources": [
-                        {
-                            "@id": anno_uri+"#0",
-                            "@type": "oa:Annotation",
-                            "motivation": "sc:painting",
-                            "resource": {
-                                "@type": "cnt:ContentAsText",
-                                "chars": "源氏物語大成 p."+page+" 該当箇所",
-                                "format": "text/plain"
-                            },
-                            "on": member["@id"]
-                        }
-                    ],
-                    "within" : {
-                        "@id" : new_manifest_uri,
-                        "@type": "sc:Manifest"
-                    }
+                    "resources": canvas_anno_map[canvas_index]
                 }
 
                 fw2 = open(anno_file, 'w')
                 json.dump(anno_data, fw2, ensure_ascii=False, indent=4,
                         sort_keys=True, separators=(',', ': '))
 
-                canvases[canvas_index]["otherContent"] =  [
+                canvases[canvas_index]["otherContent"] = [
                     {
                         "@id": anno_uri,
                         "@type": "sc:AnnotationList"
                     }
                 ]
 
-        # manifest_data["structures"] = sts
-
-        
-
         fw2 = open(ofile_1, 'w')
         json.dump(manifest_data, fw2, ensure_ascii=False, indent=4,
                   sort_keys=True, separators=(',', ': '))
 
-        thumbnail = manifest_data["sequences"][0]["canvases"][0]["images"][0]["resource"]["service"]["@id"]+"/full/200,/0/default.jpg"
+        thumbnail = manifest_data["sequences"][0]["canvases"][0]["images"][0]["resource"]["service"]["@id"] + \
+            "/full/200,/0/default.jpg"
 
         manifests4collection.append({
             "@context": "http://iiif.io/api/presentation/2/context.json",
@@ -194,7 +217,7 @@ for obj in data:
             "thumbnail": thumbnail
         })
 
-    ofile = "../../docs/ugm2/"+dir+"/collection.json"
+    ofile = "../../docs/ugm4/"+dir+"/collection.json"
 
     collection_data = {
         "@context": "http://iiif.io/api/presentation/2/context.json",
@@ -208,4 +231,3 @@ for obj in data:
     fw2 = open(ofile, 'w')
     json.dump(collection_data, fw2, ensure_ascii=False, indent=4,
               sort_keys=True, separators=(',', ': '))
-

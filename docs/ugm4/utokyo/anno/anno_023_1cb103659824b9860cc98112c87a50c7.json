@@ -4,7 +4,7 @@
     "@type": "sc:AnnotationList",
     "resources": [
         {
-            "@id": "https://nakamura196.github.io/genji/ugm4/utokyo/anno/anno_023_1cb103659824b9860cc98112c87a50c7.json#0",
+            "@id": "https://nakamura196.github.io/genji/ugm4/utokyo/anno/1cb103659824b9860cc98112c87a50c7.json#0",
             "@type": "oa:Annotation",
             "motivation": "sc:painting",
             "on": [
@@ -15,11 +15,11 @@
                         "@type": "oa:Choice",
                         "default": {
                             "@type": "oa:FragmentSelector",
-                            "value": "xywh=5076,1140,90,135"
+                            "value": "xywh=1880,1180,90,135"
                         },
                         "item": {
                             "@type": "oa:SvgSelector",
-                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M5076,1140c0,-30 15,-60 45,-90c0,-25 -20,-45 -45,-45c-25,0 -45,20 -45,45c30,30 45,60 45,90z\" id=\"pin_ba42a0cb8f8db4f524ae212aeb41450f\" fill=\"#F6E920\" stroke=\"#F6E920\"/></svg>"
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1880,1180c0,-30 15,-60 45,-90c0,-25 -20,-45 -45,-45c-25,0 -45,20 -45,45c30,30 45,60 45,90z\" id=\"pin_f837ef3b7b7c529e19f063e43907c9be\" fill=\"#F6E920\" stroke=\"#F6E920\"/></svg>"
                         }
                     },
                     "within": {
@@ -30,7 +30,7 @@
             ],
             "resource": {
                 "@type": "dctypes:Text",
-                "chars": "新編日本古典文学全集 p.41 開始位置<p><a href=\"https://japanknowledge.com/lib/display/?lid=80110V00200041\" target=\"_blank\" rel=\"noopener noreferrer\">ジャパンナレッジ</a>でみる</p>",
+                "chars": "源氏物語大成 p.22 開始位置<p><a href=\"https://japanknowledge.com/lib/display/?lid=80110V00200022\" target=\"_blank\" rel=\"noopener noreferrer\">ジャパンナレッジ</a>でみる</p>",
                 "format": "text/html"
             }
         }

@@ -89,7 +89,7 @@ for obj in data:
 
         # -------------- <mmm> ---------------
 
-        odir = "../../docs/ugm3/"+dir+"/manifest"
+        odir = "../../docs/ugm4/"+dir+"/manifest"
         os.makedirs(odir, exist_ok=True)
 
         ofile_1 = odir+"/"+str(book).zfill(2)+".json"
@@ -99,7 +99,7 @@ for obj in data:
 
         # -------------- <curation> ---------------
 
-        annodir = "../../docs/ugm3/"+dir+"/anno"
+        annodir = "../../docs/ugm4/"+dir+"/anno"
         os.makedirs(annodir, exist_ok=True)
 
         # sts = []  # 初期化します
@@ -123,18 +123,6 @@ for obj in data:
 
                 print(canvas_index)
 
-                '''
-
-                st = {
-                    "@id": manifest_data["@id"]+"#"+str(canvas_index+1),
-                    "label": str(page),
-                    "@type": "sc:Range",
-                    "canvases": [canvas_id]
-                }
-                sts.append(st)
-
-                '''
-
                 # hash = hashlib.md5(canvas_id.encode('utf-8')).hexdigest()
                 hash = "anno_"+str(canvas_index+1).zfill(3)+"_" + \
                     hashlib.md5(canvas_id.encode('utf-8')).hexdigest()
@@ -144,38 +132,20 @@ for obj in data:
                 anno_uri = anno_file.replace(
                     "../../docs", "https://nakamura196.github.io/genji")
 
-                '''
-
-                anno_data = {
-                    "@context": "http://iiif.io/api/presentation/2/context.json",
-                    "@id": anno_uri,
-                    "@type": "sc:AnnotationList",
-                    "resources": [
-                        {
-                            "@id": anno_uri+"#0",
-                            "@type": "oa:Annotation",
-                            "motivation": "sc:painting",
-                            "resource": {
-                                "@type": "cnt:ContentAsText",
-                                "chars": "新編日本古典文学全集 p."+page+" 該当箇所",
-                                "format": "text/plain"
-                            },
-                            "on": member["@id"]
-                        }
-                    ],
-                    "within" : {
-                        "@id" : new_manifest_uri,
-                        "@type": "sc:Manifest"
-                    }
-                }
-
-                '''
+               
 
                 if canvas_index not in canvas_anno_map:
                     canvas_anno_map[canvas_index] = []
 
+                areas = area.split("=")[1].split(",")
+
+                x = str(int(areas[0])+int(int(areas[2]) / 2))
+                y = areas[1]
+
+                anno_id = anno_uri+"#"+str(len(canvas_anno_map[canvas_index]))
+
                 anno = {
-                    "@id": anno_uri+"#"+str(len(canvas_anno_map[canvas_index])),
+                    "@id": anno_id,
                     "@type": "oa:Annotation",
                     "motivation": "sc:painting",
                     "resource": {
@@ -183,7 +153,27 @@ for obj in data:
                         "chars": "新編日本古典文学全集 p."+page+" 開始位置<p><a href=\"https://japanknowledge.com/lib/display/?lid=80110V00200"+page.zfill(3)+"\" target=\"_blank\" rel=\"noopener noreferrer\">ジャパンナレッジ</a>でみる</p>",
                         "format": "text/html"
                     },
-                    "on": member["@id"]
+                    "on": [
+                        {
+                            "@type": "oa:SpecificResource",
+                            "full": canvas_id,
+                            "selector": {
+                                "@type": "oa:Choice",
+                                "default": {
+                                    "@type": "oa:FragmentSelector",
+                                    "value": "xywh="+x+","+y+",90,135"
+                                },
+                                "item": {
+                                    "@type": "oa:SvgSelector",
+                                    "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M"+x+","+y+"c0,-30 15,-60 45,-90c0,-25 -20,-45 -45,-45c-25,0 -45,20 -45,45c30,30 45,60 45,90z\" id=\"pin_"+hashlib.md5(member["@id"].encode('utf-8')).hexdigest()+"\" fill=\"#F6E920\" stroke=\"#F6E920\"/></svg>"
+                                }
+                            },
+                            "within": {
+                                "@id": new_manifest_uri,
+                                "@type": "sc:Manifest"
+                            }
+                        }
+                    ],
                 }
 
                 
@@ -222,11 +212,7 @@ for obj in data:
                     "@context": "http://iiif.io/api/presentation/2/context.json",
                     "@id": anno_uri,
                     "@type": "sc:AnnotationList",
-                    "resources": canvas_anno_map[canvas_index],
-                    "within": {
-                        "@id": new_manifest_uri,
-                        "@type": "sc:Manifest"
-                    }
+                    "resources": canvas_anno_map[canvas_index]
                 }
 
                 fw2 = open(anno_file, 'w')
@@ -259,7 +245,7 @@ for obj in data:
             "thumbnail": thumbnail
         })
 
-    ofile = "../../docs/ugm3/"+dir+"/collection.json"
+    ofile = "../../docs/ugm4/"+dir+"/collection.json"
 
     collection_data = {
         "@context": "http://iiif.io/api/presentation/2/context.json",
