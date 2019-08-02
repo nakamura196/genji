@@ -136,13 +136,17 @@ for obj in data:
 
                 anno_id = anno_uri+"#"+str(len(canvas_anno_map[canvas_index]))
 
+                w = int(areas[2])
+
+                d2 = int(w / 10)
+
                 anno = {
                     "@id": anno_id,
                     "@type": "oa:Annotation",
                     "motivation": "sc:painting",
                     "resource": {
                         "@type": "dctypes:Text",
-                        "chars": "源氏物語大成 p."+page+" 開始位置<p><a href=\"https://japanknowledge.com/lib/display/?lid=80110V00200"+page.zfill(3)+"\" target=\"_blank\" rel=\"noopener noreferrer\">ジャパンナレッジ</a>でみる</p>",
+                        "chars": "源氏物語大成 p."+page+" 開始位置",
                         "format": "text/html"
                     },
                     "on": [
@@ -153,11 +157,11 @@ for obj in data:
                                 "@type": "oa:Choice",
                                 "default": {
                                     "@type": "oa:FragmentSelector",
-                                    "value": "xywh="+x+","+y+",90,135"
+                                    "value": "xywh="+x+","+y+","+str(d2 * 6)+","+str(int(d2 * 9))
                                 },
                                 "item": {
                                     "@type": "oa:SvgSelector",
-                                    "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M"+x+","+y+"c0,-30 15,-60 45,-90c0,-25 -20,-45 -45,-45c-25,0 -45,20 -45,45c30,30 45,60 45,90z\" id=\"pin_"+hashlib.md5(member["@id"].encode('utf-8')).hexdigest()+"\" fill=\"#F6E920\" stroke=\"#F6E920\"/></svg>"
+                                    "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M"+x+","+y+"c0,-"+str(d2 * 2)+" "+str(d2)+",-"+str(d2 * 4)+" "+str(d2 * 3)+",-"+str(d2 * 6)+"c0,-"+str(d2 * 2)+" -"+str(d2)+",-"+str(d2 * 3)+" -"+str(d2 * 3)+",-"+str(d2 * 3)+"c-"+str(d2 * 2)+",0 -"+str(d2 * 3)+","+str(d2)+" -"+str(d2 * 3)+","+str(d2 * 3)+"c"+str(d2 * 2)+","+str(d2 * 2)+" "+str(d2 * 3)+","+str(d2 * 4)+" "+str(d2 * 3)+","+str(d2 * 6)+"z\" id=\"pin_"+hashlib.md5(member["@id"].encode('utf-8')).hexdigest()+"\" fill=\"#F6E920\" stroke=\"#F6E920\"/></svg>"
                                 }
                             },
                             "within": {
@@ -171,7 +175,7 @@ for obj in data:
                 canvas_anno_map[canvas_index].append(anno)
 
             for canvas_index in canvas_anno_map:
-                
+
                 canvas_id = canvases[canvas_index]["@id"]
 
                 # hash = hashlib.md5(canvas_id.encode('utf-8')).hexdigest()
