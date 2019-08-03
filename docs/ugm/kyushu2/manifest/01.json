@@ -72,6 +72,12 @@
                         }
                     ],
                     "label": "2",
+                    "otherContent": [
+                        {
+                            "@id": "https://nakamura196.github.io/genji/ugm/kyushu2/anno/anno_002_a4017e888caba178255bacd1fdff70fd.json",
+                            "@type": "sc:AnnotationList"
+                        }
+                    ],
                     "width": 740
                 },
                 {
@@ -122,6 +128,12 @@
                         }
                     ],
                     "label": "4",
+                    "otherContent": [
+                        {
+                            "@id": "https://nakamura196.github.io/genji/ugm/kyushu2/anno/anno_004_fa6b3af1890acf6f6ace9813b622514d.json",
+                            "@type": "sc:AnnotationList"
+                        }
+                    ],
                     "width": 740
                 },
                 {
@@ -172,6 +184,12 @@
                         }
                     ],
                     "label": "6",
+                    "otherContent": [
+                        {
+                            "@id": "https://nakamura196.github.io/genji/ugm/kyushu2/anno/anno_006_40d0e94821bb1c960002cc398e5e8443.json",
+                            "@type": "sc:AnnotationList"
+                        }
+                    ],
                     "width": 740
                 },
                 {
@@ -247,6 +265,12 @@
                         }
                     ],
                     "label": "9",
+                    "otherContent": [
+                        {
+                            "@id": "https://nakamura196.github.io/genji/ugm/kyushu2/anno/anno_009_a71b49f9515767f7ee5d668a6d8a3279.json",
+                            "@type": "sc:AnnotationList"
+                        }
+                    ],
                     "width": 740
                 },
                 {
@@ -297,6 +321,12 @@
                         }
                     ],
                     "label": "11",
+                    "otherContent": [
+                        {
+                            "@id": "https://nakamura196.github.io/genji/ugm/kyushu2/anno/anno_011_58d48b272c953db598b99da5a603a43a.json",
+                            "@type": "sc:AnnotationList"
+                        }
+                    ],
                     "width": 740
                 },
                 {
@@ -347,6 +377,12 @@
                         }
                     ],
                     "label": "13",
+                    "otherContent": [
+                        {
+                            "@id": "https://nakamura196.github.io/genji/ugm/kyushu2/anno/anno_013_83e46c236b535263049f3dde91f8d927.json",
+                            "@type": "sc:AnnotationList"
+                        }
+                    ],
                     "width": 740
                 },
                 {
@@ -397,6 +433,12 @@
                         }
                     ],
                     "label": "15",
+                    "otherContent": [
+                        {
+                            "@id": "https://nakamura196.github.io/genji/ugm/kyushu2/anno/anno_015_131b931cd69519d580555bcb955e08a4.json",
+                            "@type": "sc:AnnotationList"
+                        }
+                    ],
                     "width": 740
                 },
                 {
@@ -472,6 +514,12 @@
                         }
                     ],
                     "label": "18",
+                    "otherContent": [
+                        {
+                            "@id": "https://nakamura196.github.io/genji/ugm/kyushu2/anno/anno_018_421b2632cd346fa25bee84bb070a4c5e.json",
+                            "@type": "sc:AnnotationList"
+                        }
+                    ],
                     "width": 740
                 },
                 {
@@ -522,6 +570,12 @@
                         }
                     ],
                     "label": "20",
+                    "otherContent": [
+                        {
+                            "@id": "https://nakamura196.github.io/genji/ugm/kyushu2/anno/anno_020_33bec36a2f939a0858ad2b92695fd4a1.json",
+                            "@type": "sc:AnnotationList"
+                        }
+                    ],
                     "width": 740
                 },
                 {
@@ -572,6 +626,12 @@
                         }
                     ],
                     "label": "22",
+                    "otherContent": [
+                        {
+                            "@id": "https://nakamura196.github.io/genji/ugm/kyushu2/anno/anno_022_d94f29d37941027d851e5ea24aaa1c12.json",
+                            "@type": "sc:AnnotationList"
+                        }
+                    ],
                     "width": 740
                 },
                 {
@@ -622,6 +682,12 @@
                         }
                     ],
                     "label": "24",
+                    "otherContent": [
+                        {
+                            "@id": "https://nakamura196.github.io/genji/ugm/kyushu2/anno/anno_024_360e373301e7a0cec3b682c8bce58d94.json",
+                            "@type": "sc:AnnotationList"
+                        }
+                    ],
                     "width": 740
                 },
                 {
@@ -672,6 +738,12 @@
                         }
                     ],
                     "label": "26",
+                    "otherContent": [
+                        {
+                            "@id": "https://nakamura196.github.io/genji/ugm/kyushu2/anno/anno_026_cda893692d455626fe956f2cbf18cef1.json",
+                            "@type": "sc:AnnotationList"
+                        }
+                    ],
                     "width": 740
                 },
                 {
@@ -722,6 +794,12 @@
                         }
                     ],
                     "label": "28",
+                    "otherContent": [
+                        {
+                            "@id": "https://nakamura196.github.io/genji/ugm/kyushu2/anno/anno_028_e902a71dc2e63dd0501dbf7ed1db73f4.json",
+                            "@type": "sc:AnnotationList"
+                        }
+                    ],
                     "width": 740
                 },
                 {
@@ -797,6 +875,12 @@
                         }
                     ],
                     "label": "31",
+                    "otherContent": [
+                        {
+                            "@id": "https://nakamura196.github.io/genji/ugm/kyushu2/anno/anno_031_43ad75552dc5491143339a8d5b6c0ced.json",
+                            "@type": "sc:AnnotationList"
+                        }
+                    ],
                     "width": 740
                 },
                 {
@@ -847,6 +931,12 @@
                         }
                     ],
                     "label": "33",
+                    "otherContent": [
+                        {
+                            "@id": "https://nakamura196.github.io/genji/ugm/kyushu2/anno/anno_033_af34ad706030ab395e7f156a9276fdb8.json",
+                            "@type": "sc:AnnotationList"
+                        }
+                    ],
                     "width": 740
                 },
                 {
@@ -897,6 +987,12 @@
                         }
                     ],
                     "label": "35",
+                    "otherContent": [
+                        {
+                            "@id": "https://nakamura196.github.io/genji/ugm/kyushu2/anno/anno_035_da8c573992c01efa176295118f7ba27c.json",
+                            "@type": "sc:AnnotationList"
+                        }
+                    ],
                     "width": 740
                 },
                 {
@@ -947,6 +1043,12 @@
                         }
                     ],
                     "label": "37",
+                    "otherContent": [
+                        {
+                            "@id": "https://nakamura196.github.io/genji/ugm/kyushu2/anno/anno_037_4ffd238f2b279ea333ea3017ca21812b.json",
+                            "@type": "sc:AnnotationList"
+                        }
+                    ],
                     "width": 740
                 },
                 {
@@ -997,6 +1099,12 @@
                         }
                     ],
                     "label": "39",
+                    "otherContent": [
+                        {
+                            "@id": "https://nakamura196.github.io/genji/ugm/kyushu2/anno/anno_039_251ad79610739828385ec4f039aa682d.json",
+                            "@type": "sc:AnnotationList"
+                        }
+                    ],
                     "width": 740
                 },
                 {
@@ -1072,6 +1180,12 @@
                         }
                     ],
                     "label": "42",
+                    "otherContent": [
+                        {
+                            "@id": "https://nakamura196.github.io/genji/ugm/kyushu2/anno/anno_042_2b0f761354ec7f3483d7aa609cba870c.json",
+                            "@type": "sc:AnnotationList"
+                        }
+                    ],
                     "width": 740
                 },
                 {
@@ -1122,6 +1236,12 @@
                         }
                     ],
                     "label": "44",
+                    "otherContent": [
+                        {
+                            "@id": "https://nakamura196.github.io/genji/ugm/kyushu2/anno/anno_044_2f72a69822768d36f317a1f1cb0fdb40.json",
+                            "@type": "sc:AnnotationList"
+                        }
+                    ],
                     "width": 740
                 },
                 {
@@ -1172,6 +1292,12 @@
                         }
                     ],
                     "label": "46",
+                    "otherContent": [
+                        {
+                            "@id": "https://nakamura196.github.io/genji/ugm/kyushu2/anno/anno_046_ad7b4fb4aa9a2fdcab2cbf4da94bbc2b.json",
+                            "@type": "sc:AnnotationList"
+                        }
+                    ],
                     "width": 740
                 },
                 {
@@ -1247,6 +1373,12 @@
                         }
                     ],
                     "label": "49",
+                    "otherContent": [
+                        {
+                            "@id": "https://nakamura196.github.io/genji/ugm/kyushu2/anno/anno_049_3a31ed288037fec18b5d3d056174a938.json",
+                            "@type": "sc:AnnotationList"
+                        }
+                    ],
                     "width": 740
                 },
                 {
@@ -1297,6 +1429,12 @@
                         }
                     ],
                     "label": "51",
+                    "otherContent": [
+                        {
+                            "@id": "https://nakamura196.github.io/genji/ugm/kyushu2/anno/anno_051_740b812b35703da9a8c6c75c6e6fbb34.json",
+                            "@type": "sc:AnnotationList"
+                        }
+                    ],
                     "width": 740
                 },
                 {
@@ -1347,6 +1485,12 @@
                         }
                     ],
                     "label": "53",
+                    "otherContent": [
+                        {
+                            "@id": "https://nakamura196.github.io/genji/ugm/kyushu2/anno/anno_053_05450f108402dc2b32e00e9b218ff912.json",
+                            "@type": "sc:AnnotationList"
+                        }
+                    ],
                     "width": 740
                 },
                 {

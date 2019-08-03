@@ -13,7 +13,7 @@ import csv
 
 path = "data/all.json"
 
-ofile_2 = "../../docs/ugm3/genji.json"
+ofile_2 = "../../docs/ugm/genji.json"
 
 collections = []
 
@@ -28,7 +28,7 @@ for obj in data:
     # print(label2)
     dir = obj["id"]
 
-    ofile = "../../docs/ugm3/"+dir+"/collection.json"
+    ofile = "../../docs/ugm/"+dir+"/collection.json"
 
     if not os.path.exists(ofile):
         continue

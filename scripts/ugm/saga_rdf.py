@@ -15,7 +15,7 @@ g = Graph()
 
 target = ""
 
-def forMani(manifest, label):
+def forMani(manifest):
 
     print(manifest)
 
@@ -24,10 +24,8 @@ def forMani(manifest, label):
     # json_loads() でPythonオブジェクトに変換
     mani_data = json.loads(res.read().decode('utf-8'))
 
-    g.add((URIRef(manifest), URIRef(
-        "http://purl.org/dc/terms/subject"), URIRef("http://ja.dbpedia.org/resource/"+label)))
-    g.add((URIRef("http://ja.dbpedia.org/resource/"+label), URIRef(
-        "http://www.w3.org/2000/01/rdf-schema#label"), Literal(label)))
+    
+    
 
     canvases = mani_data["sequences"][0]["canvases"]
 
@@ -35,6 +33,8 @@ def forMani(manifest, label):
 
         g.add((URIRef(canvas["@id"]), URIRef(
             "http://purl.org/dc/terms/isPartOf"), URIRef(manifest)))
+        g.add((URIRef(canvas["@id"]), URIRef(
+            "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"), URIRef("http://iiif.io/api/presentation/2#Canvas")))
 
         if "otherContent" in canvas:
 
@@ -56,29 +56,16 @@ def forMani(manifest, label):
                 st_label = resource["resource"]["chars"].split(" ")[
                     1].split(".")[1]
 
-                taisei_p_uri = "https://japanknowledge.com/lib/display/?lid=80110V00200" + \
-                    str(st_label).zfill(3)
+                taisei_p_uri = "http://example.org/taisei/page/"+st_label
 
                 g.add((URIRef(anno_uri), URIRef(
                     "http://purl.org/dc/terms/subject"), URIRef(taisei_p_uri)))
                 g.add((URIRef(taisei_p_uri), URIRef(
                     "http://www.w3.org/2000/01/rdf-schema#label"), Literal(int(st_label))))
+                g.add((URIRef(taisei_p_uri), URIRef(
+                    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"), URIRef(
+                    "http://example.org/class/TaiseiPageID")))
 
-    '''
-            
-    if "structures" in mani_data:
-        for st in mani_data["structures"]:
-
-            st_label = st["label"]
-
-            taisei_p_uri = "http://example.org/taisei/page/"+st_label
-
-            g.add((URIRef(st["canvases"][0]), URIRef(
-                "http://purl.org/dc/terms/subject"), URIRef(taisei_p_uri)))
-            g.add((URIRef(taisei_p_uri), URIRef(
-                "http://www.w3.org/2000/01/rdf-schema#label"), Literal(int(st_label))))
-
-    '''
         
 
 def forCol(col_uri):
@@ -97,15 +84,21 @@ def forCol(col_uri):
     for manifest in col_data["manifests"]:
 
         manifest_uri = manifest["@id"]
+        label = manifest["label"]
 
-        forMani(manifest_uri, manifest["label"])
+        forMani(manifest_uri)
 
         g.add((URIRef(manifest_uri), URIRef(
             "http://purl.org/dc/terms/isPartOf"), URIRef(col_uri)))
         g.add((URIRef(manifest_uri), URIRef(
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"), URIRef("http://iiif.io/api/presentation/2#Manifest")))
+        g.add((URIRef(manifest_uri), URIRef(
+            "http://purl.org/dc/terms/subject"), URIRef("http://ja.dbpedia.org/resource/"+label)))
 
-universe = "https://nakamura196.github.io/genji/ugm3/genji.json"
+        g.add((URIRef("http://ja.dbpedia.org/resource/"+label), URIRef(
+            "http://www.w3.org/2000/01/rdf-schema#label"), Literal(label)))
+
+universe = "https://nakamura196.github.io/genji/ugm/genji.json"
 
 res = urllib.request.urlopen(universe)
 # json_loads() でPythonオブジェクトに変換

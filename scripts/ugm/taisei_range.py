@@ -104,6 +104,7 @@ for obj in data:
 
         if "curation" in manifests[book]:
             curation_uri = manifests[book]["curation"]
+            print("curation\t"+curation_uri)
 
             curation_data = requests.get(curation_uri).json()
 
