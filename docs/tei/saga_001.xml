@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title/>
+            <title>小学館『新編日本古典文学全集』</title>
             <respStmt>
                <resp when="2019-07-11">TEI Encoding</resp>
                <name>Satoru Nakamura</name>
@@ -15,8 +15,18 @@
                <p/>
             </availability>
          </publicationStmt>
+         <notesStmt>
+            <note xml:id="note_017_001">物語は、ある帝の治世のこととして開始する。「御時」はご治世。</note>
+            <note xml:id="note_017_002">中宮に次ぐ天皇の夫人。摂関大臣以下公卿の娘がなる。</note>
+            
+            <note xml:id="note_018_001">三三ページ中十九。</note>
+            <note xml:id="note_018_002">太政官の次官。正三位相当。</note>
+            <note xml:id="note_018_003">この更衣の母で、大納言の北の方。北の方は、公卿・殿上人などの妻の称。</note>
+         </notesStmt>
          <sourceDesc>
-            <p/>
+            <bibl>
+               <title>小学館『新編日本古典文学全集』</title>
+            </bibl>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -24,9 +34,8 @@
       <body>
          <div>
             <lb/>
-            <span xml:id="l000-01">きりつぼ</span>
-            <lb/>
-            <span xml:id="l017-01">いづれの御時にか、女御、更衣あまたさぶ</span>
+            <span xml:id="l017-01">いづれの<span corresp="#note_017_001">御時</span>にか、<span corresp="#note_017_002"
+                  >女御</span>、更衣あまたさぶ</span>
             <lb/>
             <span xml:id="l017-02">らひたまひける中に、いとやむごとなき際</span>
             <lb/>
@@ -52,13 +61,15 @@
             <lb/>
             <span xml:id="l018-01">と、やうやう、天の下にも、あぢきなう人のもてなやみぐさ</span>
             <lb/>
-            <span xml:id="l018-02">になりて、楊貴妃の例もひき出でつべくなりゆくに、いとは</span>
+            <span xml:id="l018-02">になりて、<span corresp="#note_018_001"
+               >楊貴妃</span>の例もひき出でつべくなりゆくに、いとは</span>
             <lb/>
             <span xml:id="l018-03">したなきこと多かれど、かたじけなき御心ばへのたぐひなき</span>
             <lb/>
             <span xml:id="l018-04">を頼みにてまじらひたまふ。</span>
             <lb/>
-            <span xml:id="l018-05">父の大納言は亡くなりて、母北の方なむいにしへの人のよ</span>
+            <span xml:id="l018-05">父の<span corresp="#note_018_002"
+               >大納言</span>は亡くなりて、母<span corresp="#note_018_003">北の方</span>なむいにしへの人のよ</span>
             <lb/>
             <span xml:id="l018-06">しあるにて、親うち具し、さしあたりて世のおぼえはなやか</span>
             <lb/>
