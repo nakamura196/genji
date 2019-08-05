@@ -20,7 +20,7 @@ path = "data/all.json"
 
 label_map = {}
 
-top_dir = "../../docs/ugm/taisei"
+top_dir = "../../docs/ugm"
 
 with open('data/map.csv', 'r') as f:
     reader = csv.reader(f)
@@ -49,23 +49,27 @@ for obj in data:
     r_count = len(df.index)
     c_count = len(df.columns)
 
-    # curationリストの列がない場合
-    if c_count < 3:
-        continue
-
     manifests = {}
 
     for j in range(1, r_count):
         book = int(df.iloc[j, 0])
         manifest = df.iloc[j, 1]
-        curation = df.iloc[j, 2]
 
         manifests[book] = {
             "manifest": manifest
         }
 
-        if not pd.isnull(curation):
-            manifests[book]["curation"] = curation
+        manifests[book]["curation"] = {}
+        
+        if c_count > 2:
+            curation = df.iloc[j, 2]
+            if not pd.isnull(curation):
+                manifests[book]["curation"]["taisei"] = curation
+
+        if c_count > 3:
+            curation4saga = df.iloc[j, 3]
+            if not pd.isnull(curation4saga):
+                manifests[book]["curation"]["saga"] = curation4saga
 
     manifests4collection = []
 
@@ -105,77 +109,92 @@ for obj in data:
         os.makedirs(annodir, exist_ok=True)
 
         if "curation" in manifests[book]:
-            curation_uri = manifests[book]["curation"]
-            print("curation\t"+curation_uri)
-
-            curation_data = requests.get(curation_uri).json()
-
-            members = curation_data["selections"][0]["members"]
 
             canvas_anno_map = {}
 
-            for member in members:
-                cu_id = member["@id"].split("#")
-                page = member["metadata"][0]["value"]
+            for key in manifests[book]["curation"]:
 
-                canvas_id = cu_id[0]
-                area = cu_id[1]
-                canvas_index = c_index_map[canvas_id]
+                curation_uri = manifests[book]["curation"][key]
+                print(key+"\tcuration\t"+curation_uri)
 
-                hash = hashlib.md5(canvas_id.encode('utf-8')).hexdigest()
+                curation_data = requests.get(curation_uri).json()
 
-                anno_file = annodir+"/" + hash + ".json"
+                members = curation_data["selections"][0]["members"]
 
-                anno_uri = anno_file.replace(
-                    "../../docs", "https://nakamura196.github.io/genji")
+                
 
-                if canvas_index not in canvas_anno_map:
-                    canvas_anno_map[canvas_index] = []
+                for member in members:
+                    cu_id = member["@id"].split("#")
+                    page = member["metadata"][0]["value"]
 
-                areas = area.split("=")[1].split(",")
+                    canvas_id = cu_id[0]
+                    area = cu_id[1]
+                    canvas_index = c_index_map[canvas_id]
 
-                x = str(int(areas[0])+int(int(areas[2]) / 2))
-                y = areas[1]
+                    hash = hashlib.md5(canvas_id.encode('utf-8')).hexdigest()
 
-                anno_id = anno_uri+"#"+str(len(canvas_anno_map[canvas_index]))
+                    anno_file = annodir+"/" + hash + ".json"
 
-                w = int(areas[2])
+                    anno_uri = anno_file.replace(
+                        "../../docs", "https://nakamura196.github.io/genji")
 
-                d2 = int(w / 10)
+                    if canvas_index not in canvas_anno_map:
+                        canvas_anno_map[canvas_index] = []
 
-                anno = {
-                    "@id": anno_id,
-                    "@type": "oa:Annotation",
-                    "motivation": "sc:painting",
-                    "resource": {
-                        "@type": "dctypes:Text",
-                        "chars": "源氏物語大成 p."+page+" 開始位置",
-                        "format": "text/html"
-                    },
-                    "on": [
-                        {
-                            "@type": "oa:SpecificResource",
-                            "full": canvas_id,
-                            "selector": {
-                                "@type": "oa:Choice",
-                                "default": {
-                                    "@type": "oa:FragmentSelector",
-                                    "value": "xywh="+x+","+y+","+str(d2 * 6)+","+str(int(d2 * 9))
+                    areas = area.split("=")[1].split(",")
+
+                    x = str(int(areas[0])+int(int(areas[2]) / 2))
+                    y = areas[1]
+
+                    anno_id = anno_uri+"#"+str(len(canvas_anno_map[canvas_index]))
+
+                    w = int(areas[2])
+
+                    d2 = int(w / 10)
+
+                    chars = ""
+                    if key == "saga":
+                        chars = "新編日本古典文学全集 p."+page+" 開始位置<p><a href=\"https://japanknowledge.com/lib/display/?lid=80110V00200" + \
+                            page.zfill(
+                                3)+"\" target=\"_blank\" rel=\"noopener noreferrer\">ジャパンナレッジ</a>でみる</p>"
+                    else:
+                        chars = "校異源氏物語 p."+page+" 開始位置<p><a href=\"http://dl.ndl.go.jp/info:ndljp/pid/3437686/" + \
+                            str(20+int(int(page) / 2)) + \
+                            "\" target=\"_blank\" rel=\"noopener noreferrer\">国立国会図書館デジタルコレクション</a>でみる</p>"
+
+                    anno = {
+                        "@id": anno_id,
+                        "@type": "oa:Annotation",
+                        "motivation": "sc:painting",
+                        "resource": {
+                            "@type": "dctypes:Text",
+                            "chars": chars,
+                            "format": "text/html"
+                        },
+                        "on": [
+                            {
+                                "@type": "oa:SpecificResource",
+                                "full": canvas_id,
+                                "selector": {
+                                    "@type": "oa:Choice",
+                                    "default": {
+                                        "@type": "oa:FragmentSelector",
+                                        "value": "xywh="+x+","+y+","+str(d2 * 6)+","+str(int(d2 * 9))
+                                    },
+                                    "item": {
+                                        "@type": "oa:SvgSelector",
+                                        "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M"+x+","+y+"c0,-"+str(d2 * 2)+" "+str(d2)+",-"+str(d2 * 4)+" "+str(d2 * 3)+",-"+str(d2 * 6)+"c0,-"+str(d2 * 2)+" -"+str(d2)+",-"+str(d2 * 3)+" -"+str(d2 * 3)+",-"+str(d2 * 3)+"c-"+str(d2 * 2)+",0 -"+str(d2 * 3)+","+str(d2)+" -"+str(d2 * 3)+","+str(d2 * 3)+"c"+str(d2 * 2)+","+str(d2 * 2)+" "+str(d2 * 3)+","+str(d2 * 4)+" "+str(d2 * 3)+","+str(d2 * 6)+"z\" id=\"pin_"+hashlib.md5(member["@id"].encode('utf-8')).hexdigest()+"\" fill=\"#F6E920\" stroke=\"#F6E920\"/></svg>"
+                                    }
                                 },
-                                "item": {
-                                    "@type": "oa:SvgSelector",
-                                    "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M"+x+","+y+"c0,-"+str(d2 * 2)+" "+str(d2)+",-"+str(d2 * 4)+" "+str(d2 * 3)+",-"+str(d2 * 6)+"c0,-"+str(d2 * 2)+" -"+str(d2)+",-"+str(d2 * 3)+" -"+str(d2 * 3)+",-"+str(d2 * 3)+"c-"+str(d2 * 2)+",0 -"+str(d2 * 3)+","+str(d2)+" -"+str(d2 * 3)+","+str(d2 * 3)+"c"+str(d2 * 2)+","+str(d2 * 2)+" "+str(d2 * 3)+","+str(d2 * 4)+" "+str(d2 * 3)+","+str(d2 * 6)+"z\" id=\"pin_"+hashlib.md5(member["@id"].encode('utf-8')).hexdigest()+"\" fill=\"#F6E920\" stroke=\"#F6E920\"/></svg>"
+                                "within": {
+                                    "@id": new_manifest_uri,
+                                    "@type": "sc:Manifest"
                                 }
-                            },
-                            "within": {
-                                "@id": new_manifest_uri,
-                                "@type": "sc:Manifest"
                             }
-                        }
-                    ],
-                }
+                        ],
+                    }
 
-                canvas_anno_map[canvas_index].append(anno)
+                    canvas_anno_map[canvas_index].append(anno)
 
             for canvas_index in canvas_anno_map:
 

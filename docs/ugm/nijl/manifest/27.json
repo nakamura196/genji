@@ -233,7 +233,49 @@
         "label": "Search within this manifest",
         "profile": "http://iiif.io/api/search/0/search"
     },
-    "structures": [],
+    "structures": [
+        {
+            "@id": "https://kotenseki.nijl.ac.jp/biblio/200003803/range/r27.json",
+            "@type": "sc:Range",
+            "canvases": [
+                "https://kotenseki.nijl.ac.jp/biblio/200003803/canvas/880",
+                "https://kotenseki.nijl.ac.jp/biblio/200003803/canvas/881",
+                "https://kotenseki.nijl.ac.jp/biblio/200003803/canvas/882",
+                "https://kotenseki.nijl.ac.jp/biblio/200003803/canvas/883",
+                "https://kotenseki.nijl.ac.jp/biblio/200003803/canvas/884",
+                "https://kotenseki.nijl.ac.jp/biblio/200003803/canvas/885",
+                "https://kotenseki.nijl.ac.jp/biblio/200003803/canvas/886"
+            ],
+            "label": "第27冊"
+        },
+        {
+            "@id": "https://kotenseki.nijl.ac.jp/biblio/200003803/range/r27_cover.json",
+            "@type": "sc:Range",
+            "canvases": [
+                "https://kotenseki.nijl.ac.jp/biblio/200003803/canvas/880"
+            ],
+            "label": "表紙",
+            "within": "https://kotenseki.nijl.ac.jp/biblio/200003803/range/r27.json"
+        },
+        {
+            "@id": "https://kotenseki.nijl.ac.jp/biblio/200003803/range/r27_pic1.json",
+            "@type": "sc:Range",
+            "canvases": [
+                "https://kotenseki.nijl.ac.jp/biblio/200003803/canvas/883"
+            ],
+            "label": "挿絵[1]",
+            "within": "https://kotenseki.nijl.ac.jp/biblio/200003803/range/r27.json"
+        },
+        {
+            "@id": "https://kotenseki.nijl.ac.jp/biblio/200003803/range/r27_backcover.json",
+            "@type": "sc:Range",
+            "canvases": [
+                "https://kotenseki.nijl.ac.jp/biblio/200003803/canvas/886"
+            ],
+            "label": "裏表紙",
+            "within": "https://kotenseki.nijl.ac.jp/biblio/200003803/range/r27.json"
+        }
+    ],
     "viewingDirection": "right-to-left",
     "viewingHint": "paged"
 }

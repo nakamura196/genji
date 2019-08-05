@@ -50,29 +50,32 @@ def forMani(manifest):
 
             for resource in resources:
 
-                st_label = resource["resource"]["chars"].split(" ")[
-                    1].split(".")[1]
+                chars = resource["resource"]["chars"].split(" ")
 
-                taisei_p_uri = "http://example.org/taisei/page/"+st_label
+                ref_label = chars[0]
+
+                st_label = chars[1].split(".")[1]
+
+                page_uri = ""
+                class_uri = ""
+
+                if ref_label == "校異源氏物語":
+                    page_uri = "http://example.org/taisei/page/"+st_label
+                    class_uri = "http://example.org/class/TaiseiPageID"
+                else:
+                    page_uri = "https://japanknowledge.com/lib/display/?lid=80110V00200" + \
+                        str(st_label).zfill(3)
+                    class_uri = "http://example.org/class/SagaPageID"
 
                 g.add((URIRef(anno_uri), URIRef(
-                    "http://purl.org/dc/terms/subject"), URIRef(taisei_p_uri)))
-                g.add((URIRef(taisei_p_uri), URIRef(
+                    "http://purl.org/dc/terms/subject"), URIRef(page_uri)))
+                g.add((URIRef(page_uri), URIRef(
                     "http://www.w3.org/2000/01/rdf-schema#label"), Literal(int(st_label))))
-                g.add((URIRef(taisei_p_uri), URIRef(
+                
+                g.add((URIRef(page_uri), URIRef(
                     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"), URIRef(
-                    "http://example.org/class/TaiseiPageID")))
+                    class_uri)))
 
-            '''
-            st_label = anno_data["resources"][0]["resource"]["chars"].split(" ")[1].split(".")[1]
-
-            taisei_p_uri = "http://example.org/taisei/page/"+st_label
-
-            g.add((URIRef(anno_uri), URIRef(
-                "http://purl.org/dc/terms/subject"), URIRef(taisei_p_uri)))
-            g.add((URIRef(taisei_p_uri), URIRef(
-                "http://www.w3.org/2000/01/rdf-schema#label"), Literal(int(st_label))))
-            '''
         
 
 def forCol(col_uri):
@@ -119,4 +122,4 @@ for col in uni_data["collections"]:
 
     forCol(col_uri)
 
-g.serialize(format='pretty-xml', destination="data/taisei.rdf")
+g.serialize(format='pretty-xml', destination="data/saga.rdf")

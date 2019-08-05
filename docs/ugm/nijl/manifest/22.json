@@ -1297,7 +1297,123 @@
         "label": "Search within this manifest",
         "profile": "http://iiif.io/api/search/0/search"
     },
-    "structures": [],
+    "structures": [
+        {
+            "@id": "https://kotenseki.nijl.ac.jp/biblio/200003803/range/r22.json",
+            "@type": "sc:Range",
+            "canvases": [
+                "https://kotenseki.nijl.ac.jp/biblio/200003803/canvas/743",
+                "https://kotenseki.nijl.ac.jp/biblio/200003803/canvas/744",
+                "https://kotenseki.nijl.ac.jp/biblio/200003803/canvas/745",
+                "https://kotenseki.nijl.ac.jp/biblio/200003803/canvas/746",
+                "https://kotenseki.nijl.ac.jp/biblio/200003803/canvas/747",
+                "https://kotenseki.nijl.ac.jp/biblio/200003803/canvas/748",
+                "https://kotenseki.nijl.ac.jp/biblio/200003803/canvas/749",
+                "https://kotenseki.nijl.ac.jp/biblio/200003803/canvas/750",
+                "https://kotenseki.nijl.ac.jp/biblio/200003803/canvas/751",
+                "https://kotenseki.nijl.ac.jp/biblio/200003803/canvas/752",
+                "https://kotenseki.nijl.ac.jp/biblio/200003803/canvas/753",
+                "https://kotenseki.nijl.ac.jp/biblio/200003803/canvas/754",
+                "https://kotenseki.nijl.ac.jp/biblio/200003803/canvas/755",
+                "https://kotenseki.nijl.ac.jp/biblio/200003803/canvas/756",
+                "https://kotenseki.nijl.ac.jp/biblio/200003803/canvas/757",
+                "https://kotenseki.nijl.ac.jp/biblio/200003803/canvas/758",
+                "https://kotenseki.nijl.ac.jp/biblio/200003803/canvas/759",
+                "https://kotenseki.nijl.ac.jp/biblio/200003803/canvas/760",
+                "https://kotenseki.nijl.ac.jp/biblio/200003803/canvas/761",
+                "https://kotenseki.nijl.ac.jp/biblio/200003803/canvas/762",
+                "https://kotenseki.nijl.ac.jp/biblio/200003803/canvas/763",
+                "https://kotenseki.nijl.ac.jp/biblio/200003803/canvas/764",
+                "https://kotenseki.nijl.ac.jp/biblio/200003803/canvas/765",
+                "https://kotenseki.nijl.ac.jp/biblio/200003803/canvas/766",
+                "https://kotenseki.nijl.ac.jp/biblio/200003803/canvas/767",
+                "https://kotenseki.nijl.ac.jp/biblio/200003803/canvas/768",
+                "https://kotenseki.nijl.ac.jp/biblio/200003803/canvas/769",
+                "https://kotenseki.nijl.ac.jp/biblio/200003803/canvas/770",
+                "https://kotenseki.nijl.ac.jp/biblio/200003803/canvas/771",
+                "https://kotenseki.nijl.ac.jp/biblio/200003803/canvas/772",
+                "https://kotenseki.nijl.ac.jp/biblio/200003803/canvas/773",
+                "https://kotenseki.nijl.ac.jp/biblio/200003803/canvas/774",
+                "https://kotenseki.nijl.ac.jp/biblio/200003803/canvas/775",
+                "https://kotenseki.nijl.ac.jp/biblio/200003803/canvas/776",
+                "https://kotenseki.nijl.ac.jp/biblio/200003803/canvas/777",
+                "https://kotenseki.nijl.ac.jp/biblio/200003803/canvas/778",
+                "https://kotenseki.nijl.ac.jp/biblio/200003803/canvas/779",
+                "https://kotenseki.nijl.ac.jp/biblio/200003803/canvas/780",
+                "https://kotenseki.nijl.ac.jp/biblio/200003803/canvas/781",
+                "https://kotenseki.nijl.ac.jp/biblio/200003803/canvas/782",
+                "https://kotenseki.nijl.ac.jp/biblio/200003803/canvas/783",
+                "https://kotenseki.nijl.ac.jp/biblio/200003803/canvas/784",
+                "https://kotenseki.nijl.ac.jp/biblio/200003803/canvas/785",
+                "https://kotenseki.nijl.ac.jp/biblio/200003803/canvas/786",
+                "https://kotenseki.nijl.ac.jp/biblio/200003803/canvas/787"
+            ],
+            "label": "第22冊"
+        },
+        {
+            "@id": "https://kotenseki.nijl.ac.jp/biblio/200003803/range/r22_cover.json",
+            "@type": "sc:Range",
+            "canvases": [
+                "https://kotenseki.nijl.ac.jp/biblio/200003803/canvas/743"
+            ],
+            "label": "表紙",
+            "within": "https://kotenseki.nijl.ac.jp/biblio/200003803/range/r22.json"
+        },
+        {
+            "@id": "https://kotenseki.nijl.ac.jp/biblio/200003803/range/r22_pic1.json",
+            "@type": "sc:Range",
+            "canvases": [
+                "https://kotenseki.nijl.ac.jp/biblio/200003803/canvas/755"
+            ],
+            "label": "挿絵[1]",
+            "within": "https://kotenseki.nijl.ac.jp/biblio/200003803/range/r22.json"
+        },
+        {
+            "@id": "https://kotenseki.nijl.ac.jp/biblio/200003803/range/r22_pic2.json",
+            "@type": "sc:Range",
+            "canvases": [
+                "https://kotenseki.nijl.ac.jp/biblio/200003803/canvas/755"
+            ],
+            "label": "挿絵[2]",
+            "within": "https://kotenseki.nijl.ac.jp/biblio/200003803/range/r22.json"
+        },
+        {
+            "@id": "https://kotenseki.nijl.ac.jp/biblio/200003803/range/r22_pic3.json",
+            "@type": "sc:Range",
+            "canvases": [
+                "https://kotenseki.nijl.ac.jp/biblio/200003803/canvas/762"
+            ],
+            "label": "挿絵[3]",
+            "within": "https://kotenseki.nijl.ac.jp/biblio/200003803/range/r22.json"
+        },
+        {
+            "@id": "https://kotenseki.nijl.ac.jp/biblio/200003803/range/r22_pic4.json",
+            "@type": "sc:Range",
+            "canvases": [
+                "https://kotenseki.nijl.ac.jp/biblio/200003803/canvas/765"
+            ],
+            "label": "挿絵[4]",
+            "within": "https://kotenseki.nijl.ac.jp/biblio/200003803/range/r22.json"
+        },
+        {
+            "@id": "https://kotenseki.nijl.ac.jp/biblio/200003803/range/r22_pic5.json",
+            "@type": "sc:Range",
+            "canvases": [
+                "https://kotenseki.nijl.ac.jp/biblio/200003803/canvas/778"
+            ],
+            "label": "挿絵[5]",
+            "within": "https://kotenseki.nijl.ac.jp/biblio/200003803/range/r22.json"
+        },
+        {
+            "@id": "https://kotenseki.nijl.ac.jp/biblio/200003803/range/r22_backcover.json",
+            "@type": "sc:Range",
+            "canvases": [
+                "https://kotenseki.nijl.ac.jp/biblio/200003803/canvas/787"
+            ],
+            "label": "裏表紙",
+            "within": "https://kotenseki.nijl.ac.jp/biblio/200003803/range/r22.json"
+        }
+    ],
     "viewingDirection": "right-to-left",
     "viewingHint": "paged"
 }

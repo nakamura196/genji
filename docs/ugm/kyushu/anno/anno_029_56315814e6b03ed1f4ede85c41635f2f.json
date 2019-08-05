@@ -30,7 +30,7 @@
             ],
             "resource": {
                 "@type": "dctypes:Text",
-                "chars": "源氏物語大成 p.19 開始位置",
+                "chars": "校異源氏物語 p.19 開始位置<p><a href=\"http://dl.ndl.go.jp/info:ndljp/pid/3437686/29\" target=\"_blank\" rel=\"noopener noreferrer\">国立国会図書館デジタルコレクション</a>でみる</p>",
                 "format": "text/html"
             }
         }

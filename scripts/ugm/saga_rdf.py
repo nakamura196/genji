@@ -56,15 +56,17 @@ def forMani(manifest):
                 st_label = resource["resource"]["chars"].split(" ")[
                     1].split(".")[1]
 
-                taisei_p_uri = "http://example.org/taisei/page/"+st_label
+                saga_p_uri = "https://japanknowledge.com/lib/display/?lid=80110V00200" + \
+                    str(st_label).zfill(3)
 
                 g.add((URIRef(anno_uri), URIRef(
-                    "http://purl.org/dc/terms/subject"), URIRef(taisei_p_uri)))
-                g.add((URIRef(taisei_p_uri), URIRef(
+                    "http://purl.org/dc/terms/subject"), URIRef(saga_p_uri)))
+                g.add((URIRef(saga_p_uri), URIRef(
                     "http://www.w3.org/2000/01/rdf-schema#label"), Literal(int(st_label))))
-                g.add((URIRef(taisei_p_uri), URIRef(
+                
+                g.add((URIRef(saga_p_uri), URIRef(
                     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"), URIRef(
-                    "http://example.org/class/TaiseiPageID")))
+                    "http://example.org/class/SagaPageID")))
 
         
 

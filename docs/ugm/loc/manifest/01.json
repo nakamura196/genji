@@ -2941,16 +2941,6 @@
             "label": "Volume 54"
         }
     ],
-    "structures": [
-        {
-            "@id": "https://www.wdl.org/en/item/785/manifest#5",
-            "@type": "sc:Range",
-            "canvases": [
-                "https://www.wdl.org/en/item/785/iiif/sequence/1/canvas/3/"
-            ],
-            "label": "5"
-        }
-    ],
     "thumbnail": {
         "@id": "https://content.wdl.org/785/thumbnail/616x510.jpg",
         "@type": "dcterms:Image",

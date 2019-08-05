@@ -20,6 +20,8 @@ path = "data/all.json"
 
 label_map = {}
 
+top_dir = "../../docs/ugm/saga"
+
 with open('data/map.csv', 'r') as f:
     reader = csv.reader(f)
     header = next(reader)  # ヘッダーを読み飛ばしたい時
@@ -59,7 +61,7 @@ for obj in data:
         curation = df.iloc[j, 3]
 
         manifests[book] = {
-            "manifest" : manifest
+            "manifest": manifest
         }
 
         if not pd.isnull(curation):
@@ -72,7 +74,7 @@ for obj in data:
     for book in manifests:
 
         print(label2+" book\t"+str(book))
-        
+
         manifest = manifests[book]["manifest"]
 
         if pd.isnull(manifest):
@@ -89,7 +91,7 @@ for obj in data:
 
         # -------------- <mmm> ---------------
 
-        odir = "../../docs/ugm/"+dir+"/manifest"
+        odir = top_dir + "/"+dir+"/manifest"
         os.makedirs(odir, exist_ok=True)
 
         ofile_1 = odir+"/"+str(book).zfill(2)+".json"
@@ -99,7 +101,7 @@ for obj in data:
 
         # -------------- <curation> ---------------
 
-        annodir = "../../docs/ugm/"+dir+"/anno"
+        annodir = top_dir + "/"+dir+"/anno"
         os.makedirs(annodir, exist_ok=True)
 
         # sts = []  # 初期化します
@@ -131,8 +133,6 @@ for obj in data:
 
                 anno_uri = anno_file.replace(
                     "../../docs", "https://nakamura196.github.io/genji")
-
-               
 
                 if canvas_index not in canvas_anno_map:
                     canvas_anno_map[canvas_index] = []
@@ -176,9 +176,7 @@ for obj in data:
                     ],
                 }
 
-                
                 canvas_anno_map[canvas_index].append(anno)
-
 
                 '''
 
@@ -228,13 +226,12 @@ for obj in data:
 
         # manifest_data["structures"] = sts
 
-        
-
         fw2 = open(ofile_1, 'w')
         json.dump(manifest_data, fw2, ensure_ascii=False, indent=4,
                   sort_keys=True, separators=(',', ': '))
 
-        thumbnail = manifest_data["sequences"][0]["canvases"][0]["images"][0]["resource"]["service"]["@id"]+"/full/200,/0/default.jpg"
+        thumbnail = manifest_data["sequences"][0]["canvases"][0]["images"][0]["resource"]["service"]["@id"] + \
+            "/full/200,/0/default.jpg"
 
         manifests4collection.append({
             "@context": "http://iiif.io/api/presentation/2/context.json",
@@ -245,7 +242,7 @@ for obj in data:
             "thumbnail": thumbnail
         })
 
-    ofile = "../../docs/ugm/"+dir+"/collection.json"
+    ofile = top_dir + "/"+dir+"/collection.json"
 
     collection_data = {
         "@context": "http://iiif.io/api/presentation/2/context.json",
@@ -259,4 +256,3 @@ for obj in data:
     fw2 = open(ofile, 'w')
     json.dump(collection_data, fw2, ensure_ascii=False, indent=4,
               sort_keys=True, separators=(',', ': '))
-

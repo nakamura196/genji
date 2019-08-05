@@ -4,7 +4,7 @@
     "@type": "sc:AnnotationList",
     "resources": [
         {
-            "@id": "https://nakamura196.github.io/genji/ugm/utokyo/anno/anno_017_b68f4216ca6014e6b21ed13e58e04b4d.json#0",
+            "@id": "https://nakamura196.github.io/genji/ugm/utokyo/anno/b68f4216ca6014e6b21ed13e58e04b4d.json#0",
             "@type": "oa:Annotation",
             "motivation": "sc:painting",
             "on": [
@@ -15,11 +15,11 @@
                         "@type": "oa:Choice",
                         "default": {
                             "@type": "oa:FragmentSelector",
-                            "value": "xywh=3036,1164,90,135"
+                            "value": "xywh=3036,1164,156,234"
                         },
                         "item": {
                             "@type": "oa:SvgSelector",
-                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M3036,1164c0,-30 15,-60 45,-90c0,-25 -20,-45 -45,-45c-25,0 -45,20 -45,45c30,30 45,60 45,90z\" id=\"pin_a1fcaaac2c7b71445211e1e5ae979149\" fill=\"#F6E920\" stroke=\"#F6E920\"/></svg>"
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M3036,1164c0,-52 26,-104 78,-156c0,-52 -26,-78 -78,-78c-52,0 -78,26 -78,78c52,52 78,104 78,156z\" id=\"pin_a1fcaaac2c7b71445211e1e5ae979149\" fill=\"#F6E920\" stroke=\"#F6E920\"/></svg>"
                         }
                     },
                     "within": {
