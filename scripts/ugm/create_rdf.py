@@ -122,4 +122,4 @@ for col in uni_data["collections"]:
 
     forCol(col_uri)
 
-g.serialize(format='pretty-xml', destination="data/saga.rdf")
+g.serialize(format='pretty-xml', destination="data/data.rdf")
