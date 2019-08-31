@@ -19,7 +19,7 @@
                         },
                         "item": {
                             "@type": "oa:SvgSelector",
-                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M2640,1176c0,-60 30,-120 90,-180c0,-60 -30,-90 -90,-90c-60,0 -90,30 -90,90c60,60 90,120 90,180z\" id=\"pin_4dd67b8a71b030f67cd9b144f6f2f583\" fill=\"#F6E920\" stroke=\"#F6E920\"/></svg>"
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M2640,1176c0,-60 30,-120 90,-180c0,-60 -30,-90 -90,-90c-60,0 -90,30 -90,90c60,60 90,120 90,180z\" id=\"pin_4dd67b8a71b030f67cd9b144f6f2f583\" fill=\"#F3AA00\" stroke=\"#F3AA00\"/></svg>"
                         }
                     },
                     "within": {
@@ -30,7 +30,7 @@
             ],
             "resource": {
                 "@type": "dctypes:Text",
-                "chars": "校異源氏物語 p.6 開始位置<p><a href=\"http://dl.ndl.go.jp/info:ndljp/pid/3437686/23\" target=\"_blank\" rel=\"noopener noreferrer\">国立国会図書館デジタルコレクション</a>でみる</p>",
+                "chars": "源氏物語大成 p.6 開始位置<p><a href=\"http://dl.ndl.go.jp/info:ndljp/pid/3437686/23\" target=\"_blank\" rel=\"noopener noreferrer\">国立国会図書館デジタルコレクション</a>で校異源氏物語をみる</p>",
                 "format": "text/html"
             }
         },
@@ -50,7 +50,7 @@
                         },
                         "item": {
                             "@type": "oa:SvgSelector",
-                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M5172,1156c0,-40 20,-80 60,-120c0,-40 -20,-60 -60,-60c-40,0 -60,20 -60,60c40,40 60,80 60,120z\" id=\"pin_02b6aa5db352961e4c0de3f70c942cf1\" fill=\"#F6E920\" stroke=\"#F6E920\"/></svg>"
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M5172,1156c0,-40 20,-80 60,-120c0,-40 -20,-60 -60,-60c-40,0 -60,20 -60,60c40,40 60,80 60,120z\" id=\"pin_02b6aa5db352961e4c0de3f70c942cf1\" fill=\"#2E89D9\" stroke=\"#2E89D9\"/></svg>"
                         }
                     },
                     "within": {

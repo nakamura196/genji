@@ -19,7 +19,7 @@
                         },
                         "item": {
                             "@type": "oa:SvgSelector",
-                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M215,200c0,-10 5,-20 15,-30c0,-10 -5,-15 -15,-15c-10,0 -15,5 -15,15c10,10 15,20 15,30z\" id=\"pin_c83c3003fd97cb3c6bcc279a7484eb4a\" fill=\"#F6E920\" stroke=\"#F6E920\"/></svg>"
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M215,200c0,-10 5,-20 15,-30c0,-10 -5,-15 -15,-15c-10,0 -15,5 -15,15c10,10 15,20 15,30z\" id=\"pin_c83c3003fd97cb3c6bcc279a7484eb4a\" fill=\"#F3AA00\" stroke=\"#F3AA00\"/></svg>"
                         }
                     },
                     "within": {
@@ -30,7 +30,7 @@
             ],
             "resource": {
                 "@type": "dctypes:Text",
-                "chars": "校異源氏物語 p.7 開始位置<p><a href=\"http://dl.ndl.go.jp/info:ndljp/pid/3437686/23\" target=\"_blank\" rel=\"noopener noreferrer\">国立国会図書館デジタルコレクション</a>でみる</p>",
+                "chars": "源氏物語大成 p.7 開始位置<p><a href=\"http://dl.ndl.go.jp/info:ndljp/pid/3437686/23\" target=\"_blank\" rel=\"noopener noreferrer\">国立国会図書館デジタルコレクション</a>で校異源氏物語をみる</p>",
                 "format": "text/html"
             }
         }

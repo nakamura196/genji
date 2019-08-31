@@ -157,10 +157,16 @@ for obj in data:
                         chars = "新編日本古典文学全集 p."+page+" 開始位置<p><a href=\"https://japanknowledge.com/lib/display/?lid=80110V00200" + \
                             page.zfill(
                                 3)+"\" target=\"_blank\" rel=\"noopener noreferrer\">ジャパンナレッジ</a>でみる</p>"
+
+                        svg = "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M"+x+","+y+"c0,-"+str(d2 * 2)+" "+str(d2)+",-"+str(d2 * 4)+" "+str(d2 * 3)+",-"+str(d2 * 6)+"c0,-"+str(d2 * 2)+" -"+str(d2)+",-"+str(d2 * 3)+" -"+str(d2 * 3)+",-"+str(d2 * 3)+"c-"+str(
+                            d2 * 2)+",0 -"+str(d2 * 3)+","+str(d2)+" -"+str(d2 * 3)+","+str(d2 * 3)+"c"+str(d2 * 2)+","+str(d2 * 2)+" "+str(d2 * 3)+","+str(d2 * 4)+" "+str(d2 * 3)+","+str(d2 * 6)+"z\" id=\"pin_"+hashlib.md5(member["@id"].encode('utf-8')).hexdigest()+"\" fill=\"#2E89D9\" stroke=\"#2E89D9\"/></svg>"
                     else:
-                        chars = "校異源氏物語 p."+page+" 開始位置<p><a href=\"http://dl.ndl.go.jp/info:ndljp/pid/3437686/" + \
+                        chars = "源氏物語大成 p."+page+" 開始位置<p><a href=\"http://dl.ndl.go.jp/info:ndljp/pid/3437686/" + \
                             str(20+int(int(page) / 2)) + \
-                            "\" target=\"_blank\" rel=\"noopener noreferrer\">国立国会図書館デジタルコレクション</a>でみる</p>"
+                            "\" target=\"_blank\" rel=\"noopener noreferrer\">国立国会図書館デジタルコレクション</a>で校異源氏物語をみる</p>"
+                        
+                        svg = "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M"+x+","+y+"c0,-"+str(d2 * 2)+" "+str(d2)+",-"+str(d2 * 4)+" "+str(d2 * 3)+",-"+str(d2 * 6)+"c0,-"+str(d2 * 2)+" -"+str(d2)+",-"+str(d2 * 3)+" -"+str(d2 * 3)+",-"+str(d2 * 3)+"c-"+str(
+                            d2 * 2)+",0 -"+str(d2 * 3)+","+str(d2)+" -"+str(d2 * 3)+","+str(d2 * 3)+"c"+str(d2 * 2)+","+str(d2 * 2)+" "+str(d2 * 3)+","+str(d2 * 4)+" "+str(d2 * 3)+","+str(d2 * 6)+"z\" id=\"pin_"+hashlib.md5(member["@id"].encode('utf-8')).hexdigest()+"\" fill=\"#F3AA00\" stroke=\"#F3AA00\"/></svg>"
 
                     anno = {
                         "@id": anno_id,
@@ -183,7 +189,7 @@ for obj in data:
                                     },
                                     "item": {
                                         "@type": "oa:SvgSelector",
-                                        "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M"+x+","+y+"c0,-"+str(d2 * 2)+" "+str(d2)+",-"+str(d2 * 4)+" "+str(d2 * 3)+",-"+str(d2 * 6)+"c0,-"+str(d2 * 2)+" -"+str(d2)+",-"+str(d2 * 3)+" -"+str(d2 * 3)+",-"+str(d2 * 3)+"c-"+str(d2 * 2)+",0 -"+str(d2 * 3)+","+str(d2)+" -"+str(d2 * 3)+","+str(d2 * 3)+"c"+str(d2 * 2)+","+str(d2 * 2)+" "+str(d2 * 3)+","+str(d2 * 4)+" "+str(d2 * 3)+","+str(d2 * 6)+"z\" id=\"pin_"+hashlib.md5(member["@id"].encode('utf-8')).hexdigest()+"\" fill=\"#F6E920\" stroke=\"#F6E920\"/></svg>"
+                                        "value": svg
                                     }
                                 },
                                 "within": {

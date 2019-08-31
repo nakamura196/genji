@@ -19,7 +19,7 @@
                         },
                         "item": {
                             "@type": "oa:SvgSelector",
-                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M4028,1100c0,-40 20,-80 60,-120c0,-40 -20,-60 -60,-60c-40,0 -60,20 -60,60c40,40 60,80 60,120z\" id=\"pin_d73bf290f2d7a5d56d090bc657dfe73e\" fill=\"#F6E920\" stroke=\"#F6E920\"/></svg>"
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M4028,1100c0,-40 20,-80 60,-120c0,-40 -20,-60 -60,-60c-40,0 -60,20 -60,60c40,40 60,80 60,120z\" id=\"pin_d73bf290f2d7a5d56d090bc657dfe73e\" fill=\"#2E89D9\" stroke=\"#2E89D9\"/></svg>"
                         }
                     },
                     "within": {

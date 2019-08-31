@@ -19,7 +19,7 @@
                         },
                         "item": {
                             "@type": "oa:SvgSelector",
-                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1174,1192c0,-52 26,-104 78,-156c0,-52 -26,-78 -78,-78c-52,0 -78,26 -78,78c52,52 78,104 78,156z\" id=\"pin_19dfac8597fba8aa3dca80b8dab6e794\" fill=\"#F6E920\" stroke=\"#F6E920\"/></svg>"
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1174,1192c0,-52 26,-104 78,-156c0,-52 -26,-78 -78,-78c-52,0 -78,26 -78,78c52,52 78,104 78,156z\" id=\"pin_19dfac8597fba8aa3dca80b8dab6e794\" fill=\"#F3AA00\" stroke=\"#F3AA00\"/></svg>"
                         }
                     },
                     "within": {
@@ -30,7 +30,7 @@
             ],
             "resource": {
                 "@type": "dctypes:Text",
-                "chars": "校異源氏物語 p.28 開始位置<p><a href=\"http://dl.ndl.go.jp/info:ndljp/pid/3437686/34\" target=\"_blank\" rel=\"noopener noreferrer\">国立国会図書館デジタルコレクション</a>でみる</p>",
+                "chars": "源氏物語大成 p.28 開始位置<p><a href=\"http://dl.ndl.go.jp/info:ndljp/pid/3437686/34\" target=\"_blank\" rel=\"noopener noreferrer\">国立国会図書館デジタルコレクション</a>で校異源氏物語をみる</p>",
                 "format": "text/html"
             }
         },
@@ -50,7 +50,7 @@
                         },
                         "item": {
                             "@type": "oa:SvgSelector",
-                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M5544,1164c0,-48 24,-96 72,-144c0,-48 -24,-72 -72,-72c-48,0 -72,24 -72,72c48,48 72,96 72,144z\" id=\"pin_896da6857454f80772807fe3f2afa089\" fill=\"#F6E920\" stroke=\"#F6E920\"/></svg>"
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M5544,1164c0,-48 24,-96 72,-144c0,-48 -24,-72 -72,-72c-48,0 -72,24 -72,72c48,48 72,96 72,144z\" id=\"pin_896da6857454f80772807fe3f2afa089\" fill=\"#2E89D9\" stroke=\"#2E89D9\"/></svg>"
                         }
                     },
                     "within": {
@@ -81,7 +81,7 @@
                         },
                         "item": {
                             "@type": "oa:SvgSelector",
-                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1172,1156c0,-52 26,-104 78,-156c0,-52 -26,-78 -78,-78c-52,0 -78,26 -78,78c52,52 78,104 78,156z\" id=\"pin_43f89b662a8a2ce03080e4d3626fefcd\" fill=\"#F6E920\" stroke=\"#F6E920\"/></svg>"
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1172,1156c0,-52 26,-104 78,-156c0,-52 -26,-78 -78,-78c-52,0 -78,26 -78,78c52,52 78,104 78,156z\" id=\"pin_43f89b662a8a2ce03080e4d3626fefcd\" fill=\"#2E89D9\" stroke=\"#2E89D9\"/></svg>"
                         }
                     },
                     "within": {
