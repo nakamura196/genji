@@ -10,8 +10,8 @@
 </template>
 <script>
 export default {
-  name: 'nav-link',
-  inject: ['closeNavbar', 'closeDropDown'],
+  name: "nav-link",
+  inject: ["closeNavbar", "closeDropDown"],
   props: {
     to: {
       type: [String, Object],
@@ -20,7 +20,7 @@ export default {
   },
   computed: {
     componentType() {
-      return this.to ? 'router-link' : 'a';
+      return this.to ? "router-link" : "a";
     }
   },
   methods: {
@@ -29,7 +29,7 @@ export default {
         this.closeNavbar();
       }
       if (this.closeDropDown) {
-        this.closeDropDown()
+        this.closeDropDown();
       }
     }
   }

@@ -24,7 +24,7 @@
 </template>
 <script>
 export default {
-  name: 'n-progress',
+  name: "n-progress",
   props: {
     striped: Boolean,
     showValue: Boolean,
@@ -36,7 +36,7 @@ export default {
     },
     type: {
       type: String,
-      default: 'default'
+      default: "default"
     },
     value: {
       type: Number,
@@ -49,8 +49,8 @@ export default {
   computed: {
     computedClasses() {
       return [
-        { 'progress-bar-striped': this.striped },
-        { 'progress-bar-animated': this.animated }
+        { "progress-bar-striped": this.striped },
+        { "progress-bar-animated": this.animated }
       ];
     }
   }

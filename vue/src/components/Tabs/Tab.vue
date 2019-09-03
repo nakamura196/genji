@@ -11,13 +11,13 @@
 </template>
 <script>
 export default {
-  name: 'tab-pane',
+  name: "tab-pane",
   props: {
     label: String,
     id: String,
     disabled: Boolean
   },
-  inject: ['addTab', 'removeTab'],
+  inject: ["addTab", "removeTab"],
   data() {
     return {
       active: false

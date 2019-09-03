@@ -59,13 +59,13 @@
 
 <script>
 export default {
-  name: 'tabs',
+  name: "tabs",
   inheritAttrs: false,
   components: {
     TabItemContent: {
-      props: ['tab'],
+      props: ["tab"],
       render(h) {
-        return h('div', [this.tab.$slots.label || this.tab.label]);
+        return h("div", [this.tab.$slots.label || this.tab.label]);
       }
     }
   },
@@ -78,35 +78,35 @@ export default {
   props: {
     type: {
       type: String,
-      default: 'default',
+      default: "default",
       validator: value => {
         let acceptedValues = [
-          'primary',
-          'info',
-          'success',
-          'warning',
-          'danger',
-          'default',
-          'neutral'
+          "primary",
+          "info",
+          "success",
+          "warning",
+          "danger",
+          "default",
+          "neutral"
         ];
         return acceptedValues.indexOf(value) !== -1;
       }
     },
     activeTab: {
       type: String,
-      default: ''
+      default: ""
     },
     tabNavWrapperClasses: {
       type: [String, Object],
-      default: ''
+      default: ""
     },
     tabNavClasses: {
       type: [String, Object],
-      default: ''
+      default: ""
     },
     tabContentClasses: {
       type: [String, Object],
-      default: ''
+      default: ""
     },
     vertical: Boolean,
     noContentSpace: Boolean,
@@ -122,11 +122,11 @@ export default {
   },
   computed: {
     tabTypeClass() {
-      let baseClass = this.pills ? 'pills' : 'tabs';
+      let baseClass = this.pills ? "pills" : "tabs";
       if (this.type) {
         return `nav-${baseClass}-${this.type}`;
       }
-      return '';
+      return "";
     }
   },
   methods: {
@@ -145,7 +145,7 @@ export default {
       }
       this.deactivateTabs();
       tab.active = true;
-      this.$emit('input', tab.label || tab.id);
+      this.$emit("input", tab.label || tab.id);
     },
     deactivateTabs() {
       this.tabs.forEach(tab => {

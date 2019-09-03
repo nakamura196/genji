@@ -19,7 +19,7 @@
 </template>
 <script>
 export default {
-  name: 'n-radio',
+  name: "n-radio",
   props: {
     label: [String, Number],
     disabled: Boolean,
@@ -28,7 +28,7 @@ export default {
   },
   data() {
     return {
-      cbId: ''
+      cbId: ""
     };
   },
   computed: {
@@ -37,14 +37,14 @@ export default {
         return this.value;
       },
       set(value) {
-        this.$emit('input', value);
+        this.$emit("input", value);
       }
     },
     inlineClass() {
       if (this.inline) {
         return `form-check-inline`;
       }
-      return '';
+      return "";
     }
   },
   created() {

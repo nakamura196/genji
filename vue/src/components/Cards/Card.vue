@@ -48,7 +48,7 @@
 </template>
 <script>
 export default {
-  name: 'card',
+  name: "card",
   props: {
     type: String,
     title: String,

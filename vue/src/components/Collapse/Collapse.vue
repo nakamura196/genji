@@ -11,7 +11,7 @@
 
 <script>
 export default {
-  name: 'collapse',
+  name: "collapse",
   props: {
     animationDuration: {
       type: Number,

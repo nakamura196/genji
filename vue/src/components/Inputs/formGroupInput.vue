@@ -57,7 +57,7 @@
 <script>
 export default {
   inheritAttrs: false,
-  name: 'fg-input',
+  name: "fg-input",
   props: {
     required: Boolean,
     label: String,
@@ -66,7 +66,7 @@ export default {
     inputClasses: String,
     value: {
       type: [String, Number],
-      default: ''
+      default: ""
     },
     addonRightIcon: String,
     addonLeftIcon: String
@@ -98,15 +98,15 @@ export default {
   methods: {
     updateValue(evt) {
       let value = evt.target.value;
-      this.$emit('input', value);
+      this.$emit("input", value);
     },
     onFocus(value) {
       this.focused = true;
-      this.$emit('focus', value);
+      this.$emit("focus", value);
     },
     onBlur(value) {
       this.focused = false;
-      this.$emit('blur', value);
+      this.$emit("blur", value);
     }
   }
 };

@@ -16,7 +16,7 @@
 </template>
 <script>
 export default {
-  name: 'navbar-toggle-button',
+  name: "navbar-toggle-button",
   props: {
     toggled: Boolean
   }

@@ -17,9 +17,9 @@
 </template>
 <script>
 export default {
-  name: 'n-checkbox',
+  name: "n-checkbox",
   model: {
-    prop: 'checked'
+    prop: "checked"
   },
   props: {
     checked: [Array, Boolean],
@@ -29,7 +29,7 @@ export default {
   },
   data() {
     return {
-      cbId: '',
+      cbId: "",
       touched: false
     };
   },
@@ -42,7 +42,7 @@ export default {
         if (!this.touched) {
           this.touched = true;
         }
-        this.$emit('input', check);
+        this.$emit("input", check);
       }
     },
     inlineClass() {
