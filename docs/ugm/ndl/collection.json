@@ -74,5 +74,6 @@
             "label": "源氏物語 : 河内本. 第10",
             "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/1240845/R0000001/full/200,/0/default.jpg"
         }
-    ]
+    ],
+    "vhint": "use-thumb"
 }

@@ -25,5 +25,6 @@
             "label": "源氏物語絵巻. [3]",
             "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/2590782/R0000001/full/200,/0/default.jpg"
         }
-    ]
+    ],
+    "vhint": "use-thumb"
 }
