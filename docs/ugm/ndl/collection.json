@@ -1,0 +1,78 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/genji/ugm/ndl/collection.json",
+    "@type": "sc:Collection",
+    "label": "尾州家本源氏物語（国立国会図書館）",
+    "manifests": [
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/1240757/manifest.json",
+            "@type": "sc:Manifest",
+            "label": "源氏物語 : 河内本. 第1",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/1240757/R0000001/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/1240772/manifest.json",
+            "@type": "sc:Manifest",
+            "label": "源氏物語 : 河内本. 第2",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/1240772/R0000001/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/1240783/manifest.json",
+            "@type": "sc:Manifest",
+            "label": "源氏物語 : 河内本. 第3",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/1240783/R0000001/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/1240792/manifest.json",
+            "@type": "sc:Manifest",
+            "label": "源氏物語 : 河内本. 第4",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/1240792/R0000001/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/1240802/manifest.json",
+            "@type": "sc:Manifest",
+            "label": "源氏物語 : 河内本. 第5",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/1240802/R0000001/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/1240811/manifest.json",
+            "@type": "sc:Manifest",
+            "label": "源氏物語 : 河内本. 第6",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/1240811/R0000001/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/1240822/manifest.json",
+            "@type": "sc:Manifest",
+            "label": "源氏物語 : 河内本. 第7",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/1240822/R0000001/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/1240828/manifest.json",
+            "@type": "sc:Manifest",
+            "label": "源氏物語 : 河内本. 第8",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/1240828/R0000001/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/1240838/manifest.json",
+            "@type": "sc:Manifest",
+            "label": "源氏物語 : 河内本. 第9",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/1240838/R0000001/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/1240845/manifest.json",
+            "@type": "sc:Manifest",
+            "label": "源氏物語 : 河内本. 第10",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/1240845/R0000001/full/200,/0/default.jpg"
+        }
+    ]
+}
