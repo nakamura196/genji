@@ -1,0 +1,53 @@
+{
+    "@context": [
+        "http://iiif.io/api/presentation/2/context.json",
+        "http://codh.rois.ac.jp/iiif/curation/1/context.json"
+    ],
+    "@type": "cr:Curation",
+    "@id": "http://mp.ex.nii.ac.jp/api/curation/json/8f960a54-2e0d-4139-9ade-714eac19e55d",
+    "label": "Curating list",
+    "selections": [
+        {
+            "@id": "http://mp.ex.nii.ac.jp/api/curation/json/8f960a54-2e0d-4139-9ade-714eac19e55d/range1",
+            "@type": "sc:Range",
+            "label": "Manual curation by IIIF Curation Viewer",
+            "members": [
+                {
+                    "@id": "https://www.dl.ndl.go.jp/api/iiif/2590780/canvas/7#xywh=320,1680,7776,3696",
+                    "@type": "sc:Canvas",
+                    "label": "7"
+                },
+                {
+                    "@id": "https://www.dl.ndl.go.jp/api/iiif/2590780/canvas/8#xywh=1200,1712,6224,3584",
+                    "@type": "sc:Canvas",
+                    "label": "8"
+                },
+                {
+                    "@id": "https://www.dl.ndl.go.jp/api/iiif/2590780/canvas/10#xywh=1248,1808,6096,3584",
+                    "@type": "sc:Canvas",
+                    "label": "10"
+                },
+                {
+                    "@id": "https://www.dl.ndl.go.jp/api/iiif/2590780/canvas/12#xywh=336,1824,7840,3536",
+                    "@type": "sc:Canvas",
+                    "label": "12"
+                },
+                {
+                    "@id": "https://www.dl.ndl.go.jp/api/iiif/2590780/canvas/15#xywh=1216,1840,6208,3520",
+                    "@type": "sc:Canvas",
+                    "label": "15"
+                },
+                {
+                    "@id": "https://www.dl.ndl.go.jp/api/iiif/2590780/canvas/18#xywh=176,1840,7840,3552",
+                    "@type": "sc:Canvas",
+                    "label": "18"
+                }
+            ],
+            "within": {
+                "@id": "https://www.dl.ndl.go.jp/api/iiif/2590780/manifest.json",
+                "@type": "sc:Manifest",
+                "label": "源氏物語絵巻. [1]"
+            }
+        }
+    ]
+}
