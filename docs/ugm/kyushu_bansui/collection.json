@@ -1,0 +1,441 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/genji/ugm/kyushu_bansui/collection.json",
+    "@type": "sc:Collection",
+    "label": "萬水一露抄（九州大学）",
+    "manifests": [
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://catalog.lib.kyushu-u.ac.jp/image/manifest/820/411319.json",
+            "@type": "sc:Manifest",
+            "index": 1.0,
+            "label": "萬水一露抄 : 源氏物語聞書",
+            "thumbnail": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411319/376516.tiff/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://catalog.lib.kyushu-u.ac.jp/image/manifest/820/411320.json",
+            "@type": "sc:Manifest",
+            "index": 2.0,
+            "label": "萬水一露抄 : 源氏物語聞書",
+            "thumbnail": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411320/376746.tiff/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://catalog.lib.kyushu-u.ac.jp/image/manifest/820/411321.json",
+            "@type": "sc:Manifest",
+            "index": 3.0,
+            "label": "萬水一露抄 : 源氏物語聞書",
+            "thumbnail": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411321/377182.tiff/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://catalog.lib.kyushu-u.ac.jp/image/manifest/820/411322.json",
+            "@type": "sc:Manifest",
+            "index": 4.0,
+            "label": "萬水一露抄 : 源氏物語聞書",
+            "thumbnail": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411322/377244.tiff/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://catalog.lib.kyushu-u.ac.jp/image/manifest/820/411323.json",
+            "@type": "sc:Manifest",
+            "index": 5.0,
+            "label": "萬水一露抄 : 源氏物語聞書",
+            "thumbnail": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411323/377480.tiff/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://catalog.lib.kyushu-u.ac.jp/image/manifest/820/411324.json",
+            "@type": "sc:Manifest",
+            "index": 6.0,
+            "label": "萬水一露抄 : 源氏物語聞書",
+            "thumbnail": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411324/377694.tiff/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://catalog.lib.kyushu-u.ac.jp/image/manifest/820/411325.json",
+            "@type": "sc:Manifest",
+            "index": 7.0,
+            "label": "萬水一露抄 : 源氏物語聞書",
+            "thumbnail": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411325/377876.tiff/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://catalog.lib.kyushu-u.ac.jp/image/manifest/820/411326.json",
+            "@type": "sc:Manifest",
+            "index": 8.0,
+            "label": "萬水一露抄 : 源氏物語聞書",
+            "thumbnail": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411326/378038.tiff/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://catalog.lib.kyushu-u.ac.jp/image/manifest/820/411327.json",
+            "@type": "sc:Manifest",
+            "index": 9.0,
+            "label": "萬水一露抄 : 源氏物語聞書",
+            "thumbnail": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411327/378144.tiff/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://catalog.lib.kyushu-u.ac.jp/image/manifest/820/411328.json",
+            "@type": "sc:Manifest",
+            "index": 10.0,
+            "label": "萬水一露抄 : 源氏物語聞書",
+            "thumbnail": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411328/378415.tiff/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://catalog.lib.kyushu-u.ac.jp/image/manifest/820/411329.json",
+            "@type": "sc:Manifest",
+            "index": 11.0,
+            "label": "萬水一露抄 : 源氏物語聞書",
+            "thumbnail": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411329/378699.tiff/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://catalog.lib.kyushu-u.ac.jp/image/manifest/820/411330.json",
+            "@type": "sc:Manifest",
+            "index": 12.0,
+            "label": "萬水一露抄 : 源氏物語聞書",
+            "thumbnail": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411330/378729.tiff/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://catalog.lib.kyushu-u.ac.jp/image/manifest/820/411331.json",
+            "@type": "sc:Manifest",
+            "index": 13.0,
+            "label": "萬水一露抄 : 源氏物語聞書",
+            "thumbnail": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411331/378957.tiff/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://catalog.lib.kyushu-u.ac.jp/image/manifest/820/411332.json",
+            "@type": "sc:Manifest",
+            "index": 14.0,
+            "label": "萬水一露抄 : 源氏物語聞書",
+            "thumbnail": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411332/379169.tiff/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://catalog.lib.kyushu-u.ac.jp/image/manifest/820/411333.json",
+            "@type": "sc:Manifest",
+            "index": 15.0,
+            "label": "萬水一露抄 : 源氏物語聞書",
+            "thumbnail": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411333/379357.tiff/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://catalog.lib.kyushu-u.ac.jp/image/manifest/820/411334.json",
+            "@type": "sc:Manifest",
+            "index": 16.0,
+            "label": "萬水一露抄 : 源氏物語聞書",
+            "thumbnail": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411334/379477.tiff/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://catalog.lib.kyushu-u.ac.jp/image/manifest/820/411335.json",
+            "@type": "sc:Manifest",
+            "index": 17.0,
+            "label": "萬水一露抄 : 源氏物語聞書",
+            "thumbnail": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411335/379517.tiff/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://catalog.lib.kyushu-u.ac.jp/image/manifest/820/411336.json",
+            "@type": "sc:Manifest",
+            "index": 18.0,
+            "label": "萬水一露抄 : 源氏物語聞書",
+            "thumbnail": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411336/379655.tiff/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://catalog.lib.kyushu-u.ac.jp/image/manifest/820/411337.json",
+            "@type": "sc:Manifest",
+            "index": 19.0,
+            "label": "萬水一露抄 : 源氏物語聞書",
+            "thumbnail": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411337/379815.tiff/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://catalog.lib.kyushu-u.ac.jp/image/manifest/820/411338.json",
+            "@type": "sc:Manifest",
+            "index": 20.0,
+            "label": "萬水一露抄 : 源氏物語聞書",
+            "thumbnail": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411338/379959.tiff/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://catalog.lib.kyushu-u.ac.jp/image/manifest/820/411339.json",
+            "@type": "sc:Manifest",
+            "index": 21.0,
+            "label": "萬水一露抄 : 源氏物語聞書",
+            "thumbnail": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411339/380098.tiff/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://catalog.lib.kyushu-u.ac.jp/image/manifest/820/411340.json",
+            "@type": "sc:Manifest",
+            "index": 22.0,
+            "label": "萬水一露抄 : 源氏物語聞書",
+            "thumbnail": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411340/380394.tiff/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://catalog.lib.kyushu-u.ac.jp/image/manifest/820/411341.json",
+            "@type": "sc:Manifest",
+            "index": 23.0,
+            "label": "萬水一露抄 : 源氏物語聞書",
+            "thumbnail": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411341/380648.tiff/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://catalog.lib.kyushu-u.ac.jp/image/manifest/820/411342.json",
+            "@type": "sc:Manifest",
+            "index": 24.0,
+            "label": "萬水一露抄 : 源氏物語聞書",
+            "thumbnail": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411342/380756.tiff/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://catalog.lib.kyushu-u.ac.jp/image/manifest/820/411343.json",
+            "@type": "sc:Manifest",
+            "index": 25.0,
+            "label": "萬水一露抄 : 源氏物語聞書",
+            "thumbnail": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411343/380886.tiff/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://catalog.lib.kyushu-u.ac.jp/image/manifest/820/411344.json",
+            "@type": "sc:Manifest",
+            "index": 26.0,
+            "label": "萬水一露抄 : 源氏物語聞書",
+            "thumbnail": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411344/381048.tiff/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://catalog.lib.kyushu-u.ac.jp/image/manifest/820/411345.json",
+            "@type": "sc:Manifest",
+            "index": 27.0,
+            "label": "萬水一露抄 : 源氏物語聞書",
+            "thumbnail": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411345/381196.tiff/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://catalog.lib.kyushu-u.ac.jp/image/manifest/820/411346.json",
+            "@type": "sc:Manifest",
+            "index": 28.0,
+            "label": "萬水一露抄 : 源氏物語聞書",
+            "thumbnail": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411346/381224.tiff/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://catalog.lib.kyushu-u.ac.jp/image/manifest/820/411347.json",
+            "@type": "sc:Manifest",
+            "index": 29.0,
+            "label": "萬水一露抄 : 源氏物語聞書",
+            "thumbnail": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411347/381318.tiff/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://catalog.lib.kyushu-u.ac.jp/image/manifest/820/411348.json",
+            "@type": "sc:Manifest",
+            "index": 30.0,
+            "label": "萬水一露抄 : 源氏物語聞書",
+            "thumbnail": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411348/381506.tiff/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://catalog.lib.kyushu-u.ac.jp/image/manifest/820/411349.json",
+            "@type": "sc:Manifest",
+            "index": 31.0,
+            "label": "萬水一露抄 : 源氏物語聞書",
+            "thumbnail": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411349/381626.tiff/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://catalog.lib.kyushu-u.ac.jp/image/manifest/820/411350.json",
+            "@type": "sc:Manifest",
+            "index": 32.0,
+            "label": "萬水一露抄 : 源氏物語聞書",
+            "thumbnail": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411350/381840.tiff/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://catalog.lib.kyushu-u.ac.jp/image/manifest/820/411351.json",
+            "@type": "sc:Manifest",
+            "index": 33.0,
+            "label": "萬水一露抄 : 源氏物語聞書",
+            "thumbnail": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411351/382006.tiff/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://catalog.lib.kyushu-u.ac.jp/image/manifest/820/411352.json",
+            "@type": "sc:Manifest",
+            "index": 34.0,
+            "label": "萬水一露抄 : 源氏物語聞書",
+            "thumbnail": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411352/382180.tiff/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://catalog.lib.kyushu-u.ac.jp/image/manifest/820/411353.json",
+            "@type": "sc:Manifest",
+            "index": 35.0,
+            "label": "萬水一露抄 : 源氏物語聞書",
+            "thumbnail": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411353/382740.tiff/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://catalog.lib.kyushu-u.ac.jp/image/manifest/820/411354.json",
+            "@type": "sc:Manifest",
+            "index": 36.0,
+            "label": "萬水一露抄 : 源氏物語聞書",
+            "thumbnail": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411354/383268.tiff/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://catalog.lib.kyushu-u.ac.jp/image/manifest/820/411355.json",
+            "@type": "sc:Manifest",
+            "index": 37.0,
+            "label": "萬水一露抄 : 源氏物語聞書",
+            "thumbnail": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411355/383436.tiff/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://catalog.lib.kyushu-u.ac.jp/image/manifest/820/411356.json",
+            "@type": "sc:Manifest",
+            "index": 38.0,
+            "label": "萬水一露抄 : 源氏物語聞書",
+            "thumbnail": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411356/383528.tiff/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://catalog.lib.kyushu-u.ac.jp/image/manifest/820/411357.json",
+            "@type": "sc:Manifest",
+            "index": 39.0,
+            "label": "萬水一露抄 : 源氏物語聞書",
+            "thumbnail": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411357/383582.tiff/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://catalog.lib.kyushu-u.ac.jp/image/manifest/820/411358.json",
+            "@type": "sc:Manifest",
+            "index": 40.0,
+            "label": "萬水一露抄 : 源氏物語聞書",
+            "thumbnail": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411358/383892.tiff/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://catalog.lib.kyushu-u.ac.jp/image/manifest/820/411359.json",
+            "@type": "sc:Manifest",
+            "index": 41.0,
+            "label": "萬水一露抄 : 源氏物語聞書",
+            "thumbnail": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411359/383970.tiff/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://catalog.lib.kyushu-u.ac.jp/image/manifest/820/411360.json",
+            "@type": "sc:Manifest",
+            "index": 42.0,
+            "label": "萬水一露抄 : 源氏物語聞書",
+            "thumbnail": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411360/384096.tiff/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://catalog.lib.kyushu-u.ac.jp/image/manifest/820/411361.json",
+            "@type": "sc:Manifest",
+            "index": 43.0,
+            "label": "萬水一露抄 : 源氏物語聞書",
+            "thumbnail": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411361/384188.tiff/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://catalog.lib.kyushu-u.ac.jp/image/manifest/820/411362.json",
+            "@type": "sc:Manifest",
+            "index": 44.0,
+            "label": "萬水一露抄 : 源氏物語聞書",
+            "thumbnail": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411362/384264.tiff/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://catalog.lib.kyushu-u.ac.jp/image/manifest/820/411363.json",
+            "@type": "sc:Manifest",
+            "index": 45.0,
+            "label": "萬水一露抄 : 源氏物語聞書",
+            "thumbnail": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411363/384472.tiff/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://catalog.lib.kyushu-u.ac.jp/image/manifest/820/411364.json",
+            "@type": "sc:Manifest",
+            "index": 46.0,
+            "label": "萬水一露抄 : 源氏物語聞書",
+            "thumbnail": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411364/384640.tiff/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://catalog.lib.kyushu-u.ac.jp/image/manifest/820/411365.json",
+            "@type": "sc:Manifest",
+            "index": 47.0,
+            "label": "萬水一露抄 : 源氏物語聞書",
+            "thumbnail": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411365/384832.tiff/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://catalog.lib.kyushu-u.ac.jp/image/manifest/820/411366.json",
+            "@type": "sc:Manifest",
+            "index": 48.0,
+            "label": "萬水一露抄 : 源氏物語聞書",
+            "thumbnail": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411366/385134.tiff/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://catalog.lib.kyushu-u.ac.jp/image/manifest/820/411367.json",
+            "@type": "sc:Manifest",
+            "index": 49.0,
+            "label": "萬水一露抄 : 源氏物語聞書",
+            "thumbnail": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411367/385234.tiff/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://catalog.lib.kyushu-u.ac.jp/image/manifest/820/411368.json",
+            "@type": "sc:Manifest",
+            "index": 50.0,
+            "label": "萬水一露抄 : 源氏物語聞書",
+            "thumbnail": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411368/385602.tiff/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://catalog.lib.kyushu-u.ac.jp/image/manifest/820/411369.json",
+            "@type": "sc:Manifest",
+            "index": 51.0,
+            "label": "萬水一露抄 : 源氏物語聞書",
+            "thumbnail": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411369/385738.tiff/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://catalog.lib.kyushu-u.ac.jp/image/manifest/820/411370.json",
+            "@type": "sc:Manifest",
+            "index": 52.0,
+            "label": "萬水一露抄 : 源氏物語聞書",
+            "thumbnail": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411370/385886.tiff/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://catalog.lib.kyushu-u.ac.jp/image/manifest/820/411371.json",
+            "@type": "sc:Manifest",
+            "index": 53.0,
+            "label": "萬水一露抄 : 源氏物語聞書",
+            "thumbnail": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411371/386226.tiff/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://catalog.lib.kyushu-u.ac.jp/image/manifest/820/411372.json",
+            "@type": "sc:Manifest",
+            "index": 54.0,
+            "label": "萬水一露抄 : 源氏物語聞書",
+            "thumbnail": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411372/386576.tiff/full/200,/0/default.jpg"
+        }
+    ],
+    "vhint": "use-thumb"
+}

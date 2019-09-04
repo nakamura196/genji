@@ -1,0 +1,44 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/genji/ugm/ndl_koi/collection.json",
+    "@type": "sc:Collection",
+    "label": "校異源氏物語（国立国会図書館）",
+    "manifests": [
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/3437686/manifest.json",
+            "@type": "sc:Manifest",
+            "label": "校異源氏物語. 巻一",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/3437686/R0000001/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/3437687/manifest.json",
+            "@type": "sc:Manifest",
+            "label": "校異源氏物語. 巻二",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/3437687/R0000001/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/3437688/manifest.json",
+            "@type": "sc:Manifest",
+            "label": "校異源氏物語. 巻三",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/3437688/R0000001/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/3437689/manifest.json",
+            "@type": "sc:Manifest",
+            "label": "校異源氏物語. 巻四",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/3437689/R0000001/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/3437690/manifest.json",
+            "@type": "sc:Manifest",
+            "label": "校異源氏物語. 巻五",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/3437690/R0000001/full/200,/0/default.jpg"
+        }
+    ],
+    "vhint": "use-thumb"
+}
