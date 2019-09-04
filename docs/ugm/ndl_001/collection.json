@@ -1,0 +1,441 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/genji/ugm/ndl_001/collection.json",
+    "@type": "sc:Collection",
+    "label": "不明（国立国会図書館）",
+    "manifests": [
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/2591006/manifest.json",
+            "@type": "sc:Manifest",
+            "index": 1.0,
+            "label": "源氏物語. [1]",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/2591006/R0000001/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/2591007/manifest.json",
+            "@type": "sc:Manifest",
+            "index": 2.0,
+            "label": "源氏物語. [2]",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/2591007/R0000001/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/2591008/manifest.json",
+            "@type": "sc:Manifest",
+            "index": 3.0,
+            "label": "源氏物語. [3]",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/2591008/R0000001/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/2591009/manifest.json",
+            "@type": "sc:Manifest",
+            "index": 4.0,
+            "label": "源氏物語. [4]",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/2591009/R0000001/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/2591010/manifest.json",
+            "@type": "sc:Manifest",
+            "index": 5.0,
+            "label": "源氏物語. [5]",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/2591010/R0000001/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/2591011/manifest.json",
+            "@type": "sc:Manifest",
+            "index": 6.0,
+            "label": "源氏物語. [6]",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/2591011/R0000001/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/2591012/manifest.json",
+            "@type": "sc:Manifest",
+            "index": 7.0,
+            "label": "源氏物語. [7]",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/2591012/R0000001/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/2591013/manifest.json",
+            "@type": "sc:Manifest",
+            "index": 8.0,
+            "label": "源氏物語. [8]",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/2591013/R0000001/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/2591014/manifest.json",
+            "@type": "sc:Manifest",
+            "index": 9.0,
+            "label": "源氏物語. [9]",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/2591014/R0000001/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/2591015/manifest.json",
+            "@type": "sc:Manifest",
+            "index": 10.0,
+            "label": "源氏物語. [10]",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/2591015/R0000001/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/2591016/manifest.json",
+            "@type": "sc:Manifest",
+            "index": 11.0,
+            "label": "源氏物語. [11]",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/2591016/R0000001/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/2591017/manifest.json",
+            "@type": "sc:Manifest",
+            "index": 12.0,
+            "label": "源氏物語. [12]",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/2591017/R0000001/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/2591018/manifest.json",
+            "@type": "sc:Manifest",
+            "index": 13.0,
+            "label": "源氏物語. [13]",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/2591018/R0000001/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/2591019/manifest.json",
+            "@type": "sc:Manifest",
+            "index": 14.0,
+            "label": "源氏物語. [14]",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/2591019/R0000001/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/2591020/manifest.json",
+            "@type": "sc:Manifest",
+            "index": 15.0,
+            "label": "源氏物語. [15]",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/2591020/R0000001/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/2591021/manifest.json",
+            "@type": "sc:Manifest",
+            "index": 16.0,
+            "label": "源氏物語. [16]",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/2591021/R0000001/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/2591022/manifest.json",
+            "@type": "sc:Manifest",
+            "index": 17.0,
+            "label": "源氏物語. [17]",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/2591022/R0000001/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/2591023/manifest.json",
+            "@type": "sc:Manifest",
+            "index": 18.0,
+            "label": "源氏物語. [18]",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/2591023/R0000001/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/2591024/manifest.json",
+            "@type": "sc:Manifest",
+            "index": 19.0,
+            "label": "源氏物語. [19]",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/2591024/R0000001/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/2591025/manifest.json",
+            "@type": "sc:Manifest",
+            "index": 20.0,
+            "label": "源氏物語. [20]",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/2591025/R0000001/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/2591026/manifest.json",
+            "@type": "sc:Manifest",
+            "index": 21.0,
+            "label": "源氏物語. [21]",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/2591026/R0000001/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/2591027/manifest.json",
+            "@type": "sc:Manifest",
+            "index": 22.0,
+            "label": "源氏物語. [22]",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/2591027/R0000001/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/2591028/manifest.json",
+            "@type": "sc:Manifest",
+            "index": 23.0,
+            "label": "源氏物語. [23]",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/2591028/R0000001/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/2591029/manifest.json",
+            "@type": "sc:Manifest",
+            "index": 24.0,
+            "label": "源氏物語. [24]",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/2591029/R0000001/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/2591030/manifest.json",
+            "@type": "sc:Manifest",
+            "index": 25.0,
+            "label": "源氏物語. [25]",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/2591030/R0000001/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/2591031/manifest.json",
+            "@type": "sc:Manifest",
+            "index": 26.0,
+            "label": "源氏物語. [26]",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/2591031/R0000001/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/2591032/manifest.json",
+            "@type": "sc:Manifest",
+            "index": 27.0,
+            "label": "源氏物語. [27]",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/2591032/R0000001/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/2591033/manifest.json",
+            "@type": "sc:Manifest",
+            "index": 28.0,
+            "label": "源氏物語. [28]",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/2591033/R0000001/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/2591034/manifest.json",
+            "@type": "sc:Manifest",
+            "index": 29.0,
+            "label": "源氏物語. [29]",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/2591034/R0000001/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/2591035/manifest.json",
+            "@type": "sc:Manifest",
+            "index": 30.0,
+            "label": "源氏物語. [30]",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/2591035/R0000001/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/2591036/manifest.json",
+            "@type": "sc:Manifest",
+            "index": 31.0,
+            "label": "源氏物語. [31]",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/2591036/R0000001/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/2591037/manifest.json",
+            "@type": "sc:Manifest",
+            "index": 32.0,
+            "label": "源氏物語. [32]",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/2591037/R0000001/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/2591038/manifest.json",
+            "@type": "sc:Manifest",
+            "index": 33.0,
+            "label": "源氏物語. [33]",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/2591038/R0000001/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/2591039/manifest.json",
+            "@type": "sc:Manifest",
+            "index": 34.0,
+            "label": "源氏物語. [34]",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/2591039/R0000001/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/2591040/manifest.json",
+            "@type": "sc:Manifest",
+            "index": 35.0,
+            "label": "源氏物語. [35]",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/2591040/R0000001/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/2591041/manifest.json",
+            "@type": "sc:Manifest",
+            "index": 36.0,
+            "label": "源氏物語. [36]",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/2591041/R0000001/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/2591042/manifest.json",
+            "@type": "sc:Manifest",
+            "index": 37.0,
+            "label": "源氏物語. [37]",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/2591042/R0000001/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/2591043/manifest.json",
+            "@type": "sc:Manifest",
+            "index": 38.0,
+            "label": "源氏物語. [38]",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/2591043/R0000001/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/2591044/manifest.json",
+            "@type": "sc:Manifest",
+            "index": 39.0,
+            "label": "源氏物語. [39]",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/2591044/R0000001/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/2591045/manifest.json",
+            "@type": "sc:Manifest",
+            "index": 40.0,
+            "label": "源氏物語. [40]",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/2591045/R0000001/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/2591046/manifest.json",
+            "@type": "sc:Manifest",
+            "index": 41.0,
+            "label": "源氏物語. [41]",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/2591046/R0000001/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/2591047/manifest.json",
+            "@type": "sc:Manifest",
+            "index": 42.0,
+            "label": "源氏物語. [42]",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/2591047/R0000001/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/2591048/manifest.json",
+            "@type": "sc:Manifest",
+            "index": 43.0,
+            "label": "源氏物語. [43]",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/2591048/R0000001/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/2591049/manifest.json",
+            "@type": "sc:Manifest",
+            "index": 44.0,
+            "label": "源氏物語. [44]",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/2591049/R0000001/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/2591050/manifest.json",
+            "@type": "sc:Manifest",
+            "index": 45.0,
+            "label": "源氏物語. [45]",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/2591050/R0000001/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/2591051/manifest.json",
+            "@type": "sc:Manifest",
+            "index": 46.0,
+            "label": "源氏物語. [46]",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/2591051/R0000001/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/2591052/manifest.json",
+            "@type": "sc:Manifest",
+            "index": 47.0,
+            "label": "源氏物語. [47]",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/2591052/R0000001/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/2591053/manifest.json",
+            "@type": "sc:Manifest",
+            "index": 48.0,
+            "label": "源氏物語. [48]",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/2591053/R0000001/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/2591054/manifest.json",
+            "@type": "sc:Manifest",
+            "index": 49.0,
+            "label": "源氏物語. [49]",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/2591054/R0000001/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/2591055/manifest.json",
+            "@type": "sc:Manifest",
+            "index": 50.0,
+            "label": "源氏物語. [50]",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/2591055/R0000001/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/2591056/manifest.json",
+            "@type": "sc:Manifest",
+            "index": 51.0,
+            "label": "源氏物語. [51]",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/2591056/R0000001/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/2591057/manifest.json",
+            "@type": "sc:Manifest",
+            "index": 52.0,
+            "label": "源氏物語. [52]",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/2591057/R0000001/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/2591058/manifest.json",
+            "@type": "sc:Manifest",
+            "index": 53.0,
+            "label": "源氏物語. [53]",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/2591058/R0000001/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/2591059/manifest.json",
+            "@type": "sc:Manifest",
+            "index": 54.0,
+            "label": "源氏物語. [54]",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/2591059/R0000001/full/200,/0/default.jpg"
+        }
+    ],
+    "vhint": "use-thumb"
+}
