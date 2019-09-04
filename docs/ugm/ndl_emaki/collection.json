@@ -1,0 +1,29 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/genji/ugm/ndl_emaki/collection.json",
+    "@type": "sc:Collection",
+    "label": "源氏物語絵巻（国立国会図書館）",
+    "manifests": [
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/2590780/manifest.json",
+            "@type": "sc:Manifest",
+            "label": "源氏物語絵巻. [1]",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/2590780/R0000001/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/2590781/manifest.json",
+            "@type": "sc:Manifest",
+            "label": "源氏物語絵巻. [2]",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/2590781/R0000001/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/2590782/manifest.json",
+            "@type": "sc:Manifest",
+            "label": "源氏物語絵巻. [3]",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/2590782/R0000001/full/200,/0/default.jpg"
+        }
+    ]
+}
