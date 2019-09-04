@@ -1,38 +1,347 @@
 {
     "@context": "http://iiif.io/api/presentation/2/context.json",
-    "@id": "https://nakamura196.github.io/genji/ugm/genji.json",
+    "@id": "http://ja.dbpedia.org/data/源氏物語.json",
     "@type": "sc:Collection",
     "collections": [
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
-            "@id": "https://nakamura196.github.io/genji/ugm/kyushu/collection.json",
+            "@id": "http://ja.dbpedia.org/data/源氏物語の写本.json",
             "@type": "sc:Collection",
-            "label": "九大本（古活字版）"
+            "collections": [
+                {
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://ja.dbpedia.org/data/青表紙本.json",
+                    "@type": "sc:Collection",
+                    "collections": [
+                        {
+                            "@context": "http://iiif.io/api/presentation/2/context.json",
+                            "@id": "http://ja.dbpedia.org/data/東久邇宮家旧蔵本.json",
+                            "@type": "sc:Collection",
+                            "collections": [
+                                {
+                                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                                    "@id": "https://nakamura196.github.io/genji/ugm/ndl_higashikuminomiya/collection.json",
+                                    "@type": "sc:Collection",
+                                    "collections": [],
+                                    "label": "東久邇宮家旧蔵本（国立国会図書館）",
+                                    "vhint": "use-thumb"
+                                }
+                            ],
+                            "label": "東久邇宮家旧蔵本",
+                            "vhint": "use-thumb"
+                        }
+                    ],
+                    "label": "青表紙本",
+                    "vhint": "use-thumb"
+                },
+                {
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://ja.dbpedia.org/data/河内本.json",
+                    "@type": "sc:Collection",
+                    "collections": [
+                        {
+                            "@context": "http://iiif.io/api/presentation/2/context.json",
+                            "@id": "http://ja.dbpedia.org/data/尾州家本源氏物語.json",
+                            "@type": "sc:Collection",
+                            "collections": [
+                                {
+                                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                                    "@id": "https://nakamura196.github.io/genji/ugm/ndl/collection.json",
+                                    "@type": "sc:Collection",
+                                    "collections": [],
+                                    "label": "尾州家本源氏物語（国立国会図書館）",
+                                    "vhint": "use-thumb"
+                                }
+                            ],
+                            "label": "尾州家本源氏物語",
+                            "vhint": "use-thumb"
+                        }
+                    ],
+                    "label": "河内本",
+                    "vhint": "use-thumb"
+                },
+                {
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://ja.dbpedia.org/data/別本.json",
+                    "@type": "sc:Collection",
+                    "collections": [
+                        {
+                            "@context": "http://iiif.io/api/presentation/2/context.json",
+                            "@id": "http://ja.dbpedia.org/data/米国議会図書館本源氏物語.json",
+                            "@type": "sc:Collection",
+                            "collections": [
+                                {
+                                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                                    "@id": "https://nakamura196.github.io/genji/ugm/loc/collection.json",
+                                    "@type": "sc:Collection",
+                                    "collections": [],
+                                    "label": "米国議会図書館本（米国議会図書館）",
+                                    "vhint": "use-thumb"
+                                }
+                            ],
+                            "label": "米国議会図書館本源氏物語",
+                            "vhint": "use-thumb"
+                        },
+                        {
+                            "@context": "http://iiif.io/api/presentation/2/context.json",
+                            "@id": "http://ja.dbpedia.org/data/東京大学本源氏物語.json",
+                            "@type": "sc:Collection",
+                            "collections": [
+                                {
+                                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                                    "@id": "https://archdataset.dl.itc.u-tokyo.ac.jp/collections/genji/image/collection.json",
+                                    "@type": "sc:Collection",
+                                    "collections": [],
+                                    "label": "東京大学本源氏物語（東京大学）",
+                                    "vhint": "use-thumb"
+                                }
+                            ],
+                            "label": "東京大学本源氏物語",
+                            "vhint": "use-thumb"
+                        }
+                    ],
+                    "label": "別本",
+                    "vhint": "use-thumb"
+                }
+            ],
+            "label": "源氏物語の写本",
+            "vhint": "use-thumb"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
-            "@id": "https://nakamura196.github.io/genji/ugm/kyushu2/collection.json",
+            "@id": "http://example.org/版本.json",
             "@type": "sc:Collection",
-            "label": "九大本（無跋無刊記整版本）"
+            "collections": [
+                {
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://ja.dbpedia.org/data/古活字版源氏物語.json",
+                    "@type": "sc:Collection",
+                    "collections": [
+                        {
+                            "@context": "http://iiif.io/api/presentation/2/context.json",
+                            "@id": "https://nakamura196.github.io/genji/ugm/ndl_kokatsuji/collection.json",
+                            "@type": "sc:Collection",
+                            "collections": [],
+                            "label": "古活字版（国立国会図書館）",
+                            "vhint": "use-thumb"
+                        },
+                        {
+                            "@context": "http://iiif.io/api/presentation/2/context.json",
+                            "@id": "http://ja.dbpedia.org/data/寛永古活字版源氏物語.json",
+                            "@type": "sc:Collection",
+                            "collections": [
+                                {
+                                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                                    "@id": "http://ja.dbpedia.org/data/九州大学本源氏物語.json",
+                                    "@type": "sc:Collection",
+                                    "collections": [
+                                        {
+                                            "@context": "http://iiif.io/api/presentation/2/context.json",
+                                            "@id": "https://nakamura196.github.io/genji/ugm/kyushu/collection.json",
+                                            "@type": "sc:Collection",
+                                            "collections": [],
+                                            "label": "寛永古活字版（九州大学）",
+                                            "vhint": "use-thumb"
+                                        }
+                                    ],
+                                    "label": "九州大学本源氏物語",
+                                    "vhint": "use-thumb"
+                                }
+                            ],
+                            "label": "寛永古活字版源氏物語",
+                            "vhint": "use-thumb"
+                        }
+                    ],
+                    "label": "古活字版源氏物語",
+                    "vhint": "use-thumb"
+                },
+                {
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://example.org/整版本.json",
+                    "@type": "sc:Collection",
+                    "collections": [
+                        {
+                            "@context": "http://iiif.io/api/presentation/2/context.json",
+                            "@id": "http://ja.dbpedia.org/data/無跋無刊記整版本源氏物語.json",
+                            "@type": "sc:Collection",
+                            "collections": [
+                                {
+                                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                                    "@id": "https://nakamura196.github.io/genji/ugm/kyushu2/collection.json",
+                                    "@type": "sc:Collection",
+                                    "collections": [],
+                                    "label": "無跋無刊記整版本（九州大学）",
+                                    "vhint": "use-thumb"
+                                }
+                            ],
+                            "label": "無跋無刊記整版本源氏物語",
+                            "vhint": "use-thumb"
+                        },
+                        {
+                            "@context": "http://iiif.io/api/presentation/2/context.json",
+                            "@id": "http://ja.dbpedia.org/data/絵入源氏物語.json",
+                            "@type": "sc:Collection",
+                            "collections": [
+                                {
+                                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                                    "@id": "https://nakamura196.github.io/genji/ugm/nijl/collection.json",
+                                    "@type": "sc:Collection",
+                                    "collections": [],
+                                    "label": "絵入源氏物語（国文学研究資料館）",
+                                    "vhint": "use-thumb"
+                                }
+                            ],
+                            "label": "絵入源氏物語",
+                            "vhint": "use-thumb"
+                        }
+                    ],
+                    "label": "整版本",
+                    "vhint": "use-thumb"
+                }
+            ],
+            "label": "版本",
+            "vhint": "use-thumb"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
-            "@id": "https://nakamura196.github.io/genji/ugm/utokyo/collection.json",
+            "@id": "http://example.org/校本.json",
             "@type": "sc:Collection",
-            "label": "東大本"
+            "collections": [
+                {
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://ja.dbpedia.org/data/校異源氏物語.json",
+                    "@type": "sc:Collection",
+                    "collections": [
+                        {
+                            "@context": "http://iiif.io/api/presentation/2/context.json",
+                            "@id": "https://nakamura196.github.io/genji/ugm/ndl_koi/collection.json",
+                            "@type": "sc:Collection",
+                            "collections": [],
+                            "label": "校異源氏物語（国立国会図書館）",
+                            "vhint": "use-thumb"
+                        }
+                    ],
+                    "label": "校異源氏物語",
+                    "vhint": "use-thumb"
+                }
+            ],
+            "label": "校本",
+            "vhint": "use-thumb"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
-            "@id": "https://nakamura196.github.io/genji/ugm/nijl/collection.json",
+            "@id": "http://example.org/古注釈.json",
             "@type": "sc:Collection",
-            "label": "絵入源氏物語・承応三年版"
+            "collections": [
+                {
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://ja.dbpedia.org/data/旧注.json",
+                    "@type": "sc:Collection",
+                    "collections": [
+                        {
+                            "@context": "http://iiif.io/api/presentation/2/context.json",
+                            "@id": "http://ja.dbpedia.org/data/万水一露.json",
+                            "@type": "sc:Collection",
+                            "collections": [
+                                {
+                                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                                    "@id": "https://nakamura196.github.io/genji/ugm/kyushu_bansui/collection.json",
+                                    "@type": "sc:Collection",
+                                    "collections": [],
+                                    "label": "万水一露（九州大学）",
+                                    "vhint": "use-thumb"
+                                }
+                            ],
+                            "label": "万水一露",
+                            "vhint": "use-thumb"
+                        }
+                    ],
+                    "label": "旧注",
+                    "vhint": "use-thumb"
+                }
+            ],
+            "label": "古注釈",
+            "vhint": "use-thumb"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
-            "@id": "https://nakamura196.github.io/genji/ugm/loc/collection.json",
+            "@id": "http://example.org/派生作品.json",
             "@type": "sc:Collection",
-            "label": "アメリカ議会図書館"
+            "collections": [
+                {
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://example.org/絵画作品.json",
+                    "@type": "sc:Collection",
+                    "collections": [
+                        {
+                            "@context": "http://iiif.io/api/presentation/2/context.json",
+                            "@id": "http://ja.dbpedia.org/data/源氏物語絵巻.json",
+                            "@type": "sc:Collection",
+                            "collections": [
+                                {
+                                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                                    "@id": "https://nakamura196.github.io/genji/ugm/ndl_emaki/collection.json",
+                                    "@type": "sc:Collection",
+                                    "collections": [],
+                                    "label": "源氏物語絵巻（国立国会図書館）",
+                                    "vhint": "use-thumb"
+                                }
+                            ],
+                            "label": "源氏物語絵巻",
+                            "vhint": "use-thumb"
+                        }
+                    ],
+                    "label": "絵画作品",
+                    "vhint": "use-thumb"
+                },
+                {
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "http://example.org/その他.json",
+                    "@type": "sc:Collection",
+                    "collections": [
+                        {
+                            "@context": "http://iiif.io/api/presentation/2/context.json",
+                            "@id": "http://example.org/源氏物語歌絵.json",
+                            "@type": "sc:Collection",
+                            "collections": [],
+                            "label": "源氏物語歌絵",
+                            "manifests": [
+                                {
+                                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                                    "@id": "https://catalog.lib.kyushu-u.ac.jp/image/manifest/820/411456.json",
+                                    "@type": "sc:Manifest",
+                                    "label": "源氏物語歌絵（九州大学）",
+                                    "thumbnail": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411456/394073.tiff/full/200,/0/default.jpg"
+                                }
+                            ],
+                            "vhint": "use-thumb"
+                        }
+                    ],
+                    "label": "その他",
+                    "vhint": "use-thumb"
+                }
+            ],
+            "label": "派生作品",
+            "vhint": "use-thumb"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "http://example.org/不明.json",
+            "@type": "sc:Collection",
+            "collections": [
+                {
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "https://nakamura196.github.io/genji/ugm/ndl_001/collection.json",
+                    "@type": "sc:Collection",
+                    "collections": [],
+                    "label": "不明（国立国会図書館）",
+                    "vhint": "use-thumb"
+                }
+            ],
+            "label": "不明",
+            "vhint": "use-thumb"
         }
     ],
-    "label": "源氏物語IIIFコレクション"
+    "label": "源氏物語",
+    "vhint": "use-thumb"
 }
