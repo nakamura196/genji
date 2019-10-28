@@ -1,0 +1,20 @@
+[
+    {
+        "label": "Kiritsubo",
+        "id": "20122008427768001",
+        "index": 1,
+        "manifest_uri": "https://nakamura196.github.io/genji/ugm/ninjal/manifest/01.json"
+    },
+    {
+        "label": "Suma",
+        "id": "20122008427768012",
+        "index": 12,
+        "manifest_uri": "https://nakamura196.github.io/genji/ugm/ninjal/manifest/12.json"
+    },
+    {
+        "label": "Kashiwagi",
+        "id": "20122008427768036",
+        "index": 36,
+        "manifest_uri": "https://nakamura196.github.io/genji/ugm/ninjal/manifest/36.json"
+    }
+]
