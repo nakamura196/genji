@@ -14,7 +14,7 @@
 
 ----
 
-## Prallel Text
+## Parallel Text
 
 
 - [Ver. 1](https://nakamura196.github.io/genji/parallel/)
