@@ -166,7 +166,7 @@ for obj in data:
                             "\" target=\"_blank\" rel=\"noopener noreferrer\">国立国会図書館デジタルコレクション</a>で校異源氏物語をみる</p>"
                         
                         svg = "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M"+x+","+y+"c0,-"+str(d2 * 2)+" "+str(d2)+",-"+str(d2 * 4)+" "+str(d2 * 3)+",-"+str(d2 * 6)+"c0,-"+str(d2 * 2)+" -"+str(d2)+",-"+str(d2 * 3)+" -"+str(d2 * 3)+",-"+str(d2 * 3)+"c-"+str(
-                            d2 * 2)+",0 -"+str(d2 * 3)+","+str(d2)+" -"+str(d2 * 3)+","+str(d2 * 3)+"c"+str(d2 * 2)+","+str(d2 * 2)+" "+str(d2 * 3)+","+str(d2 * 4)+" "+str(d2 * 3)+","+str(d2 * 6)+"z\" id=\"pin_"+hashlib.md5(member["@id"].encode('utf-8')).hexdigest()+"\" fill=\"#F3AA00\" stroke=\"#F3AA00\"/></svg>"
+                            d2 * 2)+",0 -"+str(d2 * 3)+","+str(d2)+" -"+str(d2 * 3)+","+str(d2 * 3)+"c"+str(d2 * 2)+","+str(d2 * 2)+" "+str(d2 * 3)+","+str(d2 * 4)+" "+str(d2 * 3)+","+str(d2 * 6)+"z\" id=\"pin_"+hashlib.md5(member["@id"].encode('utf-8')).hexdigest()+"\" fill=\"#F3AA00\" stroke=\"#A52A2A\"/></svg>"
 
                     anno = {
                         "@id": anno_id,
