@@ -15,6 +15,7 @@ import time
 import csv
 
 manifest = "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest"
+end_curation_="https://mp.ex.nii.ac.jp/api/kuronet/curation/fb60af58ce5f28e27d281b566f9c4f48e03521cb"
 
 uuid = hashlib.md5(manifest.encode('utf-8')).hexdigest()
 
@@ -36,11 +37,23 @@ with open('result.csv', 'r') as f:
     header = next(reader)  # ヘッダーを読み飛ばしたい時
 
     for row in reader:
-        if row[0] == manifest:
-            canvas = row[1]
+        manifest_ = row[0]
+        canvas = row[1]
+        curation = row[2]
 
-            if canvas not in map:
-                map[canvas_index[canvas]] = row[2]
+        print(curation)
+
+        if curation == end_curation_:
+            break
+
+        if manifest_ == manifest:
+            index = canvas_index[canvas]
+
+            if index not in map:
+                map[index] = []
+            map[index].append(curation)
+
+print(map)
 
 members = []
 
@@ -71,14 +84,17 @@ curation = {
 }
 
 for canvas in sorted(map):
-    print(canvas)
-    curation_uri = map[canvas]
-    r = requests.get(curation_uri)
-    curation_data = json.loads(r.content)
-    members_ = curation_data["selections"][0]["members"]
 
-    for member in members_:
-        members.append(member)
+    curations = map[canvas]
+
+    for curation_uri in curations:
+
+        r = requests.get(curation_uri)
+        curation_data = json.loads(r.content)
+        members_ = curation_data["selections"][0]["members"]
+
+        for member in members_:
+            members.append(member)
 
 
 opath = "../../docs/kuronet/"+uuid+".json"
