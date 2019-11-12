@@ -85,6 +85,8 @@ curation = {
 
 for canvas in sorted(map):
 
+    print(canvas)
+
     curations = map[canvas]
 
     for curation_uri in curations:
