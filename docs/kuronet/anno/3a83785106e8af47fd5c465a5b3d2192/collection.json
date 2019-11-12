@@ -1,0 +1,15 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/collection.json",
+    "@type": "sc:Collection",
+    "label": "Character List",
+    "manifests": [
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/manifest.json",
+            "@type": "sc:Manifest",
+            "label": "桐壺",
+            "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0001.tif/full/200,200/0/default.jpg"
+        }
+    ],
+    "vhint": "use-thumb"
+}

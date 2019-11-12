@@ -1,0 +1,2218 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#0",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=3300,1264,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/1', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=3300,1264,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'い', 'format': 'text/plain', 'marker': {'text': 'い'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#1",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2172,1267,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/2', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2172,1267,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'ハ', 'format': 'text/plain', 'marker': {'text': 'ハ'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#2",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2397,1290,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/3', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2397,1290,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'め', 'format': 'text/plain', 'marker': {'text': 'め'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#3",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1491,1287,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/4', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1491,1287,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'な', 'format': 'text/plain', 'marker': {'text': 'な'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#4",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1708,1287,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/5', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1708,1287,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'け', 'format': 'text/plain', 'marker': {'text': 'け'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#5",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2627,1293,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/6', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2627,1293,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'あ', 'format': 'text/plain', 'marker': {'text': 'あ'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#6",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=3041,1314,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/7', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=3041,1314,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': '中', 'format': 'text/plain', 'marker': {'text': '中'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#7",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1962,1317,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/8', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1962,1317,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': '人', 'format': 'text/plain', 'marker': {'text': '人'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#8",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2835,1329,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/9', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2835,1329,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'き', 'format': 'text/plain', 'marker': {'text': 'き'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#9",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1269,1337,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/10', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1269,1337,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': '人', 'format': 'text/plain', 'marker': {'text': '人'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#10",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2175,1367,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/11', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2175,1367,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'ま', 'format': 'text/plain', 'marker': {'text': 'ま'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#11",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=3297,1364,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/12', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=3297,1364,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'つ', 'format': 'text/plain', 'marker': {'text': 'つ'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#12",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1517,1420,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/13', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1517,1420,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'る', 'format': 'text/plain', 'marker': {'text': 'る'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#13",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1720,1435,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/14', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1720,1435,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'む', 'format': 'text/plain', 'marker': {'text': 'む'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#14",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2637,1420,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/15', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2637,1420,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'か', 'format': 'text/plain', 'marker': {'text': 'か'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#15",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2399,1443,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/16', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2399,1443,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'そ', 'format': 'text/plain', 'marker': {'text': 'そ'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#16",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1951,1455,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/17', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1951,1455,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'の', 'format': 'text/plain', 'marker': {'text': 'の'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#17",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1274,1464,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/18', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1274,1464,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'の', 'format': 'text/plain', 'marker': {'text': 'の'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#18",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=3311,1467,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/19', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=3311,1467,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'れ', 'format': 'text/plain', 'marker': {'text': 'れ'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#19",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2845,1470,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/20', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2845,1470,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'め', 'format': 'text/plain', 'marker': {'text': 'め'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#20",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=3045,1482,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/21', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=3045,1482,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'に', 'format': 'text/plain', 'marker': {'text': 'に'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#21",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2186,1505,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/22', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2186,1505,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'し', 'format': 'text/plain', 'marker': {'text': 'し'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#22",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2641,1541,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/23', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2641,1541,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'り', 'format': 'text/plain', 'marker': {'text': 'り'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#23",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1701,1570,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/24', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1701,1570,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'い', 'format': 'text/plain', 'marker': {'text': 'い'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#24",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1958,1579,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/25', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1958,1579,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': '心', 'format': 'text/plain', 'marker': {'text': '心'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#25",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1505,1594,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/26', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1505,1594,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'を', 'format': 'text/plain', 'marker': {'text': 'を'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#26",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2406,1611,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/27', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2406,1611,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'ね', 'format': 'text/plain', 'marker': {'text': 'ね'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#27",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=3052,1585,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/28', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=3052,1585,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'い', 'format': 'text/plain', 'marker': {'text': 'い'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#28",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2854,1629,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/29', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2854,1629,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'き', 'format': 'text/plain', 'marker': {'text': 'き'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#29",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1269,1635,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/30', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1269,1635,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'そ', 'format': 'text/plain', 'marker': {'text': 'そ'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#30",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=3295,1644,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/31', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=3295,1644,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'の', 'format': 'text/plain', 'marker': {'text': 'の'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#31",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1727,1650,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/32', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1727,1650,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'と', 'format': 'text/plain', 'marker': {'text': 'と'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#32",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2166,1676,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/33', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2166,1676,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'て', 'format': 'text/plain', 'marker': {'text': 'て'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#33",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=3080,1667,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/34', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=3080,1667,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'と', 'format': 'text/plain', 'marker': {'text': 'と'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#34",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2634,1700,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/35', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2634,1700,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': '給', 'format': 'text/plain', 'marker': {'text': '給'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#35",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1969,1720,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/36', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1969,1720,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'を', 'format': 'text/plain', 'marker': {'text': 'を'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#36",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1503,1753,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/37', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1503,1753,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': '伊', 'format': 'text/plain', 'marker': {'text': '伊'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#37",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2413,1764,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/38', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2413,1764,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'み', 'format': 'text/plain', 'marker': {'text': 'み'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#38",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2851,1782,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/39', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2851,1782,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': '給', 'format': 'text/plain', 'marker': {'text': '給'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#39",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=3302,1764,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/40', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=3302,1764,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': '御', 'format': 'text/plain', 'marker': {'text': '御'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#40",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1281,1782,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/41', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1281,1782,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'し', 'format': 'text/plain', 'marker': {'text': 'し'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#41",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1715,1794,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/42', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1715,1794,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'あ', 'format': 'text/plain', 'marker': {'text': 'あ'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#42",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=3085,1820,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/43', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=3085,1820,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'や', 'format': 'text/plain', 'marker': {'text': 'や'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#43",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2186,1832,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/44', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2186,1832,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': '屋', 'format': 'text/plain', 'marker': {'text': '屋'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#44",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2634,1841,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/45', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2634,1841,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'へ', 'format': 'text/plain', 'marker': {'text': 'へ'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#45",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1953,1853,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/46', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1953,1853,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'そ', 'format': 'text/plain', 'marker': {'text': 'そ'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#46",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=3295,1873,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/47', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=3295,1873,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': '時', 'format': 'text/plain', 'marker': {'text': '時'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#47",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2401,1873,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/48', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2401,1873,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': '給', 'format': 'text/plain', 'marker': {'text': '給'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#48",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1487,1912,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/49', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1487,1912,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'よ', 'format': 'text/plain', 'marker': {'text': 'よ'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#49",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1295,1935,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/50', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1295,1935,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'り', 'format': 'text/plain', 'marker': {'text': 'り'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#50",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2657,1938,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/51', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2657,1938,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'る', 'format': 'text/plain', 'marker': {'text': 'る'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#51",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1715,1944,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/52', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1715,1944,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'つ', 'format': 'text/plain', 'marker': {'text': 'つ'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#52",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2840,1953,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/53', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2840,1953,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'ふ', 'format': 'text/plain', 'marker': {'text': 'ふ'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#53",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=3101,1962,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/54', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=3101,1962,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'ん', 'format': 'text/plain', 'marker': {'text': 'ん'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#54",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1951,1976,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/55', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1951,1976,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'こ', 'format': 'text/plain', 'marker': {'text': 'こ'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#55",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2179,1994,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/56', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2179,1994,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'す', 'format': 'text/plain', 'marker': {'text': 'す'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#56",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2427,2009,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/57', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2427,2009,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'お', 'format': 'text/plain', 'marker': {'text': 'お'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#57",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=3306,2047,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/58', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=3306,2047,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'に', 'format': 'text/plain', 'marker': {'text': 'に'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#58",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1293,2065,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/59', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1293,2065,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'を', 'format': 'text/plain', 'marker': {'text': 'を'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#59",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1530,2091,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/60', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1530,2091,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': '〱', 'format': 'text/plain', 'marker': {'text': '〱'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#60",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2851,2079,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/61', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2851,2079,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'あ', 'format': 'text/plain', 'marker': {'text': 'あ'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#61",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1958,2082,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/62', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1958,2082,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'か', 'format': 'text/plain', 'marker': {'text': 'か'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#62",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2637,2085,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/63', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2637,2085,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': '門', 'format': 'text/plain', 'marker': {'text': '門'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#63",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=3076,2085,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/64', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=3076,2085,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'こ', 'format': 'text/plain', 'marker': {'text': 'こ'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#64",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1718,2138,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/65', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1718,2138,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'て', 'format': 'text/plain', 'marker': {'text': 'て'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#65",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2177,2129,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/66', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2177,2129,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'か', 'format': 'text/plain', 'marker': {'text': 'か'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#66",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2401,2159,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/67', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2401,2159,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'な', 'format': 'text/plain', 'marker': {'text': 'な'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#67",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=3073,2144,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/68', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=3073,2144,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'と', 'format': 'text/plain', 'marker': {'text': 'と'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#68",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2644,2174,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/69', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2644,2174,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'か', 'format': 'text/plain', 'marker': {'text': 'か'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#69",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1960,2194,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/70', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1960,2194,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'し', 'format': 'text/plain', 'marker': {'text': 'し'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#70",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=3306,2180,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/71', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=3306,2180,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'か', 'format': 'text/plain', 'marker': {'text': 'か'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#71",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1288,2206,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/72', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1288,2206,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'も', 'format': 'text/plain', 'marker': {'text': 'も'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#72",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2879,2215,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/73', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2879,2215,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'り', 'format': 'text/plain', 'marker': {'text': 'り'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#73",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1489,2268,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/74', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1489,2268,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'あ', 'format': 'text/plain', 'marker': {'text': 'あ'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#74",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=3080,2288,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/75', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=3080,2288,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'な', 'format': 'text/plain', 'marker': {'text': 'な'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#75",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=3304,2283,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/76', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=3304,2283,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': '女', 'format': 'text/plain', 'marker': {'text': '女'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#76",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2632,2300,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/77', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2632,2300,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'た', 'format': 'text/plain', 'marker': {'text': 'た'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#77",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1727,2303,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/78', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1727,2303,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'な', 'format': 'text/plain', 'marker': {'text': 'な'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#78",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2429,2309,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/79', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2429,2309,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'し', 'format': 'text/plain', 'marker': {'text': 'し'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#79",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2856,2341,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/80', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2856,2341,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'け', 'format': 'text/plain', 'marker': {'text': 'け'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#80",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1944,2359,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/81', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1944,2359,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'う', 'format': 'text/plain', 'marker': {'text': 'う'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#81",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2161,2362,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/82', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2161,2362,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'に', 'format': 'text/plain', 'marker': {'text': 'に'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#82",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1274,2386,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/83', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1274,2386,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'え', 'format': 'text/plain', 'marker': {'text': 'え'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#83",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1489,2377,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/84', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1489,2377,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'か', 'format': 'text/plain', 'marker': {'text': 'か'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#84",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=3082,2418,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/85', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=3082,2418,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'き', 'format': 'text/plain', 'marker': {'text': 'き'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#85",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=3302,2421,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/86', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=3302,2421,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': '御', 'format': 'text/plain', 'marker': {'text': '御'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#86",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2674,2456,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/87', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2674,2456,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': '〱', 'format': 'text/plain', 'marker': {'text': '〱'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#87",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1731,2456,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/88', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1731,2456,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'り', 'format': 'text/plain', 'marker': {'text': 'り'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#88",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2401,2456,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/89', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2401,2456,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'ほ', 'format': 'text/plain', 'marker': {'text': 'ほ'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#89",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1942,2459,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/90', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1942,2459,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'ら', 'format': 'text/plain', 'marker': {'text': 'ら'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#90",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1496,2489,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/91', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1496,2489,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'す', 'format': 'text/plain', 'marker': {'text': 'す'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#91",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2863,2492,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/92', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2863,2492,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'り', 'format': 'text/plain', 'marker': {'text': 'り'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#92",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2163,2536,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/93', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2163,2536,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': '朝', 'format': 'text/plain', 'marker': {'text': '朝'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#93",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1272,2556,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/94', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1272,2556,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'は', 'format': 'text/plain', 'marker': {'text': 'は'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#94",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2420,2574,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/95', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2420,2574,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'と', 'format': 'text/plain', 'marker': {'text': 'と'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#95",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1722,2592,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/96', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1722,2592,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': '行', 'format': 'text/plain', 'marker': {'text': '行'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#96",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1928,2604,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/97', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1928,2604,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'み', 'format': 'text/plain', 'marker': {'text': 'み'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#97",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=3304,2612,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/98', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=3304,2612,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': '更', 'format': 'text/plain', 'marker': {'text': '更'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#98",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1491,2659,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/99', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1491,2659,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': '衆', 'format': 'text/plain', 'marker': {'text': '衆'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#99",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2856,2654,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/100', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2856,2654,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'は', 'format': 'text/plain', 'marker': {'text': 'は'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#100",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2641,2648,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/101', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2641,2648,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'め', 'format': 'text/plain', 'marker': {'text': 'め'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#101",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=3082,2651,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/102', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=3082,2651,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'は', 'format': 'text/plain', 'marker': {'text': 'は'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#102",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1293,2686,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/103', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1293,2686,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'ゝ', 'format': 'text/plain', 'marker': {'text': 'ゝ'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#103",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2149,2730,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/104', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2149,2730,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': '夕', 'format': 'text/plain', 'marker': {'text': '夕'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#104",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2397,2727,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/105', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2397,2727,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'そ', 'format': 'text/plain', 'marker': {'text': 'そ'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#105",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1962,2745,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/106', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1962,2745,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'を', 'format': 'text/plain', 'marker': {'text': 'を'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#106",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=3073,2745,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/107', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=3073,2745,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'に', 'format': 'text/plain', 'marker': {'text': 'に'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#107",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=3309,2763,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/108', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=3309,2763,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': '衣', 'format': 'text/plain', 'marker': {'text': '衣'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#108",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2641,2763,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/109', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2641,2763,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'ざ', 'format': 'text/plain', 'marker': {'text': 'ざ'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#109",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1731,2768,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/110', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1731,2768,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'も', 'format': 'text/plain', 'marker': {'text': 'も'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#110",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1274,2780,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/111', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1274,2780,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'か', 'format': 'text/plain', 'marker': {'text': 'か'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#111",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1491,2824,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/112', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1491,2824,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'な', 'format': 'text/plain', 'marker': {'text': 'な'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#112",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2870,2818,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/113', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2870,2818,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'し', 'format': 'text/plain', 'marker': {'text': 'し'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#113",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2410,2851,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/114', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2410,2851,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'れ', 'format': 'text/plain', 'marker': {'text': 'れ'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#114",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2152,2866,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/115', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2152,2866,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'の', 'format': 'text/plain', 'marker': {'text': 'の'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#115",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1269,2877,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/116', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1269,2877,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'ら', 'format': 'text/plain', 'marker': {'text': 'ら'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#116",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=3076,2886,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/117', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=3076,2886,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'は', 'format': 'text/plain', 'marker': {'text': 'は'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#117",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1734,2895,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/118', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1734,2895,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'の', 'format': 'text/plain', 'marker': {'text': 'の'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#118",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1965,2886,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/119', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1965,2886,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'お', 'format': 'text/plain', 'marker': {'text': 'お'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#119",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2639,2907,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/120', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2639,2907,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'ま', 'format': 'text/plain', 'marker': {'text': 'ま'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#120",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=3311,2922,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/121', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=3311,2922,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'あ', 'format': 'text/plain', 'marker': {'text': 'あ'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#121",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1512,2948,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/122', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1512,2948,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'る', 'format': 'text/plain', 'marker': {'text': 'る'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#122",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2847,2948,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/123', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2847,2948,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'め', 'format': 'text/plain', 'marker': {'text': 'め'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#123",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1260,2972,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/124', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1260,2972,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'せ', 'format': 'text/plain', 'marker': {'text': 'せ'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#124",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2420,2977,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/125', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2420,2977,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': '下', 'format': 'text/plain', 'marker': {'text': '下'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#125",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1731,2989,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/126', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1731,2989,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': '心', 'format': 'text/plain', 'marker': {'text': '心'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#126",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1942,3022,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/127', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1942,3022,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'ふ', 'format': 'text/plain', 'marker': {'text': 'ふ'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#127",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=3064,3022,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/128', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=3064,3022,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'あ', 'format': 'text/plain', 'marker': {'text': 'あ'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#128",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=3316,3036,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/129', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=3316,3036,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'ま', 'format': 'text/plain', 'marker': {'text': 'ま'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#129",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2159,3039,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/130', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2159,3039,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': '節', 'format': 'text/plain', 'marker': {'text': '節'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#130",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2651,3048,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/131', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2651,3048,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'し', 'format': 'text/plain', 'marker': {'text': 'し'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#131",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2838,3057,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/132', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2838,3057,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'よ', 'format': 'text/plain', 'marker': {'text': 'よ'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#132",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1510,3083,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/133', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1510,3083,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': '物', 'format': 'text/plain', 'marker': {'text': '物'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#133",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1272,3125,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/134', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1272,3125,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': '給', 'format': 'text/plain', 'marker': {'text': '給'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#134",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1729,3136,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/135', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1729,3136,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'ほ', 'format': 'text/plain', 'marker': {'text': 'ほ'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#135",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2410,3139,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/136', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2410,3139,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'ら', 'format': 'text/plain', 'marker': {'text': 'ら'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#136",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=3076,3131,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/137', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=3076,3131,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'ら', 'format': 'text/plain', 'marker': {'text': 'ら'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#137",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1967,3160,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/138', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1967,3160,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'つ', 'format': 'text/plain', 'marker': {'text': 'つ'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#138",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2616,3181,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/139', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2616,3181,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'き', 'format': 'text/plain', 'marker': {'text': 'き'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#139",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=3304,3198,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/140', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=3304,3198,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'た', 'format': 'text/plain', 'marker': {'text': 'た'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#140",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2152,3195,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/141', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2152,3195,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'つ', 'format': 'text/plain', 'marker': {'text': 'つ'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#141",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2842,3234,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/142', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2842,3234,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'り', 'format': 'text/plain', 'marker': {'text': 'り'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#142",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1503,3228,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/143', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1503,3228,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'に', 'format': 'text/plain', 'marker': {'text': 'に'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#143",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=3059,3245,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/144', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=3059,3245,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'ぬ', 'format': 'text/plain', 'marker': {'text': 'ぬ'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#144",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1267,3254,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/145', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1267,3254,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'は', 'format': 'text/plain', 'marker': {'text': 'は'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#145",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1724,3257,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/146', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1724,3257,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'そ', 'format': 'text/plain', 'marker': {'text': 'そ'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#146",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1978,3278,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/147', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1978,3278,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'も', 'format': 'text/plain', 'marker': {'text': 'も'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#147",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2397,3281,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/148', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2397,3281,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'う', 'format': 'text/plain', 'marker': {'text': 'う'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#148",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2161,3284,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/149', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2161,3284,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'か', 'format': 'text/plain', 'marker': {'text': 'か'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#149",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=3311,3348,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/150', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=3311,3348,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'さ', 'format': 'text/plain', 'marker': {'text': 'さ'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#150",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2623,3357,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/151', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2623,3357,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'も', 'format': 'text/plain', 'marker': {'text': 'も'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#151",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1517,3354,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/152', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1517,3354,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'お', 'format': 'text/plain', 'marker': {'text': 'お'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#152",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=3062,3354,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/153', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=3062,3354,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'か', 'format': 'text/plain', 'marker': {'text': 'か'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#153",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2161,3366,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/154', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2161,3366,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'へ', 'format': 'text/plain', 'marker': {'text': 'へ'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#154",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2417,3384,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/155', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2417,3384,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'の', 'format': 'text/plain', 'marker': {'text': 'の'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#155",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1727,3381,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/156', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1727,3381,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'け', 'format': 'text/plain', 'marker': {'text': 'け'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#156",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1260,3401,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/157', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1260,3401,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'す', 'format': 'text/plain', 'marker': {'text': 'す'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#157",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2847,3410,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/158', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2847,3410,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': '我', 'format': 'text/plain', 'marker': {'text': '我'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#158",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1974,3440,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/159', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1974,3440,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'り', 'format': 'text/plain', 'marker': {'text': 'り'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#159",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2161,3434,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/160', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2161,3434,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'に', 'format': 'text/plain', 'marker': {'text': 'に'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#160",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=3057,3472,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/161', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=3057,3472,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'す', 'format': 'text/plain', 'marker': {'text': 'す'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#161",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1524,3484,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/162', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1524,3484,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'ほ', 'format': 'text/plain', 'marker': {'text': 'ほ'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#162",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2634,3490,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/163', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2634,3490,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'の', 'format': 'text/plain', 'marker': {'text': 'の'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#163",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=3283,3487,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/164', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=3283,3487,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'ふ', 'format': 'text/plain', 'marker': {'text': 'ふ'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#164",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2401,3522,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/165', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2401,3522,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': '更', 'format': 'text/plain', 'marker': {'text': '更'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#165",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1729,3510,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/166', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1729,3510,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'に', 'format': 'text/plain', 'marker': {'text': 'に'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#166",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1272,3537,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/167', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1272,3537,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': '世', 'format': 'text/plain', 'marker': {'text': '世'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#167",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2840,3522,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/168', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2840,3522,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'ハ', 'format': 'text/plain', 'marker': {'text': 'ハ'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#168",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1946,3555,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/169', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1946,3555,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'に', 'format': 'text/plain', 'marker': {'text': 'に'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#169",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2166,3572,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/170', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2166,3572,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'つ', 'format': 'text/plain', 'marker': {'text': 'つ'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#170",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2627,3566,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/171', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2627,3566,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'に', 'format': 'text/plain', 'marker': {'text': 'に'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#171",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=3069,3566,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/172', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=3069,3566,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'く', 'format': 'text/plain', 'marker': {'text': 'く'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#172",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1736,3628,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/173', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1736,3628,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'さ', 'format': 'text/plain', 'marker': {'text': 'さ'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#173",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2849,3622,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/174', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2849,3622,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'と', 'format': 'text/plain', 'marker': {'text': 'と'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#174",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=3311,3652,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/175', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=3311,3652,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'ひ', 'format': 'text/plain', 'marker': {'text': 'ひ'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#175",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1283,3658,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/176', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1283,3658,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'の', 'format': 'text/plain', 'marker': {'text': 'の'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#176",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2397,3658,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/177', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2397,3658,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': '衣', 'format': 'text/plain', 'marker': {'text': '衣'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#177",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1939,3666,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/178', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1939,3666,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'や', 'format': 'text/plain', 'marker': {'text': 'や'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#178",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2163,3690,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/179', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2163,3690,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'け', 'format': 'text/plain', 'marker': {'text': 'け'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#179",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2637,3681,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/180', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2637,3681,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'を', 'format': 'text/plain', 'marker': {'text': 'を'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#180",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=3078,3690,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/181', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=3078,3690,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'れ', 'format': 'text/plain', 'marker': {'text': 'れ'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#181",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1766,3731,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/182', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1766,3731,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'と', 'format': 'text/plain', 'marker': {'text': 'と'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#182",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1500,3734,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/183', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1500,3734,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'し', 'format': 'text/plain', 'marker': {'text': 'し'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#183",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1288,3743,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/184', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1288,3743,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'た', 'format': 'text/plain', 'marker': {'text': 'た'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#184",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2394,3764,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/185', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2394,3764,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'た', 'format': 'text/plain', 'marker': {'text': 'た'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#185",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2845,3767,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/186', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2845,3767,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': '思', 'format': 'text/plain', 'marker': {'text': '思'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#186",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=3304,3752,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/187', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=3304,3752,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': '総', 'format': 'text/plain', 'marker': {'text': '総'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#187",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1955,3781,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/188', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1955,3781,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'あ', 'format': 'text/plain', 'marker': {'text': 'あ'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#188",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=3055,3805,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/189', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=3055,3805,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'て', 'format': 'text/plain', 'marker': {'text': 'て'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#189",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1235,3808,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/190', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1235,3808,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'し', 'format': 'text/plain', 'marker': {'text': 'し'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#190",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2170,3831,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/191', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2170,3831,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'て', 'format': 'text/plain', 'marker': {'text': 'て'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#191",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2604,3840,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/192', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2604,3840,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'し', 'format': 'text/plain', 'marker': {'text': 'し'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#192",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2634,3834,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/193', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2634,3834,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'し', 'format': 'text/plain', 'marker': {'text': 'し'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#193",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1496,3876,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/194', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1496,3876,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'て', 'format': 'text/plain', 'marker': {'text': 'て'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#194",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2851,3887,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/195', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2851,3887,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'ひ', 'format': 'text/plain', 'marker': {'text': 'ひ'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#195",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1713,3890,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/196', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1713,3890,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'ち', 'format': 'text/plain', 'marker': {'text': 'ち'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#196",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=3018,3890,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/197', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=3018,3890,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'と', 'format': 'text/plain', 'marker': {'text': 'と'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#197",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1978,3899,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/198', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1978,3899,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'り', 'format': 'text/plain', 'marker': {'text': 'り'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#198",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2420,3899,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/199', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=2420,3899,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'ち', 'format': 'text/plain', 'marker': {'text': 'ち'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#199",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=3316,3917,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/200', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=3316,3917,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'る', 'format': 'text/plain', 'marker': {'text': 'る'}}}]}]",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/list/annolist_0.json#200",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1974,4076,1,1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[{'label': 'Annotation', 'value': [{'@id': 'https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e/annotation/201', '@type': 'oa:Annotation', 'motivation': 'sc:painting', 'on': 'https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4#xywh=1974,4076,1,1', 'resource': {'@type': 'cnt:ContentAsText', 'chars': 'た', 'format': 'text/plain', 'marker': {'text': 'た'}}}]}]",
+                "format": "text/plain"
+            }
+        }
+    ]
+}
