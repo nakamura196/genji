@@ -1406,6 +1406,12 @@
             "viewingHint": "non-paged"
         }
     ],
+    "service": {
+        "@context": "http://iiif.io/api/search/0/context.json",
+        "@id": "https://w3id.org/dhj/i3sa/https://nakamura196.github.io/genji/kuronet/anno/3a83785106e8af47fd5c465a5b3d2192/tei.xml",
+        "label": "Search within this manifest",
+        "profile": "http://iiif.io/api/search/0/search"
+    },
     "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/082f3475f5b03e1820688882d003ce39772ebb4c.jpg",
     "viewingDirection": "right-to-left",
     "within": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/genji/"
