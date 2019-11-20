@@ -1,0 +1,13 @@
+{
+  "return_url": "https://nakamura196.github.io/genji_vue/html/#/",
+  "return_label": "デジタル源氏物語",
+    "url_main": "https://nakamura196.github.io/kouigenjimonogatari/tei/01.xml",
+    "url_sub": "https://nakamura196.github.io/genji/pt/yosano.xml",
+    "url_map": "https://nakamura196.github.io/genji/pt/koui/map.json",
+    "image_map": "https://nakamura196.github.io/genji/pt/koui/image_map.json",
+    "label_main": "校異源氏物語テキスト・きりつぼ",
+    "label_sub": "青空文庫・与謝野晶子訳",
+    "query_main": "seg[*|corresp]",
+    "query_sub": "s[*|id]",
+    "direction": "vertical"
+  }
