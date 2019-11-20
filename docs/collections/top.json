@@ -1,0 +1,18 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://nakamura196.github.io/genji/collections/top.json",
+  "@type": "sc:Collection",
+  "label": "IIIF対応源氏物語リスト",
+  "collections": [
+      {
+          "@context": "http://iiif.io/api/presentation/2/context.json",
+          "@id": "https://kotenseki.nijl.ac.jp/biblio/100250108/manifest",
+          "@type": "sc:Manifest",
+          "label": "源氏物語",
+          "thumbnail": "https://kotenseki.nijl.ac.jp/api/iiif/100250108/v4/UWJM/UWJM-00060/UWJM-00060-0000.tif/full/200,/0/default.jpg",
+          "attribution": "宇和島伊達文化保存会",
+          "description": "刊写: 写, 冊数: 54冊",
+          "license": "https://kotenseki.nijl.ac.jp/page/usage.html"
+      }
+    ]
+  }

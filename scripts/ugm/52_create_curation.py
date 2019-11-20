@@ -1,0 +1,77 @@
+import pandas as pd
+from rdflib import URIRef, BNode, Literal, Graph
+from rdflib.namespace import RDF, RDFS, FOAF, XSD
+from rdflib import Namespace
+import numpy as np
+import math
+import sys
+import argparse
+import json
+import urllib.request
+import os
+import csv
+import glob
+import requests
+
+import csv
+
+map = {}
+
+label_map = {
+    "https://www.dl.ndl.go.jp/api/iiif/3437686/manifest.json" : "校異源氏物語",
+    "https://nakamura196.github.io/genji/ugm/utokyo/manifest/01.json": "東大本",
+    "https://nakamura196.github.io/genji/ugm/kyushu/manifest/01.json": "九大本（古活字版）",
+    "https://nakamura196.github.io/genji/ugm/kyushu2/manifest/01.json": "九大本（無跋無刊記整版本）"
+}
+
+with open('curation_merged.csv', 'r') as f:
+    reader = csv.reader(f)
+    header = next(reader)  # ヘッダーを読み飛ばしたい時
+
+    for row in reader:
+        manifest = row[0]
+        if manifest not in map:
+            map[manifest] = {}
+        map[manifest][row[2]] = row[1]
+
+
+selections = []
+for manifest in map:
+
+    members = []
+
+    for line_id in sorted(map[manifest]):
+        members.append({
+            "@id": map[manifest][line_id],
+          "@type": "sc:Canvas",
+          "label": line_id
+        })
+
+    selection = {
+      "@id": "http://mp.ex.nii.ac.jp/api/curation/json/9ab5cac5-78e6-41b8-9d8f-ab00f57d7b64/range1",
+      "@type": "sc:Range",
+      "label": "Manual curation by IIIF Curation Viewer",
+      "members": members,
+      "within": {
+        "@id": manifest,
+        "@type": "sc:Manifest",
+        "label": label_map[manifest]
+      }
+    }
+
+    selections.append(selection)
+
+curation_data = {
+  "@context": [
+    "http://iiif.io/api/presentation/2/context.json",
+    "http://codh.rois.ac.jp/iiif/curation/1/context.json"
+  ],
+  "@type": "cr:Curation",
+  "@id": "http://mp.ex.nii.ac.jp/api/curation/json/9ab5cac5-78e6-41b8-9d8f-ab00f57d7b64",
+  "label": "Curating list",
+  "selections": selections
+}
+
+fw2 = open("curation.json", 'w')
+json.dump(curation_data, fw2, ensure_ascii=False, indent=4,
+        sort_keys=True, separators=(',', ': '))
