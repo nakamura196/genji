@@ -39,7 +39,7 @@ with open(path, 'r') as f:
 # print(data)
 
 rows = []
-rows.append(["manifest", "member_id", "line_id"])
+rows.append(["manifest", "member_id", "label", "line_id", "sort"])
 
 for obj in data:
 
@@ -66,16 +66,22 @@ for obj in data:
                 if manifest not in manifest_map:
                     get_manifest_data(manifest)
                 
-                member_id = canvas+"#xywh="+area[0]+","+area[1]+","+area[2]+","+str(manifest_map[manifest][canvas])
+                member_id = canvas+"#xywh="+area[0]+","+area[1]+","+area[2]+","+str(manifest_map[manifest][canvas]/2)
 
                 chars = r["resource"]["chars"]
-                if "源氏物語大成" not in chars:
-                    continue
                 page = chars.split(" ")[1].split(".")[1]
-                line_id = "https://w3id.org/kouigenjimonogatari/data/"+page.zfill(4)+"-01.json"
-                # print(member_id)
 
-                rows.append([manifest, member_id, line_id])
+                if "源氏物語大成" not in chars:
+                    line_id = ""
+                    label = "新編日本古典文学全集 p."+str(page)
+                else:
+                    line_id = "https://w3id.org/kouigenjimonogatari/data/"+page.zfill(4)+"-01.json"
+                    label = "源氏物語大成 p."+str(page)
+
+                sort = str(page).zfill(5)+"-"+area[0].zfill(5)
+
+                rows.append([manifest, member_id, label, line_id, sort])
+                
 
 
 import csv
