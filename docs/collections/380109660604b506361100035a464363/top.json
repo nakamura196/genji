@@ -490,5 +490,6 @@
             "license": "http://dl.ndl.go.jp/ja/iiif_license.html",
             "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/3010923/F0000001/full/full/0/default.jpg"
         }
-    ]
+    ],
+    "vhint": "use-thumb"
 }

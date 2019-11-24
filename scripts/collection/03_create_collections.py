@@ -72,7 +72,8 @@ for j in range(1, r_count):
             "@id": collection_uri,
             "@type": "sc:Collection",
             "label": collection_label,
-            "manifests": manifests
+            "manifests": manifests,
+            "vhint": "use-thumb"
         }
 
         odir = "../../docs/collections/"+collection_id
