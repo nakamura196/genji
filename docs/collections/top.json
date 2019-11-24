@@ -1,18 +1,327 @@
 {
-  "@context": "http://iiif.io/api/presentation/2/context.json",
-  "@id": "https://nakamura196.github.io/genji/collections/top.json",
-  "@type": "sc:Collection",
-  "label": "IIIF対応源氏物語リスト",
-  "collections": [
-      {
-          "@context": "http://iiif.io/api/presentation/2/context.json",
-          "@id": "https://kotenseki.nijl.ac.jp/biblio/100250108/manifest",
-          "@type": "sc:Manifest",
-          "label": "源氏物語",
-          "thumbnail": "https://kotenseki.nijl.ac.jp/api/iiif/100250108/v4/UWJM/UWJM-00060/UWJM-00060-0000.tif/full/200,/0/default.jpg",
-          "attribution": "宇和島伊達文化保存会",
-          "description": "刊写: 写, 冊数: 54冊",
-          "license": "https://kotenseki.nijl.ac.jp/page/usage.html"
-      }
-    ]
-  }
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/genji/collections/top.json",
+    "@type": "sc:Collection",
+    "collections": [
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://kotenseki.nijl.ac.jp/biblio/100250108/manifest",
+            "@type": "sc:Manifest",
+            "attribution": "宇和島伊達文化保存会",
+            "description": "nan",
+            "label": "源氏物語",
+            "license": "https://kotenseki.nijl.ac.jp/page/usage.html",
+            "type": "写",
+            "volume": "54冊"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://kotenseki.nijl.ac.jp/biblio/100260423/manifest",
+            "@type": "sc:Manifest",
+            "attribution": "お茶の水女子大学附属図書館",
+            "description": "nan",
+            "label": "源氏物語",
+            "license": "https://kotenseki.nijl.ac.jp/page/usage.html",
+            "type": "写",
+            "volume": "54冊"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://kotenseki.nijl.ac.jp/biblio/100050894/manifest",
+            "@type": "sc:Manifest",
+            "attribution": "鹿児島大学附属図書館",
+            "description": "玉里文庫",
+            "label": "源氏物語",
+            "license": "https://kotenseki.nijl.ac.jp/page/usage.html",
+            "type": "写",
+            "volume": "54冊"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://kotenseki.nijl.ac.jp/biblio/100153620/manifest",
+            "@type": "sc:Manifest",
+            "attribution": "京都大学附属図書館",
+            "description": "平松文庫",
+            "label": "源氏物語",
+            "license": "https://kotenseki.nijl.ac.jp/page/usage.html",
+            "type": "写",
+            "volume": "54冊"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://kotenseki.nijl.ac.jp/biblio/100153621/manifest",
+            "@type": "sc:Manifest",
+            "attribution": "京都大学附属図書館",
+            "description": "平松文庫",
+            "label": "源氏物語",
+            "license": "https://kotenseki.nijl.ac.jp/page/usage.html",
+            "type": "写",
+            "volume": "54冊"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/metadata_manifest/RB00007030/manifest.json",
+            "@type": "sc:Manifest",
+            "attribution": "京都大学附属図書館",
+            "description": "中院文庫",
+            "label": "源氏物語",
+            "license": "https://rmda.kulib.kyoto-u.ac.jp/reuse",
+            "type": "写",
+            "volume": "52冊"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/metadata_manifest/RB00013166/manifest.json",
+            "@type": "sc:Manifest",
+            "attribution": "京都大学附属図書館",
+            "description": "nan",
+            "label": "源氏物語",
+            "license": "https://rmda.kulib.kyoto-u.ac.jp/reuse",
+            "type": "刊",
+            "volume": "59冊"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/kyushu/collection.json",
+            "@type": "sc:Collection",
+            "attribution": "九州大学附属図書館",
+            "description": "古活字版",
+            "label": "九大本（古活字版）",
+            "license": "https://www.lib.kyushu-u.ac.jp/ja/reuse",
+            "type": "刊",
+            "volume": "30冊"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/kyushu2/collection.json",
+            "@type": "sc:Collection",
+            "attribution": "九州大学附属図書館",
+            "description": "無跋無刊記整版本",
+            "label": "九大本（無跋無刊記整版本）",
+            "license": "https://www.lib.kyushu-u.ac.jp/ja/reuse",
+            "type": "刊",
+            "volume": "54冊"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://kotenseki.nijl.ac.jp/biblio/100130618/manifest",
+            "@type": "sc:Manifest",
+            "attribution": "宮内庁書陵部",
+            "description": "nan",
+            "label": "源氏物語",
+            "license": "https://kotenseki.nijl.ac.jp/page/usage.html",
+            "type": "写",
+            "volume": "54冊"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://kotenseki.nijl.ac.jp/biblio/100190213/manifest",
+            "@type": "sc:Manifest",
+            "attribution": "宮内庁書陵部",
+            "description": "河内本",
+            "label": "源氏物語",
+            "license": "https://kotenseki.nijl.ac.jp/page/usage.html",
+            "type": "写",
+            "volume": "54冊"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://kotenseki.nijl.ac.jp/biblio/200000993/manifest",
+            "@type": "sc:Manifest",
+            "attribution": "国文学研究資料館",
+            "description": "夢浮橋 欠",
+            "label": "源氏物語",
+            "license": "https://kotenseki.nijl.ac.jp/page/usage.html",
+            "type": "写",
+            "volume": "53冊"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://kotenseki.nijl.ac.jp/biblio/200003803/manifest",
+            "@type": "sc:Manifest",
+            "attribution": "国文学研究資料館",
+            "description": "nan",
+            "label": "源氏物語",
+            "license": "https://kotenseki.nijl.ac.jp/page/usage.html",
+            "type": "刊",
+            "volume": "54冊"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://kotenseki.nijl.ac.jp/biblio/200010455/manifest",
+            "@type": "sc:Manifest",
+            "attribution": "国文学研究資料館",
+            "description": "nan",
+            "label": "源氏物語",
+            "license": "https://kotenseki.nijl.ac.jp/page/usage.html",
+            "type": "写",
+            "volume": "54冊"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://kotenseki.nijl.ac.jp/biblio/200016470/manifest",
+            "@type": "sc:Manifest",
+            "attribution": "国文学研究資料館",
+            "description": "nan",
+            "label": "源氏物語",
+            "license": "https://kotenseki.nijl.ac.jp/page/usage.html",
+            "type": "写",
+            "volume": "54冊"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://kotenseki.nijl.ac.jp/biblio/200017428/manifest",
+            "@type": "sc:Manifest",
+            "attribution": "国文学研究資料館",
+            "description": "nan",
+            "label": "源氏物語",
+            "license": "https://kotenseki.nijl.ac.jp/page/usage.html",
+            "type": "刊",
+            "volume": "54冊"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/collections//top.json",
+            "@type": "sc:Collection",
+            "attribution": "国立国会図書館",
+            "description": "古活字版",
+            "label": "IIIF対応源氏物語リスト",
+            "license": "https://www.ndl.go.jp/jp/use/reproduction/index.html",
+            "type": "刊",
+            "volume": "54冊"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://kotenseki.nijl.ac.jp/biblio/100266039/manifest",
+            "@type": "sc:Manifest",
+            "attribution": "実践女子大学・実践女子大学短期大学部図書館",
+            "description": "古活字版",
+            "label": "源氏物語",
+            "license": "https://kotenseki.nijl.ac.jp/page/usage.html",
+            "type": "刊",
+            "volume": "53冊"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://kotenseki.nijl.ac.jp/biblio/100182342/manifest",
+            "@type": "sc:Manifest",
+            "attribution": "島原図書館（肥前島原松平文庫）",
+            "description": "松平文庫",
+            "label": "源氏物語",
+            "license": "https://kotenseki.nijl.ac.jp/page/usage.html",
+            "type": "写",
+            "volume": "54冊"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://kotenseki.nijl.ac.jp/biblio/100232449/manifest",
+            "@type": "sc:Manifest",
+            "attribution": "相愛大学図書館",
+            "description": "春曙文庫,写字台文庫旧蔵",
+            "label": "源氏物語",
+            "license": "https://kotenseki.nijl.ac.jp/page/usage.html",
+            "type": "写",
+            "volume": "54冊"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://kotenseki.nijl.ac.jp/biblio/100232477/manifest",
+            "@type": "sc:Manifest",
+            "attribution": "相愛大学図書館",
+            "description": "春曙文庫,道寛法親王等筆",
+            "label": "源氏物語",
+            "license": "https://kotenseki.nijl.ac.jp/page/usage.html",
+            "type": "写",
+            "volume": "53冊"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://kotenseki.nijl.ac.jp/biblio/100232530/manifest",
+            "@type": "sc:Manifest",
+            "attribution": "相愛大学図書館",
+            "description": "nan",
+            "label": "源氏物語",
+            "license": "https://kotenseki.nijl.ac.jp/page/usage.html",
+            "type": "写",
+            "volume": "54冊"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://kotenseki.nijl.ac.jp/biblio/100232535/manifest",
+            "@type": "sc:Manifest",
+            "attribution": "相愛大学図書館",
+            "description": "nan",
+            "label": "源氏物語",
+            "license": "https://kotenseki.nijl.ac.jp/page/usage.html",
+            "type": "写",
+            "volume": "55冊"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://kotenseki.nijl.ac.jp/biblio/100178296/manifest",
+            "@type": "sc:Manifest",
+            "attribution": "筑波大学附属図書館",
+            "description": "nan",
+            "label": "源氏物語",
+            "license": "https://kotenseki.nijl.ac.jp/page/usage.html",
+            "type": "写",
+            "volume": "53冊"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/utokyo/collection.json",
+            "@type": "sc:Collection",
+            "attribution": "東京大学総合図書館",
+            "description": "nan",
+            "label": "東大本",
+            "license": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
+            "type": "写",
+            "volume": "54冊"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://kotenseki.nijl.ac.jp/biblio/100018286/manifest",
+            "@type": "sc:Manifest",
+            "attribution": "東京大学文学部国文学研究室",
+            "description": "nan",
+            "label": "源氏物語",
+            "license": "https://kotenseki.nijl.ac.jp/page/usage.html",
+            "type": "写",
+            "volume": "51冊"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://kotenseki.nijl.ac.jp/biblio/100292059/manifest",
+            "@type": "sc:Manifest",
+            "attribution": "浜口博章",
+            "description": "nan",
+            "label": "源氏物語",
+            "license": "https://kotenseki.nijl.ac.jp/page/usage.html",
+            "type": "刊",
+            "volume": "54冊"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://kotenseki.nijl.ac.jp/biblio/100128783/manifest",
+            "@type": "sc:Manifest",
+            "attribution": "もりおか歴史文化館",
+            "description": "nan",
+            "label": "源氏物語",
+            "license": "https://kotenseki.nijl.ac.jp/page/usage.html",
+            "type": "刊",
+            "volume": "51冊"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://kotenseki.nijl.ac.jp/biblio/100135297/manifest",
+            "@type": "sc:Manifest",
+            "attribution": "大和文華館",
+            "description": "nan",
+            "label": "源氏物語",
+            "license": "https://kotenseki.nijl.ac.jp/page/usage.html",
+            "type": "写",
+            "volume": "54冊"
+        }
+    ],
+    "label": "IIIF対応源氏物語リスト"
+}

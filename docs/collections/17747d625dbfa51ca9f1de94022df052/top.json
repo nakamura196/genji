@@ -1,0 +1,494 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/genji/collections/17747d625dbfa51ca9f1de94022df052/top.json",
+    "@type": "sc:Collection",
+    "label": "[源氏物語]",
+    "manifests": [
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/8943175/manifest.json",
+            "@type": "sc:Manifest",
+            "attribution": "国立国会図書館 National Diet Library, JAPAN",
+            "label": "1",
+            "license": "http://dl.ndl.go.jp/ja/iiif_license.html",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/8943175/F0000001/full/full/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/8943176/manifest.json",
+            "@type": "sc:Manifest",
+            "attribution": "国立国会図書館 National Diet Library, JAPAN",
+            "label": "2",
+            "license": "http://dl.ndl.go.jp/ja/iiif_license.html",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/8943176/F0000001/full/full/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/8943177/manifest.json",
+            "@type": "sc:Manifest",
+            "attribution": "国立国会図書館 National Diet Library, JAPAN",
+            "label": "3",
+            "license": "http://dl.ndl.go.jp/ja/iiif_license.html",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/8943177/F0000001/full/full/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/8943178/manifest.json",
+            "@type": "sc:Manifest",
+            "attribution": "国立国会図書館 National Diet Library, JAPAN",
+            "label": "4",
+            "license": "http://dl.ndl.go.jp/ja/iiif_license.html",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/8943178/F0000001/full/full/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/8943179/manifest.json",
+            "@type": "sc:Manifest",
+            "attribution": "国立国会図書館 National Diet Library, JAPAN",
+            "label": "5",
+            "license": "http://dl.ndl.go.jp/ja/iiif_license.html",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/8943179/F0000001/full/full/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/8943180/manifest.json",
+            "@type": "sc:Manifest",
+            "attribution": "国立国会図書館 National Diet Library, JAPAN",
+            "label": "6",
+            "license": "http://dl.ndl.go.jp/ja/iiif_license.html",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/8943180/F0000001/full/full/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/8943181/manifest.json",
+            "@type": "sc:Manifest",
+            "attribution": "国立国会図書館 National Diet Library, JAPAN",
+            "label": "7",
+            "license": "http://dl.ndl.go.jp/ja/iiif_license.html",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/8943181/F0000001/full/full/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/8943182/manifest.json",
+            "@type": "sc:Manifest",
+            "attribution": "国立国会図書館 National Diet Library, JAPAN",
+            "label": "8",
+            "license": "http://dl.ndl.go.jp/ja/iiif_license.html",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/8943182/F0000001/full/full/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/8943183/manifest.json",
+            "@type": "sc:Manifest",
+            "attribution": "国立国会図書館 National Diet Library, JAPAN",
+            "label": "9",
+            "license": "http://dl.ndl.go.jp/ja/iiif_license.html",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/8943183/F0000001/full/full/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/8943184/manifest.json",
+            "@type": "sc:Manifest",
+            "attribution": "国立国会図書館 National Diet Library, JAPAN",
+            "label": "10",
+            "license": "http://dl.ndl.go.jp/ja/iiif_license.html",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/8943184/F0000001/full/full/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/8943185/manifest.json",
+            "@type": "sc:Manifest",
+            "attribution": "国立国会図書館 National Diet Library, JAPAN",
+            "label": "11",
+            "license": "http://dl.ndl.go.jp/ja/iiif_license.html",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/8943185/F0000001/full/full/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/8943186/manifest.json",
+            "@type": "sc:Manifest",
+            "attribution": "国立国会図書館 National Diet Library, JAPAN",
+            "label": "12",
+            "license": "http://dl.ndl.go.jp/ja/iiif_license.html",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/8943186/F0000001/full/full/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/8943187/manifest.json",
+            "@type": "sc:Manifest",
+            "attribution": "国立国会図書館 National Diet Library, JAPAN",
+            "label": "13",
+            "license": "http://dl.ndl.go.jp/ja/iiif_license.html",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/8943187/F0000001/full/full/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/8943188/manifest.json",
+            "@type": "sc:Manifest",
+            "attribution": "国立国会図書館 National Diet Library, JAPAN",
+            "label": "14",
+            "license": "http://dl.ndl.go.jp/ja/iiif_license.html",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/8943188/F0000001/full/full/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/8943189/manifest.json",
+            "@type": "sc:Manifest",
+            "attribution": "国立国会図書館 National Diet Library, JAPAN",
+            "label": "15",
+            "license": "http://dl.ndl.go.jp/ja/iiif_license.html",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/8943189/F0000001/full/full/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/8943190/manifest.json",
+            "@type": "sc:Manifest",
+            "attribution": "国立国会図書館 National Diet Library, JAPAN",
+            "label": "16",
+            "license": "http://dl.ndl.go.jp/ja/iiif_license.html",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/8943190/F0000001/full/full/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/8943191/manifest.json",
+            "@type": "sc:Manifest",
+            "attribution": "国立国会図書館 National Diet Library, JAPAN",
+            "label": "17",
+            "license": "http://dl.ndl.go.jp/ja/iiif_license.html",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/8943191/F0000001/full/full/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/8943192/manifest.json",
+            "@type": "sc:Manifest",
+            "attribution": "国立国会図書館 National Diet Library, JAPAN",
+            "label": "18",
+            "license": "http://dl.ndl.go.jp/ja/iiif_license.html",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/8943192/F0000001/full/full/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/8943193/manifest.json",
+            "@type": "sc:Manifest",
+            "attribution": "国立国会図書館 National Diet Library, JAPAN",
+            "label": "19",
+            "license": "http://dl.ndl.go.jp/ja/iiif_license.html",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/8943193/F0000001/full/full/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/8943194/manifest.json",
+            "@type": "sc:Manifest",
+            "attribution": "国立国会図書館 National Diet Library, JAPAN",
+            "label": "20",
+            "license": "http://dl.ndl.go.jp/ja/iiif_license.html",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/8943194/F0000001/full/full/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/8943195/manifest.json",
+            "@type": "sc:Manifest",
+            "attribution": "国立国会図書館 National Diet Library, JAPAN",
+            "label": "21",
+            "license": "http://dl.ndl.go.jp/ja/iiif_license.html",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/8943195/F0000001/full/full/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/8943196/manifest.json",
+            "@type": "sc:Manifest",
+            "attribution": "国立国会図書館 National Diet Library, JAPAN",
+            "label": "22",
+            "license": "http://dl.ndl.go.jp/ja/iiif_license.html",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/8943196/F0000001/full/full/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/8943197/manifest.json",
+            "@type": "sc:Manifest",
+            "attribution": "国立国会図書館 National Diet Library, JAPAN",
+            "label": "23",
+            "license": "http://dl.ndl.go.jp/ja/iiif_license.html",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/8943197/F0000001/full/full/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/8943198/manifest.json",
+            "@type": "sc:Manifest",
+            "attribution": "国立国会図書館 National Diet Library, JAPAN",
+            "label": "24",
+            "license": "http://dl.ndl.go.jp/ja/iiif_license.html",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/8943198/F0000001/full/full/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/8943199/manifest.json",
+            "@type": "sc:Manifest",
+            "attribution": "国立国会図書館 National Diet Library, JAPAN",
+            "label": "25",
+            "license": "http://dl.ndl.go.jp/ja/iiif_license.html",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/8943199/F0000001/full/full/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/8943200/manifest.json",
+            "@type": "sc:Manifest",
+            "attribution": "国立国会図書館 National Diet Library, JAPAN",
+            "label": "26",
+            "license": "http://dl.ndl.go.jp/ja/iiif_license.html",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/8943200/F0000001/full/full/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/8943201/manifest.json",
+            "@type": "sc:Manifest",
+            "attribution": "国立国会図書館 National Diet Library, JAPAN",
+            "label": "27",
+            "license": "http://dl.ndl.go.jp/ja/iiif_license.html",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/8943201/F0000001/full/full/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/8943202/manifest.json",
+            "@type": "sc:Manifest",
+            "attribution": "国立国会図書館 National Diet Library, JAPAN",
+            "label": "28",
+            "license": "http://dl.ndl.go.jp/ja/iiif_license.html",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/8943202/F0000001/full/full/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/8943203/manifest.json",
+            "@type": "sc:Manifest",
+            "attribution": "国立国会図書館 National Diet Library, JAPAN",
+            "label": "29",
+            "license": "http://dl.ndl.go.jp/ja/iiif_license.html",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/8943203/F0000001/full/full/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/8943204/manifest.json",
+            "@type": "sc:Manifest",
+            "attribution": "国立国会図書館 National Diet Library, JAPAN",
+            "label": "30",
+            "license": "http://dl.ndl.go.jp/ja/iiif_license.html",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/8943204/F0000001/full/full/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/8943205/manifest.json",
+            "@type": "sc:Manifest",
+            "attribution": "国立国会図書館 National Diet Library, JAPAN",
+            "label": "31",
+            "license": "http://dl.ndl.go.jp/ja/iiif_license.html",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/8943205/F0000001/full/full/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/8943206/manifest.json",
+            "@type": "sc:Manifest",
+            "attribution": "国立国会図書館 National Diet Library, JAPAN",
+            "label": "32",
+            "license": "http://dl.ndl.go.jp/ja/iiif_license.html",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/8943206/F0000001/full/full/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/8943207/manifest.json",
+            "@type": "sc:Manifest",
+            "attribution": "国立国会図書館 National Diet Library, JAPAN",
+            "label": "33",
+            "license": "http://dl.ndl.go.jp/ja/iiif_license.html",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/8943207/F0000001/full/full/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/8943208/manifest.json",
+            "@type": "sc:Manifest",
+            "attribution": "国立国会図書館 National Diet Library, JAPAN",
+            "label": "34",
+            "license": "http://dl.ndl.go.jp/ja/iiif_license.html",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/8943208/F0000001/full/full/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/8943209/manifest.json",
+            "@type": "sc:Manifest",
+            "attribution": "国立国会図書館 National Diet Library, JAPAN",
+            "label": "35",
+            "license": "http://dl.ndl.go.jp/ja/iiif_license.html",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/8943209/F0000001/full/full/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/8943210/manifest.json",
+            "@type": "sc:Manifest",
+            "attribution": "国立国会図書館 National Diet Library, JAPAN",
+            "label": "36",
+            "license": "http://dl.ndl.go.jp/ja/iiif_license.html",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/8943210/F0000001/full/full/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/8943211/manifest.json",
+            "@type": "sc:Manifest",
+            "attribution": "国立国会図書館 National Diet Library, JAPAN",
+            "label": "37",
+            "license": "http://dl.ndl.go.jp/ja/iiif_license.html",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/8943211/F0000001/full/full/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/8943212/manifest.json",
+            "@type": "sc:Manifest",
+            "attribution": "国立国会図書館 National Diet Library, JAPAN",
+            "label": "38",
+            "license": "http://dl.ndl.go.jp/ja/iiif_license.html",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/8943212/F0000001/full/full/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/8943213/manifest.json",
+            "@type": "sc:Manifest",
+            "attribution": "国立国会図書館 National Diet Library, JAPAN",
+            "label": "39",
+            "license": "http://dl.ndl.go.jp/ja/iiif_license.html",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/8943213/F0000001/full/full/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/8943214/manifest.json",
+            "@type": "sc:Manifest",
+            "attribution": "国立国会図書館 National Diet Library, JAPAN",
+            "label": "40",
+            "license": "http://dl.ndl.go.jp/ja/iiif_license.html",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/8943214/F0000001/full/full/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/8943215/manifest.json",
+            "@type": "sc:Manifest",
+            "attribution": "国立国会図書館 National Diet Library, JAPAN",
+            "label": "41",
+            "license": "http://dl.ndl.go.jp/ja/iiif_license.html",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/8943215/F0000001/full/full/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/8943216/manifest.json",
+            "@type": "sc:Manifest",
+            "attribution": "国立国会図書館 National Diet Library, JAPAN",
+            "label": "42",
+            "license": "http://dl.ndl.go.jp/ja/iiif_license.html",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/8943216/F0000001/full/full/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/8943217/manifest.json",
+            "@type": "sc:Manifest",
+            "attribution": "国立国会図書館 National Diet Library, JAPAN",
+            "label": "43",
+            "license": "http://dl.ndl.go.jp/ja/iiif_license.html",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/8943217/F0000001/full/full/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/8943218/manifest.json",
+            "@type": "sc:Manifest",
+            "attribution": "国立国会図書館 National Diet Library, JAPAN",
+            "label": "44",
+            "license": "http://dl.ndl.go.jp/ja/iiif_license.html",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/8943218/F0000001/full/full/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/8943219/manifest.json",
+            "@type": "sc:Manifest",
+            "attribution": "国立国会図書館 National Diet Library, JAPAN",
+            "label": "45",
+            "license": "http://dl.ndl.go.jp/ja/iiif_license.html",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/8943219/F0000001/full/full/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/8943220/manifest.json",
+            "@type": "sc:Manifest",
+            "attribution": "国立国会図書館 National Diet Library, JAPAN",
+            "label": "46",
+            "license": "http://dl.ndl.go.jp/ja/iiif_license.html",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/8943220/F0000001/full/full/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/8943221/manifest.json",
+            "@type": "sc:Manifest",
+            "attribution": "国立国会図書館 National Diet Library, JAPAN",
+            "label": "47",
+            "license": "http://dl.ndl.go.jp/ja/iiif_license.html",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/8943221/F0000001/full/full/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/8943222/manifest.json",
+            "@type": "sc:Manifest",
+            "attribution": "国立国会図書館 National Diet Library, JAPAN",
+            "label": "48",
+            "license": "http://dl.ndl.go.jp/ja/iiif_license.html",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/8943222/F0000001/full/full/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/8943223/manifest.json",
+            "@type": "sc:Manifest",
+            "attribution": "国立国会図書館 National Diet Library, JAPAN",
+            "label": "49",
+            "license": "http://dl.ndl.go.jp/ja/iiif_license.html",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/8943223/F0000001/full/full/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/8943224/manifest.json",
+            "@type": "sc:Manifest",
+            "attribution": "国立国会図書館 National Diet Library, JAPAN",
+            "label": "50",
+            "license": "http://dl.ndl.go.jp/ja/iiif_license.html",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/8943224/F0000001/full/full/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/8943225/manifest.json",
+            "@type": "sc:Manifest",
+            "attribution": "国立国会図書館 National Diet Library, JAPAN",
+            "label": "51",
+            "license": "http://dl.ndl.go.jp/ja/iiif_license.html",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/8943225/F0000001/full/full/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/8943226/manifest.json",
+            "@type": "sc:Manifest",
+            "attribution": "国立国会図書館 National Diet Library, JAPAN",
+            "label": "52",
+            "license": "http://dl.ndl.go.jp/ja/iiif_license.html",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/8943226/F0000001/full/full/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/8943227/manifest.json",
+            "@type": "sc:Manifest",
+            "attribution": "国立国会図書館 National Diet Library, JAPAN",
+            "label": "53",
+            "license": "http://dl.ndl.go.jp/ja/iiif_license.html",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/8943227/F0000001/full/full/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://www.dl.ndl.go.jp/api/iiif/8943228/manifest.json",
+            "@type": "sc:Manifest",
+            "attribution": "国立国会図書館 National Diet Library, JAPAN",
+            "label": "54",
+            "license": "http://dl.ndl.go.jp/ja/iiif_license.html",
+            "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/8943228/F0000001/full/full/0/default.jpg"
+        }
+    ]
+}
