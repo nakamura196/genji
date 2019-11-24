@@ -41,17 +41,22 @@ for j in range(1, r_count):
         if "nakamura196" in manifest:
             type_ = "sc:Collection"
 
+        description = ""
+        value = df.iloc[j, 3]
+        if not pd.isnull(value) and value != 0:
+            description = value
+
         collections.append(
             {
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": manifest,
             "@type": type_,
             "label": data["label"],
-            "attribution": str(df.iloc[j, 0]),
+            "description": str(df.iloc[j, 0]),
             "license": str(df.iloc[j, 5]),
             "type": str(df.iloc[j, 1]),
             "volume": str(df.iloc[j, 2]),
-            "description": str(df.iloc[j, 3])
+            "note": description
             }
         )
     except Exception as e:
