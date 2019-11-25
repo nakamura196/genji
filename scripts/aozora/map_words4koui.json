@@ -208,68 +208,118 @@
     ],
     "YG0000004900": [
         "https://w3id.org/kouigenjimonogatari/data/0009-10.json#27:35",
-        "https://w3id.org/kouigenjimonogatari/data/0009-11.json#0:19"
+        "https://w3id.org/kouigenjimonogatari/data/0009-11.json#0:24"
     ],
     "YG0000005000": [
-        "https://w3id.org/kouigenjimonogatari/data/0009-11.json#19:35",
-        "https://w3id.org/kouigenjimonogatari/data/0009-12.json#0:35",
+        "https://w3id.org/kouigenjimonogatari/data/0009-11.json#24:35",
+        "https://w3id.org/kouigenjimonogatari/data/0009-12.json#0:34"
+    ],
+    "YG0000005100": [
+        "https://w3id.org/kouigenjimonogatari/data/0009-12.json#34:35",
         "https://w3id.org/kouigenjimonogatari/data/0009-13.json#0:34",
         "https://w3id.org/kouigenjimonogatari/data/0009-14.json#0:35",
-        "https://w3id.org/kouigenjimonogatari/data/0010-01.json#0:35",
-        "https://w3id.org/kouigenjimonogatari/data/0010-02.json#0:35",
-        "https://w3id.org/kouigenjimonogatari/data/0010-03.json#0:35",
+        "https://w3id.org/kouigenjimonogatari/data/0010-01.json#0:2"
+    ],
+    "YG0000005200": [
+        "https://w3id.org/kouigenjimonogatari/data/0010-01.json#2:35",
+        "https://w3id.org/kouigenjimonogatari/data/0010-02.json#0:1"
+    ],
+    "YG0000005300": [
+        "https://w3id.org/kouigenjimonogatari/data/0010-02.json#1:35",
+        "https://w3id.org/kouigenjimonogatari/data/0010-03.json#0:13"
+    ],
+    "YG0000005400": [
+        "https://w3id.org/kouigenjimonogatari/data/0010-03.json#13:35",
         "https://w3id.org/kouigenjimonogatari/data/0010-04.json#0:35",
-        "https://w3id.org/kouigenjimonogatari/data/0010-05.json#0:34",
+        "https://w3id.org/kouigenjimonogatari/data/0010-05.json#0:6"
+    ],
+    "YG0000005500": [
+        "https://w3id.org/kouigenjimonogatari/data/0010-05.json#6:34",
         "https://w3id.org/kouigenjimonogatari/data/0010-06.json#0:35",
         "https://w3id.org/kouigenjimonogatari/data/0010-07.json#0:35",
-        "https://w3id.org/kouigenjimonogatari/data/0010-08.json#0:34"
+        "https://w3id.org/kouigenjimonogatari/data/0010-08.json#0:13"
     ],
-    "YG0000006000": [
+    "YG0000005600": [
+        "https://w3id.org/kouigenjimonogatari/data/0010-08.json#13:22"
+    ],
+    "YG0000005700": [
+        "https://w3id.org/kouigenjimonogatari/data/0010-08.json#22:34"
+    ],
+    "YG0000005800": [
         "https://w3id.org/kouigenjimonogatari/data/0010-09.json#0:22"
     ],
-    "YG0000006200": [
+    "YG0000005900": [
         "https://w3id.org/kouigenjimonogatari/data/0010-09.json#22:35",
-        "https://w3id.org/kouigenjimonogatari/data/0010-10.json#0:35",
+        "https://w3id.org/kouigenjimonogatari/data/0010-10.json#0:1"
+    ],
+    "YG0000006000": [
+        "https://w3id.org/kouigenjimonogatari/data/0010-10.json#1:35",
         "https://w3id.org/kouigenjimonogatari/data/0010-11.json#0:2"
     ],
-    "YG0000006300": [
+    "YG0000006100": [
         "https://w3id.org/kouigenjimonogatari/data/0010-11.json#2:21"
     ],
-    "YG0000006400": [
+    "YG0000006200": [
         "https://w3id.org/kouigenjimonogatari/data/0010-11.json#21:34",
         "https://w3id.org/kouigenjimonogatari/data/0010-12.json#0:35",
         "https://w3id.org/kouigenjimonogatari/data/0010-13.json#0:8"
     ],
-    "YG0000006500": [
+    "YG0000006300": [
         "https://w3id.org/kouigenjimonogatari/data/0010-13.json#8:32"
     ],
-    "YG0000006600": [
+    "YG0000006400": [
         "https://w3id.org/kouigenjimonogatari/data/0010-13.json#32:35",
         "https://w3id.org/kouigenjimonogatari/data/0010-14.json#0:30"
     ],
-    "YG0000006700": [
+    "YG0000006500": [
         "https://w3id.org/kouigenjimonogatari/data/0010-14.json#30:35",
         "https://w3id.org/kouigenjimonogatari/data/0011-01.json#0:13"
     ],
-    "YG0000006800": [
+    "YG0000006600": [
         "https://w3id.org/kouigenjimonogatari/data/0011-01.json#13:35",
         "https://w3id.org/kouigenjimonogatari/data/0011-02.json#0:9"
     ],
-    "YG0000006900": [
+    "YG0000006700": [
         "https://w3id.org/kouigenjimonogatari/data/0011-02.json#9:34",
         "https://w3id.org/kouigenjimonogatari/data/0011-03.json#0:13"
     ],
-    "YG0000007000": [
+    "YG0000006800": [
         "https://w3id.org/kouigenjimonogatari/data/0011-03.json#13:35",
-        "https://w3id.org/kouigenjimonogatari/data/0011-04.json#0:35",
-        "https://w3id.org/kouigenjimonogatari/data/0011-05.json#0:35",
+        "https://w3id.org/kouigenjimonogatari/data/0011-04.json#0:13"
+    ],
+    "YG0000006900": [
+        "https://w3id.org/kouigenjimonogatari/data/0011-04.json#13:35",
+        "https://w3id.org/kouigenjimonogatari/data/0011-05.json#0:25"
+    ],
+    "YG0000007000": [
+        "https://w3id.org/kouigenjimonogatari/data/0011-05.json#25:35",
         "https://w3id.org/kouigenjimonogatari/data/0011-06.json#0:35",
-        "https://w3id.org/kouigenjimonogatari/data/0011-07.json#0:35",
-        "https://w3id.org/kouigenjimonogatari/data/0011-08.json#0:35",
-        "https://w3id.org/kouigenjimonogatari/data/0011-09.json#0:35",
+        "https://w3id.org/kouigenjimonogatari/data/0011-07.json#0:17"
+    ],
+    "YG0000007300": [
+        "https://w3id.org/kouigenjimonogatari/data/0011-07.json#17:35",
+        "https://w3id.org/kouigenjimonogatari/data/0011-08.json#0:35"
+    ],
+    "YG0000007400": [
+        "https://w3id.org/kouigenjimonogatari/data/0011-09.json#0:33"
+    ],
+    "YG0000007500": [
+        "https://w3id.org/kouigenjimonogatari/data/0011-09.json#33:35",
         "https://w3id.org/kouigenjimonogatari/data/0011-10.json#0:35",
-        "https://w3id.org/kouigenjimonogatari/data/0011-11.json#0:35",
-        "https://w3id.org/kouigenjimonogatari/data/0011-12.json#0:35",
+        "https://w3id.org/kouigenjimonogatari/data/0011-11.json#0:1"
+    ],
+    "YG0000007600": [
+        "https://w3id.org/kouigenjimonogatari/data/0011-11.json#1:20"
+    ],
+    "YG0000007700": [
+        "https://w3id.org/kouigenjimonogatari/data/0011-11.json#20:35",
+        "https://w3id.org/kouigenjimonogatari/data/0011-12.json#0:9"
+    ],
+    "YG0000007800": [
+        "https://w3id.org/kouigenjimonogatari/data/0011-12.json#9:23"
+    ],
+    "YG0000007900": [
+        "https://w3id.org/kouigenjimonogatari/data/0011-12.json#23:35",
         "https://w3id.org/kouigenjimonogatari/data/0011-13.json#0:17"
     ],
     "YG0000008000": [
