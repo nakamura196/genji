@@ -13,7 +13,7 @@ import csv
 import glob
 import requests
 
-url = "https://www.dl.ndl.go.jp/api/iiif/3437686/manifest.json"
+url = "https://nakamura196.github.io/genji/ugm/ndl/manifest/3437686.json"
 headers = {"content-type": "application/json"}
 r = requests.get(url, headers=headers)
 data = r.json()

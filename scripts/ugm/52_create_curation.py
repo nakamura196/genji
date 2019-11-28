@@ -18,7 +18,7 @@ import csv
 map = {}
 
 label_map = {
-    "https://www.dl.ndl.go.jp/api/iiif/3437686/manifest.json": "校異源氏物語",
+    "https://nakamura196.github.io/genji/ugm/ndl/manifest/3437686.json": "校異源氏物語",
     "https://nakamura196.github.io/genji/ugm/utokyo/manifest/01.json": "東大本",
     "https://nakamura196.github.io/genji/ugm/kyushu/manifest/01.json": "九大本（古活字版）",
     "https://nakamura196.github.io/genji/ugm/kyushu2/manifest/01.json": "九大本（無跋無刊記整版本）"
