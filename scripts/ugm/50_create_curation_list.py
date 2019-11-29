@@ -66,7 +66,7 @@ for obj in data:
                 if manifest not in manifest_map:
                     get_manifest_data(manifest)
                 
-                member_id = canvas+"#xywh="+area[0]+","+str(int(int(area[1]) / 2))+","+area[2]+","+str(manifest_map[manifest][canvas] - int(area[1]))
+                member_id = canvas+"#xywh="+area[0]+",0,"+area[2]+","+str(manifest_map[manifest][canvas])
 
                 chars = r["resource"]["chars"]
                 page = chars.split(" ")[1].split(".")[1]
