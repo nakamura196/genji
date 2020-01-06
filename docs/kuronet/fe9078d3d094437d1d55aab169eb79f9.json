@@ -1,0 +1,128 @@
+{
+    "@context": [
+        "http://iiif.io/api/presentation/2/context.json",
+        "http://codh.rois.ac.jp/iiif/curation/1/context.json"
+    ],
+    "@id": "https://nakamura196.github.io/genji/kuronet/fe9078d3d094437d1d55aab169eb79f9.json",
+    "@type": "cr:Curation",
+    "label": "Character List",
+    "selections": [
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/fe9078d3d094437d1d55aab169eb79f9.json/range1",
+            "@type": "sc:Range",
+            "label": "Characters",
+            "members": [
+                {
+                    "@id": "https://kotenseki.nijl.ac.jp/biblio/200003299/canvas/1#xywh=1143,1606,1,1",
+                    "@type": "sc:Canvas",
+                    "label": "KuroNet OCR Result",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://mp.ex.nii.ac.jp/api/kuronet/curation/15816a24f7f7db32d0554dea6a51c3d9308e8c18/annotation/1",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://kotenseki.nijl.ac.jp/biblio/200003299/canvas/1#xywh=1143,1606,1,1",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "餅",
+                                        "format": "text/plain",
+                                        "marker": {
+                                            "text": "餅"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://kotenseki.nijl.ac.jp/biblio/200003299/canvas/1#xywh=1143,2051,1,1",
+                    "@type": "sc:Canvas",
+                    "label": "KuroNet OCR Result",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://mp.ex.nii.ac.jp/api/kuronet/curation/15816a24f7f7db32d0554dea6a51c3d9308e8c18/annotation/2",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://kotenseki.nijl.ac.jp/biblio/200003299/canvas/1#xywh=1143,2051,1,1",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "異",
+                                        "format": "text/plain",
+                                        "marker": {
+                                            "text": "異"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://kotenseki.nijl.ac.jp/biblio/200003299/canvas/1#xywh=1168,2079,1,1",
+                    "@type": "sc:Canvas",
+                    "label": "KuroNet OCR Result",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://mp.ex.nii.ac.jp/api/kuronet/curation/15816a24f7f7db32d0554dea6a51c3d9308e8c18/annotation/3",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://kotenseki.nijl.ac.jp/biblio/200003299/canvas/1#xywh=1168,2079,1,1",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "異",
+                                        "format": "text/plain",
+                                        "marker": {
+                                            "text": "異"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://kotenseki.nijl.ac.jp/biblio/200003299/canvas/1#xywh=1156,2106,1,1",
+                    "@type": "sc:Canvas",
+                    "label": "KuroNet OCR Result",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://mp.ex.nii.ac.jp/api/kuronet/curation/15816a24f7f7db32d0554dea6a51c3d9308e8c18/annotation/4",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://kotenseki.nijl.ac.jp/biblio/200003299/canvas/1#xywh=1156,2106,1,1",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "異",
+                                        "format": "text/plain",
+                                        "marker": {
+                                            "text": "異"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "within": {
+                "@id": "https://kotenseki.nijl.ac.jp/biblio/200003299/manifest",
+                "@type": "sc:Manifest",
+                "label": "伊勢物語考異"
+            }
+        }
+    ],
+    "viewingHint": "annotation"
+}

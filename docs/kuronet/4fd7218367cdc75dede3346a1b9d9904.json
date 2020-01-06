@@ -1,0 +1,2884 @@
+{
+    "@context": [
+        "http://iiif.io/api/presentation/2/context.json",
+        "http://codh.rois.ac.jp/iiif/curation/1/context.json"
+    ],
+    "@id": "https://nakamura196.github.io/genji/kuronet/4fd7218367cdc75dede3346a1b9d9904.json",
+    "@type": "cr:Curation",
+    "label": "Character List",
+    "selections": [
+        {
+            "@id": "https://nakamura196.github.io/genji/kuronet/4fd7218367cdc75dede3346a1b9d9904.json/range1",
+            "@type": "sc:Range",
+            "label": "Characters",
+            "members": [
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=7040,3212,1,1",
+                    "@type": "sc:Canvas",
+                    "label": "KuroNet OCR Result",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://mp.ex.nii.ac.jp/api/kuronet/curation/d83b4d84b9ce0982e8bd4ea3bdc831dd82d29916/annotation/1",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=7040,3212,1,1",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "○",
+                                        "format": "text/plain",
+                                        "marker": {
+                                            "text": "○"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=6707,3216,1,1",
+                    "@type": "sc:Canvas",
+                    "label": "KuroNet OCR Result",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://mp.ex.nii.ac.jp/api/kuronet/curation/d83b4d84b9ce0982e8bd4ea3bdc831dd82d29916/annotation/2",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=6707,3216,1,1",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "○",
+                                        "format": "text/plain",
+                                        "marker": {
+                                            "text": "○"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=6875,3219,1,1",
+                    "@type": "sc:Canvas",
+                    "label": "KuroNet OCR Result",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://mp.ex.nii.ac.jp/api/kuronet/curation/d83b4d84b9ce0982e8bd4ea3bdc831dd82d29916/annotation/3",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=6875,3219,1,1",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "○",
+                                        "format": "text/plain",
+                                        "marker": {
+                                            "text": "○"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=6375,3223,1,1",
+                    "@type": "sc:Canvas",
+                    "label": "KuroNet OCR Result",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://mp.ex.nii.ac.jp/api/kuronet/curation/d83b4d84b9ce0982e8bd4ea3bdc831dd82d29916/annotation/4",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=6375,3223,1,1",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "○",
+                                        "format": "text/plain",
+                                        "marker": {
+                                            "text": "○"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=6542,3221,1,1",
+                    "@type": "sc:Canvas",
+                    "label": "KuroNet OCR Result",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://mp.ex.nii.ac.jp/api/kuronet/curation/d83b4d84b9ce0982e8bd4ea3bdc831dd82d29916/annotation/5",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=6542,3221,1,1",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "○",
+                                        "format": "text/plain",
+                                        "marker": {
+                                            "text": "○"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=5791,3235,1,1",
+                    "@type": "sc:Canvas",
+                    "label": "KuroNet OCR Result",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://mp.ex.nii.ac.jp/api/kuronet/curation/d83b4d84b9ce0982e8bd4ea3bdc831dd82d29916/annotation/6",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=5791,3235,1,1",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "献",
+                                        "format": "text/plain",
+                                        "marker": {
+                                            "text": "献"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=5186,3238,1,1",
+                    "@type": "sc:Canvas",
+                    "label": "KuroNet OCR Result",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://mp.ex.nii.ac.jp/api/kuronet/curation/d83b4d84b9ce0982e8bd4ea3bdc831dd82d29916/annotation/7",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=5186,3238,1,1",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "○",
+                                        "format": "text/plain",
+                                        "marker": {
+                                            "text": "○"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=5021,3242,1,1",
+                    "@type": "sc:Canvas",
+                    "label": "KuroNet OCR Result",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://mp.ex.nii.ac.jp/api/kuronet/curation/d83b4d84b9ce0982e8bd4ea3bdc831dd82d29916/annotation/8",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=5021,3242,1,1",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "○",
+                                        "format": "text/plain",
+                                        "marker": {
+                                            "text": "○"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=4853,3247,1,1",
+                    "@type": "sc:Canvas",
+                    "label": "KuroNet OCR Result",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://mp.ex.nii.ac.jp/api/kuronet/curation/d83b4d84b9ce0982e8bd4ea3bdc831dd82d29916/annotation/9",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=4853,3247,1,1",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "○",
+                                        "format": "text/plain",
+                                        "marker": {
+                                            "text": "○"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=4683,3249,1,1",
+                    "@type": "sc:Canvas",
+                    "label": "KuroNet OCR Result",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://mp.ex.nii.ac.jp/api/kuronet/curation/d83b4d84b9ce0982e8bd4ea3bdc831dd82d29916/annotation/10",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=4683,3249,1,1",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "○",
+                                        "format": "text/plain",
+                                        "marker": {
+                                            "text": "○"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=4513,3251,1,1",
+                    "@type": "sc:Canvas",
+                    "label": "KuroNet OCR Result",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://mp.ex.nii.ac.jp/api/kuronet/curation/d83b4d84b9ce0982e8bd4ea3bdc831dd82d29916/annotation/11",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=4513,3251,1,1",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "○",
+                                        "format": "text/plain",
+                                        "marker": {
+                                            "text": "○"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=6542,3332,1,1",
+                    "@type": "sc:Canvas",
+                    "label": "KuroNet OCR Result",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://mp.ex.nii.ac.jp/api/kuronet/curation/d83b4d84b9ce0982e8bd4ea3bdc831dd82d29916/annotation/12",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=6542,3332,1,1",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "処",
+                                        "format": "text/plain",
+                                        "marker": {
+                                            "text": "処"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=6869,3330,1,1",
+                    "@type": "sc:Canvas",
+                    "label": "KuroNet OCR Result",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://mp.ex.nii.ac.jp/api/kuronet/curation/d83b4d84b9ce0982e8bd4ea3bdc831dd82d29916/annotation/13",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=6869,3330,1,1",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "名",
+                                        "format": "text/plain",
+                                        "marker": {
+                                            "text": "名"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=6707,3340,1,1",
+                    "@type": "sc:Canvas",
+                    "label": "KuroNet OCR Result",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://mp.ex.nii.ac.jp/api/kuronet/curation/d83b4d84b9ce0982e8bd4ea3bdc831dd82d29916/annotation/14",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=6707,3340,1,1",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "題",
+                                        "format": "text/plain",
+                                        "marker": {
+                                            "text": "題"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=7042,3344,1,1",
+                    "@type": "sc:Canvas",
+                    "label": "KuroNet OCR Result",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://mp.ex.nii.ac.jp/api/kuronet/curation/d83b4d84b9ce0982e8bd4ea3bdc831dd82d29916/annotation/15",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=7042,3344,1,1",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "帝",
+                                        "format": "text/plain",
+                                        "marker": {
+                                            "text": "帝"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=5186,3355,1,1",
+                    "@type": "sc:Canvas",
+                    "label": "KuroNet OCR Result",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://mp.ex.nii.ac.jp/api/kuronet/curation/d83b4d84b9ce0982e8bd4ea3bdc831dd82d29916/annotation/16",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=5186,3355,1,1",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "牛",
+                                        "format": "text/plain",
+                                        "marker": {
+                                            "text": "牛"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=5780,3344,1,1",
+                    "@type": "sc:Canvas",
+                    "label": "KuroNet OCR Result",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://mp.ex.nii.ac.jp/api/kuronet/curation/d83b4d84b9ce0982e8bd4ea3bdc831dd82d29916/annotation/17",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=5780,3344,1,1",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "由",
+                                        "format": "text/plain",
+                                        "marker": {
+                                            "text": "由"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=6377,3349,1,1",
+                    "@type": "sc:Canvas",
+                    "label": "KuroNet OCR Result",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://mp.ex.nii.ac.jp/api/kuronet/curation/d83b4d84b9ce0982e8bd4ea3bdc831dd82d29916/annotation/18",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=6377,3349,1,1",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "野",
+                                        "format": "text/plain",
+                                        "marker": {
+                                            "text": "野"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=4680,3370,1,1",
+                    "@type": "sc:Canvas",
+                    "label": "KuroNet OCR Result",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://mp.ex.nii.ac.jp/api/kuronet/curation/d83b4d84b9ce0982e8bd4ea3bdc831dd82d29916/annotation/19",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=4680,3370,1,1",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "氷",
+                                        "format": "text/plain",
+                                        "marker": {
+                                            "text": "氷"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=4507,3374,1,1",
+                    "@type": "sc:Canvas",
+                    "label": "KuroNet OCR Result",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://mp.ex.nii.ac.jp/api/kuronet/curation/d83b4d84b9ce0982e8bd4ea3bdc831dd82d29916/annotation/20",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=4507,3374,1,1",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "箱",
+                                        "format": "text/plain",
+                                        "marker": {
+                                            "text": "箱"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=6056,3400,1,1",
+                    "@type": "sc:Canvas",
+                    "label": "KuroNet OCR Result",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://mp.ex.nii.ac.jp/api/kuronet/curation/d83b4d84b9ce0982e8bd4ea3bdc831dd82d29916/annotation/21",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=6056,3400,1,1",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "一",
+                                        "format": "text/plain",
+                                        "marker": {
+                                            "text": "一"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=6869,3455,1,1",
+                    "@type": "sc:Canvas",
+                    "label": "KuroNet OCR Result",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://mp.ex.nii.ac.jp/api/kuronet/curation/d83b4d84b9ce0982e8bd4ea3bdc831dd82d29916/annotation/22",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=6869,3455,1,1",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "府",
+                                        "format": "text/plain",
+                                        "marker": {
+                                            "text": "府"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=7042,3486,1,1",
+                    "@type": "sc:Canvas",
+                    "label": "KuroNet OCR Result",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://mp.ex.nii.ac.jp/api/kuronet/curation/d83b4d84b9ce0982e8bd4ea3bdc831dd82d29916/annotation/23",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=7042,3486,1,1",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "国",
+                                        "format": "text/plain",
+                                        "marker": {
+                                            "text": "国"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=5196,3511,1,1",
+                    "@type": "sc:Canvas",
+                    "label": "KuroNet OCR Result",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://mp.ex.nii.ac.jp/api/kuronet/curation/d83b4d84b9ce0982e8bd4ea3bdc831dd82d29916/annotation/24",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=5196,3511,1,1",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "花",
+                                        "format": "text/plain",
+                                        "marker": {
+                                            "text": "花"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=6053,3527,1,1",
+                    "@type": "sc:Canvas",
+                    "label": "KuroNet OCR Result",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://mp.ex.nii.ac.jp/api/kuronet/curation/d83b4d84b9ce0982e8bd4ea3bdc831dd82d29916/annotation/25",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=6053,3527,1,1",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "切",
+                                        "format": "text/plain",
+                                        "marker": {
+                                            "text": "切"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=5015,3536,1,1",
+                    "@type": "sc:Canvas",
+                    "label": "KuroNet OCR Result",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://mp.ex.nii.ac.jp/api/kuronet/curation/d83b4d84b9ce0982e8bd4ea3bdc831dd82d29916/annotation/26",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=5015,3536,1,1",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "総",
+                                        "format": "text/plain",
+                                        "marker": {
+                                            "text": "総"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=4686,3546,1,1",
+                    "@type": "sc:Canvas",
+                    "label": "KuroNet OCR Result",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://mp.ex.nii.ac.jp/api/kuronet/curation/d83b4d84b9ce0982e8bd4ea3bdc831dd82d29916/annotation/27",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=4686,3546,1,1",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "枕",
+                                        "format": "text/plain",
+                                        "marker": {
+                                            "text": "枕"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=6713,3546,1,1",
+                    "@type": "sc:Canvas",
+                    "label": "KuroNet OCR Result",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://mp.ex.nii.ac.jp/api/kuronet/curation/d83b4d84b9ce0982e8bd4ea3bdc831dd82d29916/annotation/28",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=6713,3546,1,1",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "微",
+                                        "format": "text/plain",
+                                        "marker": {
+                                            "text": "微"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=5507,3552,1,1",
+                    "@type": "sc:Canvas",
+                    "label": "KuroNet OCR Result",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://mp.ex.nii.ac.jp/api/kuronet/curation/d83b4d84b9ce0982e8bd4ea3bdc831dd82d29916/annotation/29",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=5507,3552,1,1",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "米",
+                                        "format": "text/plain",
+                                        "marker": {
+                                            "text": "米"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=6537,3553,1,1",
+                    "@type": "sc:Canvas",
+                    "label": "KuroNet OCR Result",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://mp.ex.nii.ac.jp/api/kuronet/curation/d83b4d84b9ce0982e8bd4ea3bdc831dd82d29916/annotation/30",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=6537,3553,1,1",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "量",
+                                        "format": "text/plain",
+                                        "marker": {
+                                            "text": "量"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=6875,3578,1,1",
+                    "@type": "sc:Canvas",
+                    "label": "KuroNet OCR Result",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://mp.ex.nii.ac.jp/api/kuronet/curation/d83b4d84b9ce0982e8bd4ea3bdc831dd82d29916/annotation/31",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=6875,3578,1,1",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "蝶",
+                                        "format": "text/plain",
+                                        "marker": {
+                                            "text": "蝶"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=6383,3611,1,1",
+                    "@type": "sc:Canvas",
+                    "label": "KuroNet OCR Result",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://mp.ex.nii.ac.jp/api/kuronet/curation/d83b4d84b9ce0982e8bd4ea3bdc831dd82d29916/annotation/32",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=6383,3611,1,1",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "記",
+                                        "format": "text/plain",
+                                        "marker": {
+                                            "text": "記"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=4856,3638,1,1",
+                    "@type": "sc:Canvas",
+                    "label": "KuroNet OCR Result",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://mp.ex.nii.ac.jp/api/kuronet/curation/d83b4d84b9ce0982e8bd4ea3bdc831dd82d29916/annotation/33",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=4856,3638,1,1",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "溜",
+                                        "format": "text/plain",
+                                        "marker": {
+                                            "text": "溜"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=7042,3636,1,1",
+                    "@type": "sc:Canvas",
+                    "label": "KuroNet OCR Result",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://mp.ex.nii.ac.jp/api/kuronet/curation/d83b4d84b9ce0982e8bd4ea3bdc831dd82d29916/annotation/34",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=7042,3636,1,1",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "驚",
+                                        "format": "text/plain",
+                                        "marker": {
+                                            "text": "驚"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=6372,3624,1,1",
+                    "@type": "sc:Canvas",
+                    "label": "KuroNet OCR Result",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://mp.ex.nii.ac.jp/api/kuronet/curation/d83b4d84b9ce0982e8bd4ea3bdc831dd82d29916/annotation/35",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=6372,3624,1,1",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "記",
+                                        "format": "text/plain",
+                                        "marker": {
+                                            "text": "記"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=5788,3671,1,1",
+                    "@type": "sc:Canvas",
+                    "label": "KuroNet OCR Result",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://mp.ex.nii.ac.jp/api/kuronet/curation/d83b4d84b9ce0982e8bd4ea3bdc831dd82d29916/annotation/36",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=5788,3671,1,1",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "朴",
+                                        "format": "text/plain",
+                                        "marker": {
+                                            "text": "朴"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=5750,3634,1,1",
+                    "@type": "sc:Canvas",
+                    "label": "KuroNet OCR Result",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://mp.ex.nii.ac.jp/api/kuronet/curation/d83b4d84b9ce0982e8bd4ea3bdc831dd82d29916/annotation/37",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=5750,3634,1,1",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "料",
+                                        "format": "text/plain",
+                                        "marker": {
+                                            "text": "料"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=6050,3648,1,1",
+                    "@type": "sc:Canvas",
+                    "label": "KuroNet OCR Result",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://mp.ex.nii.ac.jp/api/kuronet/curation/d83b4d84b9ce0982e8bd4ea3bdc831dd82d29916/annotation/38",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=6050,3648,1,1",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "正",
+                                        "format": "text/plain",
+                                        "marker": {
+                                            "text": "正"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=5188,3662,1,1",
+                    "@type": "sc:Canvas",
+                    "label": "KuroNet OCR Result",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://mp.ex.nii.ac.jp/api/kuronet/curation/d83b4d84b9ce0982e8bd4ea3bdc831dd82d29916/annotation/39",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=5188,3662,1,1",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "酒",
+                                        "format": "text/plain",
+                                        "marker": {
+                                            "text": "酒"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=5505,3691,1,1",
+                    "@type": "sc:Canvas",
+                    "label": "KuroNet OCR Result",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://mp.ex.nii.ac.jp/api/kuronet/curation/d83b4d84b9ce0982e8bd4ea3bdc831dd82d29916/annotation/40",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=5505,3691,1,1",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "名",
+                                        "format": "text/plain",
+                                        "marker": {
+                                            "text": "名"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=5021,3720,1,1",
+                    "@type": "sc:Canvas",
+                    "label": "KuroNet OCR Result",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://mp.ex.nii.ac.jp/api/kuronet/curation/d83b4d84b9ce0982e8bd4ea3bdc831dd82d29916/annotation/41",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=5021,3720,1,1",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "牛",
+                                        "format": "text/plain",
+                                        "marker": {
+                                            "text": "牛"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=4688,3729,1,1",
+                    "@type": "sc:Canvas",
+                    "label": "KuroNet OCR Result",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://mp.ex.nii.ac.jp/api/kuronet/curation/d83b4d84b9ce0982e8bd4ea3bdc831dd82d29916/annotation/42",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=4688,3729,1,1",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "共",
+                                        "format": "text/plain",
+                                        "marker": {
+                                            "text": "共"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=6702,3757,1,1",
+                    "@type": "sc:Canvas",
+                    "label": "KuroNet OCR Result",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://mp.ex.nii.ac.jp/api/kuronet/curation/d83b4d84b9ce0982e8bd4ea3bdc831dd82d29916/annotation/43",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=6702,3757,1,1",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "鎮",
+                                        "format": "text/plain",
+                                        "marker": {
+                                            "text": "鎮"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=6531,3756,1,1",
+                    "@type": "sc:Canvas",
+                    "label": "KuroNet OCR Result",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://mp.ex.nii.ac.jp/api/kuronet/curation/d83b4d84b9ce0982e8bd4ea3bdc831dd82d29916/annotation/44",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=6531,3756,1,1",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "編",
+                                        "format": "text/plain",
+                                        "marker": {
+                                            "text": "編"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=6053,3759,1,1",
+                    "@type": "sc:Canvas",
+                    "label": "KuroNet OCR Result",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://mp.ex.nii.ac.jp/api/kuronet/curation/d83b4d84b9ce0982e8bd4ea3bdc831dd82d29916/annotation/45",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=6053,3759,1,1",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "直",
+                                        "format": "text/plain",
+                                        "marker": {
+                                            "text": "直"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=7042,3789,1,1",
+                    "@type": "sc:Canvas",
+                    "label": "KuroNet OCR Result",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://mp.ex.nii.ac.jp/api/kuronet/curation/d83b4d84b9ce0982e8bd4ea3bdc831dd82d29916/annotation/46",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=7042,3789,1,1",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "科",
+                                        "format": "text/plain",
+                                        "marker": {
+                                            "text": "科"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=4513,3791,1,1",
+                    "@type": "sc:Canvas",
+                    "label": "KuroNet OCR Result",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://mp.ex.nii.ac.jp/api/kuronet/curation/d83b4d84b9ce0982e8bd4ea3bdc831dd82d29916/annotation/47",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=4513,3791,1,1",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "村",
+                                        "format": "text/plain",
+                                        "marker": {
+                                            "text": "村"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=5194,3814,1,1",
+                    "@type": "sc:Canvas",
+                    "label": "KuroNet OCR Result",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://mp.ex.nii.ac.jp/api/kuronet/curation/d83b4d84b9ce0982e8bd4ea3bdc831dd82d29916/annotation/48",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=5194,3814,1,1",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "寿",
+                                        "format": "text/plain",
+                                        "marker": {
+                                            "text": "寿"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=6875,3821,1,1",
+                    "@type": "sc:Canvas",
+                    "label": "KuroNet OCR Result",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://mp.ex.nii.ac.jp/api/kuronet/curation/d83b4d84b9ce0982e8bd4ea3bdc831dd82d29916/annotation/49",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=6875,3821,1,1",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "秋",
+                                        "format": "text/plain",
+                                        "marker": {
+                                            "text": "秋"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=5515,3838,1,1",
+                    "@type": "sc:Canvas",
+                    "label": "KuroNet OCR Result",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://mp.ex.nii.ac.jp/api/kuronet/curation/d83b4d84b9ce0982e8bd4ea3bdc831dd82d29916/annotation/50",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=5515,3838,1,1",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "国",
+                                        "format": "text/plain",
+                                        "marker": {
+                                            "text": "国"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=6372,3882,1,1",
+                    "@type": "sc:Canvas",
+                    "label": "KuroNet OCR Result",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://mp.ex.nii.ac.jp/api/kuronet/curation/d83b4d84b9ce0982e8bd4ea3bdc831dd82d29916/annotation/51",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=6372,3882,1,1",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "畢",
+                                        "format": "text/plain",
+                                        "marker": {
+                                            "text": "畢"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=6059,3882,1,1",
+                    "@type": "sc:Canvas",
+                    "label": "KuroNet OCR Result",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://mp.ex.nii.ac.jp/api/kuronet/curation/d83b4d84b9ce0982e8bd4ea3bdc831dd82d29916/annotation/52",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=6059,3882,1,1",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "拵",
+                                        "format": "text/plain",
+                                        "marker": {
+                                            "text": "拵"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=5029,3907,1,1",
+                    "@type": "sc:Canvas",
+                    "label": "KuroNet OCR Result",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://mp.ex.nii.ac.jp/api/kuronet/curation/d83b4d84b9ce0982e8bd4ea3bdc831dd82d29916/annotation/53",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=5029,3907,1,1",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "花",
+                                        "format": "text/plain",
+                                        "marker": {
+                                            "text": "花"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=4686,3917,1,1",
+                    "@type": "sc:Canvas",
+                    "label": "KuroNet OCR Result",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://mp.ex.nii.ac.jp/api/kuronet/curation/d83b4d84b9ce0982e8bd4ea3bdc831dd82d29916/annotation/54",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=4686,3917,1,1",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "氷",
+                                        "format": "text/plain",
+                                        "marker": {
+                                            "text": "氷"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=7040,3939,1,1",
+                    "@type": "sc:Canvas",
+                    "label": "KuroNet OCR Result",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://mp.ex.nii.ac.jp/api/kuronet/curation/d83b4d84b9ce0982e8bd4ea3bdc831dd82d29916/annotation/55",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=7040,3939,1,1",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "大",
+                                        "format": "text/plain",
+                                        "marker": {
+                                            "text": "大"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=6875,3942,1,1",
+                    "@type": "sc:Canvas",
+                    "label": "KuroNet OCR Result",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://mp.ex.nii.ac.jp/api/kuronet/curation/d83b4d84b9ce0982e8bd4ea3bdc831dd82d29916/annotation/56",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=6875,3942,1,1",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "豆",
+                                        "format": "text/plain",
+                                        "marker": {
+                                            "text": "豆"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=5510,3974,1,1",
+                    "@type": "sc:Canvas",
+                    "label": "KuroNet OCR Result",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://mp.ex.nii.ac.jp/api/kuronet/curation/d83b4d84b9ce0982e8bd4ea3bdc831dd82d29916/annotation/57",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=5510,3974,1,1",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "直",
+                                        "format": "text/plain",
+                                        "marker": {
+                                            "text": "直"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=5196,3982,1,1",
+                    "@type": "sc:Canvas",
+                    "label": "KuroNet OCR Result",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://mp.ex.nii.ac.jp/api/kuronet/curation/d83b4d84b9ce0982e8bd4ea3bdc831dd82d29916/annotation/58",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=5196,3982,1,1",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "替",
+                                        "format": "text/plain",
+                                        "marker": {
+                                            "text": "替"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=6056,4004,1,1",
+                    "@type": "sc:Canvas",
+                    "label": "KuroNet OCR Result",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://mp.ex.nii.ac.jp/api/kuronet/curation/d83b4d84b9ce0982e8bd4ea3bdc831dd82d29916/annotation/59",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=6056,4004,1,1",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "安",
+                                        "format": "text/plain",
+                                        "marker": {
+                                            "text": "安"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=4515,4007,1,1",
+                    "@type": "sc:Canvas",
+                    "label": "KuroNet OCR Result",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://mp.ex.nii.ac.jp/api/kuronet/curation/d83b4d84b9ce0982e8bd4ea3bdc831dd82d29916/annotation/60",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=4515,4007,1,1",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "料",
+                                        "format": "text/plain",
+                                        "marker": {
+                                            "text": "料"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=5823,4007,1,1",
+                    "@type": "sc:Canvas",
+                    "label": "KuroNet OCR Result",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://mp.ex.nii.ac.jp/api/kuronet/curation/d83b4d84b9ce0982e8bd4ea3bdc831dd82d29916/annotation/61",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=5823,4007,1,1",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "箸",
+                                        "format": "text/plain",
+                                        "marker": {
+                                            "text": "箸"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=6872,4055,1,1",
+                    "@type": "sc:Canvas",
+                    "label": "KuroNet OCR Result",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://mp.ex.nii.ac.jp/api/kuronet/curation/d83b4d84b9ce0982e8bd4ea3bdc831dd82d29916/annotation/62",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=6872,4055,1,1",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "崩",
+                                        "format": "text/plain",
+                                        "marker": {
+                                            "text": "崩"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=7040,4085,1,1",
+                    "@type": "sc:Canvas",
+                    "label": "KuroNet OCR Result",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://mp.ex.nii.ac.jp/api/kuronet/curation/d83b4d84b9ce0982e8bd4ea3bdc831dd82d29916/annotation/63",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=7040,4085,1,1",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "彙",
+                                        "format": "text/plain",
+                                        "marker": {
+                                            "text": "彙"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=4686,4095,1,1",
+                    "@type": "sc:Canvas",
+                    "label": "KuroNet OCR Result",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://mp.ex.nii.ac.jp/api/kuronet/curation/d83b4d84b9ce0982e8bd4ea3bdc831dd82d29916/annotation/64",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=4686,4095,1,1",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "袋",
+                                        "format": "text/plain",
+                                        "marker": {
+                                            "text": "袋"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=5199,4113,1,1",
+                    "@type": "sc:Canvas",
+                    "label": "KuroNet OCR Result",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://mp.ex.nii.ac.jp/api/kuronet/curation/d83b4d84b9ce0982e8bd4ea3bdc831dd82d29916/annotation/65",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=5199,4113,1,1",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "抜",
+                                        "format": "text/plain",
+                                        "marker": {
+                                            "text": "抜"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=6059,4123,1,1",
+                    "@type": "sc:Canvas",
+                    "label": "KuroNet OCR Result",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://mp.ex.nii.ac.jp/api/kuronet/curation/d83b4d84b9ce0982e8bd4ea3bdc831dd82d29916/annotation/66",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=6059,4123,1,1",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "酢",
+                                        "format": "text/plain",
+                                        "marker": {
+                                            "text": "酢"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=4510,4158,1,1",
+                    "@type": "sc:Canvas",
+                    "label": "KuroNet OCR Result",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://mp.ex.nii.ac.jp/api/kuronet/curation/d83b4d84b9ce0982e8bd4ea3bdc831dd82d29916/annotation/67",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=4510,4158,1,1",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "炒",
+                                        "format": "text/plain",
+                                        "marker": {
+                                            "text": "炒"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=4856,4171,1,1",
+                    "@type": "sc:Canvas",
+                    "label": "KuroNet OCR Result",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://mp.ex.nii.ac.jp/api/kuronet/curation/d83b4d84b9ce0982e8bd4ea3bdc831dd82d29916/annotation/68",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=4856,4171,1,1",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "名",
+                                        "format": "text/plain",
+                                        "marker": {
+                                            "text": "名"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=6877,4179,1,1",
+                    "@type": "sc:Canvas",
+                    "label": "KuroNet OCR Result",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://mp.ex.nii.ac.jp/api/kuronet/curation/d83b4d84b9ce0982e8bd4ea3bdc831dd82d29916/annotation/69",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=6877,4179,1,1",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "院",
+                                        "format": "text/plain",
+                                        "marker": {
+                                            "text": "院"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=6704,4188,1,1",
+                    "@type": "sc:Canvas",
+                    "label": "KuroNet OCR Result",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://mp.ex.nii.ac.jp/api/kuronet/curation/d83b4d84b9ce0982e8bd4ea3bdc831dd82d29916/annotation/70",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=6704,4188,1,1",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "酢",
+                                        "format": "text/plain",
+                                        "marker": {
+                                            "text": "酢"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=6540,4194,1,1",
+                    "@type": "sc:Canvas",
+                    "label": "KuroNet OCR Result",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://mp.ex.nii.ac.jp/api/kuronet/curation/d83b4d84b9ce0982e8bd4ea3bdc831dd82d29916/annotation/71",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=6540,4194,1,1",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "酢",
+                                        "format": "text/plain",
+                                        "marker": {
+                                            "text": "酢"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=6059,4245,1,1",
+                    "@type": "sc:Canvas",
+                    "label": "KuroNet OCR Result",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://mp.ex.nii.ac.jp/api/kuronet/curation/d83b4d84b9ce0982e8bd4ea3bdc831dd82d29916/annotation/72",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=6059,4245,1,1",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "蕢",
+                                        "format": "text/plain",
+                                        "marker": {
+                                            "text": "蕢"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=7034,4246,1,1",
+                    "@type": "sc:Canvas",
+                    "label": "KuroNet OCR Result",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://mp.ex.nii.ac.jp/api/kuronet/curation/d83b4d84b9ce0982e8bd4ea3bdc831dd82d29916/annotation/73",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=7034,4246,1,1",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "調",
+                                        "format": "text/plain",
+                                        "marker": {
+                                            "text": "調"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=5034,4267,1,1",
+                    "@type": "sc:Canvas",
+                    "label": "KuroNet OCR Result",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://mp.ex.nii.ac.jp/api/kuronet/curation/d83b4d84b9ce0982e8bd4ea3bdc831dd82d29916/annotation/74",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=5034,4267,1,1",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "盤",
+                                        "format": "text/plain",
+                                        "marker": {
+                                            "text": "盤"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=4688,4266,1,1",
+                    "@type": "sc:Canvas",
+                    "label": "KuroNet OCR Result",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://mp.ex.nii.ac.jp/api/kuronet/curation/d83b4d84b9ce0982e8bd4ea3bdc831dd82d29916/annotation/75",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=4688,4266,1,1",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "名",
+                                        "format": "text/plain",
+                                        "marker": {
+                                            "text": "名"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=5196,4267,1,1",
+                    "@type": "sc:Canvas",
+                    "label": "KuroNet OCR Result",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://mp.ex.nii.ac.jp/api/kuronet/curation/d83b4d84b9ce0982e8bd4ea3bdc831dd82d29916/annotation/76",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=5196,4267,1,1",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "名",
+                                        "format": "text/plain",
+                                        "marker": {
+                                            "text": "名"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=6867,4292,1,1",
+                    "@type": "sc:Canvas",
+                    "label": "KuroNet OCR Result",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://mp.ex.nii.ac.jp/api/kuronet/curation/d83b4d84b9ce0982e8bd4ea3bdc831dd82d29916/annotation/77",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=6867,4292,1,1",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "調",
+                                        "format": "text/plain",
+                                        "marker": {
+                                            "text": "調"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=5791,4380,1,1",
+                    "@type": "sc:Canvas",
+                    "label": "KuroNet OCR Result",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://mp.ex.nii.ac.jp/api/kuronet/curation/d83b4d84b9ce0982e8bd4ea3bdc831dd82d29916/annotation/78",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=5791,4380,1,1",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "根",
+                                        "format": "text/plain",
+                                        "marker": {
+                                            "text": "根"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=6704,4413,1,1",
+                    "@type": "sc:Canvas",
+                    "label": "KuroNet OCR Result",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://mp.ex.nii.ac.jp/api/kuronet/curation/d83b4d84b9ce0982e8bd4ea3bdc831dd82d29916/annotation/79",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=6704,4413,1,1",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "蕢",
+                                        "format": "text/plain",
+                                        "marker": {
+                                            "text": "蕢"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=6540,4413,1,1",
+                    "@type": "sc:Canvas",
+                    "label": "KuroNet OCR Result",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://mp.ex.nii.ac.jp/api/kuronet/curation/d83b4d84b9ce0982e8bd4ea3bdc831dd82d29916/annotation/80",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=6540,4413,1,1",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "蕢",
+                                        "format": "text/plain",
+                                        "marker": {
+                                            "text": "蕢"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=6869,4413,1,1",
+                    "@type": "sc:Canvas",
+                    "label": "KuroNet OCR Result",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://mp.ex.nii.ac.jp/api/kuronet/curation/d83b4d84b9ce0982e8bd4ea3bdc831dd82d29916/annotation/81",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=6869,4413,1,1",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "用",
+                                        "format": "text/plain",
+                                        "marker": {
+                                            "text": "用"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=7040,4413,1,1",
+                    "@type": "sc:Canvas",
+                    "label": "KuroNet OCR Result",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://mp.ex.nii.ac.jp/api/kuronet/curation/d83b4d84b9ce0982e8bd4ea3bdc831dd82d29916/annotation/82",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=7040,4413,1,1",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "用",
+                                        "format": "text/plain",
+                                        "marker": {
+                                            "text": "用"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=6386,4420,1,1",
+                    "@type": "sc:Canvas",
+                    "label": "KuroNet OCR Result",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://mp.ex.nii.ac.jp/api/kuronet/curation/d83b4d84b9ce0982e8bd4ea3bdc831dd82d29916/annotation/83",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=6386,4420,1,1",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "根",
+                                        "format": "text/plain",
+                                        "marker": {
+                                            "text": "根"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=6442,4415,1,1",
+                    "@type": "sc:Canvas",
+                    "label": "KuroNet OCR Result",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://mp.ex.nii.ac.jp/api/kuronet/curation/d83b4d84b9ce0982e8bd4ea3bdc831dd82d29916/annotation/84",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=6442,4415,1,1",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "横",
+                                        "format": "text/plain",
+                                        "marker": {
+                                            "text": "横"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=5196,4438,1,1",
+                    "@type": "sc:Canvas",
+                    "label": "KuroNet OCR Result",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://mp.ex.nii.ac.jp/api/kuronet/curation/d83b4d84b9ce0982e8bd4ea3bdc831dd82d29916/annotation/85",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=5196,4438,1,1",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "種",
+                                        "format": "text/plain",
+                                        "marker": {
+                                            "text": "種"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=4861,4447,1,1",
+                    "@type": "sc:Canvas",
+                    "label": "KuroNet OCR Result",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://mp.ex.nii.ac.jp/api/kuronet/curation/d83b4d84b9ce0982e8bd4ea3bdc831dd82d29916/annotation/86",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=4861,4447,1,1",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "櫂",
+                                        "format": "text/plain",
+                                        "marker": {
+                                            "text": "櫂"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=4686,4450,1,1",
+                    "@type": "sc:Canvas",
+                    "label": "KuroNet OCR Result",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://mp.ex.nii.ac.jp/api/kuronet/curation/d83b4d84b9ce0982e8bd4ea3bdc831dd82d29916/annotation/87",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=4686,4450,1,1",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "櫂",
+                                        "format": "text/plain",
+                                        "marker": {
+                                            "text": "櫂"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=6502,4436,1,1",
+                    "@type": "sc:Canvas",
+                    "label": "KuroNet OCR Result",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://mp.ex.nii.ac.jp/api/kuronet/curation/d83b4d84b9ce0982e8bd4ea3bdc831dd82d29916/annotation/88",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=6502,4436,1,1",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "熨",
+                                        "format": "text/plain",
+                                        "marker": {
+                                            "text": "熨"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=6469,4438,1,1",
+                    "@type": "sc:Canvas",
+                    "label": "KuroNet OCR Result",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://mp.ex.nii.ac.jp/api/kuronet/curation/d83b4d84b9ce0982e8bd4ea3bdc831dd82d29916/annotation/89",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=6469,4438,1,1",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "慣",
+                                        "format": "text/plain",
+                                        "marker": {
+                                            "text": "慣"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=3259,1408,1,1",
+                    "@type": "sc:Canvas",
+                    "label": "KuroNet OCR Result",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://mp.ex.nii.ac.jp/api/kuronet/curation/02a61dbcaf13bbbd26d6e9e862aed1f161e40d8d/annotation/1",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=3259,1408,1,1",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "ば",
+                                        "format": "text/plain",
+                                        "marker": {
+                                            "text": "ば"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=2590,1922,1,1",
+                    "@type": "sc:Canvas",
+                    "label": "KuroNet OCR Result",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://mp.ex.nii.ac.jp/api/kuronet/curation/02a61dbcaf13bbbd26d6e9e862aed1f161e40d8d/annotation/2",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=2590,1922,1,1",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "の",
+                                        "format": "text/plain",
+                                        "marker": {
+                                            "text": "の"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=2516,1930,1,1",
+                    "@type": "sc:Canvas",
+                    "label": "KuroNet OCR Result",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://mp.ex.nii.ac.jp/api/kuronet/curation/02a61dbcaf13bbbd26d6e9e862aed1f161e40d8d/annotation/3",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=2516,1930,1,1",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "の",
+                                        "format": "text/plain",
+                                        "marker": {
+                                            "text": "の"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=2653,2328,1,1",
+                    "@type": "sc:Canvas",
+                    "label": "KuroNet OCR Result",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://mp.ex.nii.ac.jp/api/kuronet/curation/02a61dbcaf13bbbd26d6e9e862aed1f161e40d8d/annotation/4",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=2653,2328,1,1",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "ぜ",
+                                        "format": "text/plain",
+                                        "marker": {
+                                            "text": "ぜ"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=1580,3631,1,1",
+                    "@type": "sc:Canvas",
+                    "label": "KuroNet OCR Result",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://mp.ex.nii.ac.jp/api/kuronet/curation/02a61dbcaf13bbbd26d6e9e862aed1f161e40d8d/annotation/5",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=1580,3631,1,1",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "網",
+                                        "format": "text/plain",
+                                        "marker": {
+                                            "text": "網"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=1594,3992,1,1",
+                    "@type": "sc:Canvas",
+                    "label": "KuroNet OCR Result",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://mp.ex.nii.ac.jp/api/kuronet/curation/02a61dbcaf13bbbd26d6e9e862aed1f161e40d8d/annotation/6",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=1594,3992,1,1",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "勝",
+                                        "format": "text/plain",
+                                        "marker": {
+                                            "text": "勝"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=1662,3969,1,1",
+                    "@type": "sc:Canvas",
+                    "label": "KuroNet OCR Result",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://mp.ex.nii.ac.jp/api/kuronet/curation/02a61dbcaf13bbbd26d6e9e862aed1f161e40d8d/annotation/7",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33#xywh=1662,3969,1,1",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "勝",
+                                        "format": "text/plain",
+                                        "marker": {
+                                            "text": "勝"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p44#xywh=3134,3648,1,1",
+                    "@type": "sc:Canvas",
+                    "label": "KuroNet OCR Result",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://mp.ex.nii.ac.jp/api/kuronet/curation/659d8d72d586e800a193921a4256b41e0435d014/annotation/1",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p44#xywh=3134,3648,1,1",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "屋",
+                                        "format": "text/plain",
+                                        "marker": {
+                                            "text": "屋"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p44#xywh=1680,3655,1,1",
+                    "@type": "sc:Canvas",
+                    "label": "KuroNet OCR Result",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://mp.ex.nii.ac.jp/api/kuronet/curation/659d8d72d586e800a193921a4256b41e0435d014/annotation/2",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p44#xywh=1680,3655,1,1",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "大",
+                                        "format": "text/plain",
+                                        "marker": {
+                                            "text": "大"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p44#xywh=2862,3650,1,1",
+                    "@type": "sc:Canvas",
+                    "label": "KuroNet OCR Result",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://mp.ex.nii.ac.jp/api/kuronet/curation/659d8d72d586e800a193921a4256b41e0435d014/annotation/3",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p44#xywh=2862,3650,1,1",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "製",
+                                        "format": "text/plain",
+                                        "marker": {
+                                            "text": "製"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p44#xywh=2837,3664,1,1",
+                    "@type": "sc:Canvas",
+                    "label": "KuroNet OCR Result",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://mp.ex.nii.ac.jp/api/kuronet/curation/659d8d72d586e800a193921a4256b41e0435d014/annotation/4",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p44#xywh=2837,3664,1,1",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "簑",
+                                        "format": "text/plain",
+                                        "marker": {
+                                            "text": "簑"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p44#xywh=1697,4023,1,1",
+                    "@type": "sc:Canvas",
+                    "label": "KuroNet OCR Result",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://mp.ex.nii.ac.jp/api/kuronet/curation/659d8d72d586e800a193921a4256b41e0435d014/annotation/5",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p44#xywh=1697,4023,1,1",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "ら",
+                                        "format": "text/plain",
+                                        "marker": {
+                                            "text": "ら"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p44#xywh=1886,4042,1,1",
+                    "@type": "sc:Canvas",
+                    "label": "KuroNet OCR Result",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://mp.ex.nii.ac.jp/api/kuronet/curation/659d8d72d586e800a193921a4256b41e0435d014/annotation/6",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p44#xywh=1886,4042,1,1",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "そ",
+                                        "format": "text/plain",
+                                        "marker": {
+                                            "text": "そ"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p44#xywh=1875,4211,1,1",
+                    "@type": "sc:Canvas",
+                    "label": "KuroNet OCR Result",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://mp.ex.nii.ac.jp/api/kuronet/curation/659d8d72d586e800a193921a4256b41e0435d014/annotation/7",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p44#xywh=1875,4211,1,1",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "小",
+                                        "format": "text/plain",
+                                        "marker": {
+                                            "text": "小"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p44#xywh=3152,4380,1,1",
+                    "@type": "sc:Canvas",
+                    "label": "KuroNet OCR Result",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://mp.ex.nii.ac.jp/api/kuronet/curation/659d8d72d586e800a193921a4256b41e0435d014/annotation/8",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p44#xywh=3152,4380,1,1",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "治",
+                                        "format": "text/plain",
+                                        "marker": {
+                                            "text": "治"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p44#xywh=1889,4403,1,1",
+                    "@type": "sc:Canvas",
+                    "label": "KuroNet OCR Result",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://mp.ex.nii.ac.jp/api/kuronet/curation/659d8d72d586e800a193921a4256b41e0435d014/annotation/9",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p44#xywh=1889,4403,1,1",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "附",
+                                        "format": "text/plain",
+                                        "marker": {
+                                            "text": "附"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p44#xywh=3289,4533,1,1",
+                    "@type": "sc:Canvas",
+                    "label": "KuroNet OCR Result",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://mp.ex.nii.ac.jp/api/kuronet/curation/659d8d72d586e800a193921a4256b41e0435d014/annotation/10",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p44#xywh=3289,4533,1,1",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "ヲ",
+                                        "format": "text/plain",
+                                        "marker": {
+                                            "text": "ヲ"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p44#xywh=3155,4570,1,1",
+                    "@type": "sc:Canvas",
+                    "label": "KuroNet OCR Result",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://mp.ex.nii.ac.jp/api/kuronet/curation/659d8d72d586e800a193921a4256b41e0435d014/annotation/11",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p44#xywh=3155,4570,1,1",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "茸",
+                                        "format": "text/plain",
+                                        "marker": {
+                                            "text": "茸"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p44#xywh=3161,4691,1,1",
+                    "@type": "sc:Canvas",
+                    "label": "KuroNet OCR Result",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://mp.ex.nii.ac.jp/api/kuronet/curation/659d8d72d586e800a193921a4256b41e0435d014/annotation/12",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p44#xywh=3161,4691,1,1",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "月",
+                                        "format": "text/plain",
+                                        "marker": {
+                                            "text": "月"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p44#xywh=3164,4755,1,1",
+                    "@type": "sc:Canvas",
+                    "label": "KuroNet OCR Result",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://mp.ex.nii.ac.jp/api/kuronet/curation/659d8d72d586e800a193921a4256b41e0435d014/annotation/13",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p44#xywh=3164,4755,1,1",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "十",
+                                        "format": "text/plain",
+                                        "marker": {
+                                            "text": "十"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p44#xywh=3164,4809,1,1",
+                    "@type": "sc:Canvas",
+                    "label": "KuroNet OCR Result",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://mp.ex.nii.ac.jp/api/kuronet/curation/659d8d72d586e800a193921a4256b41e0435d014/annotation/14",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p44#xywh=3164,4809,1,1",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "六",
+                                        "format": "text/plain",
+                                        "marker": {
+                                            "text": "六"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "within": {
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/manifest",
+                "@type": "sc:Manifest",
+                "label": "捃拾帖 五四"
+            }
+        }
+    ],
+    "viewingHint": "annotation"
+}

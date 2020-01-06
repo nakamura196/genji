@@ -1,0 +1,1464 @@
+
+<!DOCTYPE html>
+<head>
+<script async="async" src="https://www.googletagmanager.com/gtag/js?id=UA-89206154-23"></script><script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	
+	gtag('config', 'UA-89206154-23');
+      </script><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>ダッシュボード | KuroNetくずし字認識サービス</title>
+<meta name="copyright" content="Copyright (C) 2019 Center for Open Data in the Humanities. All Rights Reserved.">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-app.js"></script><script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-auth.js"></script><script src="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.js"></script><link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script><script src="/honoka/js/bootstrap.min.js"></script><link rel="stylesheet" type="text/css" href="/honoka/css/bootstrap.min.css">
+<script src="/js/codh.js"></script><script src="/kuronet/dashboard.js"></script>
+</head><body>
+<header class="bd-navbar navbar navbar-expand navbar-dark bg-dark container-fluid"><a href="http://mp.ex.nii.ac.jp/kuronet/" class="navbar-brand">KuroNetサービス</a><div class="navbar-collapse collapse">
+<ul class="navbar-nav bd-navbar-nav flex-row">
+<li class="nav-item"><a class="nav-link" href="http://codh.rois.ac.jp/kuronet/">KuroNet</a></li>
+<li class="nav-item"><a class="nav-link" href="http://codh.rois.ac.jp/kuzushiji-ocr/">くずし字OCR</a></li>
+<li class="nav-item"><a class="nav-link" href="http://codh.rois.ac.jp/">CODH</a></li>
+</ul>
+<div class="dropdown ml-auto">
+<button type="button" id="dropdownMenuButton" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span id="firebase-name">ログインして下さい</span><span class="caret"></span></button><div class="dropdown-menu" aria-labelledby="dropdownMenuButton" style="z-index:9999"><a href="/kuronet/login/" id="sign-in">ログイン</a></div>
+</div>
+</div></header><div class="container-fluid"><div class="page-header" id="banner"><div class="row my-4"><div class="col-12"><h1 class="bd-title">ダッシュボード (中村覚)</h1></div></div></div></div>
+<div class="container"><table class="table">
+<thead>
+<th></th>
+<th>画像</th>
+<th>画像登録日時</th>
+<th>OCR予約</th>
+<th>OCR予約日時</th>
+<th>OCR完了日時</th>
+<th>OCR結果</th>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/4c7f22cf-9fe1-5405-1f3a-c53b39e3a45e/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/4c7f22cf-9fe1-5405-1f3a-c53b39e3a45e/canvas/p7&amp;xywh=1096,1028,2368,2960"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/02/02_0007.tif/1096,1028,2368,2960/100,/0/default.jpg"></a></td>
+<td>2020-01-07 00:00:05</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=e28a0864ad75431326843b80d4418ef4a7c4c540">OCR予約</a></td>
+<td>2020-01-07 00:00:40</td>
+<td>2020-01-07 00:01:11</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/e28a0864ad75431326843b80d4418ef4a7c4c540">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>2</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/4c7f22cf-9fe1-5405-1f3a-c53b39e3a45e/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/4c7f22cf-9fe1-5405-1f3a-c53b39e3a45e/canvas/p7&amp;xywh=3608,1028,2384,2960"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/02/02_0007.tif/3608,1028,2384,2960/100,/0/default.jpg"></a></td>
+<td>2020-01-06 23:59:56</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=afc943b2162f402ba505d021789b4a6106798f4d">OCR予約</a></td>
+<td>2020-01-07 00:00:37</td>
+<td>2020-01-07 00:01:01</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/afc943b2162f402ba505d021789b4a6106798f4d">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>3</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/4c7f22cf-9fe1-5405-1f3a-c53b39e3a45e/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/4c7f22cf-9fe1-5405-1f3a-c53b39e3a45e/canvas/p6&amp;xywh=1112,1004,2360,2968"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/02/02_0006.tif/1112,1004,2360,2968/100,/0/default.jpg"></a></td>
+<td>2020-01-06 23:59:40</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=c4fc6b7d396c86c24eab8937547a1b7e1cf917a7">OCR予約</a></td>
+<td>2020-01-07 00:00:34</td>
+<td>2020-01-07 00:00:52</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/c4fc6b7d396c86c24eab8937547a1b7e1cf917a7">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>4</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/4c7f22cf-9fe1-5405-1f3a-c53b39e3a45e/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/4c7f22cf-9fe1-5405-1f3a-c53b39e3a45e/canvas/p6&amp;xywh=3624,988,2384,3000"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/02/02_0006.tif/3624,988,2384,3000/100,/0/default.jpg"></a></td>
+<td>2020-01-06 23:59:31</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=b80c8ade92859c09f3c7b31d6dee896647c5cbac">OCR予約</a></td>
+<td>2020-01-07 00:00:30</td>
+<td>2020-01-07 00:00:42</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/b80c8ade92859c09f3c7b31d6dee896647c5cbac">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>5</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://www.dl.ndl.go.jp/api/iiif/1240757/manifest.json&amp;canvas=https://www.dl.ndl.go.jp/api/iiif/1240757/canvas/6&amp;xywh=506,420,2568,3208"><img src="https://www.dl.ndl.go.jp/api/iiif/1240757/R0000006/506,420,2568,3208/100,/0/default.jpg"></a></td>
+<td>2020-01-06 23:59:02</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=cee9af682653930135eb43d00d9b39deac624500">OCR予約</a></td>
+<td>2020-01-07 00:00:27</td>
+<td>2020-01-07 00:00:31</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/cee9af682653930135eb43d00d9b39deac624500">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>6</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://www.dl.ndl.go.jp/api/iiif/1240757/manifest.json&amp;canvas=https://www.dl.ndl.go.jp/api/iiif/1240757/canvas/6&amp;xywh=3474,468,2568,3208"><img src="https://www.dl.ndl.go.jp/api/iiif/1240757/R0000006/3474,468,2568,3208/100,/0/default.jpg"></a></td>
+<td>2020-01-06 23:58:53</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=84514c7c1549847d01bcf63efa624ff639190399">OCR予約</a></td>
+<td>2020-01-07 00:00:23</td>
+<td>2020-01-07 00:00:27</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/84514c7c1549847d01bcf63efa624ff639190399">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>7</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://www.dl.ndl.go.jp/api/iiif/1240757/manifest.json&amp;canvas=https://www.dl.ndl.go.jp/api/iiif/1240757/canvas/5&amp;xywh=602,444,2552,3208"><img src="https://www.dl.ndl.go.jp/api/iiif/1240757/R0000005/602,444,2552,3208/100,/0/default.jpg"></a></td>
+<td>2020-01-06 23:58:42</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=f315e3189e8162425316b067915509864f79848c">OCR予約</a></td>
+<td>2020-01-07 00:00:19</td>
+<td>2020-01-07 00:00:24</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/f315e3189e8162425316b067915509864f79848c">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>8</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://www.dl.ndl.go.jp/api/iiif/1240757/manifest.json&amp;canvas=https://www.dl.ndl.go.jp/api/iiif/1240757/canvas/5&amp;xywh=3538,532,2560,3128"><img src="https://www.dl.ndl.go.jp/api/iiif/1240757/R0000005/3538,532,2560,3128/100,/0/default.jpg"></a></td>
+<td>2020-01-06 23:58:29</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=28b8a09ec36cd30e4e657ae5a6f986073b75cf4f">OCR予約</a></td>
+<td>2020-01-07 00:00:10</td>
+<td>2020-01-07 00:00:15</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/28b8a09ec36cd30e4e657ae5a6f986073b75cf4f">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>9</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://www.dl.ndl.go.jp/api/iiif/1240757/manifest.json&amp;canvas=https://www.dl.ndl.go.jp/api/iiif/1240757/canvas/4&amp;xywh=568,500,2512,3208"><img src="https://www.dl.ndl.go.jp/api/iiif/1240757/R0000004/568,500,2512,3208/100,/0/default.jpg"></a></td>
+<td>2019-12-21 19:00:06</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=f7178068bfff9874cbed71edcb31dc51f1f66a97">OCR予約</a></td>
+<td>2020-01-06 23:10:43</td>
+<td>2020-01-06 23:10:48</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/f7178068bfff9874cbed71edcb31dc51f1f66a97">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>10</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://www.dl.ndl.go.jp/api/iiif/1240757/manifest.json&amp;canvas=https://www.dl.ndl.go.jp/api/iiif/1240757/canvas/4&amp;xywh=3576,540,2408,3176"><img src="https://www.dl.ndl.go.jp/api/iiif/1240757/R0000004/3576,540,2408,3176/100,/0/default.jpg"></a></td>
+<td>2019-12-21 19:00:00</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=172e45faf1c090d2dddf46b25166f6116d6b9eaa">OCR予約</a></td>
+<td>2019-12-21 19:03:51</td>
+<td>2019-12-21 19:03:59</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/172e45faf1c090d2dddf46b25166f6116d6b9eaa">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>11</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://www.dl.ndl.go.jp/api/iiif/1240757/manifest.json&amp;canvas=https://www.dl.ndl.go.jp/api/iiif/1240757/canvas/3&amp;xywh=592,588,2448,3032"><img src="https://www.dl.ndl.go.jp/api/iiif/1240757/R0000003/592,588,2448,3032/100,/0/default.jpg"></a></td>
+<td>2019-12-21 18:57:12</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=e3ad95b2052451832fb7fbc05b4706abc7ec55a3">OCR予約</a></td>
+<td>2019-12-21 18:57:18</td>
+<td>2019-12-21 18:57:26</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/e3ad95b2052451832fb7fbc05b4706abc7ec55a3">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>12</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/4c7f22cf-9fe1-5405-1f3a-c53b39e3a45e/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/4c7f22cf-9fe1-5405-1f3a-c53b39e3a45e/canvas/p5&amp;xywh=1104,1076,2392,2928"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/02/02_0005.tif/1104,1076,2392,2928/100,/0/default.jpg"></a></td>
+<td>2019-12-18 00:03:53</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=f3ac817df60b324dad54e7339a0b10a5e8fdc287">OCR予約</a></td>
+<td>2019-12-18 00:15:04</td>
+<td>2019-12-19 20:57:00</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/f3ac817df60b324dad54e7339a0b10a5e8fdc287">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>13</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/4c7f22cf-9fe1-5405-1f3a-c53b39e3a45e/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/4c7f22cf-9fe1-5405-1f3a-c53b39e3a45e/canvas/p5&amp;xywh=3624,1012,2392,2992"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/02/02_0005.tif/3624,1012,2392,2992/100,/0/default.jpg"></a></td>
+<td>2019-12-18 00:03:43</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=8cebf8966ac92ef6662913b562f8d86b1a8430ed">OCR予約</a></td>
+<td>2019-12-18 00:05:38</td>
+<td>2019-12-19 20:56:37</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/8cebf8966ac92ef6662913b562f8d86b1a8430ed">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>14</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/4c7f22cf-9fe1-5405-1f3a-c53b39e3a45e/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/4c7f22cf-9fe1-5405-1f3a-c53b39e3a45e/canvas/p4&amp;xywh=1104,1028,2384,2984"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/02/02_0004.tif/1104,1028,2384,2984/100,/0/default.jpg"></a></td>
+<td>2019-12-18 00:03:30</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=b649c56d1033fad84c121a23902094ee868c837a">OCR予約</a></td>
+<td>2019-12-18 00:15:38</td>
+<td>2019-12-19 20:57:07</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/b649c56d1033fad84c121a23902094ee868c837a">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>15</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/4c7f22cf-9fe1-5405-1f3a-c53b39e3a45e/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/4c7f22cf-9fe1-5405-1f3a-c53b39e3a45e/canvas/p4&amp;xywh=3624,996,2400,3024"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/02/02_0004.tif/3624,996,2400,3024/100,/0/default.jpg"></a></td>
+<td>2019-12-18 00:03:22</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=06a099b0b6026f790bb5bf22487c7b609aa95346">OCR予約</a></td>
+<td>2019-12-18 00:14:08</td>
+<td>2019-12-19 20:56:53</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/06a099b0b6026f790bb5bf22487c7b609aa95346">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>16</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/4c7f22cf-9fe1-5405-1f3a-c53b39e3a45e/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/4c7f22cf-9fe1-5405-1f3a-c53b39e3a45e/canvas/p3&amp;xywh=1136,1052,2368,2920"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/02/02_0003.tif/1136,1052,2368,2920/100,/0/default.jpg"></a></td>
+<td>2019-12-18 00:02:45</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=eb91845db37599af55f898503ff74e8d7a9e1c36">OCR予約</a></td>
+<td>2019-12-18 00:10:41</td>
+<td>2019-12-19 20:56:44</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/eb91845db37599af55f898503ff74e8d7a9e1c36">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>17</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://kotenseki.nijl.ac.jp/biblio/200003299/manifest&amp;canvas=https://kotenseki.nijl.ac.jp/biblio/200003299/canvas/1&amp;xywh=536,221,1402,3424"><img src="https://kotenseki.nijl.ac.jp/api/iiif/200003299/v4/0035/0035-006707/0035-006707-0001.tif/536,221,1402,3424/100,/0/default.jpg"></a></td>
+<td>2019-12-11 23:01:57</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=15816a24f7f7db32d0554dea6a51c3d9308e8c18">OCR予約</a></td>
+<td>2019-12-11 23:02:00</td>
+<td>2019-12-11 23:02:03</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/15816a24f7f7db32d0554dea6a51c3d9308e8c18">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>18</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33&amp;xywh=4416,3100,2724,1773"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/kunshujou/A00_6010/055/055_0033.tif/4416,3100,2724,1773/100,/0/default.jpg"></a></td>
+<td>2019-11-28 15:39:26</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=d83b4d84b9ce0982e8bd4ea3bdc831dd82d29916">OCR予約</a></td>
+<td>2019-11-28 15:39:28</td>
+<td>2019-11-28 15:39:35</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/d83b4d84b9ce0982e8bd4ea3bdc831dd82d29916">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>19</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p44&amp;xywh=1536,3522,1773,1773"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/kunshujou/A00_6010/055/055_0044.tif/1536,3522,1773,1773/100,/0/default.jpg"></a></td>
+<td>2019-11-28 15:33:41</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=659d8d72d586e800a193921a4256b41e0435d014">OCR予約</a></td>
+<td>2019-11-28 15:33:44</td>
+<td>2019-11-28 15:33:49</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/659d8d72d586e800a193921a4256b41e0435d014">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>20</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/fe453878-946c-4b2b-bdc8-e0ca25c6cc7a/canvas/p33&amp;xywh=1232,992,2664,3752"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/kunshujou/A00_6010/055/055_0033.tif/1232,992,2664,3752/100,/0/default.jpg"></a></td>
+<td>2019-11-28 15:31:52</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=02a61dbcaf13bbbd26d6e9e862aed1f161e40d8d">OCR予約</a></td>
+<td>2019-11-28 15:31:57</td>
+<td>2019-11-28 15:32:07</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/02a61dbcaf13bbbd26d6e9e862aed1f161e40d8d">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>21</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/d230f1f8-5929-4138-bb28-1108d77fd32a/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/d230f1f8-5929-4138-bb28-1108d77fd32a/canvas/p3&amp;xywh=848,624,1528,2264"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/kunshujou/A00_6010/001/001_0003.tif/848,624,1528,2264/100,/0/default.jpg"></a></td>
+<td>2019-11-15 14:28:02</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=6cadd0acc1706854f1873e218559924efc40398a">OCR予約</a></td>
+<td>2019-11-15 14:28:05</td>
+<td>2019-11-15 14:28:11</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/6cadd0acc1706854f1873e218559924efc40398a">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>22</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=http://codh.rois.ac.jp/pmjt/book/200003080/manifest.json&amp;canvas=http://codh.rois.ac.jp/pmjt/iiif/200003080/canvas/00006&amp;xywh=5496,525,1405,1405"><img src="http://codh.rois.ac.jp/pmjt/iiif/200003080/200003080_00006.tif/5496,525,1405,1405/100,/0/default.jpg"></a></td>
+<td>2019-11-14 14:53:19</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=91736f81734345718c3a1b4da1f1f9b87d6e2ce2">OCR予約</a></td>
+<td>2019-11-14 14:53:24</td>
+<td>2019-11-14 14:53:26</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/91736f81734345718c3a1b4da1f1f9b87d6e2ce2">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>23</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=http://codh.rois.ac.jp/pmjt/book/200003080/manifest.json&amp;canvas=http://codh.rois.ac.jp/pmjt/iiif/200003080/canvas/00006&amp;xywh=2000,477,4072,3624"><img src="http://codh.rois.ac.jp/pmjt/iiif/200003080/200003080_00006.tif/2000,477,4072,3624/100,/0/default.jpg"></a></td>
+<td>2019-11-14 14:49:01</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=ad2b5d002b10caa20e017f46df63da38250e4f91">OCR予約</a></td>
+<td>2019-11-14 14:49:50</td>
+<td>2019-11-14 14:49:56</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/ad2b5d002b10caa20e017f46df63da38250e4f91">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>24</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p31&amp;xywh=3576,1160,2400,2920"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0031.tif/3576,1160,2400,2920/100,/0/default.jpg"></a></td>
+<td>2019-11-13 00:18:54</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=06869c44f1fb56b1d28957bcc4cf7d35f80b851e">OCR予約</a></td>
+<td>2019-11-13 00:19:48</td>
+<td>2019-11-13 00:19:55</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/06869c44f1fb56b1d28957bcc4cf7d35f80b851e">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>25</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p30&amp;xywh=1040,1192,2344,2872"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0030.tif/1040,1192,2344,2872/100,/0/default.jpg"></a></td>
+<td>2019-11-13 00:18:47</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=3f7bb3928cb57d8fe38fbec046bc278bde43dd2d">OCR予約</a></td>
+<td>2019-11-13 00:20:08</td>
+<td>2019-11-13 00:20:16</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/3f7bb3928cb57d8fe38fbec046bc278bde43dd2d">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>26</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p30&amp;xywh=3592,1184,2360,2920"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0030.tif/3592,1184,2360,2920/100,/0/default.jpg"></a></td>
+<td>2019-11-13 00:18:38</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=21b2685166476473dd562664d5d6f92e6a7b870a">OCR予約</a></td>
+<td>2019-11-13 00:20:28</td>
+<td>2019-11-13 00:20:35</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/21b2685166476473dd562664d5d6f92e6a7b870a">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>27</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p29&amp;xywh=1032,1176,2368,2880"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0029.tif/1032,1176,2368,2880/100,/0/default.jpg"></a></td>
+<td>2019-11-13 00:18:30</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=390ffa80342536201cb7f2cd04fc7aff073c24f1">OCR予約</a></td>
+<td>2019-11-13 00:21:06</td>
+<td>2019-11-13 00:21:13</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/390ffa80342536201cb7f2cd04fc7aff073c24f1">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>28</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p29&amp;xywh=3544,1152,2440,2944"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0029.tif/3544,1152,2440,2944/100,/0/default.jpg"></a></td>
+<td>2019-11-13 00:18:22</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=58f41eb52fa1c5b00e0fa656b2f2bf5e695a39ca">OCR予約</a></td>
+<td>2019-11-13 00:21:18</td>
+<td>2019-11-13 00:21:25</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/58f41eb52fa1c5b00e0fa656b2f2bf5e695a39ca">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>29</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p28&amp;xywh=1024,1160,2392,2912"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0028.tif/1024,1160,2392,2912/100,/0/default.jpg"></a></td>
+<td>2019-11-13 00:18:17</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=33b91544b4bee20fa1bc045a7e0c4072218e61d5">OCR予約</a></td>
+<td>2019-11-13 00:21:34</td>
+<td>2019-11-13 00:21:40</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/33b91544b4bee20fa1bc045a7e0c4072218e61d5">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>30</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p28&amp;xywh=3544,1168,2424,2912"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0028.tif/3544,1168,2424,2912/100,/0/default.jpg"></a></td>
+<td>2019-11-13 00:18:11</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=876f2e1f5a2ac7775085b6d9994a376d3088f036">OCR予約</a></td>
+<td>2019-11-13 00:21:47</td>
+<td>2019-11-13 00:21:54</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/876f2e1f5a2ac7775085b6d9994a376d3088f036">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>31</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p27&amp;xywh=1024,1168,2424,2888"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0027.tif/1024,1168,2424,2888/100,/0/default.jpg"></a></td>
+<td>2019-11-13 00:17:59</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=fabf236b61d52f958ab47d5235eea3470de8bac4">OCR予約</a></td>
+<td>2019-11-13 00:22:02</td>
+<td>2019-11-13 00:22:10</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/fabf236b61d52f958ab47d5235eea3470de8bac4">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>32</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p27&amp;xywh=3584,1168,2400,2920"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0027.tif/3584,1168,2400,2920/100,/0/default.jpg"></a></td>
+<td>2019-11-13 00:17:55</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=dba6166252e9e66f80cea656d9cd31b1e7629080">OCR予約</a></td>
+<td>2019-11-13 00:22:14</td>
+<td>2019-11-13 00:22:21</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/dba6166252e9e66f80cea656d9cd31b1e7629080">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>33</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p26&amp;xywh=1040,1168,2344,2920"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0026.tif/1040,1168,2344,2920/100,/0/default.jpg"></a></td>
+<td>2019-11-13 00:16:32</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=bde6723b9d42467812dbb1fa3491d65bac292b38">OCR予約</a></td>
+<td>2019-11-13 00:16:53</td>
+<td>2019-11-13 00:17:00</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/bde6723b9d42467812dbb1fa3491d65bac292b38">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>34</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p26&amp;xywh=3560,1152,2416,2920"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0026.tif/3560,1152,2416,2920/100,/0/default.jpg"></a></td>
+<td>2019-11-13 00:16:25</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=cd7e49cc63529005d5147428f71771007d21870d">OCR予約</a></td>
+<td>2019-11-13 00:17:36</td>
+<td>2019-11-13 00:17:44</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/cd7e49cc63529005d5147428f71771007d21870d">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>35</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p25&amp;xywh=1056,1152,2368,2928"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0025.tif/1056,1152,2368,2928/100,/0/default.jpg"></a></td>
+<td>2019-11-13 00:16:15</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=59c1d9cef03d7e571ee7c41cd439203d063c1035">OCR予約</a></td>
+<td>2019-11-13 00:17:57</td>
+<td>2019-11-13 00:18:03</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/59c1d9cef03d7e571ee7c41cd439203d063c1035">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>36</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p25&amp;xywh=3576,1144,2400,2960"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0025.tif/3576,1144,2400,2960/100,/0/default.jpg"></a></td>
+<td>2019-11-13 00:16:07</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=b127545071565b0e39645296be231e9f3c81604a">OCR予約</a></td>
+<td>2019-11-13 00:18:19</td>
+<td>2019-11-13 00:18:26</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/b127545071565b0e39645296be231e9f3c81604a">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>37</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p24&amp;xywh=1032,1144,2400,2920"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0024.tif/1032,1144,2400,2920/100,/0/default.jpg"></a></td>
+<td>2019-11-13 00:15:58</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=b0cab31b9f45720524107b299019404296a4ed07">OCR予約</a></td>
+<td>2019-11-13 00:18:40</td>
+<td>2019-11-13 00:18:47</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/b0cab31b9f45720524107b299019404296a4ed07">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>38</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p24&amp;xywh=3568,1152,2416,2952"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0024.tif/3568,1152,2416,2952/100,/0/default.jpg"></a></td>
+<td>2019-11-13 00:15:51</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=c61b313f5123ecd9071d6308f19c1aae6e4d54a1">OCR予約</a></td>
+<td>2019-11-13 00:19:04</td>
+<td>2019-11-13 00:19:11</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/c61b313f5123ecd9071d6308f19c1aae6e4d54a1">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>39</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p23&amp;xywh=1048,1136,2408,2984"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0023.tif/1048,1136,2408,2984/100,/0/default.jpg"></a></td>
+<td>2019-11-13 00:15:42</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=00a00ebda0210fac23a74d89676889d5528661f7">OCR予約</a></td>
+<td>2019-11-13 00:22:28</td>
+<td>2019-11-13 00:22:36</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/00a00ebda0210fac23a74d89676889d5528661f7">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>40</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p23&amp;xywh=3592,1152,2384,2928"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0023.tif/3592,1152,2384,2928/100,/0/default.jpg"></a></td>
+<td>2019-11-13 00:15:33</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=eaea0a1b6364a88d706beb573b6137179a709043">OCR予約</a></td>
+<td>2019-11-13 00:22:44</td>
+<td>2019-11-13 00:22:52</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/eaea0a1b6364a88d706beb573b6137179a709043">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>41</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p22&amp;xywh=1056,1160,2384,2944"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0022.tif/1056,1160,2384,2944/100,/0/default.jpg"></a></td>
+<td>2019-11-13 00:15:25</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=9ad342ac371d0d7d647f3a77aaec08c51e17ca48">OCR予約</a></td>
+<td>2019-11-13 00:22:59</td>
+<td>2019-11-13 00:23:06</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/9ad342ac371d0d7d647f3a77aaec08c51e17ca48">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>42</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p22&amp;xywh=3584,1144,2424,2920"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0022.tif/3584,1144,2424,2920/100,/0/default.jpg"></a></td>
+<td>2019-11-13 00:15:16</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=a0616681672887a217e1d865ad0740cf7a2c35b0">OCR予約</a></td>
+<td>2019-11-13 00:23:11</td>
+<td>2019-11-13 00:23:19</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/a0616681672887a217e1d865ad0740cf7a2c35b0">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>43</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p21&amp;xywh=1096,1144,2352,2928"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0021.tif/1096,1144,2352,2928/100,/0/default.jpg"></a></td>
+<td>2019-11-13 00:15:08</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=cd12c76c13424c0585037e6b956ac2204afa60ac">OCR予約</a></td>
+<td>2019-11-13 00:23:23</td>
+<td>2019-11-13 00:23:30</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/cd12c76c13424c0585037e6b956ac2204afa60ac">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>44</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p21&amp;xywh=3584,1144,2424,2912"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0021.tif/3584,1144,2424,2912/100,/0/default.jpg"></a></td>
+<td>2019-11-13 00:15:00</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=2bec03590add7a521ec2088043a33bafde428ca3">OCR予約</a></td>
+<td>2019-11-13 00:23:33</td>
+<td>2019-11-13 00:23:41</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/2bec03590add7a521ec2088043a33bafde428ca3">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>45</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p20&amp;xywh=1080,1176,2360,2912"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0020.tif/1080,1176,2360,2912/100,/0/default.jpg"></a></td>
+<td>2019-11-13 00:14:52</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=ce3ddb40a11b72bb9d86621814581102f90fd8c7">OCR予約</a></td>
+<td>2019-11-13 00:23:44</td>
+<td>2019-11-13 00:23:51</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/ce3ddb40a11b72bb9d86621814581102f90fd8c7">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>46</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p20&amp;xywh=3592,1152,2416,2928"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0020.tif/3592,1152,2416,2928/100,/0/default.jpg"></a></td>
+<td>2019-11-13 00:14:44</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=1c166b7d6138cef392fadf8d4cc940e48e0f15c3">OCR予約</a></td>
+<td>2019-11-13 00:23:54</td>
+<td>2019-11-13 00:24:02</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/1c166b7d6138cef392fadf8d4cc940e48e0f15c3">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>47</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p19&amp;xywh=1080,1168,2352,2904"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0019.tif/1080,1168,2352,2904/100,/0/default.jpg"></a></td>
+<td>2019-11-13 00:14:36</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=7da3faac27fbcb5da04747852313f3c7241efaaf">OCR予約</a></td>
+<td>2019-11-13 00:24:04</td>
+<td>2019-11-13 00:24:11</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/7da3faac27fbcb5da04747852313f3c7241efaaf">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>48</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p19&amp;xywh=3600,1192,2400,2880"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0019.tif/3600,1192,2400,2880/100,/0/default.jpg"></a></td>
+<td>2019-11-13 00:14:27</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=9931db9f1acd1caa9d730164d24457183f376521">OCR予約</a></td>
+<td>2019-11-13 00:24:15</td>
+<td>2019-11-13 00:24:22</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/9931db9f1acd1caa9d730164d24457183f376521">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>49</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p18&amp;xywh=1064,1160,2360,2872"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0018.tif/1064,1160,2360,2872/100,/0/default.jpg"></a></td>
+<td>2019-11-13 00:14:13</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=2675f9810e4ac69d26e433ad06a560b88af8d3ea">OCR予約</a></td>
+<td>2019-11-13 00:24:25</td>
+<td>2019-11-13 00:24:32</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/2675f9810e4ac69d26e433ad06a560b88af8d3ea">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>50</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p18&amp;xywh=3616,1184,2392,2880"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0018.tif/3616,1184,2392,2880/100,/0/default.jpg"></a></td>
+<td>2019-11-13 00:14:08</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=9cc1a8a81d2b7d661c5f6ea66beeda483a7609c3">OCR予約</a></td>
+<td>2019-11-13 00:24:39</td>
+<td>2019-11-13 00:24:46</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/9cc1a8a81d2b7d661c5f6ea66beeda483a7609c3">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>51</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p17&amp;xywh=1064,1184,2360,2880"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0017.tif/1064,1184,2360,2880/100,/0/default.jpg"></a></td>
+<td>2019-11-13 00:13:53</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=9e2291ac1864d50a11a85f596ea1d35858a2e680">OCR予約</a></td>
+<td>2019-11-13 00:25:12</td>
+<td>2019-11-13 00:25:19</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/9e2291ac1864d50a11a85f596ea1d35858a2e680">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>52</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p17&amp;xywh=3624,1144,2360,2920"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0017.tif/3624,1144,2360,2920/100,/0/default.jpg"></a></td>
+<td>2019-11-13 00:13:49</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=ef84983cf9101bc2d92d196373920f7398d7146f">OCR予約</a></td>
+<td>2019-11-13 00:25:23</td>
+<td>2019-11-13 00:25:30</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/ef84983cf9101bc2d92d196373920f7398d7146f">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>53</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p16&amp;xywh=1080,1176,2376,2896"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0016.tif/1080,1176,2376,2896/100,/0/default.jpg"></a></td>
+<td>2019-11-13 00:13:38</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=7c1bb3317a2d619b6f9d1475a4e3585377fb3191">OCR予約</a></td>
+<td>2019-11-13 00:25:33</td>
+<td>2019-11-13 00:25:41</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/7c1bb3317a2d619b6f9d1475a4e3585377fb3191">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>54</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p16&amp;xywh=3608,1128,2384,2952"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0016.tif/3608,1128,2384,2952/100,/0/default.jpg"></a></td>
+<td>2019-11-13 00:13:37</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=924e3d089a4b48de3320a53cbba20b24896f827b">OCR予約</a></td>
+<td>2019-11-13 00:25:43</td>
+<td>2019-11-13 00:25:50</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/924e3d089a4b48de3320a53cbba20b24896f827b">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>55</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p15&amp;xywh=1088,1168,2352,2896"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0015.tif/1088,1168,2352,2896/100,/0/default.jpg"></a></td>
+<td>2019-11-13 00:13:08</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=e056900d475fcbb3606faec189df7ebc9db9c246">OCR予約</a></td>
+<td>2019-11-13 00:25:54</td>
+<td>2019-11-13 00:26:01</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/e056900d475fcbb3606faec189df7ebc9db9c246">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>56</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p15&amp;xywh=3616,1112,2432,3016"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0015.tif/3616,1112,2432,3016/100,/0/default.jpg"></a></td>
+<td>2019-11-13 00:12:58</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=1f431c4b8d8d459b3381e3cc21633ed2450dea8b">OCR予約</a></td>
+<td>2019-11-13 00:26:04</td>
+<td>2019-11-13 00:26:11</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/1f431c4b8d8d459b3381e3cc21633ed2450dea8b">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>57</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p14&amp;xywh=1080,1152,2352,2896"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0014.tif/1080,1152,2352,2896/100,/0/default.jpg"></a></td>
+<td>2019-11-13 00:12:50</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=b1490ae29d7ff4dd28a4a1702c5628c4a89e236a">OCR予約</a></td>
+<td>2019-11-13 00:26:59</td>
+<td>2019-11-13 00:27:06</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/b1490ae29d7ff4dd28a4a1702c5628c4a89e236a">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>58</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p14&amp;xywh=3624,1176,2400,2912"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0014.tif/3624,1176,2400,2912/100,/0/default.jpg"></a></td>
+<td>2019-11-13 00:12:42</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=3d3b53d30b6637306a7cebb1fcfbcf735cf7d32e">OCR予約</a></td>
+<td>2019-11-13 00:29:19</td>
+<td>2019-11-13 00:29:25</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/3d3b53d30b6637306a7cebb1fcfbcf735cf7d32e">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>59</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p13&amp;xywh=1104,1152,2344,2912"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0013.tif/1104,1152,2344,2912/100,/0/default.jpg"></a></td>
+<td>2019-11-13 00:12:35</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=add3a3b402051545d2da48be3b9096a62ad83709">OCR予約</a></td>
+<td>2019-11-13 00:29:30</td>
+<td>2019-11-13 00:29:37</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/add3a3b402051545d2da48be3b9096a62ad83709">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>60</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p13&amp;xywh=3624,1160,2400,2872"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0013.tif/3624,1160,2400,2872/100,/0/default.jpg"></a></td>
+<td>2019-11-13 00:12:27</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=73b31891fb9074b02f01469ccf132e2548445e67">OCR予約</a></td>
+<td>2019-11-13 00:29:40</td>
+<td>2019-11-13 00:29:47</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/73b31891fb9074b02f01469ccf132e2548445e67">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>61</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p12&amp;xywh=1088,1168,2400,2848"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0012.tif/1088,1168,2400,2848/100,/0/default.jpg"></a></td>
+<td>2019-11-13 00:12:19</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=e977572c878c288917e923e485cfadfd05dcb2e7">OCR予約</a></td>
+<td>2019-11-13 00:29:51</td>
+<td>2019-11-13 00:29:57</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/e977572c878c288917e923e485cfadfd05dcb2e7">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>62</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p12&amp;xywh=3632,1144,2400,2920"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0012.tif/3632,1144,2400,2920/100,/0/default.jpg"></a></td>
+<td>2019-11-13 00:12:09</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=65269e8dc0a13eefe6dbeb79b38434b4d839248b">OCR予約</a></td>
+<td>2019-11-13 00:30:01</td>
+<td>2019-11-13 00:30:08</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/65269e8dc0a13eefe6dbeb79b38434b4d839248b">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>63</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p11&amp;xywh=1096,1168,2360,2896"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0011.tif/1096,1168,2360,2896/100,/0/default.jpg"></a></td>
+<td>2019-11-13 00:12:01</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=ee4d1dabe849bd37696dd04783570d5f189da287">OCR予約</a></td>
+<td>2019-11-13 00:30:12</td>
+<td>2019-11-13 00:30:19</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/ee4d1dabe849bd37696dd04783570d5f189da287">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>64</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p11&amp;xywh=3640,1192,2392,2824"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0011.tif/3640,1192,2392,2824/100,/0/default.jpg"></a></td>
+<td>2019-11-13 00:11:52</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=64a94c4cc2a4f40c180323ce12b6e0a058a8c66d">OCR予約</a></td>
+<td>2019-11-13 00:30:23</td>
+<td>2019-11-13 00:30:30</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/64a94c4cc2a4f40c180323ce12b6e0a058a8c66d">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>65</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p10&amp;xywh=1104,1168,2360,2888"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0010.tif/1104,1168,2360,2888/100,/0/default.jpg"></a></td>
+<td>2019-11-13 00:11:43</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=7a9192a4b0e98543fee5b93d3ad99e884ecceb7b">OCR予約</a></td>
+<td>2019-11-13 00:30:34</td>
+<td>2019-11-13 00:30:42</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/7a9192a4b0e98543fee5b93d3ad99e884ecceb7b">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>66</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p10&amp;xywh=3640,1160,2384,2904"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0010.tif/3640,1160,2384,2904/100,/0/default.jpg"></a></td>
+<td>2019-11-13 00:11:35</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=83805864bf6fb9202a2d70a530705c197d135cec">OCR予約</a></td>
+<td>2019-11-13 00:30:45</td>
+<td>2019-11-13 00:30:52</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/83805864bf6fb9202a2d70a530705c197d135cec">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>67</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p9&amp;xywh=1120,1168,2344,2880"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0009.tif/1120,1168,2344,2880/100,/0/default.jpg"></a></td>
+<td>2019-11-13 00:11:27</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=8d58665c925b3876d000273006156a26bda62288">OCR予約</a></td>
+<td>2019-11-13 00:30:56</td>
+<td>2019-11-13 00:31:03</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/8d58665c925b3876d000273006156a26bda62288">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>68</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p9&amp;xywh=3664,1144,2352,2920"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0009.tif/3664,1144,2352,2920/100,/0/default.jpg"></a></td>
+<td>2019-11-13 00:11:18</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=b300b8954a41943290d1b6af2506f75d7e54d396">OCR予約</a></td>
+<td>2019-11-13 00:31:10</td>
+<td>2019-11-13 00:31:18</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/b300b8954a41943290d1b6af2506f75d7e54d396">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>69</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p8&amp;xywh=1120,1144,2352,2880"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0008.tif/1120,1144,2352,2880/100,/0/default.jpg"></a></td>
+<td>2019-11-13 00:11:10</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=7fdb785fa240c56a0270f0fa86d839bb946c76af">OCR予約</a></td>
+<td>2019-11-13 00:31:25</td>
+<td>2019-11-13 00:31:32</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/7fdb785fa240c56a0270f0fa86d839bb946c76af">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>70</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p8&amp;xywh=3592,1128,2432,2904"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0008.tif/3592,1128,2432,2904/100,/0/default.jpg"></a></td>
+<td>2019-11-13 00:11:02</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=90e37e646b373d1ecc72d5735cc53f23ce190c1d">OCR予約</a></td>
+<td>2019-11-13 00:31:38</td>
+<td>2019-11-13 00:31:45</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/90e37e646b373d1ecc72d5735cc53f23ce190c1d">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>71</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p7&amp;xywh=1112,1128,2360,2928"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0007.tif/1112,1128,2360,2928/100,/0/default.jpg"></a></td>
+<td>2019-11-13 00:10:50</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=0bdd6f4e6b6e0b24e0fd62e1134def885edea7e5">OCR予約</a></td>
+<td>2019-11-13 00:31:49</td>
+<td>2019-11-13 00:31:56</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/0bdd6f4e6b6e0b24e0fd62e1134def885edea7e5">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>72</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p7&amp;xywh=3640,1144,2384,2936"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0007.tif/3640,1144,2384,2936/100,/0/default.jpg"></a></td>
+<td>2019-11-13 00:10:41</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=f92c70b37f2604a68d644b347d240fc985454290">OCR予約</a></td>
+<td>2019-11-13 00:32:01</td>
+<td>2019-11-13 00:32:07</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/f92c70b37f2604a68d644b347d240fc985454290">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>73</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p6&amp;xywh=1128,1160,2344,2872"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0006.tif/1128,1160,2344,2872/100,/0/default.jpg"></a></td>
+<td>2019-11-13 00:10:32</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=a94616799fee7614f3a1efab3595a45ab447246d">OCR予約</a></td>
+<td>2019-11-13 00:32:14</td>
+<td>2019-11-13 00:32:21</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/a94616799fee7614f3a1efab3595a45ab447246d">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>74</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p6&amp;xywh=1136,1104,2328,2976"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0006.tif/1136,1104,2328,2976/100,/0/default.jpg"></a></td>
+<td>2019-11-13 00:01:41</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=754caef4627a955ec5b818a4f6c239bc74485f34">OCR予約</a></td>
+<td>2019-11-13 00:02:15</td>
+<td>2019-11-13 00:02:22</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/754caef4627a955ec5b818a4f6c239bc74485f34">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>75</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p6&amp;xywh=3624,1136,2424,2952"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0006.tif/3624,1136,2424,2952/100,/0/default.jpg"></a></td>
+<td>2019-11-13 00:01:32</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=42a214359b68a8316c89da4106633a09b8efe0c9">OCR予約</a></td>
+<td>2019-11-13 00:02:35</td>
+<td>2019-11-13 00:02:42</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/42a214359b68a8316c89da4106633a09b8efe0c9">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>76</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p5&amp;xywh=1112,1120,2368,2952"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0005.tif/1112,1120,2368,2952/100,/0/default.jpg"></a></td>
+<td>2019-11-13 00:01:24</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=3f8c2218ae5172c056b1eb26af1474c7033bf4e2">OCR予約</a></td>
+<td>2019-11-13 00:02:56</td>
+<td>2019-11-13 00:03:02</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/3f8c2218ae5172c056b1eb26af1474c7033bf4e2">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>77</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p5&amp;xywh=3640,1128,2384,2912"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0005.tif/3640,1128,2384,2912/100,/0/default.jpg"></a></td>
+<td>2019-11-13 00:01:12</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=59adfc0cf57b01cdd4660a66cf28131078e2f14c">OCR予約</a></td>
+<td>2019-11-13 00:03:16</td>
+<td>2019-11-13 00:03:22</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/59adfc0cf57b01cdd4660a66cf28131078e2f14c">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>78</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4&amp;xywh=1136,1120,2328,2968"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0004.tif/1136,1120,2328,2968/100,/0/default.jpg"></a></td>
+<td>2019-11-13 00:01:02</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=0845d00d69152e861bb0f3e9cfc17a113d5a242e">OCR予約</a></td>
+<td>2019-11-13 00:03:37</td>
+<td>2019-11-13 00:03:44</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/0845d00d69152e861bb0f3e9cfc17a113d5a242e">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>79</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p31&amp;xywh=3600,1176,2360,2904"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0031.tif/3600,1176,2360,2904/100,/0/default.jpg"></a></td>
+<td>2019-11-12 23:13:46</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=fb60af58ce5f28e27d281b566f9c4f48e03521cb">OCR予約</a></td>
+<td>2019-11-12 23:22:24</td>
+<td>2019-11-12 23:22:35</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/fb60af58ce5f28e27d281b566f9c4f48e03521cb">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>80</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p30&amp;xywh=1024,1168,4952,2928"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0030.tif/1024,1168,4952,2928/100,/0/default.jpg"></a></td>
+<td>2019-11-12 23:13:37</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=9064ce99b500f13e44ae5d0b76c44f6ae1f0ba87">OCR予約</a></td>
+<td>2019-11-12 23:16:03</td>
+<td>2019-11-12 23:16:16</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/9064ce99b500f13e44ae5d0b76c44f6ae1f0ba87">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>81</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p29&amp;xywh=1032,1160,4928,2912"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0029.tif/1032,1160,4928,2912/100,/0/default.jpg"></a></td>
+<td>2019-11-12 23:13:28</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=036d9029f300ceb682c8deb9b5c1f31664549827">OCR予約</a></td>
+<td>2019-11-12 23:16:42</td>
+<td>2019-11-12 23:16:56</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/036d9029f300ceb682c8deb9b5c1f31664549827">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>82</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p28&amp;xywh=1016,1184,4952,2888"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0028.tif/1016,1184,4952,2888/100,/0/default.jpg"></a></td>
+<td>2019-11-12 23:13:06</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=c1c3e8bfa423adb1b8bfda50c3188f570e704ae9">OCR予約</a></td>
+<td>2019-11-12 23:16:54</td>
+<td>2019-11-12 23:17:07</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/c1c3e8bfa423adb1b8bfda50c3188f570e704ae9">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>83</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p27&amp;xywh=1048,1176,4904,2896"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0027.tif/1048,1176,4904,2896/100,/0/default.jpg"></a></td>
+<td>2019-11-12 23:12:49</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=78f61e57c63102cd267e4fc464e05da6339b40d7">OCR予約</a></td>
+<td>2019-11-12 23:17:05</td>
+<td>2019-11-12 23:17:20</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/78f61e57c63102cd267e4fc464e05da6339b40d7">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>84</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p26&amp;xywh=1048,1176,4928,2880"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0026.tif/1048,1176,4928,2880/100,/0/default.jpg"></a></td>
+<td>2019-11-12 23:12:24</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=77baf981bb8c74a41fad9445198baae92280932a">OCR予約</a></td>
+<td>2019-11-12 23:17:16</td>
+<td>2019-11-12 23:17:31</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/77baf981bb8c74a41fad9445198baae92280932a">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>85</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p25&amp;xywh=1048,1160,4928,2888"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0025.tif/1048,1160,4928,2888/100,/0/default.jpg"></a></td>
+<td>2019-11-12 23:12:10</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=69133724200941c713a751058a23e9768c5a4da5">OCR予約</a></td>
+<td>2019-11-12 23:17:28</td>
+<td>2019-11-12 23:17:43</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/69133724200941c713a751058a23e9768c5a4da5">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>86</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p24&amp;xywh=1048,1168,4928,2904"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0024.tif/1048,1168,4928,2904/100,/0/default.jpg"></a></td>
+<td>2019-11-12 23:11:56</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=bf5f4af706c3fff1281752228402523686c963a7">OCR予約</a></td>
+<td>2019-11-12 23:17:40</td>
+<td>2019-11-12 23:17:55</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/bf5f4af706c3fff1281752228402523686c963a7">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>87</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p23&amp;xywh=1072,1176,4952,2912"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0023.tif/1072,1176,4952,2912/100,/0/default.jpg"></a></td>
+<td>2019-11-12 23:11:40</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=16882b3dad8d0cc91f4e0f968fb776f3c6617fa2">OCR予約</a></td>
+<td>2019-11-12 23:17:53</td>
+<td>2019-11-12 23:18:08</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/16882b3dad8d0cc91f4e0f968fb776f3c6617fa2">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>88</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p22&amp;xywh=1064,1160,4928,2872"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0022.tif/1064,1160,4928,2872/100,/0/default.jpg"></a></td>
+<td>2019-11-12 23:11:12</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=2ba4775df9d682ff0d9e4fd30ed62c135f85c6f6">OCR予約</a></td>
+<td>2019-11-12 23:18:03</td>
+<td>2019-11-12 23:18:20</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/2ba4775df9d682ff0d9e4fd30ed62c135f85c6f6">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>89</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p21&amp;xywh=1088,1192,4912,2880"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0021.tif/1088,1192,4912,2880/100,/0/default.jpg"></a></td>
+<td>2019-11-12 23:10:56</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=5accd92c7acae96a74b016fcf9af966d14c97f01">OCR予約</a></td>
+<td>2019-11-12 23:18:14</td>
+<td>2019-11-12 23:18:31</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/5accd92c7acae96a74b016fcf9af966d14c97f01">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>90</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p20&amp;xywh=1080,1208,4896,2872"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0020.tif/1080,1208,4896,2872/100,/0/default.jpg"></a></td>
+<td>2019-11-12 23:10:42</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=03f988b1046f650e429c86af7523c45b06f70042">OCR予約</a></td>
+<td>2019-11-12 23:18:25</td>
+<td>2019-11-12 23:18:42</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/03f988b1046f650e429c86af7523c45b06f70042">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>91</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p19&amp;xywh=1088,1168,4896,2920"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0019.tif/1088,1168,4896,2920/100,/0/default.jpg"></a></td>
+<td>2019-11-12 23:10:28</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=18b9e3fa639e9c80cac78115e6c06a87a6b4ecc2">OCR予約</a></td>
+<td>2019-11-12 23:18:39</td>
+<td>2019-11-12 23:18:53</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/18b9e3fa639e9c80cac78115e6c06a87a6b4ecc2">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>92</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p18&amp;xywh=1056,1176,4952,2880"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0018.tif/1056,1176,4952,2880/100,/0/default.jpg"></a></td>
+<td>2019-11-12 23:10:07</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=bb30c1a91f4254658f3776af8f03b59ad0b09291">OCR予約</a></td>
+<td>2019-11-12 23:18:54</td>
+<td>2019-11-12 23:19:06</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/bb30c1a91f4254658f3776af8f03b59ad0b09291">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>93</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p17&amp;xywh=1064,1168,4936,2888"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0017.tif/1064,1168,4936,2888/100,/0/default.jpg"></a></td>
+<td>2019-11-12 23:09:36</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=69a9a648dee0df9e13abf40a3c86594e8630aa85">OCR予約</a></td>
+<td>2019-11-12 23:19:10</td>
+<td>2019-11-12 23:19:22</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/69a9a648dee0df9e13abf40a3c86594e8630aa85">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>94</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p16&amp;xywh=1080,1192,4936,2864"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0016.tif/1080,1192,4936,2864/100,/0/default.jpg"></a></td>
+<td>2019-11-12 23:09:24</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=93493469811f1ee034bd10827220672dcc6f1f0a">OCR予約</a></td>
+<td>2019-11-12 23:19:25</td>
+<td>2019-11-12 23:19:36</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/93493469811f1ee034bd10827220672dcc6f1f0a">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>95</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p15&amp;xywh=1104,1168,4920,2952"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0015.tif/1104,1168,4920,2952/100,/0/default.jpg"></a></td>
+<td>2019-11-12 23:09:10</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=825f4d35073d71a2e8e5b7a62ef8280281ccb6d2">OCR予約</a></td>
+<td>2019-11-12 23:19:39</td>
+<td>2019-11-12 23:19:49</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/825f4d35073d71a2e8e5b7a62ef8280281ccb6d2">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>96</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p14&amp;xywh=1088,1168,4936,2904"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0014.tif/1088,1168,4936,2904/100,/0/default.jpg"></a></td>
+<td>2019-11-12 23:08:56</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=71d3aa27dc2c19656f96b2edcc095e116b6dcb9a">OCR予約</a></td>
+<td>2019-11-12 23:19:51</td>
+<td>2019-11-12 23:20:01</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/71d3aa27dc2c19656f96b2edcc095e116b6dcb9a">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>97</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p13&amp;xywh=1104,1184,4920,2848"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0013.tif/1104,1184,4920,2848/100,/0/default.jpg"></a></td>
+<td>2019-11-12 23:08:44</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=2d3f5b647c35c2ab75b468d56aef2fc766d660e4">OCR予約</a></td>
+<td>2019-11-12 23:20:01</td>
+<td>2019-11-12 23:20:12</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/2d3f5b647c35c2ab75b468d56aef2fc766d660e4">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>98</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p12&amp;xywh=1096,1200,4904,2848"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0012.tif/1096,1200,4904,2848/100,/0/default.jpg"></a></td>
+<td>2019-11-12 23:08:30</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=d7ebc58ff27c717dada29958fae7c1752724525a">OCR予約</a></td>
+<td>2019-11-12 23:20:12</td>
+<td>2019-11-12 23:20:23</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/d7ebc58ff27c717dada29958fae7c1752724525a">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>99</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p11&amp;xywh=1096,1168,4936,2864"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0011.tif/1096,1168,4936,2864/100,/0/default.jpg"></a></td>
+<td>2019-11-12 23:02:24</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=655067d811278c118a3ca3aa39a0d3eb0a205b11">OCR予約</a></td>
+<td>2019-11-12 23:08:04</td>
+<td>2019-11-12 23:08:16</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/655067d811278c118a3ca3aa39a0d3eb0a205b11">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>100</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p10&amp;xywh=1096,1160,4920,2904"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0010.tif/1096,1160,4920,2904/100,/0/default.jpg"></a></td>
+<td>2019-11-12 23:02:14</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=e25c4dc7b20035e0a17f2464a6c7cd7ab028a12f">OCR予約</a></td>
+<td>2019-11-12 23:06:20</td>
+<td>2019-11-12 23:06:33</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/e25c4dc7b20035e0a17f2464a6c7cd7ab028a12f">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>101</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p9&amp;xywh=1104,1160,4912,2888"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0009.tif/1104,1160,4912,2888/100,/0/default.jpg"></a></td>
+<td>2019-11-12 23:02:04</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=df27cbb4a717d76d4e854f9d2064a4b898224a14">OCR予約</a></td>
+<td>2019-11-12 23:06:31</td>
+<td>2019-11-12 23:06:43</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/df27cbb4a717d76d4e854f9d2064a4b898224a14">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>102</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p8&amp;xywh=1128,1168,4896,2888"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0008.tif/1128,1168,4896,2888/100,/0/default.jpg"></a></td>
+<td>2019-11-12 23:01:55</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=ef1c93154ba103aa91f9a962b561a65c0a337fee">OCR予約</a></td>
+<td>2019-11-12 23:07:06</td>
+<td>2019-11-12 23:07:17</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/ef1c93154ba103aa91f9a962b561a65c0a337fee">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>103</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p7&amp;xywh=1120,1152,4896,2912"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0007.tif/1120,1152,4896,2912/100,/0/default.jpg"></a></td>
+<td>2019-11-12 23:01:44</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=bd7ddfc5d527d98fdddaeba51dfa1959c9b899bd">OCR予約</a></td>
+<td>2019-11-12 23:07:28</td>
+<td>2019-11-12 23:07:38</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/bd7ddfc5d527d98fdddaeba51dfa1959c9b899bd">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>104</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p6&amp;xywh=1120,1104,4904,2944"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0006.tif/1120,1104,4904,2944/100,/0/default.jpg"></a></td>
+<td>2019-11-12 23:01:33</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=ca085b0d1ecf7683a9bb263bc4056f974bbb9124">OCR予約</a></td>
+<td>2019-11-12 23:07:50</td>
+<td>2019-11-12 23:08:02</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/ca085b0d1ecf7683a9bb263bc4056f974bbb9124">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>105</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p5&amp;xywh=1128,1120,4888,2936"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0005.tif/1128,1120,4888,2936/100,/0/default.jpg"></a></td>
+<td>2019-11-12 23:01:23</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=d2f9c0bf9da2b41f16ece59e74ef02644c1e021d">OCR予約</a></td>
+<td>2019-11-12 23:08:34</td>
+<td>2019-11-12 23:08:47</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/d2f9c0bf9da2b41f16ece59e74ef02644c1e021d">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>106</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4&amp;xywh=1120,1160,2328,2888"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0004.tif/1120,1160,2328,2888/100,/0/default.jpg"></a></td>
+<td>2019-11-12 23:01:11</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=924fa0926236da0dca93a259edeb8ea847677454">OCR予約</a></td>
+<td>2019-11-12 23:09:05</td>
+<td>2019-11-12 23:09:12</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/924fa0926236da0dca93a259edeb8ea847677454">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>107</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p19&amp;xywh=1004,920,4968,3200"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0019.tif/1004,920,4968,3200/100,/0/default.jpg"></a></td>
+<td>2019-11-12 23:00:31</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=be69403f21180e07b01c0ede6df6edd7f74a2601">OCR予約</a></td>
+<td>2019-11-12 23:09:35</td>
+<td>2019-11-12 23:09:50</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/be69403f21180e07b01c0ede6df6edd7f74a2601">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>108</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p18&amp;xywh=1004,920,4968,3200"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0018.tif/1004,920,4968,3200/100,/0/default.jpg"></a></td>
+<td>2019-11-12 23:00:25</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=86b8ee35a626f349545e067639c4921db46f9ff2">OCR予約</a></td>
+<td>2019-11-12 23:10:06</td>
+<td>2019-11-12 23:10:21</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/86b8ee35a626f349545e067639c4921db46f9ff2">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>109</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p17&amp;xywh=1004,920,4968,3200"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0017.tif/1004,920,4968,3200/100,/0/default.jpg"></a></td>
+<td>2019-11-12 23:00:19</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=6d64f26717fcdce423d62abfbe8d71cd71d04ca1">OCR予約</a></td>
+<td>2019-11-12 23:20:23</td>
+<td>2019-11-12 23:20:35</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/6d64f26717fcdce423d62abfbe8d71cd71d04ca1">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>110</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p16&amp;xywh=1004,920,4968,3200"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0016.tif/1004,920,4968,3200/100,/0/default.jpg"></a></td>
+<td>2019-11-12 23:00:13</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=0535b55f7b1324524cb206be48295b6fd84c2ae3">OCR予約</a></td>
+<td>2019-11-12 23:20:34</td>
+<td>2019-11-12 23:20:48</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/0535b55f7b1324524cb206be48295b6fd84c2ae3">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>111</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p15&amp;xywh=1004,920,4968,3200"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0015.tif/1004,920,4968,3200/100,/0/default.jpg"></a></td>
+<td>2019-11-12 23:00:07</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=feb1e33146de57c57eed49bb34c11a529f1fac13">OCR予約</a></td>
+<td>2019-11-12 23:20:45</td>
+<td>2019-11-12 23:21:01</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/feb1e33146de57c57eed49bb34c11a529f1fac13">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>112</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p14&amp;xywh=1004,920,4968,3200"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0014.tif/1004,920,4968,3200/100,/0/default.jpg"></a></td>
+<td>2019-11-12 23:00:01</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=f3eb3920f8e5d0c69aaad6e58c4390e0f3950dca">OCR予約</a></td>
+<td>2019-11-12 23:20:56</td>
+<td>2019-11-12 23:21:15</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/f3eb3920f8e5d0c69aaad6e58c4390e0f3950dca">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>113</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p13&amp;xywh=1004,920,4968,3200"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0013.tif/1004,920,4968,3200/100,/0/default.jpg"></a></td>
+<td>2019-11-12 22:59:55</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=b34b5f1fef58e4905aa693f55e215ffb756fcb2c">OCR予約</a></td>
+<td>2019-11-12 23:21:07</td>
+<td>2019-11-12 23:21:27</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/b34b5f1fef58e4905aa693f55e215ffb756fcb2c">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>114</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p12&amp;xywh=1004,920,4968,3200"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0012.tif/1004,920,4968,3200/100,/0/default.jpg"></a></td>
+<td>2019-11-12 22:59:49</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=89b03796c7fd5a34bd575080ac3da82545b320e6">OCR予約</a></td>
+<td>2019-11-12 23:21:19</td>
+<td>2019-11-12 23:21:39</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/89b03796c7fd5a34bd575080ac3da82545b320e6">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>115</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p11&amp;xywh=1004,920,4968,3200"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0011.tif/1004,920,4968,3200/100,/0/default.jpg"></a></td>
+<td>2019-11-12 22:59:43</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=584814dc920a384d38240936c195dc4df0fdb958">OCR予約</a></td>
+<td>2019-11-12 23:21:30</td>
+<td>2019-11-12 23:21:51</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/584814dc920a384d38240936c195dc4df0fdb958">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>116</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p10&amp;xywh=1004,920,4968,3200"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0010.tif/1004,920,4968,3200/100,/0/default.jpg"></a></td>
+<td>2019-11-12 22:59:37</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=1841c83f111fba18b789a5647712a50a29d9542e">OCR予約</a></td>
+<td>2019-11-12 23:21:42</td>
+<td>2019-11-12 23:22:04</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/1841c83f111fba18b789a5647712a50a29d9542e">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>117</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p9&amp;xywh=1004,920,4968,3200"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0009.tif/1004,920,4968,3200/100,/0/default.jpg"></a></td>
+<td>2019-11-12 22:59:31</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=30ce7c80df196d1d8fbae84a7e821c6f84eff46a">OCR予約</a></td>
+<td>2019-11-12 23:23:56</td>
+<td>2019-11-12 23:24:09</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/30ce7c80df196d1d8fbae84a7e821c6f84eff46a">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>118</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p8&amp;xywh=1004,920,4968,3200"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0008.tif/1004,920,4968,3200/100,/0/default.jpg"></a></td>
+<td>2019-11-12 22:59:25</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=1ae6e4ec60a9c4daac7ab5f87f5c459ff14426d0">OCR予約</a></td>
+<td>2019-11-12 23:24:21</td>
+<td>2019-11-12 23:24:34</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/1ae6e4ec60a9c4daac7ab5f87f5c459ff14426d0">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>119</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p7&amp;xywh=1004,920,4968,3200"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0007.tif/1004,920,4968,3200/100,/0/default.jpg"></a></td>
+<td>2019-11-12 22:59:19</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=23e4bdd65ec99e4ce63d8c32cba8ebb2767d3fe4">OCR予約</a></td>
+<td>2019-11-12 23:02:37</td>
+<td>2019-11-12 23:02:51</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/23e4bdd65ec99e4ce63d8c32cba8ebb2767d3fe4">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>120</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p6&amp;xywh=1004,920,4968,3200"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0006.tif/1004,920,4968,3200/100,/0/default.jpg"></a></td>
+<td>2019-11-12 22:59:13</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=6b1d56b1940b723b17b196110b328a8d0b5ba165">OCR予約</a></td>
+<td>2019-11-12 23:00:05</td>
+<td>2019-11-12 23:00:30</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/6b1d56b1940b723b17b196110b328a8d0b5ba165">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>121</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p5&amp;xywh=1004,920,4968,3200"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0005.tif/1004,920,4968,3200/100,/0/default.jpg"></a></td>
+<td>2019-11-12 22:59:07</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=c539527f34e389dd3880c28e23078c2003c43e73">OCR予約</a></td>
+<td>2019-11-12 22:59:51</td>
+<td>2019-11-12 23:00:17</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/c539527f34e389dd3880c28e23078c2003c43e73">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>122</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4&amp;xywh=1004,920,4968,3200"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0004.tif/1004,920,4968,3200/100,/0/default.jpg"></a></td>
+<td>2019-11-12 22:59:01</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=521fcaa6aeced8489b3956f283745eb4ecac4d5d">OCR予約</a></td>
+<td>2019-11-12 22:59:37</td>
+<td>2019-11-12 23:00:00</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/521fcaa6aeced8489b3956f283745eb4ecac4d5d">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>123</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p3&amp;xywh=1004,920,4968,3200"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0003.tif/1004,920,4968,3200/100,/0/default.jpg"></a></td>
+<td>2019-11-12 22:58:55</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=b5a7ae9e5d88e4eec142f032366f9e4220b5ce61">OCR予約</a></td>
+<td>2019-11-12 22:59:32</td>
+<td>2019-11-12 22:59:47</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/b5a7ae9e5d88e4eec142f032366f9e4220b5ce61">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>124</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p2&amp;xywh=1004,920,4968,3200"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0002.tif/1004,920,4968,3200/100,/0/default.jpg"></a></td>
+<td>2019-11-12 22:58:48</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=32a05c3300c52fcce13779e63a3ef00d1cfbd1e9">OCR予約</a></td>
+<td>2019-11-12 22:59:21</td>
+<td>2019-11-12 22:59:33</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/32a05c3300c52fcce13779e63a3ef00d1cfbd1e9">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>125</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p1&amp;xywh=1004,920,4968,3200"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0001.tif/1004,920,4968,3200/100,/0/default.jpg"></a></td>
+<td>2019-11-12 22:58:40</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=8676449418ba4754022b3f61a51cf427f6a2bd31">OCR予約</a></td>
+<td>2019-11-12 22:59:07</td>
+<td>2019-11-12 22:59:21</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/8676449418ba4754022b3f61a51cf427f6a2bd31">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>126</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p30&amp;xywh=1004,920,4968,3200"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0030.tif/1004,920,4968,3200/100,/0/default.jpg"></a></td>
+<td>2019-11-12 22:57:38</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=3ff751ae6c50129551c4c2cf219eaea86cb77b8f">OCR予約</a></td>
+<td>2019-11-12 22:58:31</td>
+<td>2019-11-12 22:58:45</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/3ff751ae6c50129551c4c2cf219eaea86cb77b8f">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>127</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p31&amp;xywh=3608,1136,2352,2960"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0031.tif/3608,1136,2352,2960/100,/0/default.jpg"></a></td>
+<td>2019-11-12 22:56:03</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=d32c395ee217ea9f75bae66f7599dc3e5707a55f">OCR予約</a></td>
+<td>2019-11-12 22:56:22</td>
+<td>2019-11-12 22:56:30</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/d32c395ee217ea9f75bae66f7599dc3e5707a55f">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>128</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p32&amp;xywh=full"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0032.tif/full/100,/0/default.jpg"></a></td>
+<td>2019-11-12 22:30:08</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=5fee9482b26f99b29c7df16074475432b4b18f79">OCR予約</a></td>
+<td>2019-11-12 22:33:11</td>
+<td>2019-11-12 22:34:22</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/5fee9482b26f99b29c7df16074475432b4b18f79">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>129</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p31&amp;xywh=full"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0031.tif/full/100,/0/default.jpg"></a></td>
+<td>2019-11-12 22:30:01</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=666ecac227ff13c22dd82bb705d93c4f407490cb">OCR予約</a></td>
+<td>2019-11-12 22:33:07</td>
+<td>2019-11-12 22:34:03</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/666ecac227ff13c22dd82bb705d93c4f407490cb">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>130</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p30&amp;xywh=full"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0030.tif/full/100,/0/default.jpg"></a></td>
+<td>2019-11-12 22:29:51</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=5dff665e928d62b6b48cba90c171035f49bc93cb">OCR予約</a></td>
+<td>2019-11-12 22:32:34</td>
+<td>2019-11-12 22:33:41</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/5dff665e928d62b6b48cba90c171035f49bc93cb">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>131</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p29&amp;xywh=full"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0029.tif/full/100,/0/default.jpg"></a></td>
+<td>2019-11-12 22:29:40</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=60b7fdadb4f512b91cf91491021745192d3762a6">OCR予約</a></td>
+<td>2019-11-12 22:32:31</td>
+<td>2019-11-12 22:33:21</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/60b7fdadb4f512b91cf91491021745192d3762a6">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>132</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p28&amp;xywh=full"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0028.tif/full/100,/0/default.jpg"></a></td>
+<td>2019-11-12 22:29:25</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=beed23d9b35345b70049fed26f7786380a141d60">OCR予約</a></td>
+<td>2019-11-12 22:32:08</td>
+<td>2019-11-12 22:33:00</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/beed23d9b35345b70049fed26f7786380a141d60">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>133</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p27&amp;xywh=full"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0027.tif/full/100,/0/default.jpg"></a></td>
+<td>2019-11-12 22:29:10</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=8ad89177eb91e8ee92d8f3c2d35bcd93f86f347c">OCR予約</a></td>
+<td>2019-11-12 22:31:47</td>
+<td>2019-11-12 22:32:39</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/8ad89177eb91e8ee92d8f3c2d35bcd93f86f347c">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>134</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p26&amp;xywh=full"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0026.tif/full/100,/0/default.jpg"></a></td>
+<td>2019-11-12 22:28:50</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=bfc7d45a1567e4c1f9d3a313dd8394ccbcf12882">OCR予約</a></td>
+<td>2019-11-12 22:31:32</td>
+<td>2019-11-12 22:32:19</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/bfc7d45a1567e4c1f9d3a313dd8394ccbcf12882">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>135</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p25&amp;xywh=full"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0025.tif/full/100,/0/default.jpg"></a></td>
+<td>2019-11-12 22:28:36</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=e5a40ad9adf37f86882da95a6b8d88b7c703a4ca">OCR予約</a></td>
+<td>2019-11-12 22:31:04</td>
+<td>2019-11-12 22:31:56</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/e5a40ad9adf37f86882da95a6b8d88b7c703a4ca">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>136</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p24&amp;xywh=full"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0024.tif/full/100,/0/default.jpg"></a></td>
+<td>2019-11-12 22:28:25</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=8e8b434a4910c565951bf42811acdc146dc3166e">OCR予約</a></td>
+<td>2019-11-12 22:30:46</td>
+<td>2019-11-12 22:31:35</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/8e8b434a4910c565951bf42811acdc146dc3166e">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>137</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p23&amp;xywh=full"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0023.tif/full/100,/0/default.jpg"></a></td>
+<td>2019-11-12 22:28:16</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=ccb976f8caebc835a47f54ff10f68dffe8069528">OCR予約</a></td>
+<td>2019-11-12 22:30:28</td>
+<td>2019-11-12 22:31:16</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/ccb976f8caebc835a47f54ff10f68dffe8069528">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>138</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p22&amp;xywh=full"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0022.tif/full/100,/0/default.jpg"></a></td>
+<td>2019-11-12 22:28:08</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=ca6dd1ec19e4e3cbaae9990273ab65586227a9aa">OCR予約</a></td>
+<td>2019-11-12 22:30:24</td>
+<td>2019-11-12 22:30:54</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/ca6dd1ec19e4e3cbaae9990273ab65586227a9aa">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>139</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p21&amp;xywh=full"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0021.tif/full/100,/0/default.jpg"></a></td>
+<td>2019-11-12 22:28:01</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=92571e5a29661e6bbd611b5568e693426d4154d0">OCR予約</a></td>
+<td>2019-11-12 22:29:35</td>
+<td>2019-11-12 22:30:31</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/92571e5a29661e6bbd611b5568e693426d4154d0">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>140</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p20&amp;xywh=full"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0020.tif/full/100,/0/default.jpg"></a></td>
+<td>2019-11-12 22:27:52</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=b2ea01aee74032b99fa81dd4aba03ded4d472a0a">OCR予約</a></td>
+<td>2019-11-12 22:29:26</td>
+<td>2019-11-12 22:30:09</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/b2ea01aee74032b99fa81dd4aba03ded4d472a0a">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>141</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p19&amp;xywh=full"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0019.tif/full/100,/0/default.jpg"></a></td>
+<td>2019-11-12 22:27:45</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=16dac1bacf74a26832f36620b11dfa36770afc97">OCR予約</a></td>
+<td>2019-11-12 22:29:13</td>
+<td>2019-11-12 22:29:47</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/16dac1bacf74a26832f36620b11dfa36770afc97">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>142</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p18&amp;xywh=full"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0018.tif/full/100,/0/default.jpg"></a></td>
+<td>2019-11-12 22:27:38</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=34a9dbb45d6c9127958523608074bbe83f818d5d">OCR予約</a></td>
+<td>2019-11-12 22:29:01</td>
+<td>2019-11-12 22:29:25</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/34a9dbb45d6c9127958523608074bbe83f818d5d">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>143</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p17&amp;xywh=full"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0017.tif/full/100,/0/default.jpg"></a></td>
+<td>2019-11-12 22:27:31</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=902d7105d8a9d858efa64f87625a98ec84dbf9b7">OCR予約</a></td>
+<td>2019-11-12 22:28:24</td>
+<td>2019-11-12 22:28:55</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/902d7105d8a9d858efa64f87625a98ec84dbf9b7">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>144</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p16&amp;xywh=full"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0016.tif/full/100,/0/default.jpg"></a></td>
+<td>2019-11-12 22:27:25</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=fb4102b2ec9fa5399635ee8e70537cf490f542b4">OCR予約</a></td>
+<td>2019-11-12 22:28:07</td>
+<td>2019-11-12 22:28:35</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/fb4102b2ec9fa5399635ee8e70537cf490f542b4">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>145</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p15&amp;xywh=full"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0015.tif/full/100,/0/default.jpg"></a></td>
+<td>2019-11-12 22:27:19</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=676c72db4ffe7b904fc7fded9798bcc1a3b9826f">OCR予約</a></td>
+<td>2019-11-12 22:27:33</td>
+<td>2019-11-12 22:28:16</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/676c72db4ffe7b904fc7fded9798bcc1a3b9826f">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>146</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p14&amp;xywh=full"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0014.tif/full/100,/0/default.jpg"></a></td>
+<td>2019-11-12 22:27:09</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=5b165acee02063c62b2286ab53c8360398a83f0c">OCR予約</a></td>
+<td>2019-11-12 22:27:23</td>
+<td>2019-11-12 22:27:55</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/5b165acee02063c62b2286ab53c8360398a83f0c">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>147</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p13&amp;xywh=full"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0013.tif/full/100,/0/default.jpg"></a></td>
+<td>2019-11-12 22:25:55</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=467bdd9bb665a8a3aa02639f891479209d10cdc2">OCR予約</a></td>
+<td>2019-11-12 22:27:13</td>
+<td>2019-11-12 22:27:35</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/467bdd9bb665a8a3aa02639f891479209d10cdc2">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>148</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p13&amp;xywh=20,24,6608,4952"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0013.tif/20,24,6608,4952/100,/0/default.jpg"></a></td>
+<td>2019-11-12 22:16:58</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=e6b95943992676f343520556a8e5e22b97d72e48">OCR予約</a></td>
+<td>2019-11-12 22:17:03</td>
+<td>2019-11-12 22:17:27</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/e6b95943992676f343520556a8e5e22b97d72e48">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>149</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p12&amp;xywh=1092,1064,4888,3024"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0012.tif/1092,1064,4888,3024/100,/0/default.jpg"></a></td>
+<td>2019-11-12 22:15:23</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=02c21315e3236135b87ece4ff383978a7c3d3a75">OCR予約</a></td>
+<td>2019-11-12 22:16:16</td>
+<td>2019-11-12 22:16:30</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/02c21315e3236135b87ece4ff383978a7c3d3a75">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>150</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p11&amp;xywh=1112,1104,4936,2968"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0011.tif/1112,1104,4936,2968/100,/0/default.jpg"></a></td>
+<td>2019-11-12 22:14:32</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=8213bfdb5da554c3e38b955ce9da34ce64122814">OCR予約</a></td>
+<td>2019-11-12 22:14:39</td>
+<td>2019-11-12 22:14:50</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/8213bfdb5da554c3e38b955ce9da34ce64122814">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>151</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p10&amp;xywh=1112,1040,4880,3072"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0010.tif/1112,1040,4880,3072/100,/0/default.jpg"></a></td>
+<td>2019-11-12 22:14:00</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=babfb7fa24b6610882e99d3d46f372a324ba8045">OCR予約</a></td>
+<td>2019-11-12 22:14:04</td>
+<td>2019-11-12 22:14:16</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/babfb7fa24b6610882e99d3d46f372a324ba8045">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>152</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p9&amp;xywh=1120,1112,4872,3008"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0009.tif/1120,1112,4872,3008/100,/0/default.jpg"></a></td>
+<td>2019-11-12 22:13:34</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=96fe9a1ad1e591ccd245d9340095c58632eae3c5">OCR予約</a></td>
+<td>2019-11-12 22:13:37</td>
+<td>2019-11-12 22:13:49</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/96fe9a1ad1e591ccd245d9340095c58632eae3c5">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>153</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p8&amp;xywh=1104,1048,4888,3056"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0008.tif/1104,1048,4888,3056/100,/0/default.jpg"></a></td>
+<td>2019-11-12 22:13:06</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=29d06cd81ddf3fee48333e1bf5325ac6c5c48dbe">OCR予約</a></td>
+<td>2019-11-12 22:13:10</td>
+<td>2019-11-12 22:13:22</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/29d06cd81ddf3fee48333e1bf5325ac6c5c48dbe">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>154</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p7&amp;xywh=1120,1064,4904,3048"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0007.tif/1120,1064,4904,3048/100,/0/default.jpg"></a></td>
+<td>2019-11-12 22:12:27</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=cf9674abe4d2f0f80004ace8f719c77f8749e46e">OCR予約</a></td>
+<td>2019-11-12 22:12:32</td>
+<td>2019-11-12 22:12:43</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/cf9674abe4d2f0f80004ace8f719c77f8749e46e">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>155</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p6&amp;xywh=1144,1080,4880,3032"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0006.tif/1144,1080,4880,3032/100,/0/default.jpg"></a></td>
+<td>2019-11-12 22:11:52</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=183134730cc0c89d1e66227c0346d41e3124b003">OCR予約</a></td>
+<td>2019-11-12 22:11:55</td>
+<td>2019-11-12 22:12:06</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/183134730cc0c89d1e66227c0346d41e3124b003">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>156</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p5&amp;xywh=1112,1088,4904,3040"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0005.tif/1112,1088,4904,3040/100,/0/default.jpg"></a></td>
+<td>2019-11-12 22:11:14</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=02e2a02b81999aa83e4a2ee675fa081e69f871f8">OCR予約</a></td>
+<td>2019-11-12 22:11:21</td>
+<td>2019-11-12 22:11:34</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/02e2a02b81999aa83e4a2ee675fa081e69f871f8">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>157</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p1&amp;xywh=0,0,8200,5360"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0001.tif/0,0,8200,5360/100,/0/default.jpg"></a></td>
+<td>2019-11-12 22:07:35</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=c24b6545397022c3372897e8c1e8a380239c8a90">OCR予約</a></td>
+<td>2019-11-12 22:07:42</td>
+<td>2019-11-12 22:08:14</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/c24b6545397022c3372897e8c1e8a380239c8a90">OCR成功：閲覧</a></td>
+</tr>
+<tr>
+<td>158</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?manifest=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/manifest&amp;canvas=https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c1ea8e6b-9403-4394-8619-96aad0ec6329/canvas/p4&amp;xywh=1144,1088,2328,2952"><img src="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/01/01_0004.tif/1144,1088,2328,2952/100,/0/default.jpg"></a></td>
+<td>2019-11-11 14:56:34</td>
+<td><a href="https://mp.ex.nii.ac.jp/api/kuronet/reserve?task_id=0b6c0a4fb4a0b96d64ab8efd28a652631b94ee34">OCR予約</a></td>
+<td>2019-11-11 14:56:46</td>
+<td>2019-11-11 14:39:13</td>
+<td><a href="http://codh.rois.ac.jp/kuronet/iiif-curation-viewer/?curation=https://mp.ex.nii.ac.jp/api/kuronet/curation/0b6c0a4fb4a0b96d64ab8efd28a652631b94ee34">OCR成功：閲覧</a></td>
+</tr>
+</tbody>
+</table></div>
+</body>
