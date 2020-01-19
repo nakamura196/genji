@@ -55,18 +55,22 @@ with open('data/scripto_media.csv', 'r') as f:
             data = pages[key]["revisions"][0]["*"].split("\n")
 
             k = 0
+            l = 0
 
             for i in range(len(data)):
                 text = data[i]
                 if text == "":
                     k += 1
+                    l = 0
                 else:
 
                     if k >= len(arr):
                         continue
 
                     page = str(arr[k])
-                    index = str(i+1)
+                    index = str(l+1)
+
+                    l += 1
 
                     row = ["https://w3id.org/kouigenjimonogatari/data/"+page.zfill(4)+"-"+index.zfill(2)+".json", page, index, data[i]]
                     rows.append(row)
