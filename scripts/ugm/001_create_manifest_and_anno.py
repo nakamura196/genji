@@ -1,7 +1,4 @@
 import pandas as pd
-from rdflib import URIRef, BNode, Literal, Graph
-from rdflib.namespace import RDF, RDFS, FOAF, XSD
-from rdflib import Namespace
 import numpy as np
 import math
 import sys

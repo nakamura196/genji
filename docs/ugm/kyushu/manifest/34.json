@@ -36,6 +36,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370638.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370638.tiff",
@@ -59,6 +61,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370639.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370639.tiff",
@@ -82,6 +86,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370640.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370640.tiff",
@@ -105,6 +111,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370641.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370641.tiff",
@@ -128,6 +136,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370642.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370642.tiff",
@@ -151,6 +161,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370643.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370643.tiff",
@@ -174,6 +186,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370644.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370644.tiff",
@@ -197,6 +211,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370645.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370645.tiff",
@@ -220,6 +236,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370646.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370646.tiff",
@@ -243,6 +261,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370647.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370647.tiff",
@@ -266,6 +286,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370648.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370648.tiff",
@@ -289,6 +311,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370649.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370649.tiff",
@@ -312,6 +336,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370650.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370650.tiff",
@@ -335,6 +361,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370651.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370651.tiff",
@@ -358,6 +386,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370652.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370652.tiff",
@@ -381,6 +411,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370653.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370653.tiff",
@@ -404,6 +436,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370654.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370654.tiff",
@@ -427,6 +461,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370655.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370655.tiff",
@@ -450,6 +486,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370656.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370656.tiff",
@@ -473,6 +511,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370657.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370657.tiff",
@@ -496,6 +536,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370658.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370658.tiff",
@@ -519,6 +561,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370659.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370659.tiff",
@@ -542,6 +586,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370660.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370660.tiff",
@@ -565,6 +611,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370661.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370661.tiff",
@@ -588,6 +636,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370662.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370662.tiff",
@@ -611,6 +661,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370663.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370663.tiff",
@@ -634,6 +686,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370664.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370664.tiff",
@@ -657,6 +711,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370665.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370665.tiff",
@@ -680,6 +736,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370666.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370666.tiff",
@@ -703,6 +761,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370667.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370667.tiff",
@@ -726,6 +786,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370668.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370668.tiff",
@@ -749,6 +811,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370669.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370669.tiff",
@@ -772,6 +836,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370670.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370670.tiff",
@@ -795,6 +861,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370671.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370671.tiff",
@@ -818,6 +886,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370672.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370672.tiff",
@@ -841,6 +911,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370673.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370673.tiff",
@@ -864,6 +936,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370674.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370674.tiff",
@@ -887,6 +961,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370675.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370675.tiff",
@@ -910,6 +986,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370676.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370676.tiff",
@@ -933,6 +1011,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370677.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370677.tiff",
@@ -956,6 +1036,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370678.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370678.tiff",
@@ -979,6 +1061,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370679.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370679.tiff",
@@ -1002,6 +1086,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370680.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370680.tiff",
@@ -1025,6 +1111,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370681.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370681.tiff",
@@ -1048,6 +1136,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370682.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370682.tiff",
@@ -1071,6 +1161,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370683.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370683.tiff",
@@ -1094,6 +1186,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370684.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370684.tiff",
@@ -1117,6 +1211,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370685.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370685.tiff",
@@ -1140,6 +1236,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370686.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370686.tiff",
@@ -1163,6 +1261,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370687.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370687.tiff",
@@ -1186,6 +1286,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370688.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370688.tiff",
@@ -1209,6 +1311,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370689.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370689.tiff",
@@ -1232,6 +1336,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370690.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370690.tiff",
@@ -1255,6 +1361,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370691.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370691.tiff",
@@ -1278,6 +1386,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370692.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370692.tiff",
@@ -1301,6 +1411,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370693.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370693.tiff",
@@ -1324,6 +1436,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370694.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370694.tiff",
@@ -1347,6 +1461,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370695.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370695.tiff",
@@ -1370,6 +1486,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370696.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370696.tiff",
@@ -1393,6 +1511,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370697.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370697.tiff",
@@ -1416,6 +1536,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370698.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370698.tiff",
@@ -1439,6 +1561,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370699.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370699.tiff",
@@ -1462,6 +1586,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370700.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370700.tiff",
@@ -1485,6 +1611,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370701.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370701.tiff",
@@ -1508,6 +1636,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370702.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370702.tiff",
@@ -1531,6 +1661,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370703.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370703.tiff",
@@ -1554,6 +1686,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370704.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370704.tiff",
@@ -1577,6 +1711,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370705.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370705.tiff",
@@ -1600,6 +1736,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370706.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370706.tiff",
@@ -1623,6 +1761,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370707.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370707.tiff",
@@ -1646,6 +1786,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370708.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370708.tiff",
@@ -1669,6 +1811,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370709.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370709.tiff",
@@ -1692,6 +1836,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370710.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370710.tiff",
@@ -1715,6 +1861,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370711.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370711.tiff",
@@ -1738,6 +1886,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370712.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370712.tiff",
@@ -1761,6 +1911,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370713.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370713.tiff",
@@ -1784,6 +1936,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370714.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370714.tiff",
@@ -1807,6 +1961,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370715.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370715.tiff",
@@ -1830,6 +1986,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370716.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370716.tiff",
@@ -1853,6 +2011,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370717.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370717.tiff",
@@ -1876,6 +2036,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370718.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370718.tiff",
@@ -1899,6 +2061,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370719.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370719.tiff",
@@ -1922,6 +2086,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370720.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370720.tiff",
@@ -1945,6 +2111,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370721.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370721.tiff",
@@ -1968,6 +2136,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370722.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370722.tiff",
@@ -1991,6 +2161,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370723.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370723.tiff",
@@ -2014,6 +2186,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370724.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370724.tiff",
@@ -2037,6 +2211,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370725.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370725.tiff",
@@ -2060,6 +2236,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370726.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370726.tiff",
@@ -2083,6 +2261,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370727.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370727.tiff",
@@ -2106,6 +2286,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370728.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370728.tiff",
@@ -2129,6 +2311,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370729.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370729.tiff",
@@ -2152,6 +2336,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370730.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370730.tiff",
@@ -2175,6 +2361,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370731.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370731.tiff",
@@ -2198,6 +2386,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370732.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370732.tiff",
@@ -2221,6 +2411,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370733.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370733.tiff",
@@ -2244,6 +2436,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370734.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370734.tiff",
@@ -2267,6 +2461,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370735.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370735.tiff",
@@ -2290,6 +2486,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370736.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370736.tiff",
@@ -2313,6 +2511,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370737.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370737.tiff",
@@ -2336,6 +2536,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370738.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370738.tiff",
@@ -2359,6 +2561,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370739.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370739.tiff",
@@ -2382,6 +2586,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370740.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370740.tiff",
@@ -2405,6 +2611,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370741.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370741.tiff",
@@ -2428,6 +2636,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370742.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370742.tiff",
@@ -2451,6 +2661,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370743.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370743.tiff",
@@ -2474,6 +2686,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370744.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370744.tiff",
@@ -2497,6 +2711,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370745.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370745.tiff",
@@ -2520,6 +2736,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370746.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370746.tiff",
@@ -2543,6 +2761,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370747.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370747.tiff",
@@ -2566,6 +2786,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370748.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370748.tiff",
@@ -2589,6 +2811,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370749.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370749.tiff",
@@ -2612,6 +2836,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370750.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370750.tiff",
@@ -2635,6 +2861,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370751.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370751.tiff",
@@ -2658,6 +2886,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370752.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370752.tiff",
@@ -2681,6 +2911,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370753.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370753.tiff",
@@ -2704,6 +2936,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370754.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370754.tiff",
@@ -2727,6 +2961,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370755.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370755.tiff",
@@ -2750,6 +2986,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370756.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370756.tiff",
@@ -2773,6 +3011,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370757.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370757.tiff",
@@ -2796,6 +3036,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370758.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370758.tiff",
@@ -2819,6 +3061,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370759.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370759.tiff",
@@ -2842,6 +3086,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370760.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370760.tiff",
@@ -2865,6 +3111,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370761.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370761.tiff",
@@ -2888,6 +3136,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370762.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370762.tiff",
@@ -2911,6 +3161,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370763.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370763.tiff",
@@ -2934,6 +3186,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370764.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370764.tiff",
@@ -2957,6 +3211,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370765.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370765.tiff",
@@ -2980,6 +3236,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370766.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370766.tiff",
@@ -3003,6 +3261,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370767.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370767.tiff",
@@ -3026,6 +3286,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370768.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370768.tiff",
@@ -3049,6 +3311,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370769.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370769.tiff",
@@ -3072,6 +3336,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370770.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370770.tiff",
@@ -3095,6 +3361,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370771.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370771.tiff",
@@ -3118,6 +3386,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370772.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370772.tiff",
@@ -3141,6 +3411,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370773.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370773.tiff",
@@ -3164,6 +3436,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370774.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370774.tiff",
@@ -3187,6 +3461,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370775.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370775.tiff",
@@ -3210,6 +3486,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370776.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370776.tiff",
@@ -3233,6 +3511,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370777.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370777.tiff",
@@ -3256,6 +3536,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370778.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370778.tiff",
@@ -3279,6 +3561,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370779.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370779.tiff",
@@ -3302,6 +3586,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370780.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370780.tiff",
@@ -3325,6 +3611,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370781.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370781.tiff",
@@ -3348,6 +3636,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370782.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370782.tiff",
@@ -3371,6 +3661,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370783.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370783.tiff",
@@ -3394,6 +3686,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370784.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370784.tiff",
@@ -3417,6 +3711,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370785.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370785.tiff",
@@ -3440,6 +3736,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370786.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370786.tiff",
@@ -3463,6 +3761,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370787.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370787.tiff",
@@ -3486,6 +3786,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370788.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370788.tiff",
@@ -3509,6 +3811,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370789.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370789.tiff",
@@ -3532,6 +3836,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370790.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370790.tiff",
@@ -3555,6 +3861,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370791.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370791.tiff",
@@ -3578,6 +3886,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370792.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370792.tiff",
@@ -3601,6 +3911,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370793.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370793.tiff",
@@ -3624,6 +3936,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370794.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370794.tiff",
@@ -3647,6 +3961,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370795.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370795.tiff",
@@ -3670,6 +3986,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370796.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370796.tiff",
@@ -3693,6 +4011,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370797.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370797.tiff",
@@ -3716,6 +4036,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370798.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370798.tiff",
@@ -3739,6 +4061,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370799.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370799.tiff",
@@ -3762,6 +4086,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370800.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370800.tiff",
@@ -3785,6 +4111,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370801.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370801.tiff",
@@ -3808,6 +4136,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370802.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370802.tiff",
@@ -3831,6 +4161,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370803.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370803.tiff",
@@ -3854,6 +4186,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370804.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370804.tiff",
@@ -3877,6 +4211,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370805.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370805.tiff",
@@ -3900,6 +4236,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370806.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370806.tiff",
@@ -3923,6 +4261,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370807.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370807.tiff",
@@ -3946,6 +4286,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370808.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370808.tiff",
@@ -3969,6 +4311,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370809.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370809.tiff",
@@ -3992,6 +4336,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370810.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370810.tiff",
@@ -4015,6 +4361,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370811.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370811.tiff",
@@ -4038,6 +4386,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370812.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370812.tiff",
@@ -4061,6 +4411,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370813.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370813.tiff",
@@ -4084,6 +4436,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370814.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370814.tiff",
@@ -4107,6 +4461,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370815.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370815.tiff",
@@ -4130,6 +4486,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370816.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370816.tiff",
@@ -4153,6 +4511,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370817.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370817.tiff",
@@ -4176,6 +4536,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370818.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370818.tiff",
@@ -4199,6 +4561,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370819.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370819.tiff",
@@ -4222,6 +4586,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370820.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370820.tiff",
@@ -4245,6 +4611,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370821.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370821.tiff",
@@ -4268,6 +4636,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370822.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370822.tiff",
@@ -4291,6 +4661,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370823.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370823.tiff",
@@ -4314,6 +4686,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370824.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370824.tiff",
@@ -4337,6 +4711,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370825.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370825.tiff",
@@ -4360,6 +4736,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370826.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370826.tiff",
@@ -4383,6 +4761,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370827.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370827.tiff",
@@ -4406,6 +4786,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370828.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370828.tiff",
@@ -4429,6 +4811,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370829.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370829.tiff",
@@ -4452,6 +4836,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370830.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370830.tiff",
@@ -4475,6 +4861,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370831.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370831.tiff",
@@ -4498,6 +4886,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370832.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370832.tiff",
@@ -4521,6 +4911,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370833.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370833.tiff",
@@ -4544,6 +4936,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370834.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370834.tiff",
@@ -4567,6 +4961,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370835.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370835.tiff",
@@ -4590,6 +4986,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370836.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370836.tiff",
@@ -4613,6 +5011,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370837.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370837.tiff",
@@ -4636,6 +5036,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370838.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370838.tiff",
@@ -4659,6 +5061,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370839.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370839.tiff",
@@ -4682,6 +5086,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370840.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370840.tiff",
@@ -4705,6 +5111,8 @@
                             "resource": {
                                 "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370841.tiff/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
+                                "description": "",
+                                "format": "image/jpeg",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411238/370841.tiff",

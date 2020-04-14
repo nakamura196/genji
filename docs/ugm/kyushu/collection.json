@@ -282,7 +282,7 @@
             "@type": "sc:Manifest",
             "index": 35,
             "label": "柏木_(源氏物語)",
-            "thumbnail": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411241/371048.tiff/full/200,/0/default.jpg"
+            "thumbnail": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411239/370842.tiff/full/200,/0/default.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
@@ -290,7 +290,7 @@
             "@type": "sc:Manifest",
             "index": 36,
             "label": "横笛_(源氏物語)",
-            "thumbnail": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411242/371126.tiff/full/200,/0/default.jpg"
+            "thumbnail": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411241/371048.tiff/full/200,/0/default.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
@@ -298,7 +298,7 @@
             "@type": "sc:Manifest",
             "index": 37,
             "label": "鈴虫_(源氏物語)",
-            "thumbnail": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411243/371162.tiff/full/200,/0/default.jpg"
+            "thumbnail": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411242/371126.tiff/full/200,/0/default.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
@@ -306,7 +306,7 @@
             "@type": "sc:Manifest",
             "index": 38,
             "label": "夕霧_(源氏物語)",
-            "thumbnail": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411244/371192.tiff/full/200,/0/default.jpg"
+            "thumbnail": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411243/371162.tiff/full/200,/0/default.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
@@ -314,7 +314,7 @@
             "@type": "sc:Manifest",
             "index": 39,
             "label": "御法",
-            "thumbnail": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411246/371336.tiff/full/200,/0/default.jpg"
+            "thumbnail": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411244/371192.tiff/full/200,/0/default.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
@@ -322,6 +322,14 @@
             "@type": "sc:Manifest",
             "index": 40,
             "label": "幻_(源氏物語)",
+            "thumbnail": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411246/371336.tiff/full/200,/0/default.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/genji/ugm/kyushu/manifest/41.json",
+            "@type": "sc:Manifest",
+            "index": 41,
+            "label": "雲隠",
             "thumbnail": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411247/371374.tiff/full/200,/0/default.jpg"
         },
         {
