@@ -1,0 +1,105 @@
+{
+    "@context": "https://diyhistory.org/public/genji/api-context",
+    "@id": "https://diyhistory.org/public/genji/api/media/621",
+    "@type": "o:Media",
+    "data": {
+        "@context": "http://iiif.io/api/image/2/context.json",
+        "@id": "https://www.dl.ndl.go.jp/api/iiif/3437689/R0000142",
+        "@type": "dctypes:Image",
+        "height": 4706,
+        "profile": [
+            "http://iiif.io/api/image/2/level1.json",
+            {
+                "formats": [
+                    "jpg"
+                ],
+                "qualities": [
+                    "default"
+                ],
+                "supports": [
+                    "regionByPct",
+                    "sizeByWh"
+                ]
+            }
+        ],
+        "protocol": "http://iiif.io/api/image",
+        "sizes": [
+            {
+                "height": 73,
+                "width": 107
+            },
+            {
+                "height": 147,
+                "width": 215
+            },
+            {
+                "height": 294,
+                "width": 430
+            },
+            {
+                "height": 588,
+                "width": 861
+            },
+            {
+                "height": 1176,
+                "width": 1722
+            },
+            {
+                "height": 2353,
+                "width": 3445
+            }
+        ],
+        "tiles": [
+            {
+                "height": 1024,
+                "scaleFactor": [
+                    1,
+                    2,
+                    4,
+                    8,
+                    16,
+                    32,
+                    64
+                ],
+                "width": 1024
+            }
+        ],
+        "width": 6890
+    },
+    "o:created": {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2020-01-21T07:00:35+00:00"
+    },
+    "o:filename": "c5a0cc8abc1b3816a0b57170ea0ad86c6cfd1abf",
+    "o:id": 621,
+    "o:ingester": "iiif",
+    "o:is_public": true,
+    "o:item": {
+        "@id": "https://diyhistory.org/public/genji/api/items/230",
+        "o:id": 230
+    },
+    "o:lang": null,
+    "o:media_type": null,
+    "o:modified": {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2020-01-21T07:00:35+00:00"
+    },
+    "o:original_url": null,
+    "o:owner": {
+        "@id": "https://diyhistory.org/public/genji/api/users/1",
+        "o:id": 1
+    },
+    "o:renderer": "iiif",
+    "o:resource_class": null,
+    "o:resource_template": null,
+    "o:sha256": null,
+    "o:size": null,
+    "o:source": "https://www.dl.ndl.go.jp/api/iiif/3437689/R0000142/info.json",
+    "o:thumbnail": null,
+    "o:thumbnail_urls": {
+        "large": "https://diyhistory.org/public/genji/files/large/c5a0cc8abc1b3816a0b57170ea0ad86c6cfd1abf.jpg",
+        "medium": "https://diyhistory.org/public/genji/files/medium/c5a0cc8abc1b3816a0b57170ea0ad86c6cfd1abf.jpg",
+        "square": "https://diyhistory.org/public/genji/files/square/c5a0cc8abc1b3816a0b57170ea0ad86c6cfd1abf.jpg"
+    },
+    "o:title": null
+}
