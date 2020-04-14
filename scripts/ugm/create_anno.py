@@ -14,7 +14,7 @@ import requests
 import hashlib
 
 # 空の場合はすべて
-target = ""
+target = "kyushu"
 
 path = "data/all.json"
 
