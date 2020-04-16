@@ -1,10 +1,8 @@
-dcterms:title,dcterms:identifier
-校異源氏物語　卷五,校異源氏物語　卷五
-目次,目次
-さわらひ,さわらひ
-やとり木,やとり木
-あつまや,あつまや
-うき舟,うき舟
-かけろふ,かけろふ
-てならひ,てならひ
-夢のうきはし,夢のうきはし
+dcterms:title,dcterms:identifier,dcterms:relation
+さわらひ,さわらひ,https://www.dl.ndl.go.jp/api/iiif/3437690/manifest.json
+やとり木,やとり木,https://www.dl.ndl.go.jp/api/iiif/3437690/manifest.json
+あつまや,あつまや,https://www.dl.ndl.go.jp/api/iiif/3437690/manifest.json
+うき舟,うき舟,https://www.dl.ndl.go.jp/api/iiif/3437690/manifest.json
+かけろふ,かけろふ,https://www.dl.ndl.go.jp/api/iiif/3437690/manifest.json
+てならひ,てならひ,https://www.dl.ndl.go.jp/api/iiif/3437690/manifest.json
+夢のうきはし,夢のうきはし,https://www.dl.ndl.go.jp/api/iiif/3437690/manifest.json

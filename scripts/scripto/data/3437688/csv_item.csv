@@ -1,14 +1,12 @@
-dcterms:title,dcterms:identifier
-校異源氏物語　卷三,校異源氏物語　卷三
-目次,目次
-ほたる,ほたる
-とこなつ,とこなつ
-かゝり火,かゝり火
-野わき,野わき
-みゆき,みゆき
-藤はかま,藤はかま
-まきはしら,まきはしら
-梅かえ,梅かえ
-藤のうらは,藤のうらは
-わかな上,わかな上
-わかな下,わかな下
+dcterms:title,dcterms:identifier,dcterms:relation
+ほたる,ほたる,https://www.dl.ndl.go.jp/api/iiif/3437688/manifest.json
+とこなつ,とこなつ,https://www.dl.ndl.go.jp/api/iiif/3437688/manifest.json
+かゝり火,かゝり火,https://www.dl.ndl.go.jp/api/iiif/3437688/manifest.json
+野わき,野わき,https://www.dl.ndl.go.jp/api/iiif/3437688/manifest.json
+みゆき,みゆき,https://www.dl.ndl.go.jp/api/iiif/3437688/manifest.json
+藤はかま,藤はかま,https://www.dl.ndl.go.jp/api/iiif/3437688/manifest.json
+まきはしら,まきはしら,https://www.dl.ndl.go.jp/api/iiif/3437688/manifest.json
+梅かえ,梅かえ,https://www.dl.ndl.go.jp/api/iiif/3437688/manifest.json
+藤のうらは,藤のうらは,https://www.dl.ndl.go.jp/api/iiif/3437688/manifest.json
+わかな上,わかな上,https://www.dl.ndl.go.jp/api/iiif/3437688/manifest.json
+わかな下,わかな下,https://www.dl.ndl.go.jp/api/iiif/3437688/manifest.json
