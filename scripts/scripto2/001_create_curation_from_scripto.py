@@ -11,6 +11,8 @@ def media(url):
 
     image_api = soup.find(class_="post-subtitle").text.split("Original title: ")[1]
 
+    image_api = image_api.replace("https://dl.ndl.go.jp/", "https://www.dl.ndl.go.jp/")
+
     #######
 
     tmp = url.split("/")
@@ -159,6 +161,6 @@ divs = soup.find_all(class_="resource-tile")
 for div in divs:
     href = div.find("a").get("href")
     href = urljoin(url, href)
-    # print(href)
+    print(href)
 
     item(href, "data")
