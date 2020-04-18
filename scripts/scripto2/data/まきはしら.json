@@ -3,12 +3,12 @@
         "http://iiif.io/api/presentation/2/context.json",
         "http://codh.rois.ac.jp/iiif/curation/1/context.json"
     ],
-    "@id": "https://curation/3f87e898-9344-46be-bbe1-98e1d7b2ee06",
+    "@id": "https://curation/73185a09-7574-4904-8b86-bd5955b13e92",
     "@type": "cr:Curation",
     "label": "Character List",
     "selections": [
         {
-            "@id": "https://curation/3f87e898-9344-46be-bbe1-98e1d7b2ee06/range1",
+            "@id": "https://curation/73185a09-7574-4904-8b86-bd5955b13e92/range1",
             "@type": "sc:Range",
             "label": "Characters",
             "members": [

@@ -151,16 +151,27 @@ def item(base, dir):
     json.dump(curation, fw, ensure_ascii=False, indent=4,
             sort_keys=True, separators=(',', ': '))
 
+page = 1
 
+base = "https://diyhistory.org/public/genji/scripto/s/koui/1/1/item"
 
-url = "https://diyhistory.org/public/genji/scripto/s/koui/1/1/item"
-r = requests.get(url)         #requestsを使って、webから取得
-soup = bs4.BeautifulSoup(r.text, 'lxml') #要素を抽出
+flg = True
 
-divs = soup.find_all(class_="resource-tile")
-for div in divs:
-    href = div.find("a").get("href")
-    href = urljoin(url, href)
-    print(href)
+while(flg):
 
-    item(href, "data")
+    url = base + "?page=" + str(page)
+    r = requests.get(url)         #requestsを使って、webから取得
+    soup = bs4.BeautifulSoup(r.text, 'lxml') #要素を抽出
+
+    divs = soup.find_all(class_="resource-tile")
+    for div in divs:
+        href = div.find("a").get("href")
+        href = urljoin(url, href)
+        print(href)
+
+        item(href, "data")
+
+    page += 1
+
+    if len(divs) == 0:
+        flg = False
