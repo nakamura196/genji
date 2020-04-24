@@ -1,0 +1,2864 @@
+{
+    "@context": [
+        "http://iiif.io/api/presentation/2/context.json",
+        "http://codh.rois.ac.jp/iiif/curation/1/context.json"
+    ],
+    "@id": "https://genji.dl.itc.u-tokyo.ac.jp/data/info.json",
+    "@type": "cr:Curation",
+    "label": "Character List",
+    "selections": [
+        {
+            "within": {
+                "@id": "https://www.dl.ndl.go.jp/api/iiif/3437686/manifest.json",
+                "@type": "sc:Manifest",
+                "label": "校異源氏物語. 巻一"
+            },
+            "members": [
+                {
+                    "@id": "https://www.dl.ndl.go.jp/api/iiif/3437686/canvas/20",
+                    "@type": "sc:Canvas",
+                    "label": "桐壺",
+                    "metadata": [
+                        {
+                            "label": "vol",
+                            "value": 1
+                        },
+                        {
+                            "label": "aozora",
+                            "value": "https://www.aozora.gr.jp/cards/000052/files/5016_9758.html"
+                        },
+                        {
+                            "label": "tei",
+                            "value": "https://genji.dl.itc.u-tokyo.ac.jp/data/tei/yosano/01.xml"
+                        },
+                        {
+                            "label": "ndl",
+                            "value": "https://dl.ndl.go.jp/info:ndljp/pid/3437686/20"
+                        },
+                        {
+                            "label": "ndl_front",
+                            "value": 20
+                        },
+                        {
+                            "label": "ndl_start",
+                            "value": 22
+                        },
+                        {
+                            "label": "koui_front",
+                            "value": 1
+                        },
+                        {
+                            "label": "koui_start",
+                            "value": 5
+                        },
+                        {
+                            "label": "jk",
+                            "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00200015"
+                        },
+                        {
+                            "label": "jk_front",
+                            "value": "80110V00200015"
+                        },
+                        {
+                            "label": "jk_start",
+                            "value": "80110V00200017"
+                        }
+                    ],
+                    "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/3437686/R0000020/0,0,3445,4706/600,/0/default.jpg"
+                },
+                {
+                    "@id": "https://www.dl.ndl.go.jp/api/iiif/3437686/canvas/35",
+                    "@type": "sc:Canvas",
+                    "label": "帚木",
+                    "metadata": [
+                        {
+                            "label": "vol",
+                            "value": 2
+                        },
+                        {
+                            "label": "aozora",
+                            "value": "https://www.aozora.gr.jp/cards/000052/files/5017_9759.html"
+                        },
+                        {
+                            "label": "tei",
+                            "value": "https://genji.dl.itc.u-tokyo.ac.jp/data/tei/yosano/02.xml"
+                        },
+                        {
+                            "label": "ndl",
+                            "value": "https://dl.ndl.go.jp/info:ndljp/pid/3437686/35"
+                        },
+                        {
+                            "label": "ndl_front",
+                            "value": 35
+                        },
+                        {
+                            "label": "ndl_start",
+                            "value": 37
+                        },
+                        {
+                            "label": "koui_front",
+                            "value": 31
+                        },
+                        {
+                            "label": "koui_start",
+                            "value": 35
+                        },
+                        {
+                            "label": "jk",
+                            "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00200051"
+                        },
+                        {
+                            "label": "jk_front",
+                            "value": "80110V00200051"
+                        },
+                        {
+                            "label": "jk_start",
+                            "value": "80110V00200053"
+                        }
+                    ],
+                    "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/3437686/R0000035/0,0,3445,4706/600,/0/default.jpg"
+                },
+                {
+                    "@id": "https://www.dl.ndl.go.jp/api/iiif/3437686/canvas/60",
+                    "@type": "sc:Canvas",
+                    "label": "空蝉",
+                    "metadata": [
+                        {
+                            "label": "vol",
+                            "value": 3
+                        },
+                        {
+                            "label": "aozora",
+                            "value": "https://www.aozora.gr.jp/cards/000052/files/5018_9760.html"
+                        },
+                        {
+                            "label": "tei",
+                            "value": "https://genji.dl.itc.u-tokyo.ac.jp/data/tei/yosano/03.xml"
+                        },
+                        {
+                            "label": "ndl",
+                            "value": "https://dl.ndl.go.jp/info:ndljp/pid/3437686/60"
+                        },
+                        {
+                            "label": "ndl_front",
+                            "value": 60
+                        },
+                        {
+                            "label": "ndl_start",
+                            "value": 62
+                        },
+                        {
+                            "label": "koui_front",
+                            "value": 81
+                        },
+                        {
+                            "label": "koui_start",
+                            "value": 85
+                        },
+                        {
+                            "label": "jk",
+                            "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00200115"
+                        },
+                        {
+                            "label": "jk_front",
+                            "value": "80110V00200115"
+                        },
+                        {
+                            "label": "jk_start",
+                            "value": "80110V00200117"
+                        }
+                    ],
+                    "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/3437686/R0000060/0,0,3445,4706/600,/0/default.jpg"
+                },
+                {
+                    "@id": "https://www.dl.ndl.go.jp/api/iiif/3437686/canvas/68",
+                    "@type": "sc:Canvas",
+                    "label": "夕顔",
+                    "metadata": [
+                        {
+                            "label": "vol",
+                            "value": 4
+                        },
+                        {
+                            "label": "aozora",
+                            "value": "https://www.aozora.gr.jp/cards/000052/files/5019_9762.html"
+                        },
+                        {
+                            "label": "tei",
+                            "value": "https://genji.dl.itc.u-tokyo.ac.jp/data/tei/yosano/04.xml"
+                        },
+                        {
+                            "label": "ndl",
+                            "value": "https://dl.ndl.go.jp/info:ndljp/pid/3437686/68"
+                        },
+                        {
+                            "label": "ndl_front",
+                            "value": 68
+                        },
+                        {
+                            "label": "ndl_start",
+                            "value": 70
+                        },
+                        {
+                            "label": "koui_front",
+                            "value": 97
+                        },
+                        {
+                            "label": "koui_start",
+                            "value": 101
+                        },
+                        {
+                            "label": "jk",
+                            "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00200133"
+                        },
+                        {
+                            "label": "jk_front",
+                            "value": "80110V00200133"
+                        },
+                        {
+                            "label": "jk_start",
+                            "value": "80110V00200135"
+                        }
+                    ],
+                    "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/3437686/R0000068/0,0,3445,4706/600,/0/default.jpg"
+                },
+                {
+                    "@id": "https://www.dl.ndl.go.jp/api/iiif/3437686/canvas/93",
+                    "@type": "sc:Canvas",
+                    "label": "若紫",
+                    "metadata": [
+                        {
+                            "label": "vol",
+                            "value": 5
+                        },
+                        {
+                            "label": "aozora",
+                            "value": "https://www.aozora.gr.jp/cards/000052/files/5020_11254.html"
+                        },
+                        {
+                            "label": "tei",
+                            "value": "https://genji.dl.itc.u-tokyo.ac.jp/data/tei/yosano/05.xml"
+                        },
+                        {
+                            "label": "ndl",
+                            "value": "https://dl.ndl.go.jp/info:ndljp/pid/3437686/93"
+                        },
+                        {
+                            "label": "ndl_front",
+                            "value": 93
+                        },
+                        {
+                            "label": "ndl_start",
+                            "value": 95
+                        },
+                        {
+                            "label": "koui_front",
+                            "value": 147
+                        },
+                        {
+                            "label": "koui_start",
+                            "value": 151
+                        },
+                        {
+                            "label": "jk",
+                            "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00200197"
+                        },
+                        {
+                            "label": "jk_front",
+                            "value": "80110V00200197"
+                        },
+                        {
+                            "label": "jk_start",
+                            "value": "80110V00200199"
+                        }
+                    ],
+                    "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/3437686/R0000093/0,0,3445,4706/600,/0/default.jpg"
+                },
+                {
+                    "@id": "https://www.dl.ndl.go.jp/api/iiif/3437686/canvas/118",
+                    "@type": "sc:Canvas",
+                    "label": "末摘花",
+                    "metadata": [
+                        {
+                            "label": "vol",
+                            "value": 6
+                        },
+                        {
+                            "label": "aozora",
+                            "value": "https://www.aozora.gr.jp/cards/000052/files/5021_11107.html"
+                        },
+                        {
+                            "label": "tei",
+                            "value": "https://genji.dl.itc.u-tokyo.ac.jp/data/tei/yosano/06.xml"
+                        },
+                        {
+                            "label": "ndl",
+                            "value": "https://dl.ndl.go.jp/info:ndljp/pid/3437686/118"
+                        },
+                        {
+                            "label": "ndl_front",
+                            "value": 118
+                        },
+                        {
+                            "label": "ndl_start",
+                            "value": 120
+                        },
+                        {
+                            "label": "koui_front",
+                            "value": 197
+                        },
+                        {
+                            "label": "koui_start",
+                            "value": 201
+                        },
+                        {
+                            "label": "jk",
+                            "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00200263"
+                        },
+                        {
+                            "label": "jk_front",
+                            "value": "80110V00200263"
+                        },
+                        {
+                            "label": "jk_start",
+                            "value": "80110V00200265"
+                        }
+                    ],
+                    "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/3437686/R0000118/0,0,3445,4706/600,/0/default.jpg"
+                },
+                {
+                    "@id": "https://www.dl.ndl.go.jp/api/iiif/3437686/canvas/136",
+                    "@type": "sc:Canvas",
+                    "label": "紅葉賀",
+                    "metadata": [
+                        {
+                            "label": "vol",
+                            "value": 7
+                        },
+                        {
+                            "label": "aozora",
+                            "value": "https://www.aozora.gr.jp/cards/000052/files/5022_11633.html"
+                        },
+                        {
+                            "label": "tei",
+                            "value": "https://genji.dl.itc.u-tokyo.ac.jp/data/tei/yosano/07.xml"
+                        },
+                        {
+                            "label": "ndl",
+                            "value": "https://dl.ndl.go.jp/info:ndljp/pid/3437686/136"
+                        },
+                        {
+                            "label": "ndl_front",
+                            "value": 136
+                        },
+                        {
+                            "label": "ndl_start",
+                            "value": 138
+                        },
+                        {
+                            "label": "koui_front",
+                            "value": 233
+                        },
+                        {
+                            "label": "koui_start",
+                            "value": 237
+                        },
+                        {
+                            "label": "jk",
+                            "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00200309"
+                        },
+                        {
+                            "label": "jk_front",
+                            "value": "80110V00200309"
+                        },
+                        {
+                            "label": "jk_start",
+                            "value": "80110V00200311"
+                        }
+                    ],
+                    "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/3437686/R0000136/0,0,3445,4706/600,/0/default.jpg"
+                },
+                {
+                    "@id": "https://www.dl.ndl.go.jp/api/iiif/3437686/canvas/152",
+                    "@type": "sc:Canvas",
+                    "label": "花宴",
+                    "metadata": [
+                        {
+                            "label": "vol",
+                            "value": 8
+                        },
+                        {
+                            "label": "aozora",
+                            "value": "https://www.aozora.gr.jp/cards/000052/files/5023_10175.html"
+                        },
+                        {
+                            "label": "tei",
+                            "value": "https://genji.dl.itc.u-tokyo.ac.jp/data/tei/yosano/08.xml"
+                        },
+                        {
+                            "label": "ndl",
+                            "value": "https://dl.ndl.go.jp/info:ndljp/pid/3437686/152"
+                        },
+                        {
+                            "label": "ndl_front",
+                            "value": 152
+                        },
+                        {
+                            "label": "ndl_start",
+                            "value": 154
+                        },
+                        {
+                            "label": "koui_front",
+                            "value": 265
+                        },
+                        {
+                            "label": "koui_start",
+                            "value": 269
+                        },
+                        {
+                            "label": "jk",
+                            "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00200351"
+                        },
+                        {
+                            "label": "jk_front",
+                            "value": "80110V00200351"
+                        },
+                        {
+                            "label": "jk_start",
+                            "value": "80110V00200353"
+                        }
+                    ],
+                    "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/3437686/R0000152/0,0,3445,4706/600,/0/default.jpg"
+                },
+                {
+                    "@id": "https://www.dl.ndl.go.jp/api/iiif/3437686/canvas/159",
+                    "@type": "sc:Canvas",
+                    "label": "葵",
+                    "metadata": [
+                        {
+                            "label": "vol",
+                            "value": 9
+                        },
+                        {
+                            "label": "aozora",
+                            "value": "https://www.aozora.gr.jp/cards/000052/files/5024_11085.html"
+                        },
+                        {
+                            "label": "tei",
+                            "value": "https://genji.dl.itc.u-tokyo.ac.jp/data/tei/yosano/09.xml"
+                        },
+                        {
+                            "label": "ndl",
+                            "value": "https://dl.ndl.go.jp/info:ndljp/pid/3437686/159"
+                        },
+                        {
+                            "label": "ndl_front",
+                            "value": 159
+                        },
+                        {
+                            "label": "ndl_start",
+                            "value": 161
+                        },
+                        {
+                            "label": "koui_front",
+                            "value": 279
+                        },
+                        {
+                            "label": "koui_start",
+                            "value": 283
+                        },
+                        {
+                            "label": "jk",
+                            "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00210015"
+                        },
+                        {
+                            "label": "jk_front",
+                            "value": "80110V00210015"
+                        },
+                        {
+                            "label": "jk_start",
+                            "value": "80110V00210017"
+                        }
+                    ],
+                    "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/3437686/R0000159/0,0,3445,4706/600,/0/default.jpg"
+                },
+                {
+                    "@id": "https://www.dl.ndl.go.jp/api/iiif/3437686/canvas/184",
+                    "@type": "sc:Canvas",
+                    "label": "賢木",
+                    "metadata": [
+                        {
+                            "label": "vol",
+                            "value": 10
+                        },
+                        {
+                            "label": "aozora",
+                            "value": "https://www.aozora.gr.jp/cards/000052/files/5025_11636.html"
+                        },
+                        {
+                            "label": "tei",
+                            "value": "https://genji.dl.itc.u-tokyo.ac.jp/data/tei/yosano/10.xml"
+                        },
+                        {
+                            "label": "ndl",
+                            "value": "https://dl.ndl.go.jp/info:ndljp/pid/3437686/184"
+                        },
+                        {
+                            "label": "ndl_front",
+                            "value": 184
+                        },
+                        {
+                            "label": "ndl_start",
+                            "value": 186
+                        },
+                        {
+                            "label": "koui_front",
+                            "value": 329
+                        },
+                        {
+                            "label": "koui_start",
+                            "value": 333
+                        },
+                        {
+                            "label": "jk",
+                            "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00210081"
+                        },
+                        {
+                            "label": "jk_front",
+                            "value": "80110V00210081"
+                        },
+                        {
+                            "label": "jk_start",
+                            "value": "80110V00210083"
+                        }
+                    ],
+                    "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/3437686/R0000184/0,0,3445,4706/600,/0/default.jpg"
+                },
+                {
+                    "@id": "https://www.dl.ndl.go.jp/api/iiif/3437686/canvas/211",
+                    "@type": "sc:Canvas",
+                    "label": "花散里",
+                    "metadata": [
+                        {
+                            "label": "vol",
+                            "value": 11
+                        },
+                        {
+                            "label": "aozora",
+                            "value": "https://www.aozora.gr.jp/cards/000052/files/5026_11638.html"
+                        },
+                        {
+                            "label": "tei",
+                            "value": "https://genji.dl.itc.u-tokyo.ac.jp/data/tei/yosano/11.xml"
+                        },
+                        {
+                            "label": "ndl",
+                            "value": "https://dl.ndl.go.jp/info:ndljp/pid/3437686/211"
+                        },
+                        {
+                            "label": "ndl_front",
+                            "value": 211
+                        },
+                        {
+                            "label": "ndl_start",
+                            "value": 213
+                        },
+                        {
+                            "label": "koui_front",
+                            "value": 383
+                        },
+                        {
+                            "label": "koui_start",
+                            "value": 387
+                        },
+                        {
+                            "label": "jk",
+                            "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00210151"
+                        },
+                        {
+                            "label": "jk_front",
+                            "value": "80110V00210151"
+                        },
+                        {
+                            "label": "jk_start",
+                            "value": "80110V00210153"
+                        }
+                    ],
+                    "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/3437686/R0000211/0,0,3445,4706/600,/0/default.jpg"
+                }
+            ]
+        },
+        {
+            "within": {
+                "@id": "https://www.dl.ndl.go.jp/api/iiif/3437687/manifest.json",
+                "@type": "sc:Manifest",
+                "label": "校異源氏物語. 巻二"
+            },
+            "members": [
+                {
+                    "@id": "https://www.dl.ndl.go.jp/api/iiif/3437687/canvas/5",
+                    "@type": "sc:Canvas",
+                    "label": "須磨",
+                    "metadata": [
+                        {
+                            "label": "vol",
+                            "value": 12
+                        },
+                        {
+                            "label": "aozora",
+                            "value": "https://www.aozora.gr.jp/cards/000052/files/5027_11270.html"
+                        },
+                        {
+                            "label": "tei",
+                            "value": "https://genji.dl.itc.u-tokyo.ac.jp/data/tei/yosano/12.xml"
+                        },
+                        {
+                            "label": "ndl",
+                            "value": "https://dl.ndl.go.jp/info:ndljp/pid/3437687/5"
+                        },
+                        {
+                            "label": "ndl_front",
+                            "value": 5
+                        },
+                        {
+                            "label": "ndl_start",
+                            "value": 7
+                        },
+                        {
+                            "label": "koui_front",
+                            "value": 391
+                        },
+                        {
+                            "label": "koui_start",
+                            "value": 395
+                        },
+                        {
+                            "label": "jk",
+                            "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00210159"
+                        },
+                        {
+                            "label": "jk_front",
+                            "value": "80110V00210159"
+                        },
+                        {
+                            "label": "jk_start",
+                            "value": "80110V00210161"
+                        }
+                    ],
+                    "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/3437687/R0000005/0,0,3445,4706/600,/0/default.jpg"
+                },
+                {
+                    "@id": "https://www.dl.ndl.go.jp/api/iiif/3437687/canvas/28",
+                    "@type": "sc:Canvas",
+                    "label": "明石",
+                    "metadata": [
+                        {
+                            "label": "vol",
+                            "value": 13
+                        },
+                        {
+                            "label": "aozora",
+                            "value": "https://www.aozora.gr.jp/cards/000052/files/5028_11650.html"
+                        },
+                        {
+                            "label": "tei",
+                            "value": "https://genji.dl.itc.u-tokyo.ac.jp/data/tei/yosano/13.xml"
+                        },
+                        {
+                            "label": "ndl",
+                            "value": "https://dl.ndl.go.jp/info:ndljp/pid/3437687/28"
+                        },
+                        {
+                            "label": "ndl_front",
+                            "value": 28
+                        },
+                        {
+                            "label": "ndl_start",
+                            "value": 30
+                        },
+                        {
+                            "label": "koui_front",
+                            "value": 437
+                        },
+                        {
+                            "label": "koui_start",
+                            "value": 441
+                        },
+                        {
+                            "label": "jk",
+                            "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00210221"
+                        },
+                        {
+                            "label": "jk_front",
+                            "value": "80110V00210221"
+                        },
+                        {
+                            "label": "jk_start",
+                            "value": "80110V00210223"
+                        }
+                    ],
+                    "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/3437687/R0000028/0,0,3445,4706/600,/0/default.jpg"
+                },
+                {
+                    "@id": "https://www.dl.ndl.go.jp/api/iiif/3437687/canvas/49",
+                    "@type": "sc:Canvas",
+                    "label": "澪標",
+                    "metadata": [
+                        {
+                            "label": "vol",
+                            "value": 14
+                        },
+                        {
+                            "label": "aozora",
+                            "value": "https://www.aozora.gr.jp/cards/000052/files/5029_10177.html"
+                        },
+                        {
+                            "label": "tei",
+                            "value": "https://genji.dl.itc.u-tokyo.ac.jp/data/tei/yosano/14.xml"
+                        },
+                        {
+                            "label": "ndl",
+                            "value": "https://dl.ndl.go.jp/info:ndljp/pid/3437687/49"
+                        },
+                        {
+                            "label": "ndl_front",
+                            "value": 49
+                        },
+                        {
+                            "label": "ndl_start",
+                            "value": 51
+                        },
+                        {
+                            "label": "koui_front",
+                            "value": 479
+                        },
+                        {
+                            "label": "koui_start",
+                            "value": 483
+                        },
+                        {
+                            "label": "jk",
+                            "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00210277"
+                        },
+                        {
+                            "label": "jk_front",
+                            "value": "80110V00210277"
+                        },
+                        {
+                            "label": "jk_start",
+                            "value": "80110V00210279"
+                        }
+                    ],
+                    "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/3437687/R0000049/0,0,3445,4706/600,/0/default.jpg"
+                },
+                {
+                    "@id": "https://www.dl.ndl.go.jp/api/iiif/3437687/canvas/67",
+                    "@type": "sc:Canvas",
+                    "label": "蓬生",
+                    "metadata": [
+                        {
+                            "label": "vol",
+                            "value": 15
+                        },
+                        {
+                            "label": "aozora",
+                            "value": "https://www.aozora.gr.jp/cards/000052/files/5030_10219.html"
+                        },
+                        {
+                            "label": "tei",
+                            "value": "https://genji.dl.itc.u-tokyo.ac.jp/data/tei/yosano/15.xml"
+                        },
+                        {
+                            "label": "ndl",
+                            "value": "https://dl.ndl.go.jp/info:ndljp/pid/3437687/67"
+                        },
+                        {
+                            "label": "ndl_front",
+                            "value": 67
+                        },
+                        {
+                            "label": "ndl_start",
+                            "value": 69
+                        },
+                        {
+                            "label": "koui_front",
+                            "value": 515
+                        },
+                        {
+                            "label": "koui_start",
+                            "value": 519
+                        },
+                        {
+                            "label": "jk",
+                            "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00210323"
+                        },
+                        {
+                            "label": "jk_front",
+                            "value": "80110V00210323"
+                        },
+                        {
+                            "label": "jk_start",
+                            "value": "80110V00210325"
+                        }
+                    ],
+                    "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/3437687/R0000067/0,0,3445,4706/600,/0/default.jpg"
+                },
+                {
+                    "@id": "https://www.dl.ndl.go.jp/api/iiif/3437687/canvas/81",
+                    "@type": "sc:Canvas",
+                    "label": "関屋",
+                    "metadata": [
+                        {
+                            "label": "vol",
+                            "value": 16
+                        },
+                        {
+                            "label": "aozora",
+                            "value": "https://www.aozora.gr.jp/cards/000052/files/5031_10221.html"
+                        },
+                        {
+                            "label": "tei",
+                            "value": "https://genji.dl.itc.u-tokyo.ac.jp/data/tei/yosano/16.xml"
+                        },
+                        {
+                            "label": "ndl",
+                            "value": "https://dl.ndl.go.jp/info:ndljp/pid/3437687/81"
+                        },
+                        {
+                            "label": "ndl_front",
+                            "value": 81
+                        },
+                        {
+                            "label": "ndl_start",
+                            "value": 83
+                        },
+                        {
+                            "label": "koui_front",
+                            "value": 543
+                        },
+                        {
+                            "label": "koui_start",
+                            "value": 547
+                        },
+                        {
+                            "label": "jk",
+                            "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00210357"
+                        },
+                        {
+                            "label": "jk_front",
+                            "value": "80110V00210357"
+                        },
+                        {
+                            "label": "jk_start",
+                            "value": "80110V00210359"
+                        }
+                    ],
+                    "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/3437687/R0000081/0,0,3445,4706/600,/0/default.jpg"
+                },
+                {
+                    "@id": "https://www.dl.ndl.go.jp/api/iiif/3437687/canvas/86",
+                    "@type": "sc:Canvas",
+                    "label": "絵合",
+                    "metadata": [
+                        {
+                            "label": "vol",
+                            "value": 17
+                        },
+                        {
+                            "label": "aozora",
+                            "value": "https://www.aozora.gr.jp/cards/000052/files/5032_10223.html"
+                        },
+                        {
+                            "label": "tei",
+                            "value": "https://genji.dl.itc.u-tokyo.ac.jp/data/tei/yosano/17.xml"
+                        },
+                        {
+                            "label": "ndl",
+                            "value": "https://dl.ndl.go.jp/info:ndljp/pid/3437687/86"
+                        },
+                        {
+                            "label": "ndl_front",
+                            "value": 86
+                        },
+                        {
+                            "label": "ndl_start",
+                            "value": 88
+                        },
+                        {
+                            "label": "koui_front",
+                            "value": 553
+                        },
+                        {
+                            "label": "koui_start",
+                            "value": 557
+                        },
+                        {
+                            "label": "jk",
+                            "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00210367"
+                        },
+                        {
+                            "label": "jk_front",
+                            "value": "80110V00210367"
+                        },
+                        {
+                            "label": "jk_start",
+                            "value": "80110V00210369"
+                        }
+                    ],
+                    "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/3437687/R0000086/0,0,3445,4706/600,/0/default.jpg"
+                },
+                {
+                    "@id": "https://www.dl.ndl.go.jp/api/iiif/3437687/canvas/97",
+                    "@type": "sc:Canvas",
+                    "label": "松風",
+                    "metadata": [
+                        {
+                            "label": "vol",
+                            "value": 18
+                        },
+                        {
+                            "label": "aozora",
+                            "value": "https://www.aozora.gr.jp/cards/000052/files/5033_11020.html"
+                        },
+                        {
+                            "label": "tei",
+                            "value": "https://genji.dl.itc.u-tokyo.ac.jp/data/tei/yosano/18.xml"
+                        },
+                        {
+                            "label": "ndl",
+                            "value": "https://dl.ndl.go.jp/info:ndljp/pid/3437687/97"
+                        },
+                        {
+                            "label": "ndl_front",
+                            "value": 97
+                        },
+                        {
+                            "label": "ndl_start",
+                            "value": 99
+                        },
+                        {
+                            "label": "koui_front",
+                            "value": 575
+                        },
+                        {
+                            "label": "koui_start",
+                            "value": 579
+                        },
+                        {
+                            "label": "jk",
+                            "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00210395"
+                        },
+                        {
+                            "label": "jk_front",
+                            "value": "80110V00210395"
+                        },
+                        {
+                            "label": "jk_start",
+                            "value": "80110V00210397"
+                        }
+                    ],
+                    "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/3437687/R0000097/0,0,3445,4706/600,/0/default.jpg"
+                },
+                {
+                    "@id": "https://www.dl.ndl.go.jp/api/iiif/3437687/canvas/109",
+                    "@type": "sc:Canvas",
+                    "label": "薄雲",
+                    "metadata": [
+                        {
+                            "label": "vol",
+                            "value": 19
+                        },
+                        {
+                            "label": "aozora",
+                            "value": "https://www.aozora.gr.jp/cards/000052/files/5034_11648.html"
+                        },
+                        {
+                            "label": "tei",
+                            "value": "https://genji.dl.itc.u-tokyo.ac.jp/data/tei/yosano/19.xml"
+                        },
+                        {
+                            "label": "ndl",
+                            "value": "https://dl.ndl.go.jp/info:ndljp/pid/3437687/109"
+                        },
+                        {
+                            "label": "ndl_front",
+                            "value": 109
+                        },
+                        {
+                            "label": "ndl_start",
+                            "value": 111
+                        },
+                        {
+                            "label": "koui_front",
+                            "value": 599
+                        },
+                        {
+                            "label": "koui_start",
+                            "value": 603
+                        },
+                        {
+                            "label": "jk",
+                            "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00210425"
+                        },
+                        {
+                            "label": "jk_front",
+                            "value": "80110V00210425"
+                        },
+                        {
+                            "label": "jk_start",
+                            "value": "80110V00210427"
+                        }
+                    ],
+                    "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/3437687/R0000109/0,0,3445,4706/600,/0/default.jpg"
+                },
+                {
+                    "@id": "https://www.dl.ndl.go.jp/api/iiif/3437687/canvas/127",
+                    "@type": "sc:Canvas",
+                    "label": "朝顔（槿）",
+                    "metadata": [
+                        {
+                            "label": "vol",
+                            "value": 20
+                        },
+                        {
+                            "label": "aozora",
+                            "value": "https://www.aozora.gr.jp/cards/000052/files/5035_11652.html"
+                        },
+                        {
+                            "label": "tei",
+                            "value": "https://genji.dl.itc.u-tokyo.ac.jp/data/tei/yosano/20.xml"
+                        },
+                        {
+                            "label": "ndl",
+                            "value": "https://dl.ndl.go.jp/info:ndljp/pid/3437687/127"
+                        },
+                        {
+                            "label": "ndl_front",
+                            "value": 127
+                        },
+                        {
+                            "label": "ndl_start",
+                            "value": 129
+                        },
+                        {
+                            "label": "koui_front",
+                            "value": 635
+                        },
+                        {
+                            "label": "koui_start",
+                            "value": 639
+                        },
+                        {
+                            "label": "jk",
+                            "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00210467"
+                        },
+                        {
+                            "label": "jk_front",
+                            "value": "80110V00210467"
+                        },
+                        {
+                            "label": "jk_start",
+                            "value": "80110V00210469"
+                        }
+                    ],
+                    "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/3437687/R0000127/0,0,3445,4706/600,/0/default.jpg"
+                },
+                {
+                    "@id": "https://www.dl.ndl.go.jp/api/iiif/3437687/canvas/140",
+                    "@type": "sc:Canvas",
+                    "label": "少女",
+                    "metadata": [
+                        {
+                            "label": "vol",
+                            "value": 21
+                        },
+                        {
+                            "label": "aozora",
+                            "value": "https://www.aozora.gr.jp/cards/000052/files/5036_11906.html"
+                        },
+                        {
+                            "label": "tei",
+                            "value": "https://genji.dl.itc.u-tokyo.ac.jp/data/tei/yosano/21.xml"
+                        },
+                        {
+                            "label": "ndl",
+                            "value": "https://dl.ndl.go.jp/info:ndljp/pid/3437687/140"
+                        },
+                        {
+                            "label": "ndl_front",
+                            "value": 140
+                        },
+                        {
+                            "label": "ndl_start",
+                            "value": 142
+                        },
+                        {
+                            "label": "koui_front",
+                            "value": 661
+                        },
+                        {
+                            "label": "koui_start",
+                            "value": 665
+                        },
+                        {
+                            "label": "jk",
+                            "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00220015"
+                        },
+                        {
+                            "label": "jk_front",
+                            "value": "80110V00220015"
+                        },
+                        {
+                            "label": "jk_start",
+                            "value": "80110V00220017"
+                        }
+                    ],
+                    "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/3437687/R0000140/0,0,3445,4706/600,/0/default.jpg"
+                },
+                {
+                    "@id": "https://www.dl.ndl.go.jp/api/iiif/3437687/canvas/167",
+                    "@type": "sc:Canvas",
+                    "label": "玉鬘",
+                    "metadata": [
+                        {
+                            "label": "vol",
+                            "value": 22
+                        },
+                        {
+                            "label": "aozora",
+                            "value": "https://www.aozora.gr.jp/cards/000052/files/5037_11910.html"
+                        },
+                        {
+                            "label": "tei",
+                            "value": "https://genji.dl.itc.u-tokyo.ac.jp/data/tei/yosano/22.xml"
+                        },
+                        {
+                            "label": "ndl",
+                            "value": "https://dl.ndl.go.jp/info:ndljp/pid/3437687/167"
+                        },
+                        {
+                            "label": "ndl_front",
+                            "value": 167
+                        },
+                        {
+                            "label": "ndl_start",
+                            "value": 169
+                        },
+                        {
+                            "label": "koui_front",
+                            "value": 715
+                        },
+                        {
+                            "label": "koui_start",
+                            "value": 719
+                        },
+                        {
+                            "label": "jk",
+                            "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00220085"
+                        },
+                        {
+                            "label": "jk_front",
+                            "value": "80110V00220085"
+                        },
+                        {
+                            "label": "jk_start",
+                            "value": "80110V00220087"
+                        }
+                    ],
+                    "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/3437687/R0000167/0,0,3445,4706/600,/0/default.jpg"
+                },
+                {
+                    "@id": "https://www.dl.ndl.go.jp/api/iiif/3437687/canvas/189",
+                    "@type": "sc:Canvas",
+                    "label": "初音",
+                    "metadata": [
+                        {
+                            "label": "vol",
+                            "value": 23
+                        },
+                        {
+                            "label": "aozora",
+                            "value": "https://www.aozora.gr.jp/cards/000052/files/5038_10199.html"
+                        },
+                        {
+                            "label": "tei",
+                            "value": "https://genji.dl.itc.u-tokyo.ac.jp/data/tei/yosano/23.xml"
+                        },
+                        {
+                            "label": "ndl",
+                            "value": "https://dl.ndl.go.jp/info:ndljp/pid/3437687/189"
+                        },
+                        {
+                            "label": "ndl_front",
+                            "value": 189
+                        },
+                        {
+                            "label": "ndl_start",
+                            "value": 191
+                        },
+                        {
+                            "label": "koui_front",
+                            "value": 759
+                        },
+                        {
+                            "label": "koui_start",
+                            "value": 763
+                        },
+                        {
+                            "label": "jk",
+                            "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00220141"
+                        },
+                        {
+                            "label": "jk_front",
+                            "value": "80110V00220141"
+                        },
+                        {
+                            "label": "jk_start",
+                            "value": "80110V00220143"
+                        }
+                    ],
+                    "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/3437687/R0000189/0,0,3445,4706/600,/0/default.jpg"
+                },
+                {
+                    "@id": "https://www.dl.ndl.go.jp/api/iiif/3437687/canvas/198",
+                    "@type": "sc:Canvas",
+                    "label": "胡蝶",
+                    "metadata": [
+                        {
+                            "label": "vol",
+                            "value": 24
+                        },
+                        {
+                            "label": "aozora",
+                            "value": "https://www.aozora.gr.jp/cards/000052/files/5039_11657.html"
+                        },
+                        {
+                            "label": "tei",
+                            "value": "https://genji.dl.itc.u-tokyo.ac.jp/data/tei/yosano/24.xml"
+                        },
+                        {
+                            "label": "ndl",
+                            "value": "https://dl.ndl.go.jp/info:ndljp/pid/3437687/198"
+                        },
+                        {
+                            "label": "ndl_front",
+                            "value": 198
+                        },
+                        {
+                            "label": "ndl_start",
+                            "value": 200
+                        },
+                        {
+                            "label": "koui_front",
+                            "value": 777
+                        },
+                        {
+                            "label": "koui_start",
+                            "value": 781
+                        },
+                        {
+                            "label": "jk",
+                            "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00220163"
+                        },
+                        {
+                            "label": "jk_front",
+                            "value": "80110V00220163"
+                        },
+                        {
+                            "label": "jk_start",
+                            "value": "80110V00220165"
+                        }
+                    ],
+                    "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/3437687/R0000198/0,0,3445,4706/600,/0/default.jpg"
+                }
+            ]
+        },
+        {
+            "within": {
+                "@id": "https://www.dl.ndl.go.jp/api/iiif/3437688/manifest.json",
+                "@type": "sc:Manifest",
+                "label": "校異源氏物語. 巻三"
+            },
+            "members": [
+                {
+                    "@id": "https://www.dl.ndl.go.jp/api/iiif/3437688/canvas/5",
+                    "@type": "sc:Canvas",
+                    "label": "蛍",
+                    "metadata": [
+                        {
+                            "label": "vol",
+                            "value": 25
+                        },
+                        {
+                            "label": "aozora",
+                            "value": "https://www.aozora.gr.jp/cards/000052/files/5040_11669.html"
+                        },
+                        {
+                            "label": "tei",
+                            "value": "https://genji.dl.itc.u-tokyo.ac.jp/data/tei/yosano/25.xml"
+                        },
+                        {
+                            "label": "ndl",
+                            "value": "https://dl.ndl.go.jp/info:ndljp/pid/3437688/5"
+                        },
+                        {
+                            "label": "ndl_front",
+                            "value": 5
+                        },
+                        {
+                            "label": "ndl_start",
+                            "value": 7
+                        },
+                        {
+                            "label": "koui_front",
+                            "value": 801
+                        },
+                        {
+                            "label": "koui_start",
+                            "value": 805
+                        },
+                        {
+                            "label": "jk",
+                            "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00220193"
+                        },
+                        {
+                            "label": "jk_front",
+                            "value": "80110V00220193"
+                        },
+                        {
+                            "label": "jk_start",
+                            "value": "80110V00220195"
+                        }
+                    ],
+                    "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/3437688/R0000005/0,0,3445,4706/600,/0/default.jpg"
+                },
+                {
+                    "@id": "https://www.dl.ndl.go.jp/api/iiif/3437688/canvas/17",
+                    "@type": "sc:Canvas",
+                    "label": "常夏",
+                    "metadata": [
+                        {
+                            "label": "vol",
+                            "value": 26
+                        },
+                        {
+                            "label": "aozora",
+                            "value": "https://www.aozora.gr.jp/cards/000052/files/5041_12171.html"
+                        },
+                        {
+                            "label": "tei",
+                            "value": "https://genji.dl.itc.u-tokyo.ac.jp/data/tei/yosano/26.xml"
+                        },
+                        {
+                            "label": "ndl",
+                            "value": "https://dl.ndl.go.jp/info:ndljp/pid/3437688/17"
+                        },
+                        {
+                            "label": "ndl_front",
+                            "value": 17
+                        },
+                        {
+                            "label": "ndl_start",
+                            "value": 19
+                        },
+                        {
+                            "label": "koui_front",
+                            "value": 825
+                        },
+                        {
+                            "label": "koui_start",
+                            "value": 829
+                        },
+                        {
+                            "label": "jk",
+                            "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00220221"
+                        },
+                        {
+                            "label": "jk_front",
+                            "value": "80110V00220221"
+                        },
+                        {
+                            "label": "jk_start",
+                            "value": "80110V00220223"
+                        }
+                    ],
+                    "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/3437688/R0000017/0,0,3445,4706/600,/0/default.jpg"
+                },
+                {
+                    "@id": "https://www.dl.ndl.go.jp/api/iiif/3437688/canvas/30",
+                    "@type": "sc:Canvas",
+                    "label": "篝火",
+                    "metadata": [
+                        {
+                            "label": "vol",
+                            "value": 27
+                        },
+                        {
+                            "label": "aozora",
+                            "value": "https://www.aozora.gr.jp/cards/000052/files/5042_11844.html"
+                        },
+                        {
+                            "label": "tei",
+                            "value": "https://genji.dl.itc.u-tokyo.ac.jp/data/tei/yosano/27.xml"
+                        },
+                        {
+                            "label": "ndl",
+                            "value": "https://dl.ndl.go.jp/info:ndljp/pid/3437688/30"
+                        },
+                        {
+                            "label": "ndl_front",
+                            "value": 30
+                        },
+                        {
+                            "label": "ndl_start",
+                            "value": 32
+                        },
+                        {
+                            "label": "koui_front",
+                            "value": 851
+                        },
+                        {
+                            "label": "koui_start",
+                            "value": 855
+                        },
+                        {
+                            "label": "jk",
+                            "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00220253"
+                        },
+                        {
+                            "label": "jk_front",
+                            "value": "80110V00220253"
+                        },
+                        {
+                            "label": "jk_start",
+                            "value": "80110V00220255"
+                        }
+                    ],
+                    "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/3437688/R0000030/0,0,3445,4706/600,/0/default.jpg"
+                },
+                {
+                    "@id": "https://www.dl.ndl.go.jp/api/iiif/3437688/canvas/34",
+                    "@type": "sc:Canvas",
+                    "label": "野分",
+                    "metadata": [
+                        {
+                            "label": "vol",
+                            "value": 28
+                        },
+                        {
+                            "label": "aozora",
+                            "value": "https://www.aozora.gr.jp/cards/000052/files/5043_10262.html"
+                        },
+                        {
+                            "label": "tei",
+                            "value": "https://genji.dl.itc.u-tokyo.ac.jp/data/tei/yosano/28.xml"
+                        },
+                        {
+                            "label": "ndl",
+                            "value": "https://dl.ndl.go.jp/info:ndljp/pid/3437688/34"
+                        },
+                        {
+                            "label": "ndl_front",
+                            "value": 34
+                        },
+                        {
+                            "label": "ndl_start",
+                            "value": 36
+                        },
+                        {
+                            "label": "koui_front",
+                            "value": 859
+                        },
+                        {
+                            "label": "koui_start",
+                            "value": 863
+                        },
+                        {
+                            "label": "jk",
+                            "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00220261"
+                        },
+                        {
+                            "label": "jk_front",
+                            "value": "80110V00220261"
+                        },
+                        {
+                            "label": "jk_start",
+                            "value": "80110V00220263"
+                        }
+                    ],
+                    "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/3437688/R0000034/0,0,3445,4706/600,/0/default.jpg"
+                },
+                {
+                    "@id": "https://www.dl.ndl.go.jp/api/iiif/3437688/canvas/45",
+                    "@type": "sc:Canvas",
+                    "label": "行幸",
+                    "metadata": [
+                        {
+                            "label": "vol",
+                            "value": 29
+                        },
+                        {
+                            "label": "aozora",
+                            "value": "https://www.aozora.gr.jp/cards/000052/files/5044_10287.html"
+                        },
+                        {
+                            "label": "tei",
+                            "value": "https://genji.dl.itc.u-tokyo.ac.jp/data/tei/yosano/29.xml"
+                        },
+                        {
+                            "label": "ndl",
+                            "value": "https://dl.ndl.go.jp/info:ndljp/pid/3437688/45"
+                        },
+                        {
+                            "label": "ndl_front",
+                            "value": 45
+                        },
+                        {
+                            "label": "ndl_start",
+                            "value": 47
+                        },
+                        {
+                            "label": "koui_front",
+                            "value": 881
+                        },
+                        {
+                            "label": "koui_start",
+                            "value": 885
+                        },
+                        {
+                            "label": "jk",
+                            "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00220287"
+                        },
+                        {
+                            "label": "jk_front",
+                            "value": "80110V00220287"
+                        },
+                        {
+                            "label": "jk_start",
+                            "value": "80110V00220289"
+                        }
+                    ],
+                    "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/3437688/R0000045/0,0,3445,4706/600,/0/default.jpg"
+                },
+                {
+                    "@id": "https://www.dl.ndl.go.jp/api/iiif/3437688/canvas/61",
+                    "@type": "sc:Canvas",
+                    "label": "藤袴",
+                    "metadata": [
+                        {
+                            "label": "vol",
+                            "value": 30
+                        },
+                        {
+                            "label": "aozora",
+                            "value": "https://www.aozora.gr.jp/cards/000052/files/5045_11024.html"
+                        },
+                        {
+                            "label": "tei",
+                            "value": "https://genji.dl.itc.u-tokyo.ac.jp/data/tei/yosano/30.xml"
+                        },
+                        {
+                            "label": "ndl",
+                            "value": "https://dl.ndl.go.jp/info:ndljp/pid/3437688/61"
+                        },
+                        {
+                            "label": "ndl_front",
+                            "value": 61
+                        },
+                        {
+                            "label": "ndl_start",
+                            "value": 63
+                        },
+                        {
+                            "label": "koui_front",
+                            "value": 913
+                        },
+                        {
+                            "label": "koui_start",
+                            "value": 917
+                        },
+                        {
+                            "label": "jk",
+                            "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00220325"
+                        },
+                        {
+                            "label": "jk_front",
+                            "value": "80110V00220325"
+                        },
+                        {
+                            "label": "jk_start",
+                            "value": "80110V00220327"
+                        }
+                    ],
+                    "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/3437688/R0000061/0,0,3445,4706/600,/0/default.jpg"
+                },
+                {
+                    "@id": "https://www.dl.ndl.go.jp/api/iiif/3437688/canvas/70",
+                    "@type": "sc:Canvas",
+                    "label": "真木柱",
+                    "metadata": [
+                        {
+                            "label": "vol",
+                            "value": 31
+                        },
+                        {
+                            "label": "aozora",
+                            "value": "https://www.aozora.gr.jp/cards/000052/files/5046_12198.html"
+                        },
+                        {
+                            "label": "tei",
+                            "value": "https://genji.dl.itc.u-tokyo.ac.jp/data/tei/yosano/31.xml"
+                        },
+                        {
+                            "label": "ndl",
+                            "value": "https://dl.ndl.go.jp/info:ndljp/pid/3437688/70"
+                        },
+                        {
+                            "label": "ndl_front",
+                            "value": 70
+                        },
+                        {
+                            "label": "ndl_start",
+                            "value": 72
+                        },
+                        {
+                            "label": "koui_front",
+                            "value": 931
+                        },
+                        {
+                            "label": "koui_start",
+                            "value": 935
+                        },
+                        {
+                            "label": "jk",
+                            "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00220347"
+                        },
+                        {
+                            "label": "jk_front",
+                            "value": "80110V00220347"
+                        },
+                        {
+                            "label": "jk_start",
+                            "value": "80110V00220349"
+                        }
+                    ],
+                    "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/3437688/R0000070/0,0,3445,4706/600,/0/default.jpg"
+                },
+                {
+                    "@id": "https://www.dl.ndl.go.jp/api/iiif/3437688/canvas/90",
+                    "@type": "sc:Canvas",
+                    "label": "梅枝",
+                    "metadata": [
+                        {
+                            "label": "vol",
+                            "value": 32
+                        },
+                        {
+                            "label": "aozora",
+                            "value": "https://www.aozora.gr.jp/cards/000052/files/5047_12202.html"
+                        },
+                        {
+                            "label": "tei",
+                            "value": "https://genji.dl.itc.u-tokyo.ac.jp/data/tei/yosano/32.xml"
+                        },
+                        {
+                            "label": "ndl",
+                            "value": "https://dl.ndl.go.jp/info:ndljp/pid/3437688/90"
+                        },
+                        {
+                            "label": "ndl_front",
+                            "value": 90
+                        },
+                        {
+                            "label": "ndl_start",
+                            "value": 92
+                        },
+                        {
+                            "label": "koui_front",
+                            "value": 971
+                        },
+                        {
+                            "label": "koui_start",
+                            "value": 975
+                        },
+                        {
+                            "label": "jk",
+                            "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00220401"
+                        },
+                        {
+                            "label": "jk_front",
+                            "value": "80110V00220401"
+                        },
+                        {
+                            "label": "jk_start",
+                            "value": "80110V00220403"
+                        }
+                    ],
+                    "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/3437688/R0000090/0,0,3445,4706/600,/0/default.jpg"
+                },
+                {
+                    "@id": "https://www.dl.ndl.go.jp/api/iiif/3437688/canvas/101",
+                    "@type": "sc:Canvas",
+                    "label": "藤裏葉",
+                    "metadata": [
+                        {
+                            "label": "vol",
+                            "value": 33
+                        },
+                        {
+                            "label": "aozora",
+                            "value": "https://www.aozora.gr.jp/cards/000052/files/5048_12252.html"
+                        },
+                        {
+                            "label": "tei",
+                            "value": "https://genji.dl.itc.u-tokyo.ac.jp/data/tei/yosano/33.xml"
+                        },
+                        {
+                            "label": "ndl",
+                            "value": "https://dl.ndl.go.jp/info:ndljp/pid/3437688/101"
+                        },
+                        {
+                            "label": "ndl_front",
+                            "value": 101
+                        },
+                        {
+                            "label": "ndl_start",
+                            "value": 103
+                        },
+                        {
+                            "label": "koui_front",
+                            "value": 993
+                        },
+                        {
+                            "label": "koui_start",
+                            "value": 997
+                        },
+                        {
+                            "label": "jk",
+                            "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00220429"
+                        },
+                        {
+                            "label": "jk_front",
+                            "value": "80110V00220429"
+                        },
+                        {
+                            "label": "jk_start",
+                            "value": "80110V00220431"
+                        }
+                    ],
+                    "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/3437688/R0000101/0,0,3445,4706/600,/0/default.jpg"
+                },
+                {
+                    "@id": "https://www.dl.ndl.go.jp/api/iiif/3437688/canvas/115",
+                    "@type": "sc:Canvas",
+                    "label": "若菜 上",
+                    "metadata": [
+                        {
+                            "label": "vol",
+                            "value": 34
+                        },
+                        {
+                            "label": "aozora",
+                            "value": "https://www.aozora.gr.jp/cards/000052/files/5049_14830.html"
+                        },
+                        {
+                            "label": "tei",
+                            "value": "https://genji.dl.itc.u-tokyo.ac.jp/data/tei/yosano/34.xml"
+                        },
+                        {
+                            "label": "ndl",
+                            "value": "https://dl.ndl.go.jp/info:ndljp/pid/3437688/115"
+                        },
+                        {
+                            "label": "ndl_front",
+                            "value": 115
+                        },
+                        {
+                            "label": "ndl_start",
+                            "value": 117
+                        },
+                        {
+                            "label": "koui_front",
+                            "value": 1021
+                        },
+                        {
+                            "label": "koui_start",
+                            "value": 1025
+                        },
+                        {
+                            "label": "jk",
+                            "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00230015"
+                        },
+                        {
+                            "label": "jk_front",
+                            "value": "80110V00230015"
+                        },
+                        {
+                            "label": "jk_start",
+                            "value": "80110V00230017"
+                        }
+                    ],
+                    "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/3437688/R0000115/0,0,3445,4706/600,/0/default.jpg"
+                },
+                {
+                    "@id": "https://www.dl.ndl.go.jp/api/iiif/3437688/canvas/165",
+                    "@type": "sc:Canvas",
+                    "label": "若菜 下",
+                    "metadata": [
+                        {
+                            "label": "vol",
+                            "value": 35
+                        },
+                        {
+                            "label": "aozora",
+                            "value": "https://www.aozora.gr.jp/cards/000052/files/5050_14552.html"
+                        },
+                        {
+                            "label": "tei",
+                            "value": "https://genji.dl.itc.u-tokyo.ac.jp/data/tei/yosano/35.xml"
+                        },
+                        {
+                            "label": "ndl",
+                            "value": "https://dl.ndl.go.jp/info:ndljp/pid/3437688/165"
+                        },
+                        {
+                            "label": "ndl_front",
+                            "value": 165
+                        },
+                        {
+                            "label": "ndl_start",
+                            "value": 167
+                        },
+                        {
+                            "label": "koui_front",
+                            "value": 1121
+                        },
+                        {
+                            "label": "koui_start",
+                            "value": 1125
+                        },
+                        {
+                            "label": "jk",
+                            "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00230151"
+                        },
+                        {
+                            "label": "jk_front",
+                            "value": "80110V00230151"
+                        },
+                        {
+                            "label": "jk_start",
+                            "value": "80110V00230153"
+                        }
+                    ],
+                    "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/3437688/R0000165/0,0,3445,4706/600,/0/default.jpg"
+                }
+            ]
+        },
+        {
+            "within": {
+                "@id": "https://www.dl.ndl.go.jp/api/iiif/3437689/manifest.json",
+                "@type": "sc:Manifest",
+                "label": "校異源氏物語. 巻四"
+            },
+            "members": [
+                {
+                    "@id": "https://www.dl.ndl.go.jp/api/iiif/3437689/canvas/5",
+                    "@type": "sc:Canvas",
+                    "label": "柏木",
+                    "metadata": [
+                        {
+                            "label": "vol",
+                            "value": 36
+                        },
+                        {
+                            "label": "aozora",
+                            "value": "https://www.aozora.gr.jp/cards/000052/files/5051_14567.html"
+                        },
+                        {
+                            "label": "tei",
+                            "value": "https://genji.dl.itc.u-tokyo.ac.jp/data/tei/yosano/36.xml"
+                        },
+                        {
+                            "label": "ndl",
+                            "value": "https://dl.ndl.go.jp/info:ndljp/pid/3437689/5"
+                        },
+                        {
+                            "label": "ndl_front",
+                            "value": 5
+                        },
+                        {
+                            "label": "ndl_start",
+                            "value": 7
+                        },
+                        {
+                            "label": "koui_front",
+                            "value": 1223
+                        },
+                        {
+                            "label": "koui_start",
+                            "value": 1227
+                        },
+                        {
+                            "label": "jk",
+                            "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00230287"
+                        },
+                        {
+                            "label": "jk_front",
+                            "value": "80110V00230287"
+                        },
+                        {
+                            "label": "jk_start",
+                            "value": "80110V00230289"
+                        }
+                    ],
+                    "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/3437689/R0000005/0,0,3445,4706/600,/0/default.jpg"
+                },
+                {
+                    "@id": "https://www.dl.ndl.go.jp/api/iiif/3437689/canvas/26",
+                    "@type": "sc:Canvas",
+                    "label": "横笛",
+                    "metadata": [
+                        {
+                            "label": "vol",
+                            "value": 37
+                        },
+                        {
+                            "label": "aozora",
+                            "value": "https://www.aozora.gr.jp/cards/000052/files/5052_13280.html"
+                        },
+                        {
+                            "label": "tei",
+                            "value": "https://genji.dl.itc.u-tokyo.ac.jp/data/tei/yosano/37.xml"
+                        },
+                        {
+                            "label": "ndl",
+                            "value": "https://dl.ndl.go.jp/info:ndljp/pid/3437689/26"
+                        },
+                        {
+                            "label": "ndl_front",
+                            "value": 26
+                        },
+                        {
+                            "label": "ndl_start",
+                            "value": 28
+                        },
+                        {
+                            "label": "koui_front",
+                            "value": 1265
+                        },
+                        {
+                            "label": "koui_start",
+                            "value": 1269
+                        },
+                        {
+                            "label": "jk",
+                            "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00230343"
+                        },
+                        {
+                            "label": "jk_front",
+                            "value": "80110V00230343"
+                        },
+                        {
+                            "label": "jk_start",
+                            "value": "80110V00230345"
+                        }
+                    ],
+                    "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/3437689/R0000026/0,0,3445,4706/600,/0/default.jpg"
+                },
+                {
+                    "@id": "https://www.dl.ndl.go.jp/api/iiif/3437689/canvas/37",
+                    "@type": "sc:Canvas",
+                    "label": "鈴虫",
+                    "metadata": [
+                        {
+                            "label": "vol",
+                            "value": 38
+                        },
+                        {
+                            "label": "aozora",
+                            "value": "https://www.aozora.gr.jp/cards/000052/files/5053_12173.html"
+                        },
+                        {
+                            "label": "tei",
+                            "value": "https://genji.dl.itc.u-tokyo.ac.jp/data/tei/yosano/38.xml"
+                        },
+                        {
+                            "label": "ndl",
+                            "value": "https://dl.ndl.go.jp/info:ndljp/pid/3437689/37"
+                        },
+                        {
+                            "label": "ndl_front",
+                            "value": 37
+                        },
+                        {
+                            "label": "ndl_start",
+                            "value": 39
+                        },
+                        {
+                            "label": "koui_front",
+                            "value": 1287
+                        },
+                        {
+                            "label": "koui_start",
+                            "value": 1291
+                        },
+                        {
+                            "label": "jk",
+                            "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00230371"
+                        },
+                        {
+                            "label": "jk_front",
+                            "value": "80110V00230371"
+                        },
+                        {
+                            "label": "jk_start",
+                            "value": "80110V00230373"
+                        }
+                    ],
+                    "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/3437689/R0000037/0,0,3445,4706/600,/0/default.jpg"
+                },
+                {
+                    "@id": "https://www.dl.ndl.go.jp/api/iiif/3437689/canvas/46",
+                    "@type": "sc:Canvas",
+                    "label": "夕霧",
+                    "metadata": [
+                        {
+                            "label": "vol",
+                            "value": 39
+                        },
+                        {
+                            "label": "aozora",
+                            "value": "https://www.aozora.gr.jp/cards/000052/files/5054_10249.html, https://www.aozora.gr.jp/cards/000052/files/5055_10251.html"
+                        },
+                        {
+                            "label": "tei",
+                            "value": "https://genji.dl.itc.u-tokyo.ac.jp/data/tei/yosano/39.xml, https://genji.dl.itc.u-tokyo.ac.jp/data/tei/yosano/40.xml"
+                        },
+                        {
+                            "label": "ndl",
+                            "value": "https://dl.ndl.go.jp/info:ndljp/pid/3437689/46"
+                        },
+                        {
+                            "label": "ndl_front",
+                            "value": 46
+                        },
+                        {
+                            "label": "ndl_start",
+                            "value": 48
+                        },
+                        {
+                            "label": "koui_front",
+                            "value": 1305
+                        },
+                        {
+                            "label": "koui_start",
+                            "value": 1309
+                        },
+                        {
+                            "label": "jk",
+                            "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00230393"
+                        },
+                        {
+                            "label": "jk_front",
+                            "value": "80110V00230393"
+                        },
+                        {
+                            "label": "jk_start",
+                            "value": "80110V00230395"
+                        }
+                    ],
+                    "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/3437689/R0000046/0,0,3445,4706/600,/0/default.jpg"
+                },
+                {
+                    "@id": "https://www.dl.ndl.go.jp/api/iiif/3437689/canvas/82",
+                    "@type": "sc:Canvas",
+                    "label": "御法",
+                    "metadata": [
+                        {
+                            "label": "vol",
+                            "value": 40
+                        },
+                        {
+                            "label": "aozora",
+                            "value": "https://www.aozora.gr.jp/cards/000052/files/5056_13291.html"
+                        },
+                        {
+                            "label": "tei",
+                            "value": "https://genji.dl.itc.u-tokyo.ac.jp/data/tei/yosano/41.xml"
+                        },
+                        {
+                            "label": "ndl",
+                            "value": "https://dl.ndl.go.jp/info:ndljp/pid/3437689/82"
+                        },
+                        {
+                            "label": "ndl_front",
+                            "value": 82
+                        },
+                        {
+                            "label": "ndl_start",
+                            "value": 84
+                        },
+                        {
+                            "label": "koui_front",
+                            "value": 1377
+                        },
+                        {
+                            "label": "koui_start",
+                            "value": 1381
+                        },
+                        {
+                            "label": "jk",
+                            "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00230491"
+                        },
+                        {
+                            "label": "jk_front",
+                            "value": "80110V00230491"
+                        },
+                        {
+                            "label": "jk_start",
+                            "value": "80110V00230493"
+                        }
+                    ],
+                    "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/3437689/R0000082/0,0,3445,4706/600,/0/default.jpg"
+                },
+                {
+                    "@id": "https://www.dl.ndl.go.jp/api/iiif/3437689/canvas/93",
+                    "@type": "sc:Canvas",
+                    "label": "幻",
+                    "metadata": [
+                        {
+                            "label": "vol",
+                            "value": 41
+                        },
+                        {
+                            "label": "aozora",
+                            "value": "https://www.aozora.gr.jp/cards/000052/files/5057_14554.html"
+                        },
+                        {
+                            "label": "tei",
+                            "value": "https://genji.dl.itc.u-tokyo.ac.jp/data/tei/yosano/42.xml"
+                        },
+                        {
+                            "label": "ndl",
+                            "value": "https://dl.ndl.go.jp/info:ndljp/pid/3437689/93"
+                        },
+                        {
+                            "label": "ndl_front",
+                            "value": 93
+                        },
+                        {
+                            "label": "ndl_start",
+                            "value": 95
+                        },
+                        {
+                            "label": "koui_front",
+                            "value": 1399
+                        },
+                        {
+                            "label": "koui_start",
+                            "value": 1403
+                        },
+                        {
+                            "label": "jk",
+                            "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00230519"
+                        },
+                        {
+                            "label": "jk_front",
+                            "value": "80110V00230519"
+                        },
+                        {
+                            "label": "jk_start",
+                            "value": "80110V00230521"
+                        }
+                    ],
+                    "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/3437689/R0000093/0,0,3445,4706/600,/0/default.jpg"
+                },
+                {
+                    "@id": "https://www.dl.ndl.go.jp/api/iiif/3437689/canvas/106",
+                    "@type": "sc:Canvas",
+                    "label": "匂宮",
+                    "metadata": [
+                        {
+                            "label": "vol",
+                            "value": 42
+                        },
+                        {
+                            "label": "aozora",
+                            "value": "https://www.aozora.gr.jp/cards/000052/files/5059_11969.html"
+                        },
+                        {
+                            "label": "tei",
+                            "value": "https://genji.dl.itc.u-tokyo.ac.jp/data/tei/yosano/44.xml"
+                        },
+                        {
+                            "label": "ndl",
+                            "value": "https://dl.ndl.go.jp/info:ndljp/pid/3437689/106"
+                        },
+                        {
+                            "label": "ndl_front",
+                            "value": 106
+                        },
+                        {
+                            "label": "ndl_start",
+                            "value": 108
+                        },
+                        {
+                            "label": "koui_front",
+                            "value": 1425
+                        },
+                        {
+                            "label": "koui_start",
+                            "value": 1429
+                        },
+                        {
+                            "label": "jk",
+                            "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00240015"
+                        },
+                        {
+                            "label": "jk_front",
+                            "value": "80110V00240015"
+                        },
+                        {
+                            "label": "jk_start",
+                            "value": "80110V00240017"
+                        }
+                    ],
+                    "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/3437689/R0000106/0,0,3445,4706/600,/0/default.jpg"
+                },
+                {
+                    "@id": "https://www.dl.ndl.go.jp/api/iiif/3437689/canvas/115",
+                    "@type": "sc:Canvas",
+                    "label": "紅梅",
+                    "metadata": [
+                        {
+                            "label": "vol",
+                            "value": 43
+                        },
+                        {
+                            "label": "aozora",
+                            "value": "https://www.aozora.gr.jp/cards/000052/files/5060_15278.html"
+                        },
+                        {
+                            "label": "tei",
+                            "value": "https://genji.dl.itc.u-tokyo.ac.jp/data/tei/yosano/45.xml"
+                        },
+                        {
+                            "label": "ndl",
+                            "value": "https://dl.ndl.go.jp/info:ndljp/pid/3437689/115"
+                        },
+                        {
+                            "label": "ndl_front",
+                            "value": 115
+                        },
+                        {
+                            "label": "ndl_start",
+                            "value": 117
+                        },
+                        {
+                            "label": "koui_front",
+                            "value": 1443
+                        },
+                        {
+                            "label": "koui_start",
+                            "value": 1447
+                        },
+                        {
+                            "label": "jk",
+                            "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00240037"
+                        },
+                        {
+                            "label": "jk_front",
+                            "value": "80110V00240037"
+                        },
+                        {
+                            "label": "jk_start",
+                            "value": "80110V00240039"
+                        }
+                    ],
+                    "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/3437689/R0000115/0,0,3445,4706/600,/0/default.jpg"
+                },
+                {
+                    "@id": "https://www.dl.ndl.go.jp/api/iiif/3437689/canvas/123",
+                    "@type": "sc:Canvas",
+                    "label": "竹河",
+                    "metadata": [
+                        {
+                            "label": "vol",
+                            "value": 44
+                        },
+                        {
+                            "label": "aozora",
+                            "value": "https://www.aozora.gr.jp/cards/000052/files/5061_15280.html"
+                        },
+                        {
+                            "label": "tei",
+                            "value": "https://genji.dl.itc.u-tokyo.ac.jp/data/tei/yosano/46.xml"
+                        },
+                        {
+                            "label": "ndl",
+                            "value": "https://dl.ndl.go.jp/info:ndljp/pid/3437689/123"
+                        },
+                        {
+                            "label": "ndl_front",
+                            "value": 123
+                        },
+                        {
+                            "label": "ndl_start",
+                            "value": 125
+                        },
+                        {
+                            "label": "koui_front",
+                            "value": 1459
+                        },
+                        {
+                            "label": "koui_start",
+                            "value": 1463
+                        },
+                        {
+                            "label": "jk",
+                            "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00240057"
+                        },
+                        {
+                            "label": "jk_front",
+                            "value": "80110V00240057"
+                        },
+                        {
+                            "label": "jk_start",
+                            "value": "80110V00240059"
+                        }
+                    ],
+                    "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/3437689/R0000123/0,0,3445,4706/600,/0/default.jpg"
+                },
+                {
+                    "@id": "https://www.dl.ndl.go.jp/api/iiif/3437689/canvas/145",
+                    "@type": "sc:Canvas",
+                    "label": "橋姫",
+                    "metadata": [
+                        {
+                            "label": "vol",
+                            "value": 45
+                        },
+                        {
+                            "label": "aozora",
+                            "value": "https://www.aozora.gr.jp/cards/000052/files/5062_15326.html"
+                        },
+                        {
+                            "label": "tei",
+                            "value": "https://genji.dl.itc.u-tokyo.ac.jp/data/tei/yosano/47.xml"
+                        },
+                        {
+                            "label": "ndl",
+                            "value": "https://dl.ndl.go.jp/info:ndljp/pid/3437689/145"
+                        },
+                        {
+                            "label": "ndl_front",
+                            "value": 145
+                        },
+                        {
+                            "label": "ndl_start",
+                            "value": 147
+                        },
+                        {
+                            "label": "koui_front",
+                            "value": 1503
+                        },
+                        {
+                            "label": "koui_start",
+                            "value": 1507
+                        },
+                        {
+                            "label": "jk",
+                            "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00240115"
+                        },
+                        {
+                            "label": "jk_front",
+                            "value": "80110V00240115"
+                        },
+                        {
+                            "label": "jk_start",
+                            "value": "80110V00240117"
+                        }
+                    ],
+                    "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/3437689/R0000145/0,0,3445,4706/600,/0/default.jpg"
+                },
+                {
+                    "@id": "https://www.dl.ndl.go.jp/api/iiif/3437689/canvas/165",
+                    "@type": "sc:Canvas",
+                    "label": "椎本",
+                    "metadata": [
+                        {
+                            "label": "vol",
+                            "value": 46
+                        },
+                        {
+                            "label": "aozora",
+                            "value": "https://www.aozora.gr.jp/cards/000052/files/5063_15328.html"
+                        },
+                        {
+                            "label": "tei",
+                            "value": "https://genji.dl.itc.u-tokyo.ac.jp/data/tei/yosano/48.xml"
+                        },
+                        {
+                            "label": "ndl",
+                            "value": "https://dl.ndl.go.jp/info:ndljp/pid/3437689/165"
+                        },
+                        {
+                            "label": "ndl_front",
+                            "value": 165
+                        },
+                        {
+                            "label": "ndl_start",
+                            "value": 167
+                        },
+                        {
+                            "label": "koui_front",
+                            "value": 1543
+                        },
+                        {
+                            "label": "koui_start",
+                            "value": 1547
+                        },
+                        {
+                            "label": "jk",
+                            "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00240167"
+                        },
+                        {
+                            "label": "jk_front",
+                            "value": "80110V00240167"
+                        },
+                        {
+                            "label": "jk_start",
+                            "value": "80110V00240169"
+                        }
+                    ],
+                    "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/3437689/R0000165/0,0,3445,4706/600,/0/default.jpg"
+                },
+                {
+                    "@id": "https://www.dl.ndl.go.jp/api/iiif/3437689/canvas/185",
+                    "@type": "sc:Canvas",
+                    "label": "総角",
+                    "metadata": [
+                        {
+                            "label": "vol",
+                            "value": 47
+                        },
+                        {
+                            "label": "aozora",
+                            "value": "https://www.aozora.gr.jp/cards/000052/files/5064_15564.html"
+                        },
+                        {
+                            "label": "tei",
+                            "value": "https://genji.dl.itc.u-tokyo.ac.jp/data/tei/yosano/49.xml"
+                        },
+                        {
+                            "label": "ndl",
+                            "value": "https://dl.ndl.go.jp/info:ndljp/pid/3437689/185"
+                        },
+                        {
+                            "label": "ndl_front",
+                            "value": 185
+                        },
+                        {
+                            "label": "ndl_start",
+                            "value": 187
+                        },
+                        {
+                            "label": "koui_front",
+                            "value": 1583
+                        },
+                        {
+                            "label": "koui_start",
+                            "value": 1587
+                        },
+                        {
+                            "label": "jk",
+                            "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00240221"
+                        },
+                        {
+                            "label": "jk_front",
+                            "value": "80110V00240221"
+                        },
+                        {
+                            "label": "jk_start",
+                            "value": "80110V00240223"
+                        }
+                    ],
+                    "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/3437689/R0000185/0,0,3445,4706/600,/0/default.jpg"
+                }
+            ]
+        },
+        {
+            "within": {
+                "@id": "https://www.dl.ndl.go.jp/api/iiif/3437690/manifest.json",
+                "@type": "sc:Manifest",
+                "label": "校異源氏物語. 巻五"
+            },
+            "members": [
+                {
+                    "@id": "https://www.dl.ndl.go.jp/api/iiif/3437690/canvas/5",
+                    "@type": "sc:Canvas",
+                    "label": "早蕨",
+                    "metadata": [
+                        {
+                            "label": "vol",
+                            "value": 48
+                        },
+                        {
+                            "label": "aozora",
+                            "value": "https://www.aozora.gr.jp/cards/000052/files/5065_15348.html"
+                        },
+                        {
+                            "label": "tei",
+                            "value": "https://genji.dl.itc.u-tokyo.ac.jp/data/tei/yosano/50.xml"
+                        },
+                        {
+                            "label": "ndl",
+                            "value": "https://dl.ndl.go.jp/info:ndljp/pid/3437690/5"
+                        },
+                        {
+                            "label": "ndl_front",
+                            "value": 5
+                        },
+                        {
+                            "label": "ndl_start",
+                            "value": 7
+                        },
+                        {
+                            "label": "koui_front",
+                            "value": 1673
+                        },
+                        {
+                            "label": "koui_start",
+                            "value": 1677
+                        },
+                        {
+                            "label": "jk",
+                            "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00240343"
+                        },
+                        {
+                            "label": "jk_front",
+                            "value": "80110V00240343"
+                        },
+                        {
+                            "label": "jk_start",
+                            "value": "80110V00240345"
+                        }
+                    ],
+                    "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/3437690/R0000005/0,0,3460,4828/600,/0/default.jpg"
+                },
+                {
+                    "@id": "https://www.dl.ndl.go.jp/api/iiif/3437690/canvas/17",
+                    "@type": "sc:Canvas",
+                    "label": "宿木",
+                    "metadata": [
+                        {
+                            "label": "vol",
+                            "value": 49
+                        },
+                        {
+                            "label": "aozora",
+                            "value": "https://www.aozora.gr.jp/cards/000052/files/5066_16261.html"
+                        },
+                        {
+                            "label": "tei",
+                            "value": "https://genji.dl.itc.u-tokyo.ac.jp/data/tei/yosano/51.xml"
+                        },
+                        {
+                            "label": "ndl",
+                            "value": "https://dl.ndl.go.jp/info:ndljp/pid/3437690/17"
+                        },
+                        {
+                            "label": "ndl_front",
+                            "value": 17
+                        },
+                        {
+                            "label": "ndl_start",
+                            "value": 19
+                        },
+                        {
+                            "label": "koui_front",
+                            "value": 1697
+                        },
+                        {
+                            "label": "koui_start",
+                            "value": 1701
+                        },
+                        {
+                            "label": "jk",
+                            "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00240371"
+                        },
+                        {
+                            "label": "jk_front",
+                            "value": "80110V00240371"
+                        },
+                        {
+                            "label": "jk_start",
+                            "value": "80110V00240373"
+                        }
+                    ],
+                    "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/3437690/R0000017/0,0,3460,4828/600,/0/default.jpg"
+                },
+                {
+                    "@id": "https://www.dl.ndl.go.jp/api/iiif/3437690/canvas/63",
+                    "@type": "sc:Canvas",
+                    "label": "東屋",
+                    "metadata": [
+                        {
+                            "label": "vol",
+                            "value": 50
+                        },
+                        {
+                            "label": "aozora",
+                            "value": "https://www.aozora.gr.jp/cards/000052/files/5067_16265.html"
+                        },
+                        {
+                            "label": "tei",
+                            "value": "https://genji.dl.itc.u-tokyo.ac.jp/data/tei/yosano/52.xml"
+                        },
+                        {
+                            "label": "ndl",
+                            "value": "https://dl.ndl.go.jp/info:ndljp/pid/3437690/63"
+                        },
+                        {
+                            "label": "ndl_front",
+                            "value": 63
+                        },
+                        {
+                            "label": "ndl_start",
+                            "value": 65
+                        },
+                        {
+                            "label": "koui_front",
+                            "value": 1789
+                        },
+                        {
+                            "label": "koui_start",
+                            "value": 1793
+                        },
+                        {
+                            "label": "jk",
+                            "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00250015"
+                        },
+                        {
+                            "label": "jk_front",
+                            "value": "80110V00250015"
+                        },
+                        {
+                            "label": "jk_start",
+                            "value": "80110V00250017"
+                        }
+                    ],
+                    "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/3437690/R0000063/0,0,3460,4828/600,/0/default.jpg"
+                },
+                {
+                    "@id": "https://www.dl.ndl.go.jp/api/iiif/3437690/canvas/96",
+                    "@type": "sc:Canvas",
+                    "label": "浮舟",
+                    "metadata": [
+                        {
+                            "label": "vol",
+                            "value": 51
+                        },
+                        {
+                            "label": "aozora",
+                            "value": "https://www.aozora.gr.jp/cards/000052/files/5068_17944.html"
+                        },
+                        {
+                            "label": "tei",
+                            "value": "https://genji.dl.itc.u-tokyo.ac.jp/data/tei/yosano/53.xml"
+                        },
+                        {
+                            "label": "ndl",
+                            "value": "https://dl.ndl.go.jp/info:ndljp/pid/3437690/96"
+                        },
+                        {
+                            "label": "ndl_front",
+                            "value": 96
+                        },
+                        {
+                            "label": "ndl_start",
+                            "value": 98
+                        },
+                        {
+                            "label": "koui_front",
+                            "value": 1855
+                        },
+                        {
+                            "label": "koui_start",
+                            "value": 1859
+                        },
+                        {
+                            "label": "jk",
+                            "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00250103"
+                        },
+                        {
+                            "label": "jk_front",
+                            "value": "80110V00250103"
+                        },
+                        {
+                            "label": "jk_start",
+                            "value": "80110V00250105"
+                        }
+                    ],
+                    "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/3437690/R0000096/0,0,3460,4828/600,/0/default.jpg"
+                },
+                {
+                    "@id": "https://www.dl.ndl.go.jp/api/iiif/3437690/canvas/132",
+                    "@type": "sc:Canvas",
+                    "label": "蜻蛉",
+                    "metadata": [
+                        {
+                            "label": "vol",
+                            "value": 52
+                        },
+                        {
+                            "label": "aozora",
+                            "value": "https://www.aozora.gr.jp/cards/000052/files/5069_16428.html"
+                        },
+                        {
+                            "label": "tei",
+                            "value": "https://genji.dl.itc.u-tokyo.ac.jp/data/tei/yosano/54.xml"
+                        },
+                        {
+                            "label": "ndl",
+                            "value": "https://dl.ndl.go.jp/info:ndljp/pid/3437690/132"
+                        },
+                        {
+                            "label": "ndl_front",
+                            "value": 132
+                        },
+                        {
+                            "label": "ndl_start",
+                            "value": 134
+                        },
+                        {
+                            "label": "koui_front",
+                            "value": 1927
+                        },
+                        {
+                            "label": "koui_start",
+                            "value": 1931
+                        },
+                        {
+                            "label": "jk",
+                            "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00250199"
+                        },
+                        {
+                            "label": "jk_front",
+                            "value": "80110V00250199"
+                        },
+                        {
+                            "label": "jk_start",
+                            "value": "80110V00250201"
+                        }
+                    ],
+                    "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/3437690/R0000132/0,0,3460,4828/600,/0/default.jpg"
+                },
+                {
+                    "@id": "https://www.dl.ndl.go.jp/api/iiif/3437690/canvas/161",
+                    "@type": "sc:Canvas",
+                    "label": "手習",
+                    "metadata": [
+                        {
+                            "label": "vol",
+                            "value": 53
+                        },
+                        {
+                            "label": "aozora",
+                            "value": "https://www.aozora.gr.jp/cards/000052/files/5070_16484.html"
+                        },
+                        {
+                            "label": "tei",
+                            "value": "https://genji.dl.itc.u-tokyo.ac.jp/data/tei/yosano/55.xml"
+                        },
+                        {
+                            "label": "ndl",
+                            "value": "https://dl.ndl.go.jp/info:ndljp/pid/3437690/161"
+                        },
+                        {
+                            "label": "ndl_front",
+                            "value": 161
+                        },
+                        {
+                            "label": "ndl_start",
+                            "value": 163
+                        },
+                        {
+                            "label": "koui_front",
+                            "value": 1985
+                        },
+                        {
+                            "label": "koui_start",
+                            "value": 1989
+                        },
+                        {
+                            "label": "jk",
+                            "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00250277"
+                        },
+                        {
+                            "label": "jk_front",
+                            "value": "80110V00250277"
+                        },
+                        {
+                            "label": "jk_start",
+                            "value": "80110V00250279"
+                        }
+                    ],
+                    "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/3437690/R0000161/0,0,3460,4828/600,/0/default.jpg"
+                },
+                {
+                    "@id": "https://www.dl.ndl.go.jp/api/iiif/3437690/canvas/194",
+                    "@type": "sc:Canvas",
+                    "label": "夢浮橋",
+                    "metadata": [
+                        {
+                            "label": "vol",
+                            "value": 54
+                        },
+                        {
+                            "label": "aozora",
+                            "value": "https://www.aozora.gr.jp/cards/000052/files/5071_15350.html"
+                        },
+                        {
+                            "label": "tei",
+                            "value": "https://genji.dl.itc.u-tokyo.ac.jp/data/tei/yosano/56.xml"
+                        },
+                        {
+                            "label": "ndl",
+                            "value": "https://dl.ndl.go.jp/info:ndljp/pid/3437690/194"
+                        },
+                        {
+                            "label": "ndl_front",
+                            "value": 194
+                        },
+                        {
+                            "label": "ndl_start",
+                            "value": 196
+                        },
+                        {
+                            "label": "koui_front",
+                            "value": 2051
+                        },
+                        {
+                            "label": "koui_start",
+                            "value": 2055
+                        },
+                        {
+                            "label": "jk",
+                            "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00250371"
+                        },
+                        {
+                            "label": "jk_front",
+                            "value": "80110V00250371"
+                        },
+                        {
+                            "label": "jk_start",
+                            "value": "80110V00250373"
+                        }
+                    ],
+                    "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/3437690/R0000194/0,0,3460,4828/600,/0/default.jpg"
+                }
+            ]
+        }
+    ]
+}
