@@ -79,7 +79,7 @@ def create_anno(canvas, members_map, odir, index, info):
                         str(int(w / 2))+"v-"+str(int(h / 2))+"z"
 
     svg = "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\""+d + \
-        "\" id=\"pin_" + "abc" + "\" fill-opacity=\"0.8\" fill=\"" + \
+        "\" id=\"pin_" + "abc" + "\" fill-opacity=\"0.2\" fill=\"" + \
             fill+"\" stroke=\""+stroke+"\"/></svg>"
 
     resources.append({
@@ -199,6 +199,22 @@ def create_manifest(selection, info):
 
   for canvas_id in members_map:
     for member in members_map[canvas_id]:
+      
+      if "metadata" not in member:
+        continue
+      metadata = member["metadata"]
+
+      page = -1
+
+      for obj in metadata:
+        if obj["label"] == "p":
+          page = int(obj["value"])
+
+      if page == -1:
+        continue
+      
+      member["line_id"] = "https://w3id.org/kouigenjimonogatari/data/" + \
+            str(page).zfill(4)+"-01.json"
       members.append(member)
 
   selection["members"] = members
