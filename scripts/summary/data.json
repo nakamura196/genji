@@ -52,6 +52,10 @@
                             "value": 5
                         },
                         {
+                            "label": "koui_count",
+                            "value": 24
+                        },
+                        {
                             "label": "jk",
                             "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00200015"
                         },
@@ -102,6 +106,10 @@
                         {
                             "label": "koui_start",
                             "value": 35
+                        },
+                        {
+                            "label": "koui_count",
+                            "value": 45
                         },
                         {
                             "label": "jk",
@@ -156,6 +164,10 @@
                             "value": 85
                         },
                         {
+                            "label": "koui_count",
+                            "value": 11
+                        },
+                        {
                             "label": "jk",
                             "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00200115"
                         },
@@ -206,6 +218,10 @@
                         {
                             "label": "koui_start",
                             "value": 101
+                        },
+                        {
+                            "label": "koui_count",
+                            "value": 46
                         },
                         {
                             "label": "jk",
@@ -260,6 +276,10 @@
                             "value": 151
                         },
                         {
+                            "label": "koui_count",
+                            "value": 45
+                        },
+                        {
                             "label": "jk",
                             "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00200197"
                         },
@@ -310,6 +330,10 @@
                         {
                             "label": "koui_start",
                             "value": 201
+                        },
+                        {
+                            "label": "koui_count",
+                            "value": 30
                         },
                         {
                             "label": "jk",
@@ -364,6 +388,10 @@
                             "value": 237
                         },
                         {
+                            "label": "koui_count",
+                            "value": 27
+                        },
+                        {
                             "label": "jk",
                             "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00200309"
                         },
@@ -414,6 +442,10 @@
                         {
                             "label": "koui_start",
                             "value": 269
+                        },
+                        {
+                            "label": "koui_count",
+                            "value": 10
                         },
                         {
                             "label": "jk",
@@ -468,6 +500,10 @@
                             "value": 283
                         },
                         {
+                            "label": "koui_count",
+                            "value": 44
+                        },
+                        {
                             "label": "jk",
                             "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00210015"
                         },
@@ -520,6 +556,10 @@
                             "value": 333
                         },
                         {
+                            "label": "koui_count",
+                            "value": 47
+                        },
+                        {
                             "label": "jk",
                             "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00210081"
                         },
@@ -570,6 +610,10 @@
                         {
                             "label": "koui_start",
                             "value": 387
+                        },
+                        {
+                            "label": "koui_count",
+                            "value": 4
                         },
                         {
                             "label": "jk",
@@ -633,6 +677,10 @@
                             "value": 395
                         },
                         {
+                            "label": "koui_count",
+                            "value": 42
+                        },
+                        {
                             "label": "jk",
                             "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00210159"
                         },
@@ -683,6 +731,10 @@
                         {
                             "label": "koui_start",
                             "value": 441
+                        },
+                        {
+                            "label": "koui_count",
+                            "value": 38
                         },
                         {
                             "label": "jk",
@@ -737,6 +789,10 @@
                             "value": 483
                         },
                         {
+                            "label": "koui_count",
+                            "value": 32
+                        },
+                        {
                             "label": "jk",
                             "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00210277"
                         },
@@ -787,6 +843,10 @@
                         {
                             "label": "koui_start",
                             "value": 519
+                        },
+                        {
+                            "label": "koui_count",
+                            "value": 23
                         },
                         {
                             "label": "jk",
@@ -841,6 +901,10 @@
                             "value": 547
                         },
                         {
+                            "label": "koui_count",
+                            "value": 5
+                        },
+                        {
                             "label": "jk",
                             "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00210357"
                         },
@@ -891,6 +955,10 @@
                         {
                             "label": "koui_start",
                             "value": 557
+                        },
+                        {
+                            "label": "koui_count",
+                            "value": 18
                         },
                         {
                             "label": "jk",
@@ -945,6 +1013,10 @@
                             "value": 579
                         },
                         {
+                            "label": "koui_count",
+                            "value": 20
+                        },
+                        {
                             "label": "jk",
                             "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00210395"
                         },
@@ -995,6 +1067,10 @@
                         {
                             "label": "koui_start",
                             "value": 603
+                        },
+                        {
+                            "label": "koui_count",
+                            "value": 29
                         },
                         {
                             "label": "jk",
@@ -1049,6 +1125,10 @@
                             "value": 639
                         },
                         {
+                            "label": "koui_count",
+                            "value": 20
+                        },
+                        {
                             "label": "jk",
                             "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00210467"
                         },
@@ -1099,6 +1179,10 @@
                         {
                             "label": "koui_start",
                             "value": 665
+                        },
+                        {
+                            "label": "koui_count",
+                            "value": 48
                         },
                         {
                             "label": "jk",
@@ -1153,6 +1237,10 @@
                             "value": 719
                         },
                         {
+                            "label": "koui_count",
+                            "value": 39
+                        },
+                        {
                             "label": "jk",
                             "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00220085"
                         },
@@ -1205,6 +1293,10 @@
                             "value": 763
                         },
                         {
+                            "label": "koui_count",
+                            "value": 14
+                        },
+                        {
                             "label": "jk",
                             "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00220141"
                         },
@@ -1255,6 +1347,10 @@
                         {
                             "label": "koui_start",
                             "value": 781
+                        },
+                        {
+                            "label": "koui_count",
+                            "value": 20
                         },
                         {
                             "label": "jk",
@@ -1318,6 +1414,10 @@
                             "value": 805
                         },
                         {
+                            "label": "koui_count",
+                            "value": 19
+                        },
+                        {
                             "label": "jk",
                             "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00220193"
                         },
@@ -1368,6 +1468,10 @@
                         {
                             "label": "koui_start",
                             "value": 829
+                        },
+                        {
+                            "label": "koui_count",
+                            "value": 21
                         },
                         {
                             "label": "jk",
@@ -1422,6 +1526,10 @@
                             "value": 855
                         },
                         {
+                            "label": "koui_count",
+                            "value": 4
+                        },
+                        {
                             "label": "jk",
                             "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00220253"
                         },
@@ -1472,6 +1580,10 @@
                         {
                             "label": "koui_start",
                             "value": 863
+                        },
+                        {
+                            "label": "koui_count",
+                            "value": 17
                         },
                         {
                             "label": "jk",
@@ -1526,6 +1638,10 @@
                             "value": 885
                         },
                         {
+                            "label": "koui_count",
+                            "value": 27
+                        },
+                        {
                             "label": "jk",
                             "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00220287"
                         },
@@ -1576,6 +1692,10 @@
                         {
                             "label": "koui_start",
                             "value": 917
+                        },
+                        {
+                            "label": "koui_count",
+                            "value": 14
                         },
                         {
                             "label": "jk",
@@ -1630,6 +1750,10 @@
                             "value": 935
                         },
                         {
+                            "label": "koui_count",
+                            "value": 35
+                        },
+                        {
                             "label": "jk",
                             "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00220347"
                         },
@@ -1680,6 +1804,10 @@
                         {
                             "label": "koui_start",
                             "value": 975
+                        },
+                        {
+                            "label": "koui_count",
+                            "value": 18
                         },
                         {
                             "label": "jk",
@@ -1734,6 +1862,10 @@
                             "value": 997
                         },
                         {
+                            "label": "koui_count",
+                            "value": 23
+                        },
+                        {
                             "label": "jk",
                             "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00220429"
                         },
@@ -1786,6 +1918,10 @@
                             "value": 1025
                         },
                         {
+                            "label": "koui_count",
+                            "value": 96
+                        },
+                        {
                             "label": "jk",
                             "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00230015"
                         },
@@ -1836,6 +1972,10 @@
                         {
                             "label": "koui_start",
                             "value": 1125
+                        },
+                        {
+                            "label": "koui_count",
+                            "value": 97
                         },
                         {
                             "label": "jk",
@@ -1899,6 +2039,10 @@
                             "value": 1227
                         },
                         {
+                            "label": "koui_count",
+                            "value": 38
+                        },
+                        {
                             "label": "jk",
                             "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00230287"
                         },
@@ -1949,6 +2093,10 @@
                         {
                             "label": "koui_start",
                             "value": 1269
+                        },
+                        {
+                            "label": "koui_count",
+                            "value": 18
                         },
                         {
                             "label": "jk",
@@ -2003,6 +2151,10 @@
                             "value": 1291
                         },
                         {
+                            "label": "koui_count",
+                            "value": 14
+                        },
+                        {
                             "label": "jk",
                             "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00230371"
                         },
@@ -2053,6 +2205,10 @@
                         {
                             "label": "koui_start",
                             "value": 1309
+                        },
+                        {
+                            "label": "koui_count",
+                            "value": 67
                         },
                         {
                             "label": "jk",
@@ -2107,6 +2263,10 @@
                             "value": 1381
                         },
                         {
+                            "label": "koui_count",
+                            "value": 18
+                        },
+                        {
                             "label": "jk",
                             "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00230491"
                         },
@@ -2157,6 +2317,10 @@
                         {
                             "label": "koui_start",
                             "value": 1403
+                        },
+                        {
+                            "label": "koui_count",
+                            "value": 21
                         },
                         {
                             "label": "jk",
@@ -2211,6 +2375,10 @@
                             "value": 1429
                         },
                         {
+                            "label": "koui_count",
+                            "value": 13
+                        },
+                        {
                             "label": "jk",
                             "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00240015"
                         },
@@ -2261,6 +2429,10 @@
                         {
                             "label": "koui_start",
                             "value": 1447
+                        },
+                        {
+                            "label": "koui_count",
+                            "value": 12
                         },
                         {
                             "label": "jk",
@@ -2315,6 +2487,10 @@
                             "value": 1463
                         },
                         {
+                            "label": "koui_count",
+                            "value": 39
+                        },
+                        {
                             "label": "jk",
                             "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00240057"
                         },
@@ -2365,6 +2541,10 @@
                         {
                             "label": "koui_start",
                             "value": 1507
+                        },
+                        {
+                            "label": "koui_count",
+                            "value": 36
                         },
                         {
                             "label": "jk",
@@ -2419,6 +2599,10 @@
                             "value": 1547
                         },
                         {
+                            "label": "koui_count",
+                            "value": 35
+                        },
+                        {
                             "label": "jk",
                             "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00240167"
                         },
@@ -2469,6 +2653,10 @@
                         {
                             "label": "koui_start",
                             "value": 1587
+                        },
+                        {
+                            "label": "koui_count",
+                            "value": 84
                         },
                         {
                             "label": "jk",
@@ -2532,6 +2720,10 @@
                             "value": 1677
                         },
                         {
+                            "label": "koui_count",
+                            "value": 18
+                        },
+                        {
                             "label": "jk",
                             "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00240343"
                         },
@@ -2582,6 +2774,10 @@
                         {
                             "label": "koui_start",
                             "value": 1701
+                        },
+                        {
+                            "label": "koui_count",
+                            "value": 88
                         },
                         {
                             "label": "jk",
@@ -2636,6 +2832,10 @@
                             "value": 1793
                         },
                         {
+                            "label": "koui_count",
+                            "value": 60
+                        },
+                        {
                             "label": "jk",
                             "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00250015"
                         },
@@ -2686,6 +2886,10 @@
                         {
                             "label": "koui_start",
                             "value": 1859
+                        },
+                        {
+                            "label": "koui_count",
+                            "value": 67
                         },
                         {
                             "label": "jk",
@@ -2740,6 +2944,10 @@
                             "value": 1931
                         },
                         {
+                            "label": "koui_count",
+                            "value": 54
+                        },
+                        {
                             "label": "jk",
                             "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00250199"
                         },
@@ -2792,6 +3000,10 @@
                             "value": 1989
                         },
                         {
+                            "label": "koui_count",
+                            "value": 62
+                        },
+                        {
                             "label": "jk",
                             "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00250277"
                         },
@@ -2842,6 +3054,10 @@
                         {
                             "label": "koui_start",
                             "value": 2055
+                        },
+                        {
+                            "label": "koui_count",
+                            "value": 16
                         },
                         {
                             "label": "jk",

@@ -81,6 +81,10 @@ for i in range(0, len(df.index)):
               "value": int(df.loc[i, "koui_start"])
             },
             {
+              "label": "koui_count",
+              "value": int(df.loc[i, "koui_count"])
+            },
+            {
               "label": "jk",
               "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid="+ str(df.loc[i, "jk_front"]),
             },
