@@ -3,30 +3,19 @@
         "http://iiif.io/api/presentation/2/context.json",
         "http://codh.rois.ac.jp/iiif/curation/1/context.json"
     ],
-    "@id": "https://curation/7f22ac8a-584d-4401-b27e-d1eeb715c81b",
+    "@id": "https://curation/0d694203-c305-4b8d-b603-d629ad231a29",
     "@type": "cr:Curation",
     "label": "Character List",
     "selections": [
         {
-            "@id": "https://curation/7f22ac8a-584d-4401-b27e-d1eeb715c81b/range1",
+            "@id": "https://curation/0d694203-c305-4b8d-b603-d629ad231a29/range1",
             "@type": "sc:Range",
             "label": "Characters",
             "members": [
                 {
-                    "@id": "https://www.dl.ndl.go.jp/api/iiif/3437690/canvas/161#xywh=0,0,6921,4828",
-                    "@type": "sc:Canvas",
-                    "label": "[1]",
-                    "metadata": [
-                        {
-                            "label": "Text",
-                            "value": "けしきはいみしうこそおかしかりしかとなにことにつけてもたゝかのひとつゆかり\nをそ思ひいて給けるあやしうつらかりけるちきりともをつくつくと\n思つゝけなかめ給ゆふくれかけろふのものはかなけにとひちかふを\nありとみて手にはとられすみれは又ゆくゑもしらすきえしかけろふあるかなきか\nのとれいのひとりこち給とかやてならひ"
-                        }
-                    ]
-                },
-                {
                     "@id": "https://www.dl.ndl.go.jp/api/iiif/3437690/canvas/163#xywh=0,0,6921,4828",
                     "@type": "sc:Canvas",
-                    "label": "[2]",
+                    "label": "[1]",
                     "metadata": [
                         {
                             "label": "Text",
@@ -37,7 +26,7 @@
                 {
                     "@id": "https://www.dl.ndl.go.jp/api/iiif/3437690/canvas/164#xywh=0,0,6921,4828",
                     "@type": "sc:Canvas",
-                    "label": "[3]",
+                    "label": "[2]",
                     "metadata": [
                         {
                             "label": "Text",
@@ -48,7 +37,7 @@
                 {
                     "@id": "https://www.dl.ndl.go.jp/api/iiif/3437690/canvas/165#xywh=0,0,6921,4828",
                     "@type": "sc:Canvas",
-                    "label": "[4]",
+                    "label": "[3]",
                     "metadata": [
                         {
                             "label": "Text",
@@ -59,7 +48,7 @@
                 {
                     "@id": "https://www.dl.ndl.go.jp/api/iiif/3437690/canvas/166#xywh=0,0,6921,4828",
                     "@type": "sc:Canvas",
-                    "label": "[5]",
+                    "label": "[4]",
                     "metadata": [
                         {
                             "label": "Text",
@@ -70,7 +59,7 @@
                 {
                     "@id": "https://www.dl.ndl.go.jp/api/iiif/3437690/canvas/167#xywh=0,0,6921,4828",
                     "@type": "sc:Canvas",
-                    "label": "[6]",
+                    "label": "[5]",
                     "metadata": [
                         {
                             "label": "Text",
@@ -81,7 +70,7 @@
                 {
                     "@id": "https://www.dl.ndl.go.jp/api/iiif/3437690/canvas/168#xywh=0,0,6921,4828",
                     "@type": "sc:Canvas",
-                    "label": "[7]",
+                    "label": "[6]",
                     "metadata": [
                         {
                             "label": "Text",
@@ -92,7 +81,7 @@
                 {
                     "@id": "https://www.dl.ndl.go.jp/api/iiif/3437690/canvas/169#xywh=0,0,6921,4828",
                     "@type": "sc:Canvas",
-                    "label": "[8]",
+                    "label": "[7]",
                     "metadata": [
                         {
                             "label": "Text",
@@ -103,7 +92,7 @@
                 {
                     "@id": "https://www.dl.ndl.go.jp/api/iiif/3437690/canvas/170#xywh=0,0,6921,4828",
                     "@type": "sc:Canvas",
-                    "label": "[9]",
+                    "label": "[8]",
                     "metadata": [
                         {
                             "label": "Text",
@@ -114,7 +103,7 @@
                 {
                     "@id": "https://www.dl.ndl.go.jp/api/iiif/3437690/canvas/171#xywh=0,0,6921,4828",
                     "@type": "sc:Canvas",
-                    "label": "[10]",
+                    "label": "[9]",
                     "metadata": [
                         {
                             "label": "Text",
@@ -125,7 +114,7 @@
                 {
                     "@id": "https://www.dl.ndl.go.jp/api/iiif/3437690/canvas/172#xywh=0,0,6921,4828",
                     "@type": "sc:Canvas",
-                    "label": "[11]",
+                    "label": "[10]",
                     "metadata": [
                         {
                             "label": "Text",
@@ -136,7 +125,7 @@
                 {
                     "@id": "https://www.dl.ndl.go.jp/api/iiif/3437690/canvas/173#xywh=0,0,6921,4828",
                     "@type": "sc:Canvas",
-                    "label": "[12]",
+                    "label": "[11]",
                     "metadata": [
                         {
                             "label": "Text",
@@ -147,7 +136,7 @@
                 {
                     "@id": "https://www.dl.ndl.go.jp/api/iiif/3437690/canvas/174#xywh=0,0,6921,4828",
                     "@type": "sc:Canvas",
-                    "label": "[13]",
+                    "label": "[12]",
                     "metadata": [
                         {
                             "label": "Text",
@@ -158,7 +147,7 @@
                 {
                     "@id": "https://www.dl.ndl.go.jp/api/iiif/3437690/canvas/175#xywh=0,0,6921,4828",
                     "@type": "sc:Canvas",
-                    "label": "[14]",
+                    "label": "[13]",
                     "metadata": [
                         {
                             "label": "Text",
@@ -169,7 +158,7 @@
                 {
                     "@id": "https://www.dl.ndl.go.jp/api/iiif/3437690/canvas/176#xywh=0,0,6921,4828",
                     "@type": "sc:Canvas",
-                    "label": "[15]",
+                    "label": "[14]",
                     "metadata": [
                         {
                             "label": "Text",
@@ -180,7 +169,7 @@
                 {
                     "@id": "https://www.dl.ndl.go.jp/api/iiif/3437690/canvas/177#xywh=0,0,6921,4828",
                     "@type": "sc:Canvas",
-                    "label": "[16]",
+                    "label": "[15]",
                     "metadata": [
                         {
                             "label": "Text",
@@ -191,7 +180,7 @@
                 {
                     "@id": "https://www.dl.ndl.go.jp/api/iiif/3437690/canvas/178#xywh=0,0,6921,4828",
                     "@type": "sc:Canvas",
-                    "label": "[17]",
+                    "label": "[16]",
                     "metadata": [
                         {
                             "label": "Text",
@@ -202,7 +191,7 @@
                 {
                     "@id": "https://www.dl.ndl.go.jp/api/iiif/3437690/canvas/179#xywh=0,0,6921,4828",
                     "@type": "sc:Canvas",
-                    "label": "[18]",
+                    "label": "[17]",
                     "metadata": [
                         {
                             "label": "Text",
@@ -213,7 +202,7 @@
                 {
                     "@id": "https://www.dl.ndl.go.jp/api/iiif/3437690/canvas/180#xywh=0,0,6921,4828",
                     "@type": "sc:Canvas",
-                    "label": "[19]",
+                    "label": "[18]",
                     "metadata": [
                         {
                             "label": "Text",
@@ -224,7 +213,7 @@
                 {
                     "@id": "https://www.dl.ndl.go.jp/api/iiif/3437690/canvas/181#xywh=0,0,6921,4828",
                     "@type": "sc:Canvas",
-                    "label": "[20]",
+                    "label": "[19]",
                     "metadata": [
                         {
                             "label": "Text",
@@ -235,7 +224,7 @@
                 {
                     "@id": "https://www.dl.ndl.go.jp/api/iiif/3437690/canvas/182#xywh=0,0,6921,4828",
                     "@type": "sc:Canvas",
-                    "label": "[21]",
+                    "label": "[20]",
                     "metadata": [
                         {
                             "label": "Text",
@@ -246,7 +235,7 @@
                 {
                     "@id": "https://www.dl.ndl.go.jp/api/iiif/3437690/canvas/183#xywh=0,0,6921,4828",
                     "@type": "sc:Canvas",
-                    "label": "[22]",
+                    "label": "[21]",
                     "metadata": [
                         {
                             "label": "Text",
@@ -257,7 +246,7 @@
                 {
                     "@id": "https://www.dl.ndl.go.jp/api/iiif/3437690/canvas/184#xywh=0,0,6921,4828",
                     "@type": "sc:Canvas",
-                    "label": "[23]",
+                    "label": "[22]",
                     "metadata": [
                         {
                             "label": "Text",
@@ -268,7 +257,7 @@
                 {
                     "@id": "https://www.dl.ndl.go.jp/api/iiif/3437690/canvas/185#xywh=0,0,6921,4828",
                     "@type": "sc:Canvas",
-                    "label": "[24]",
+                    "label": "[23]",
                     "metadata": [
                         {
                             "label": "Text",
@@ -277,20 +266,9 @@
                     ]
                 },
                 {
-                    "@id": "https://www.dl.ndl.go.jp/api/iiif/3437690/canvas/186#xywh=0,0,6921,4828",
-                    "@type": "sc:Canvas",
-                    "label": "[25]",
-                    "metadata": [
-                        {
-                            "label": "Text",
-                            "value": "なとの給はす世の中に久しうはへるましきさまに仏なともをしへ給へることゝも\n侍るうちにことしらい年すくしかたきやうになむ侍れは佛をまきれなくねんし\nつとめ侍らんとてふかくこもり侍をかゝるおほせことにてまかりいて侍に\nしなとけいし給御ものゝけのしふねきことをさまさまになのるかおそろしきこと\nなとの給つゐてにいとあやしうけうのことをなんみ給へしこの三月に年老て\n侍はゝの願有てはつせにまうてゝ侍しかへさの中やとりにうちの院といひ侍所\nにまかりやとりしをかくのこと人すまて年へぬるおほきなる所はよからぬ物かならす\nかよひすみておもきひやうさのためあしき事ともと思給へしもしるくと\nてかのみつけたりしことゝもをかたりきこえ給けにいとめつらかなることかな\nとてちかくさふらふ人々みなねいりたるをおそろしくおほされておとろかさせ\n給大将のかたらひ給さい将の君しもこのことをきゝけりおとろかさせ給人々は\nなにともきかす僧都おちさせ給へる御けしきを心もなきことけいしてけりと思\nてくはしくもその程のことをはいひさしつその女人このたひまかりいて侍つる\nたよりにをのに侍つるあまともあひとひ侍らんとてまかりよりたりしになくなく\n\n出家の心さしふかきよしねん比にかたらひ侍しかはかしらおろし侍にきなにかし\nかいもうと故ゑもんのかみのめに侍しあまなんうせにし女このかはりに\nと思よろこひ侍てすいふんにいたはりかしつき侍けるをかくなりたれはうらみ\n侍なりけにそかたちはいとうるはしくけうらにてをこなひやつれんもいとおしけに\nなむ侍しなに人にか侍けんとものよくいふそうつにてかたりつゝけ申給へ\nはいかてさる所によき人をしもとりもていきけんさりとも今はしられぬらむなと\nこのさい相の君そとふしらすさもやかたらひ給らんまことにやむことなき人\nならはなにかゝくれも侍らしをやゐ中人のむすめもさるさましたるこそは侍ら\nめりうの中より仏むまれ給はすはこそ侍らめたゝ人にてはいとつみかろきさま\nの人になん侍けるなときこえ給そのころかのわたりにきえうせにけむ人をおほしいつ\nこのおまへなる人もあねの君のつたへにあやしくてうせたる人とはきゝをき\nたれはそれにやあらんとは思けれとさためなきこと也そうつもかゝる人世\nにある物ともしられしとよくもあらぬかたきたちたる人もあるやうにおもむけ\nてかくしゝのひ侍をことのさまのあやしけれはけいし侍なりとなまかくすけしき"
-                        }
-                    ]
-                },
-                {
                     "@id": "https://www.dl.ndl.go.jp/api/iiif/3437690/canvas/187#xywh=0,0,6921,4828",
                     "@type": "sc:Canvas",
-                    "label": "[26]",
+                    "label": "[24]",
                     "metadata": [
                         {
                             "label": "Text",
@@ -301,7 +279,7 @@
                 {
                     "@id": "https://www.dl.ndl.go.jp/api/iiif/3437690/canvas/188#xywh=0,0,6921,4828",
                     "@type": "sc:Canvas",
-                    "label": "[27]",
+                    "label": "[25]",
                     "metadata": [
                         {
                             "label": "Text",
@@ -312,7 +290,7 @@
                 {
                     "@id": "https://www.dl.ndl.go.jp/api/iiif/3437690/canvas/189#xywh=0,0,6921,4828",
                     "@type": "sc:Canvas",
-                    "label": "[28]",
+                    "label": "[26]",
                     "metadata": [
                         {
                             "label": "Text",
@@ -323,7 +301,7 @@
                 {
                     "@id": "https://www.dl.ndl.go.jp/api/iiif/3437690/canvas/190#xywh=0,0,6921,4828",
                     "@type": "sc:Canvas",
-                    "label": "[29]",
+                    "label": "[27]",
                     "metadata": [
                         {
                             "label": "Text",
@@ -334,7 +312,7 @@
                 {
                     "@id": "https://www.dl.ndl.go.jp/api/iiif/3437690/canvas/191#xywh=0,0,6921,4828",
                     "@type": "sc:Canvas",
-                    "label": "[30]",
+                    "label": "[28]",
                     "metadata": [
                         {
                             "label": "Text",
@@ -345,7 +323,7 @@
                 {
                     "@id": "https://www.dl.ndl.go.jp/api/iiif/3437690/canvas/192#xywh=0,0,6921,4828",
                     "@type": "sc:Canvas",
-                    "label": "[31]",
+                    "label": "[29]",
                     "metadata": [
                         {
                             "label": "Text",
@@ -356,7 +334,7 @@
                 {
                     "@id": "https://www.dl.ndl.go.jp/api/iiif/3437690/canvas/193#xywh=0,0,6921,4828",
                     "@type": "sc:Canvas",
-                    "label": "[32]",
+                    "label": "[30]",
                     "metadata": [
                         {
                             "label": "Text",

@@ -56,7 +56,8 @@ def item(base, dir):
 
         divs = soup.find_all(class_="resource-tile")
 
-        for div in divs:
+        for d in range(1, len(divs)):
+            div = divs[d]
             href = div.find("a").get("href")
             href = urljoin(url, href)
 

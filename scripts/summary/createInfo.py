@@ -86,7 +86,7 @@ for i in range(0, len(df.index)):
             },
             {
               "label": "jk",
-              "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid="+ str(df.loc[i, "jk_front"]),
+              "value": "https://japanknowledge.com/lib/display/?lid="+ str(df.loc[i, "jk_front"]),
             },
             {
               "label": "jk_front",
@@ -95,6 +95,10 @@ for i in range(0, len(df.index)):
             {
               "label": "jk_start",
               "value": str(df.loc[i, "jk_start"])
+            },
+            {
+              "label": "thumbnail_utokyo",
+              "value": df.loc[i, "thumbnail"]
             }
         ],
         "thumbnail" : canvas_image_map[df.loc[i, "ndl_front_canvas"]]

@@ -3,41 +3,30 @@
         "http://iiif.io/api/presentation/2/context.json",
         "http://codh.rois.ac.jp/iiif/curation/1/context.json"
     ],
-    "@id": "https://curation/ab23af10-4127-40fa-b0e1-a79af39e2e47",
+    "@id": "https://curation/2e7c37a0-0fe5-4086-8b9f-5366d60aaecb",
     "@type": "cr:Curation",
     "label": "Character List",
     "selections": [
         {
-            "@id": "https://curation/ab23af10-4127-40fa-b0e1-a79af39e2e47/range1",
+            "@id": "https://curation/2e7c37a0-0fe5-4086-8b9f-5366d60aaecb/range1",
             "@type": "sc:Range",
             "label": "Characters",
             "members": [
                 {
-                    "@id": "https://www.dl.ndl.go.jp/api/iiif/3437688/canvas/34#xywh=0,0,6890,4706",
+                    "@id": "https://www.dl.ndl.go.jp/api/iiif/3437688/canvas/36#xywh=0,0,6890,4706",
                     "@type": "sc:Canvas",
                     "label": "[1]",
                     "metadata": [
                         {
                             "label": "Text",
-                            "value": "ましきものなれはにやこの君たちを人しれすめにもみゝにもとゝめ給へとかけて\nさたに思ひよらす此中将は心のかきりつくして思ふすちにそかゝるついて\nにもえしのひはつましき心ちすれとさまよくもてなしておさおさこゝろとけて\nもかきわたさす野わき"
-                        }
-                    ]
-                },
-                {
-                    "@id": "https://www.dl.ndl.go.jp/api/iiif/3437688/canvas/36#xywh=0,0,6890,4706",
-                    "@type": "sc:Canvas",
-                    "label": "[2]",
-                    "metadata": [
-                        {
-                            "label": "Text",
-                            "value": "中宮の御まへに秋の花をうへさせ給へることつねの年よりもみところおほくいろくさ\nをつくしてよしあるくろきあかきのませおゆひませつゝおなしき花のえたさし\nすかたあさゆふ露のひかりもよのつねならす玉かとかゝやきてつくりわたせ\nるのへの色をみるにはた春の山もわすられてすゝしうおもしろく心もあくかるゝ\nやうなり春秋のあらそひにむかしより秋に心よする人はかすまさりける\nをなたゝる春のおまへのはなそのに心よせし人々又ひきかへしうつろふけしき\n世のありさまにゝたりこれを御らむしつきてさとゐしたまふほと御あそひなと\nもあらまほしけれと八月はこせむはうの御き月なれは心もとなくおほしつゝあけくるゝ\nに此花のいろまさるけしきともを御らむするにのわきれいのとしより\nもおとろおとろしく空の色かはりてふきいつはなとものしほるゝをいとさしも思しま\nぬ人たにあなわりなとおもひさはかるゝをまして草むらの露の玉のをみたるゝ\nまゝに御心まとひもしぬへくおほしたりおほふはかりのそては秋の空にし\nもこそほしけなりけれくれゆくまゝにものもみえすふきまよはしていとむくつけゝれ\nはみかうしなとまいりぬるにうしろめたくいみしとはなのうへをおほしなけく"
+                            "value": "中宮の御まへに秋の花をうへさせ給へることつねの年よりもみところおほくい\nろくさをつくしてよしあるくろきあかきのませおゆひませつゝおなしき花のえ\nたさしすかたあさゆふ露のひかりもよのつねならす玉かとかゝやきてつくりわ\nたせるのへの色をみるにはた春の山もわすられてすゝしうおもしろく心もあく\nかるゝやうなり春秋のあらそひにむかしより秋に心よする人はかすまさりける\nをなたゝる春のおまへのはなそのに心よせし人〻又ひきかへしうつろふけしき\n世のありさまにゝたりこれを御らむしつきてさとゐしたまふほと御あそひなと\nもあらまほしけれと八月はこせむはうの御き月なれは心もとなくおほしつゝあ\nけくるゝに此花のいろまさるけしきともを御らむするにのわきれいのとしより\nもおとろ〱しく空の色かはりてふきいつはなとものしほるゝをいとさしも思\nしまぬ人たにあなわりなとおもひさはかるゝをまして草むらの露の玉のをみた\nるゝまゝに御心まとひもしぬへくおほしたりおほふはかりのそては秋の空にし\nもこそほしけなりけれくれゆくまゝにものもみえすふきまよはしていとむくつ\nけゝれはみかうしなとまいりぬるにうしろめたくいみしとはなのうへをおほし"
                         }
                     ]
                 },
                 {
                     "@id": "https://www.dl.ndl.go.jp/api/iiif/3437688/canvas/37#xywh=0,0,6890,4706",
                     "@type": "sc:Canvas",
-                    "label": "[3]",
+                    "label": "[2]",
                     "metadata": [
                         {
                             "label": "Text",
@@ -48,7 +37,7 @@
                 {
                     "@id": "https://www.dl.ndl.go.jp/api/iiif/3437688/canvas/38#xywh=0,0,6890,4706",
                     "@type": "sc:Canvas",
-                    "label": "[4]",
+                    "label": "[3]",
                     "metadata": [
                         {
                             "label": "Text",
@@ -59,7 +48,7 @@
                 {
                     "@id": "https://www.dl.ndl.go.jp/api/iiif/3437688/canvas/39#xywh=0,0,6890,4706",
                     "@type": "sc:Canvas",
-                    "label": "[5]",
+                    "label": "[4]",
                     "metadata": [
                         {
                             "label": "Text",
@@ -70,7 +59,7 @@
                 {
                     "@id": "https://www.dl.ndl.go.jp/api/iiif/3437688/canvas/40#xywh=0,0,6890,4706",
                     "@type": "sc:Canvas",
-                    "label": "[6]",
+                    "label": "[5]",
                     "metadata": [
                         {
                             "label": "Text",
@@ -81,7 +70,7 @@
                 {
                     "@id": "https://www.dl.ndl.go.jp/api/iiif/3437688/canvas/41#xywh=0,0,6890,4706",
                     "@type": "sc:Canvas",
-                    "label": "[7]",
+                    "label": "[6]",
                     "metadata": [
                         {
                             "label": "Text",
@@ -92,7 +81,7 @@
                 {
                     "@id": "https://www.dl.ndl.go.jp/api/iiif/3437688/canvas/42#xywh=0,0,6890,4706",
                     "@type": "sc:Canvas",
-                    "label": "[8]",
+                    "label": "[7]",
                     "metadata": [
                         {
                             "label": "Text",
@@ -103,7 +92,7 @@
                 {
                     "@id": "https://www.dl.ndl.go.jp/api/iiif/3437688/canvas/43#xywh=0,0,6890,4706",
                     "@type": "sc:Canvas",
-                    "label": "[9]",
+                    "label": "[8]",
                     "metadata": [
                         {
                             "label": "Text",
@@ -114,7 +103,7 @@
                 {
                     "@id": "https://www.dl.ndl.go.jp/api/iiif/3437688/canvas/44#xywh=0,0,6890,4706",
                     "@type": "sc:Canvas",
-                    "label": "[10]",
+                    "label": "[9]",
                     "metadata": [
                         {
                             "label": "Text",

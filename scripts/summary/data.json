@@ -57,7 +57,7 @@
                         },
                         {
                             "label": "jk",
-                            "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00200015"
+                            "value": "https://japanknowledge.com/lib/display/?lid=80110V00200015"
                         },
                         {
                             "label": "jk_front",
@@ -66,6 +66,10 @@
                         {
                             "label": "jk_start",
                             "value": "80110V00200017"
+                        },
+                        {
+                            "label": "thumbnail_utokyo",
+                            "value": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/eeea85020b8f2f84392fdbae7e7460f7f0e44e28.jpg"
                         }
                     ],
                     "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/3437686/R0000020/0,0,3445,4706/600,/0/default.jpg"
@@ -113,7 +117,7 @@
                         },
                         {
                             "label": "jk",
-                            "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00200051"
+                            "value": "https://japanknowledge.com/lib/display/?lid=80110V00200051"
                         },
                         {
                             "label": "jk_front",
@@ -122,6 +126,10 @@
                         {
                             "label": "jk_start",
                             "value": "80110V00200053"
+                        },
+                        {
+                            "label": "thumbnail_utokyo",
+                            "value": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/707d9c58014ca5f13e94210694e944026cae887d.jpg"
                         }
                     ],
                     "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/3437686/R0000035/0,0,3445,4706/600,/0/default.jpg"
@@ -169,7 +177,7 @@
                         },
                         {
                             "label": "jk",
-                            "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00200115"
+                            "value": "https://japanknowledge.com/lib/display/?lid=80110V00200115"
                         },
                         {
                             "label": "jk_front",
@@ -178,6 +186,10 @@
                         {
                             "label": "jk_start",
                             "value": "80110V00200117"
+                        },
+                        {
+                            "label": "thumbnail_utokyo",
+                            "value": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/2ff5ad52ad67276e6309bf522852dffeb5ae4a65.jpg"
                         }
                     ],
                     "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/3437686/R0000060/0,0,3445,4706/600,/0/default.jpg"
@@ -225,7 +237,7 @@
                         },
                         {
                             "label": "jk",
-                            "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00200133"
+                            "value": "https://japanknowledge.com/lib/display/?lid=80110V00200133"
                         },
                         {
                             "label": "jk_front",
@@ -234,6 +246,10 @@
                         {
                             "label": "jk_start",
                             "value": "80110V00200135"
+                        },
+                        {
+                            "label": "thumbnail_utokyo",
+                            "value": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/05b2af61a788209c52093049ebcacc26928f1b16.jpg"
                         }
                     ],
                     "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/3437686/R0000068/0,0,3445,4706/600,/0/default.jpg"
@@ -281,7 +297,7 @@
                         },
                         {
                             "label": "jk",
-                            "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00200197"
+                            "value": "https://japanknowledge.com/lib/display/?lid=80110V00200197"
                         },
                         {
                             "label": "jk_front",
@@ -290,6 +306,10 @@
                         {
                             "label": "jk_start",
                             "value": "80110V00200199"
+                        },
+                        {
+                            "label": "thumbnail_utokyo",
+                            "value": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/ad936d2a2b341652cb1ab7e25f65cafb67ef021d.jpg"
                         }
                     ],
                     "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/3437686/R0000093/0,0,3445,4706/600,/0/default.jpg"
@@ -337,7 +357,7 @@
                         },
                         {
                             "label": "jk",
-                            "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00200263"
+                            "value": "https://japanknowledge.com/lib/display/?lid=80110V00200263"
                         },
                         {
                             "label": "jk_front",
@@ -346,6 +366,10 @@
                         {
                             "label": "jk_start",
                             "value": "80110V00200265"
+                        },
+                        {
+                            "label": "thumbnail_utokyo",
+                            "value": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/75f8470d741d1c825d32c8bd958dbebd3e0f6dfa.jpg"
                         }
                     ],
                     "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/3437686/R0000118/0,0,3445,4706/600,/0/default.jpg"
@@ -393,7 +417,7 @@
                         },
                         {
                             "label": "jk",
-                            "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00200309"
+                            "value": "https://japanknowledge.com/lib/display/?lid=80110V00200309"
                         },
                         {
                             "label": "jk_front",
@@ -402,6 +426,10 @@
                         {
                             "label": "jk_start",
                             "value": "80110V00200311"
+                        },
+                        {
+                            "label": "thumbnail_utokyo",
+                            "value": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/a6007d38d10c305c456419ba4ca2ccb4356a768e.jpg"
                         }
                     ],
                     "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/3437686/R0000136/0,0,3445,4706/600,/0/default.jpg"
@@ -449,7 +477,7 @@
                         },
                         {
                             "label": "jk",
-                            "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00200351"
+                            "value": "https://japanknowledge.com/lib/display/?lid=80110V00200351"
                         },
                         {
                             "label": "jk_front",
@@ -458,6 +486,10 @@
                         {
                             "label": "jk_start",
                             "value": "80110V00200353"
+                        },
+                        {
+                            "label": "thumbnail_utokyo",
+                            "value": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/8b5bc65b81a208f3c3c7712d942d1054a71c0271.jpg"
                         }
                     ],
                     "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/3437686/R0000152/0,0,3445,4706/600,/0/default.jpg"
@@ -505,7 +537,7 @@
                         },
                         {
                             "label": "jk",
-                            "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00210015"
+                            "value": "https://japanknowledge.com/lib/display/?lid=80110V00210015"
                         },
                         {
                             "label": "jk_front",
@@ -514,6 +546,10 @@
                         {
                             "label": "jk_start",
                             "value": "80110V00210017"
+                        },
+                        {
+                            "label": "thumbnail_utokyo",
+                            "value": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/b0a891a07b68bfdf6c407c423356d7595dcd357e.jpg"
                         }
                     ],
                     "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/3437686/R0000159/0,0,3445,4706/600,/0/default.jpg"
@@ -561,7 +597,7 @@
                         },
                         {
                             "label": "jk",
-                            "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00210081"
+                            "value": "https://japanknowledge.com/lib/display/?lid=80110V00210081"
                         },
                         {
                             "label": "jk_front",
@@ -570,6 +606,10 @@
                         {
                             "label": "jk_start",
                             "value": "80110V00210083"
+                        },
+                        {
+                            "label": "thumbnail_utokyo",
+                            "value": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/d820f92edbf1fac934254e039d52e3b3a4794763.jpg"
                         }
                     ],
                     "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/3437686/R0000184/0,0,3445,4706/600,/0/default.jpg"
@@ -617,7 +657,7 @@
                         },
                         {
                             "label": "jk",
-                            "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00210151"
+                            "value": "https://japanknowledge.com/lib/display/?lid=80110V00210151"
                         },
                         {
                             "label": "jk_front",
@@ -626,6 +666,10 @@
                         {
                             "label": "jk_start",
                             "value": "80110V00210153"
+                        },
+                        {
+                            "label": "thumbnail_utokyo",
+                            "value": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/b1f48e3a8967f8184b33d7c20deba15dde4b0508.jpg"
                         }
                     ],
                     "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/3437686/R0000211/0,0,3445,4706/600,/0/default.jpg"
@@ -682,7 +726,7 @@
                         },
                         {
                             "label": "jk",
-                            "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00210159"
+                            "value": "https://japanknowledge.com/lib/display/?lid=80110V00210159"
                         },
                         {
                             "label": "jk_front",
@@ -691,6 +735,10 @@
                         {
                             "label": "jk_start",
                             "value": "80110V00210161"
+                        },
+                        {
+                            "label": "thumbnail_utokyo",
+                            "value": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/b0d53228d1a99f21f7d6fe7c3f0b597884cf146b.jpg"
                         }
                     ],
                     "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/3437687/R0000005/0,0,3445,4706/600,/0/default.jpg"
@@ -738,7 +786,7 @@
                         },
                         {
                             "label": "jk",
-                            "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00210221"
+                            "value": "https://japanknowledge.com/lib/display/?lid=80110V00210221"
                         },
                         {
                             "label": "jk_front",
@@ -747,6 +795,10 @@
                         {
                             "label": "jk_start",
                             "value": "80110V00210223"
+                        },
+                        {
+                            "label": "thumbnail_utokyo",
+                            "value": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/d3c55f7743874d1c6d7501b732587fa0a565f8ca.jpg"
                         }
                     ],
                     "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/3437687/R0000028/0,0,3445,4706/600,/0/default.jpg"
@@ -794,7 +846,7 @@
                         },
                         {
                             "label": "jk",
-                            "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00210277"
+                            "value": "https://japanknowledge.com/lib/display/?lid=80110V00210277"
                         },
                         {
                             "label": "jk_front",
@@ -803,6 +855,10 @@
                         {
                             "label": "jk_start",
                             "value": "80110V00210279"
+                        },
+                        {
+                            "label": "thumbnail_utokyo",
+                            "value": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/ecb674898ebb6d9eae28aad9a59a9816612ba770.jpg"
                         }
                     ],
                     "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/3437687/R0000049/0,0,3445,4706/600,/0/default.jpg"
@@ -850,7 +906,7 @@
                         },
                         {
                             "label": "jk",
-                            "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00210323"
+                            "value": "https://japanknowledge.com/lib/display/?lid=80110V00210323"
                         },
                         {
                             "label": "jk_front",
@@ -859,6 +915,10 @@
                         {
                             "label": "jk_start",
                             "value": "80110V00210325"
+                        },
+                        {
+                            "label": "thumbnail_utokyo",
+                            "value": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/6135de6961e457949587d4ec15b7a7f450d0ce8c.jpg"
                         }
                     ],
                     "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/3437687/R0000067/0,0,3445,4706/600,/0/default.jpg"
@@ -906,7 +966,7 @@
                         },
                         {
                             "label": "jk",
-                            "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00210357"
+                            "value": "https://japanknowledge.com/lib/display/?lid=80110V00210357"
                         },
                         {
                             "label": "jk_front",
@@ -915,6 +975,10 @@
                         {
                             "label": "jk_start",
                             "value": "80110V00210359"
+                        },
+                        {
+                            "label": "thumbnail_utokyo",
+                            "value": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/08c0b5ddb47a13b8b38ed6d132425f04b8f1bd90.jpg"
                         }
                     ],
                     "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/3437687/R0000081/0,0,3445,4706/600,/0/default.jpg"
@@ -962,7 +1026,7 @@
                         },
                         {
                             "label": "jk",
-                            "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00210367"
+                            "value": "https://japanknowledge.com/lib/display/?lid=80110V00210367"
                         },
                         {
                             "label": "jk_front",
@@ -971,6 +1035,10 @@
                         {
                             "label": "jk_start",
                             "value": "80110V00210369"
+                        },
+                        {
+                            "label": "thumbnail_utokyo",
+                            "value": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/30c83a6cc316f8a5141300402eabae777391eb08.jpg"
                         }
                     ],
                     "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/3437687/R0000086/0,0,3445,4706/600,/0/default.jpg"
@@ -1018,7 +1086,7 @@
                         },
                         {
                             "label": "jk",
-                            "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00210395"
+                            "value": "https://japanknowledge.com/lib/display/?lid=80110V00210395"
                         },
                         {
                             "label": "jk_front",
@@ -1027,6 +1095,10 @@
                         {
                             "label": "jk_start",
                             "value": "80110V00210397"
+                        },
+                        {
+                            "label": "thumbnail_utokyo",
+                            "value": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/955586a06ad6c479f9774391052043531466e4a2.jpg"
                         }
                     ],
                     "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/3437687/R0000097/0,0,3445,4706/600,/0/default.jpg"
@@ -1074,7 +1146,7 @@
                         },
                         {
                             "label": "jk",
-                            "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00210425"
+                            "value": "https://japanknowledge.com/lib/display/?lid=80110V00210425"
                         },
                         {
                             "label": "jk_front",
@@ -1083,6 +1155,10 @@
                         {
                             "label": "jk_start",
                             "value": "80110V00210427"
+                        },
+                        {
+                            "label": "thumbnail_utokyo",
+                            "value": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/3a53e40b0982b4fedaa1049564e7253526076864.jpg"
                         }
                     ],
                     "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/3437687/R0000109/0,0,3445,4706/600,/0/default.jpg"
@@ -1130,7 +1206,7 @@
                         },
                         {
                             "label": "jk",
-                            "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00210467"
+                            "value": "https://japanknowledge.com/lib/display/?lid=80110V00210467"
                         },
                         {
                             "label": "jk_front",
@@ -1139,6 +1215,10 @@
                         {
                             "label": "jk_start",
                             "value": "80110V00210469"
+                        },
+                        {
+                            "label": "thumbnail_utokyo",
+                            "value": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/21acc54c731964590959b762929dc422d730b287.jpg"
                         }
                     ],
                     "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/3437687/R0000127/0,0,3445,4706/600,/0/default.jpg"
@@ -1186,7 +1266,7 @@
                         },
                         {
                             "label": "jk",
-                            "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00220015"
+                            "value": "https://japanknowledge.com/lib/display/?lid=80110V00220015"
                         },
                         {
                             "label": "jk_front",
@@ -1195,6 +1275,10 @@
                         {
                             "label": "jk_start",
                             "value": "80110V00220017"
+                        },
+                        {
+                            "label": "thumbnail_utokyo",
+                            "value": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/79b1d4def22dfa63b5a67010cb86907e0357a275.jpg"
                         }
                     ],
                     "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/3437687/R0000140/0,0,3445,4706/600,/0/default.jpg"
@@ -1242,7 +1326,7 @@
                         },
                         {
                             "label": "jk",
-                            "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00220085"
+                            "value": "https://japanknowledge.com/lib/display/?lid=80110V00220085"
                         },
                         {
                             "label": "jk_front",
@@ -1251,6 +1335,10 @@
                         {
                             "label": "jk_start",
                             "value": "80110V00220087"
+                        },
+                        {
+                            "label": "thumbnail_utokyo",
+                            "value": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/97183b640dd05a166e2909ecb4f3f4cf94c99dd3.jpg"
                         }
                     ],
                     "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/3437687/R0000167/0,0,3445,4706/600,/0/default.jpg"
@@ -1298,7 +1386,7 @@
                         },
                         {
                             "label": "jk",
-                            "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00220141"
+                            "value": "https://japanknowledge.com/lib/display/?lid=80110V00220141"
                         },
                         {
                             "label": "jk_front",
@@ -1307,6 +1395,10 @@
                         {
                             "label": "jk_start",
                             "value": "80110V00220143"
+                        },
+                        {
+                            "label": "thumbnail_utokyo",
+                            "value": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/7b859f6f1c3a903073355d2b485ea65941c1ecd5.jpg"
                         }
                     ],
                     "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/3437687/R0000189/0,0,3445,4706/600,/0/default.jpg"
@@ -1354,7 +1446,7 @@
                         },
                         {
                             "label": "jk",
-                            "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00220163"
+                            "value": "https://japanknowledge.com/lib/display/?lid=80110V00220163"
                         },
                         {
                             "label": "jk_front",
@@ -1363,6 +1455,10 @@
                         {
                             "label": "jk_start",
                             "value": "80110V00220165"
+                        },
+                        {
+                            "label": "thumbnail_utokyo",
+                            "value": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/2104441c95bce9ded4251bfa3077f3f3ebf22a3f.jpg"
                         }
                     ],
                     "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/3437687/R0000198/0,0,3445,4706/600,/0/default.jpg"
@@ -1419,7 +1515,7 @@
                         },
                         {
                             "label": "jk",
-                            "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00220193"
+                            "value": "https://japanknowledge.com/lib/display/?lid=80110V00220193"
                         },
                         {
                             "label": "jk_front",
@@ -1428,6 +1524,10 @@
                         {
                             "label": "jk_start",
                             "value": "80110V00220195"
+                        },
+                        {
+                            "label": "thumbnail_utokyo",
+                            "value": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/d1ba7504e89aab1e6b6823e1a7cb30194938a7cc.jpg"
                         }
                     ],
                     "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/3437688/R0000005/0,0,3445,4706/600,/0/default.jpg"
@@ -1475,7 +1575,7 @@
                         },
                         {
                             "label": "jk",
-                            "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00220221"
+                            "value": "https://japanknowledge.com/lib/display/?lid=80110V00220221"
                         },
                         {
                             "label": "jk_front",
@@ -1484,6 +1584,10 @@
                         {
                             "label": "jk_start",
                             "value": "80110V00220223"
+                        },
+                        {
+                            "label": "thumbnail_utokyo",
+                            "value": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/2b0bf9802bc4bb2f5916620120a8cadc2cece164.jpg"
                         }
                     ],
                     "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/3437688/R0000017/0,0,3445,4706/600,/0/default.jpg"
@@ -1531,7 +1635,7 @@
                         },
                         {
                             "label": "jk",
-                            "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00220253"
+                            "value": "https://japanknowledge.com/lib/display/?lid=80110V00220253"
                         },
                         {
                             "label": "jk_front",
@@ -1540,6 +1644,10 @@
                         {
                             "label": "jk_start",
                             "value": "80110V00220255"
+                        },
+                        {
+                            "label": "thumbnail_utokyo",
+                            "value": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/521b34c724f1a4fc8822dc4058bfca2e9586ece6.jpg"
                         }
                     ],
                     "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/3437688/R0000030/0,0,3445,4706/600,/0/default.jpg"
@@ -1587,7 +1695,7 @@
                         },
                         {
                             "label": "jk",
-                            "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00220261"
+                            "value": "https://japanknowledge.com/lib/display/?lid=80110V00220261"
                         },
                         {
                             "label": "jk_front",
@@ -1596,6 +1704,10 @@
                         {
                             "label": "jk_start",
                             "value": "80110V00220263"
+                        },
+                        {
+                            "label": "thumbnail_utokyo",
+                            "value": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/d7461862d950021c055c59db1442d8623044969c.jpg"
                         }
                     ],
                     "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/3437688/R0000034/0,0,3445,4706/600,/0/default.jpg"
@@ -1643,7 +1755,7 @@
                         },
                         {
                             "label": "jk",
-                            "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00220287"
+                            "value": "https://japanknowledge.com/lib/display/?lid=80110V00220287"
                         },
                         {
                             "label": "jk_front",
@@ -1652,6 +1764,10 @@
                         {
                             "label": "jk_start",
                             "value": "80110V00220289"
+                        },
+                        {
+                            "label": "thumbnail_utokyo",
+                            "value": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/ef874413df4e9476d1c63164e9b245c8b4aa2b34.jpg"
                         }
                     ],
                     "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/3437688/R0000045/0,0,3445,4706/600,/0/default.jpg"
@@ -1699,7 +1815,7 @@
                         },
                         {
                             "label": "jk",
-                            "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00220325"
+                            "value": "https://japanknowledge.com/lib/display/?lid=80110V00220325"
                         },
                         {
                             "label": "jk_front",
@@ -1708,6 +1824,10 @@
                         {
                             "label": "jk_start",
                             "value": "80110V00220327"
+                        },
+                        {
+                            "label": "thumbnail_utokyo",
+                            "value": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/674bbb48c8d91b305159e77504b47f2c19763691.jpg"
                         }
                     ],
                     "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/3437688/R0000061/0,0,3445,4706/600,/0/default.jpg"
@@ -1755,7 +1875,7 @@
                         },
                         {
                             "label": "jk",
-                            "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00220347"
+                            "value": "https://japanknowledge.com/lib/display/?lid=80110V00220347"
                         },
                         {
                             "label": "jk_front",
@@ -1764,6 +1884,10 @@
                         {
                             "label": "jk_start",
                             "value": "80110V00220349"
+                        },
+                        {
+                            "label": "thumbnail_utokyo",
+                            "value": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/164d37dbda1adca42e0f99eecda183a742face89.jpg"
                         }
                     ],
                     "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/3437688/R0000070/0,0,3445,4706/600,/0/default.jpg"
@@ -1811,7 +1935,7 @@
                         },
                         {
                             "label": "jk",
-                            "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00220401"
+                            "value": "https://japanknowledge.com/lib/display/?lid=80110V00220401"
                         },
                         {
                             "label": "jk_front",
@@ -1820,6 +1944,10 @@
                         {
                             "label": "jk_start",
                             "value": "80110V00220403"
+                        },
+                        {
+                            "label": "thumbnail_utokyo",
+                            "value": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/b6ab72b7ef891c99cad007ac6d6e54f4ef6abbe6.jpg"
                         }
                     ],
                     "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/3437688/R0000090/0,0,3445,4706/600,/0/default.jpg"
@@ -1867,7 +1995,7 @@
                         },
                         {
                             "label": "jk",
-                            "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00220429"
+                            "value": "https://japanknowledge.com/lib/display/?lid=80110V00220429"
                         },
                         {
                             "label": "jk_front",
@@ -1876,6 +2004,10 @@
                         {
                             "label": "jk_start",
                             "value": "80110V00220431"
+                        },
+                        {
+                            "label": "thumbnail_utokyo",
+                            "value": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/a7a68aa156f41d5e63b59f4e8a28001b763b19df.jpg"
                         }
                     ],
                     "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/3437688/R0000101/0,0,3445,4706/600,/0/default.jpg"
@@ -1923,7 +2055,7 @@
                         },
                         {
                             "label": "jk",
-                            "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00230015"
+                            "value": "https://japanknowledge.com/lib/display/?lid=80110V00230015"
                         },
                         {
                             "label": "jk_front",
@@ -1932,6 +2064,10 @@
                         {
                             "label": "jk_start",
                             "value": "80110V00230017"
+                        },
+                        {
+                            "label": "thumbnail_utokyo",
+                            "value": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/fbc0fe0b72884b0f465ca41addaf8a6ed7a5d8d3.jpg"
                         }
                     ],
                     "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/3437688/R0000115/0,0,3445,4706/600,/0/default.jpg"
@@ -1979,7 +2115,7 @@
                         },
                         {
                             "label": "jk",
-                            "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00230151"
+                            "value": "https://japanknowledge.com/lib/display/?lid=80110V00230151"
                         },
                         {
                             "label": "jk_front",
@@ -1988,6 +2124,10 @@
                         {
                             "label": "jk_start",
                             "value": "80110V00230153"
+                        },
+                        {
+                            "label": "thumbnail_utokyo",
+                            "value": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/ef5db134d259dfcb50215d2c1ed82a757685cf8a.jpg"
                         }
                     ],
                     "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/3437688/R0000165/0,0,3445,4706/600,/0/default.jpg"
@@ -2044,7 +2184,7 @@
                         },
                         {
                             "label": "jk",
-                            "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00230287"
+                            "value": "https://japanknowledge.com/lib/display/?lid=80110V00230287"
                         },
                         {
                             "label": "jk_front",
@@ -2053,6 +2193,10 @@
                         {
                             "label": "jk_start",
                             "value": "80110V00230289"
+                        },
+                        {
+                            "label": "thumbnail_utokyo",
+                            "value": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/251bfc634c9fdac884ef8f8d0bfb16cb809c307e.jpg"
                         }
                     ],
                     "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/3437689/R0000005/0,0,3445,4706/600,/0/default.jpg"
@@ -2100,7 +2244,7 @@
                         },
                         {
                             "label": "jk",
-                            "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00230343"
+                            "value": "https://japanknowledge.com/lib/display/?lid=80110V00230343"
                         },
                         {
                             "label": "jk_front",
@@ -2109,6 +2253,10 @@
                         {
                             "label": "jk_start",
                             "value": "80110V00230345"
+                        },
+                        {
+                            "label": "thumbnail_utokyo",
+                            "value": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/62eb77bc67f5d1d5ad7bee5d4d81adf97763aaec.jpg"
                         }
                     ],
                     "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/3437689/R0000026/0,0,3445,4706/600,/0/default.jpg"
@@ -2156,7 +2304,7 @@
                         },
                         {
                             "label": "jk",
-                            "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00230371"
+                            "value": "https://japanknowledge.com/lib/display/?lid=80110V00230371"
                         },
                         {
                             "label": "jk_front",
@@ -2165,6 +2313,10 @@
                         {
                             "label": "jk_start",
                             "value": "80110V00230373"
+                        },
+                        {
+                            "label": "thumbnail_utokyo",
+                            "value": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/f31a2a922c28c5e34261eb51b193316b2b0cd46e.jpg"
                         }
                     ],
                     "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/3437689/R0000037/0,0,3445,4706/600,/0/default.jpg"
@@ -2212,7 +2364,7 @@
                         },
                         {
                             "label": "jk",
-                            "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00230393"
+                            "value": "https://japanknowledge.com/lib/display/?lid=80110V00230393"
                         },
                         {
                             "label": "jk_front",
@@ -2221,6 +2373,10 @@
                         {
                             "label": "jk_start",
                             "value": "80110V00230395"
+                        },
+                        {
+                            "label": "thumbnail_utokyo",
+                            "value": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/a13de06fa2b31c3d633fe5c8be8d52e42c5bf6df.jpg"
                         }
                     ],
                     "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/3437689/R0000046/0,0,3445,4706/600,/0/default.jpg"
@@ -2268,7 +2424,7 @@
                         },
                         {
                             "label": "jk",
-                            "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00230491"
+                            "value": "https://japanknowledge.com/lib/display/?lid=80110V00230491"
                         },
                         {
                             "label": "jk_front",
@@ -2277,6 +2433,10 @@
                         {
                             "label": "jk_start",
                             "value": "80110V00230493"
+                        },
+                        {
+                            "label": "thumbnail_utokyo",
+                            "value": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/fb85b9f7c773cb9c9974d1ac448aff2adef0d21b.jpg"
                         }
                     ],
                     "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/3437689/R0000082/0,0,3445,4706/600,/0/default.jpg"
@@ -2324,7 +2484,7 @@
                         },
                         {
                             "label": "jk",
-                            "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00230519"
+                            "value": "https://japanknowledge.com/lib/display/?lid=80110V00230519"
                         },
                         {
                             "label": "jk_front",
@@ -2333,6 +2493,10 @@
                         {
                             "label": "jk_start",
                             "value": "80110V00230521"
+                        },
+                        {
+                            "label": "thumbnail_utokyo",
+                            "value": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/0ffc31d972b1e527913d62f91363e4f6322d2819.jpg"
                         }
                     ],
                     "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/3437689/R0000093/0,0,3445,4706/600,/0/default.jpg"
@@ -2380,7 +2544,7 @@
                         },
                         {
                             "label": "jk",
-                            "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00240015"
+                            "value": "https://japanknowledge.com/lib/display/?lid=80110V00240015"
                         },
                         {
                             "label": "jk_front",
@@ -2389,6 +2553,10 @@
                         {
                             "label": "jk_start",
                             "value": "80110V00240017"
+                        },
+                        {
+                            "label": "thumbnail_utokyo",
+                            "value": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/9b6cecc92eadf73736457951c7ac55f5f05a52f0.jpg"
                         }
                     ],
                     "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/3437689/R0000106/0,0,3445,4706/600,/0/default.jpg"
@@ -2436,7 +2604,7 @@
                         },
                         {
                             "label": "jk",
-                            "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00240037"
+                            "value": "https://japanknowledge.com/lib/display/?lid=80110V00240037"
                         },
                         {
                             "label": "jk_front",
@@ -2445,6 +2613,10 @@
                         {
                             "label": "jk_start",
                             "value": "80110V00240039"
+                        },
+                        {
+                            "label": "thumbnail_utokyo",
+                            "value": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/76ac4cf77c30e7a70af3501377f5b8d5b151d975.jpg"
                         }
                     ],
                     "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/3437689/R0000115/0,0,3445,4706/600,/0/default.jpg"
@@ -2492,7 +2664,7 @@
                         },
                         {
                             "label": "jk",
-                            "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00240057"
+                            "value": "https://japanknowledge.com/lib/display/?lid=80110V00240057"
                         },
                         {
                             "label": "jk_front",
@@ -2501,6 +2673,10 @@
                         {
                             "label": "jk_start",
                             "value": "80110V00240059"
+                        },
+                        {
+                            "label": "thumbnail_utokyo",
+                            "value": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/5cd3e1a332a4c699b8500f9b563463358522fe71.jpg"
                         }
                     ],
                     "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/3437689/R0000123/0,0,3445,4706/600,/0/default.jpg"
@@ -2548,7 +2724,7 @@
                         },
                         {
                             "label": "jk",
-                            "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00240115"
+                            "value": "https://japanknowledge.com/lib/display/?lid=80110V00240115"
                         },
                         {
                             "label": "jk_front",
@@ -2557,6 +2733,10 @@
                         {
                             "label": "jk_start",
                             "value": "80110V00240117"
+                        },
+                        {
+                            "label": "thumbnail_utokyo",
+                            "value": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/6b3b755c5f053769540e7a41047c93ee240fc11e.jpg"
                         }
                     ],
                     "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/3437689/R0000145/0,0,3445,4706/600,/0/default.jpg"
@@ -2604,7 +2784,7 @@
                         },
                         {
                             "label": "jk",
-                            "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00240167"
+                            "value": "https://japanknowledge.com/lib/display/?lid=80110V00240167"
                         },
                         {
                             "label": "jk_front",
@@ -2613,6 +2793,10 @@
                         {
                             "label": "jk_start",
                             "value": "80110V00240169"
+                        },
+                        {
+                            "label": "thumbnail_utokyo",
+                            "value": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/44e4b97c43e8f0a7f59803d87c09da13e385260c.jpg"
                         }
                     ],
                     "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/3437689/R0000165/0,0,3445,4706/600,/0/default.jpg"
@@ -2660,7 +2844,7 @@
                         },
                         {
                             "label": "jk",
-                            "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00240221"
+                            "value": "https://japanknowledge.com/lib/display/?lid=80110V00240221"
                         },
                         {
                             "label": "jk_front",
@@ -2669,6 +2853,10 @@
                         {
                             "label": "jk_start",
                             "value": "80110V00240223"
+                        },
+                        {
+                            "label": "thumbnail_utokyo",
+                            "value": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/8a87a3cc23fc2c5e3568975e6d68809741086428.jpg"
                         }
                     ],
                     "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/3437689/R0000185/0,0,3445,4706/600,/0/default.jpg"
@@ -2725,7 +2913,7 @@
                         },
                         {
                             "label": "jk",
-                            "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00240343"
+                            "value": "https://japanknowledge.com/lib/display/?lid=80110V00240343"
                         },
                         {
                             "label": "jk_front",
@@ -2734,6 +2922,10 @@
                         {
                             "label": "jk_start",
                             "value": "80110V00240345"
+                        },
+                        {
+                            "label": "thumbnail_utokyo",
+                            "value": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/2dab7f062f1dcbdb33833b090315caabeafd01d1.jpg"
                         }
                     ],
                     "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/3437690/R0000005/0,0,3460,4828/600,/0/default.jpg"
@@ -2781,7 +2973,7 @@
                         },
                         {
                             "label": "jk",
-                            "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00240371"
+                            "value": "https://japanknowledge.com/lib/display/?lid=80110V00240371"
                         },
                         {
                             "label": "jk_front",
@@ -2790,6 +2982,10 @@
                         {
                             "label": "jk_start",
                             "value": "80110V00240373"
+                        },
+                        {
+                            "label": "thumbnail_utokyo",
+                            "value": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/11690e1ac57987c9a83bc1e99d716695e15631d6.jpg"
                         }
                     ],
                     "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/3437690/R0000017/0,0,3460,4828/600,/0/default.jpg"
@@ -2837,7 +3033,7 @@
                         },
                         {
                             "label": "jk",
-                            "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00250015"
+                            "value": "https://japanknowledge.com/lib/display/?lid=80110V00250015"
                         },
                         {
                             "label": "jk_front",
@@ -2846,6 +3042,10 @@
                         {
                             "label": "jk_start",
                             "value": "80110V00250017"
+                        },
+                        {
+                            "label": "thumbnail_utokyo",
+                            "value": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/4e81f425f9f1b695b0d9e2c89180612adc88f9f4.jpg"
                         }
                     ],
                     "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/3437690/R0000063/0,0,3460,4828/600,/0/default.jpg"
@@ -2893,7 +3093,7 @@
                         },
                         {
                             "label": "jk",
-                            "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00250103"
+                            "value": "https://japanknowledge.com/lib/display/?lid=80110V00250103"
                         },
                         {
                             "label": "jk_front",
@@ -2902,6 +3102,10 @@
                         {
                             "label": "jk_start",
                             "value": "80110V00250105"
+                        },
+                        {
+                            "label": "thumbnail_utokyo",
+                            "value": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/04f3ced686904e50547f9d4f3f646aca8020b9d1.jpg"
                         }
                     ],
                     "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/3437690/R0000096/0,0,3460,4828/600,/0/default.jpg"
@@ -2949,7 +3153,7 @@
                         },
                         {
                             "label": "jk",
-                            "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00250199"
+                            "value": "https://japanknowledge.com/lib/display/?lid=80110V00250199"
                         },
                         {
                             "label": "jk_front",
@@ -2958,6 +3162,10 @@
                         {
                             "label": "jk_start",
                             "value": "80110V00250201"
+                        },
+                        {
+                            "label": "thumbnail_utokyo",
+                            "value": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/2ef4aebdfa630028a45d15f1cf66f424ad9e6fe8.jpg"
                         }
                     ],
                     "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/3437690/R0000132/0,0,3460,4828/600,/0/default.jpg"
@@ -3005,7 +3213,7 @@
                         },
                         {
                             "label": "jk",
-                            "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00250277"
+                            "value": "https://japanknowledge.com/lib/display/?lid=80110V00250277"
                         },
                         {
                             "label": "jk_front",
@@ -3014,6 +3222,10 @@
                         {
                             "label": "jk_start",
                             "value": "80110V00250279"
+                        },
+                        {
+                            "label": "thumbnail_utokyo",
+                            "value": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/9d06a29cf15f506f12ba6f8e98e57be05f041f02.jpg"
                         }
                     ],
                     "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/3437690/R0000161/0,0,3460,4828/600,/0/default.jpg"
@@ -3061,7 +3273,7 @@
                         },
                         {
                             "label": "jk",
-                            "value": "https://gateway2.itc.u-tokyo.ac.jp:11039/lib/display/?lid=80110V00250371"
+                            "value": "https://japanknowledge.com/lib/display/?lid=80110V00250371"
                         },
                         {
                             "label": "jk_front",
@@ -3070,6 +3282,10 @@
                         {
                             "label": "jk_start",
                             "value": "80110V00250373"
+                        },
+                        {
+                            "label": "thumbnail_utokyo",
+                            "value": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/c86b0a0d077836b4449fa05ef1dbb22e5305269a.jpg"
                         }
                     ],
                     "thumbnail": "https://www.dl.ndl.go.jp/api/iiif/3437690/R0000194/0,0,3460,4828/600,/0/default.jpg"
